@@ -18,5 +18,5 @@ function closeOtherQuestions (li) {
     }
   })
 }
-
+console.log('home')
 require('./styles/index.less')

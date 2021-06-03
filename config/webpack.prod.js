@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: {
-    main: './src/index.js'
+    home: './src/index.js',
+    chlomydia: './src/diseases/Chlomydia/index.js'
   },
   output: {
     path: path.join(__dirname, '../dist'),
@@ -65,7 +66,15 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      inject: true,
+      chunks: ['home']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Chlomydia/chlomydia.html',
+      filename: 'chlomydia.html',
+      inject: true,
+      chunks: ['chlomydia']
     })
   ]
 }

@@ -4,7 +4,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 module.exports = {
   entry: {
-    main: './src/index.js'
+    home: './src/index.js',
+    chlomydia: './src/diseases/Chlomydia/index.js'
   },
   output: {
     path: path.join(__dirname, '../build'),
@@ -54,6 +55,16 @@ module.exports = {
         ]
       },
       {
+        test: /\.html\$/,
+        use: {
+          loader: 'html-loader',
+          options: {
+            attrs: ['a'],
+            minimize: true
+          }
+        }
+      },
+      {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         loader: 'file-loader'
       }
@@ -63,7 +74,15 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: 'index.html'
+      filename: 'index.html',
+      inject: true,
+      chunks: ['home']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Chlomydia/chlomydia.html',
+      filename: 'chlomydia.html',
+      inject: true,
+      chunks: ['chlomydia']
     })
   ]
 }
