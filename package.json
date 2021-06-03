@@ -19,6 +19,7 @@
   "homepage": "https://github.com/AleksanderIII/std#readme",
   "dependencies": {
     "css-loader": "^5.2.6",
+    "less": "^4.1.1",
     "less-loader": "^9.0.0",
     "script-loader": "^0.7.2",
     "style-loader": "^2.0.0",
