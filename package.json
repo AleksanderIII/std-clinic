@@ -1,0 +1,38 @@
+{
+  "name": "std",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --config=config/webpack.dev.js",
+    "build": "webpack --config=config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksanderIII/std.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksanderIII/std/issues"
+  },
+  "homepage": "https://github.com/AleksanderIII/std#readme",
+  "dependencies": {
+    "css-loader": "^5.2.6",
+    "less-loader": "^9.0.0",
+    "script-loader": "^0.7.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
