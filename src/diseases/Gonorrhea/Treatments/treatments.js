@@ -3,7 +3,7 @@ import '../../../styles/Header.css'
 import '../../../styles/Diseases.css'
 import '../../../styles/index.css'
 import '../../../styles/haveAQuestion.css'
-import '../../../styles/testing_algorithms.css'
+import '../../../styles/treatments.css'
 
 function toggleQuestion (event) {
   if (event.target.closest('li')) {

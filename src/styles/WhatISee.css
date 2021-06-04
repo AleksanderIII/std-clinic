@@ -253,6 +253,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .deases .what_i_see .collage.three-column .column:last-child {

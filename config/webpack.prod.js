@@ -26,7 +26,20 @@ module.exports = {
     chlomydiaVsYeast:
       './src/diseases/Chlomydia/ChlomydiaVsYeast/chlomydiaVsYeast.js',
     chlomydiaProtecting: './src/diseases/Chlomydia/Protecting/protecting.js',
-    chlomydiaMyths: './src/diseases/Chlomydia/Myths/myths.js'
+    chlomydiaMyths: './src/diseases/Chlomydia/Myths/myths.js',
+    gonorrhea: "./src/diseases/Gonorrhea/gonorrhea.js",
+    gonorrheaWhatISee: './src/diseases/Gonorrhea/WhatISee/whatIsee.js',
+    gonorrheaWhatIFeel: './src/diseases/Gonorrhea/WhatIFeel/whatIfeel.js',
+    gonorrheaOdds: './src/diseases/Gonorrhea/Odds/odds.js',
+    gonorrheaTesting: './src/diseases/Gonorrhea/Testing/testing.js',
+    gonorrheaTestingAlgorithms: './src/diseases/Gonorrhea/TestingAlgorithms/testing_algorithms.js',
+    gonorrheaTreatments: './src/diseases/Gonorrhea/Treatments/treatments.js',
+    gonorrheaTreatmentAlgorithms: './src/diseases/Gonorrhea/TreatmentsAlgorithms/treatment_algorithms.js',
+    gonorrheaVsOther: "./src/diseases/Gonorrhea/GonorrheaVsOther/gonorrheaVsOther.js",
+    gonorrheaVsChlomydia: "./src/diseases/Gonorrhea/GonorrheaVsChlomydia/gonorrheaVsChlomydia.js",
+    gonorrheaVsVaginosis: "./src/diseases/Gonorrhea/GonorrheaVsVaginosis/gonorrheaVsVaginosis.js",
+    gonorrheaProtecting: "./src/diseases/Gonorrhea/Protecting/protecting.js",
+    gonorrheaMyths: "./src/diseases/Gonorrhea/Myths/myths.js",
   },
   output: {
     path: path.join(__dirname, '../dist'),
@@ -184,7 +197,84 @@ module.exports = {
       inject: true,
       chunks: ['chlomydiaMyths']
     }),
-    new MiniCssExtractPlugin(),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/Gonorrhea.html',
+      filename: 'gonorrhea.html',
+      inject: true,
+      chunks: ['gonorrhea']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/WhatISee/WhatISee.html',
+      filename: 'gonorrhea/what_i_see.html',
+      inject: true,
+      chunks: ['gonorrheaWhatISee']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/WhatIFeel/WhatIFeel.html',
+      filename: 'gonorrhea/what_i_feel.html',
+      inject: true,
+      chunks: ['gonorrheaWhatIFeel']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/Odds/Odds.html',
+      filename: 'gonorrhea/odds.html',
+      inject: true,
+      chunks: ['gonorrheaOdds']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/Testing/Testing.html',
+      filename: 'gonorrhea/testing.html',
+      inject: true,
+      chunks: ['gonorrheaTesting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/TestingAlgorithms/TestingAlgorithms.html',
+      filename: 'gonorrhea/testing_algorithms.html',
+      inject: true,
+      chunks: ['gonorrheaTestingAlgorithms']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/Treatments/Treatments.html',
+      filename: 'gonorrhea/treatments.html',
+      inject: true,
+      chunks: ['gonorrheaTreatments']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
+      filename: 'gonorrhea/treatment_algorithms.html',
+      inject: true,
+      chunks: ['gonorrheaTreatmentAlgorithms']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/GonorrheaVsOther/GonorrheaVsOther.html',
+      filename: 'gonorrhea/gonorrhea_vs_other.html',
+      inject: true,
+      chunks: ['gonorrheaVsOther']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/GonorrheaVsChlomydia/GonorrheaVsChlomydia.html',
+      filename: 'gonorrhea/gonorrhea_vs_chlomydia.html',
+      inject: true,
+      chunks: ['gonorrheaVsChlomydia']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/GonorrheaVsVaginosis/GonorrheaVsVaginosis.html',
+      filename: 'gonorrhea/gonorrhea_vs_vaginosis.html',
+      inject: true,
+      chunks: ['gonorrheaVsVaginosis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/Protecting/Protecting.html',
+      filename: 'gonorrhea/protecting.html',
+      inject: true,
+      chunks: ['gonorrheaProtecting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Gonorrhea/Myths/Myths.html',
+      filename: 'gonorrhea/myths.html',
+      inject: true,
+      chunks: ['gonorrheaMyths']
+    }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'

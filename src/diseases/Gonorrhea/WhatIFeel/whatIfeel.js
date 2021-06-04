@@ -3,7 +3,7 @@ import '../../../styles/Header.css'
 import '../../../styles/Diseases.css'
 import '../../../styles/index.css'
 import '../../../styles/haveAQuestion.css'
-import '../../../styles/testing_algorithms.css'
+import '../../../styles/WhatIFeel.css'
 
 function toggleQuestion (event) {
   if (event.target.closest('li')) {
@@ -31,3 +31,5 @@ const ul = FAQ?.getElementsByTagName('ul')[0]
 if (ul) {
   ul.addEventListener('click', event => toggleQuestion(event))
 }
+
+console.log('whatIFeel')
