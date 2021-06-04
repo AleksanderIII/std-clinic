@@ -13,28 +13,60 @@ module.exports = {
     chlomydiaWhatIFeel: './src/diseases/Chlomydia/WhatIFeel/whatIfeel.js',
     chlomydiaOdds: './src/diseases/Chlomydia/Odds/odds.js',
     chlomydiaTesting: './src/diseases/Chlomydia/Testing/testing.js',
-    chlomydiaTestingAlgorithms: './src/diseases/Chlomydia/TestingAlgorithms/testing_algorithms.js',
+    chlomydiaTestingAlgorithms:
+      './src/diseases/Chlomydia/TestingAlgorithms/testing_algorithms.js',
     chlomydiaTreatments: './src/diseases/Chlomydia/Treatments/treatments.js',
-    chlomydiaTreatmentAlgorithms: './src/diseases/Chlomydia/TreatmentsAlgorithms/treatment_algorithms.js',
-    chlomydiaVsOther: "./src/diseases/Chlomydia/ChlomydiaVsOther/chlomydiaVsOther.js",
-    chlomydiaVsGonorrhea: "./src/diseases/Chlomydia/ChlomydiaVsGonorrhea/chlomydiaVsGonorrhea.js",
-    chlomydiaVsVaginosis: "./src/diseases/Chlomydia/ChlomydiaVsVaginosis/chlomydiaVsVaginosis.js",
-    chlomydiaVsYeast: "./src/diseases/Chlomydia/ChlomydiaVsYeast/chlomydiaVsYeast.js",
-    chlomydiaProtecting: "./src/diseases/Chlomydia/Protecting/protecting.js",
-    chlomydiaMyths: "./src/diseases/Chlomydia/Myths/myths.js",
-    gonorrhea: "./src/diseases/Gonorrhea/gonorrhea.js",
+    chlomydiaTreatmentAlgorithms:
+      './src/diseases/Chlomydia/TreatmentsAlgorithms/treatment_algorithms.js',
+    chlomydiaVsOther:
+      './src/diseases/Chlomydia/ChlomydiaVsOther/chlomydiaVsOther.js',
+    chlomydiaVsGonorrhea:
+      './src/diseases/Chlomydia/ChlomydiaVsGonorrhea/chlomydiaVsGonorrhea.js',
+    chlomydiaVsVaginosis:
+      './src/diseases/Chlomydia/ChlomydiaVsVaginosis/chlomydiaVsVaginosis.js',
+    chlomydiaVsYeast:
+      './src/diseases/Chlomydia/ChlomydiaVsYeast/chlomydiaVsYeast.js',
+    chlomydiaProtecting: './src/diseases/Chlomydia/Protecting/protecting.js',
+    chlomydiaMyths: './src/diseases/Chlomydia/Myths/myths.js',
+
+    gonorrhea: './src/diseases/Gonorrhea/gonorrhea.js',
     gonorrheaWhatISee: './src/diseases/Gonorrhea/WhatISee/whatIsee.js',
     gonorrheaWhatIFeel: './src/diseases/Gonorrhea/WhatIFeel/whatIfeel.js',
     gonorrheaOdds: './src/diseases/Gonorrhea/Odds/odds.js',
     gonorrheaTesting: './src/diseases/Gonorrhea/Testing/testing.js',
-    gonorrheaTestingAlgorithms: './src/diseases/Gonorrhea/TestingAlgorithms/testing_algorithms.js',
+    gonorrheaTestingAlgorithms:
+      './src/diseases/Gonorrhea/TestingAlgorithms/testing_algorithms.js',
     gonorrheaTreatments: './src/diseases/Gonorrhea/Treatments/treatments.js',
-    gonorrheaTreatmentAlgorithms: './src/diseases/Gonorrhea/TreatmentsAlgorithms/treatment_algorithms.js',
-    gonorrheaVsOther: "./src/diseases/Gonorrhea/GonorrheaVsOther/gonorrheaVsOther.js",
-    gonorrheaVsChlomydia: "./src/diseases/Gonorrhea/GonorrheaVsChlomydia/gonorrheaVsChlomydia.js",
-    gonorrheaVsVaginosis: "./src/diseases/Gonorrhea/GonorrheaVsVaginosis/gonorrheaVsVaginosis.js",
-    gonorrheaProtecting: "./src/diseases/Gonorrhea/Protecting/protecting.js",
-    gonorrheaMyths: "./src/diseases/Gonorrhea/Myths/myths.js",
+    gonorrheaTreatmentAlgorithms:
+      './src/diseases/Gonorrhea/TreatmentsAlgorithms/treatment_algorithms.js',
+    gonorrheaVsOther:
+      './src/diseases/Gonorrhea/GonorrheaVsOther/gonorrheaVsOther.js',
+    gonorrheaVsChlomydia:
+      './src/diseases/Gonorrhea/GonorrheaVsChlomydia/gonorrheaVsChlomydia.js',
+    gonorrheaVsVaginosis:
+      './src/diseases/Gonorrhea/GonorrheaVsVaginosis/gonorrheaVsVaginosis.js',
+    gonorrheaProtecting: './src/diseases/Gonorrhea/Protecting/protecting.js',
+    gonorrheaMyths: './src/diseases/Gonorrhea/Myths/myths.js',
+
+    herpes: './src/diseases/Herpes/herpes.js',
+    herpesOverview: './src/diseases/Herpes/Overview/overview.js',
+    herpesWhatISee: './src/diseases/Herpes/WhatISee/whatIsee.js',
+    herpesWhatIFeel: './src/diseases/Herpes/WhatIFeel/whatIfeel.js',
+    herpesOdds: './src/diseases/Herpes/Odds/odds.js',
+    herpesTesting: './src/diseases/Herpes/Testing/testing.js',
+    herpesTestingAlgorithms:
+      './src/diseases/Herpes/TestingAlgorithms/testing_algorithms.js',
+    herpesTreatments: './src/diseases/Herpes/Treatments/treatments.js',
+    herpesTreatmentAlgorithms:
+      './src/diseases/Herpes/TreatmentsAlgorithms/treatment_algorithms.js',
+    herpesProtecting: './src/diseases/Herpes/Protecting/protecting.js',
+    herpesVsOther: './src/diseases/Herpes/Comparision/comparision.js',
+    herpesVsSyphilis:
+      './src/diseases/Herpes/HerpesVsSyphilis/herpesVsSyphilis.js',
+    herpesVsBalanitis:
+      './src/diseases/Herpes/HerpesVsBalanitis/herpesVsBalanitis.js',
+    herpesVsYeast: './src/diseases/Herpes/HerpesVsYeast/herpesVsYeast.js',
+    herpesMyths: './src/diseases/Herpes/Myths/myths.js'
   },
   output: {
     path: path.join(__dirname, '../build'),
@@ -140,7 +172,8 @@ module.exports = {
       chunks: ['chlomydiaTesting']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Chlomydia/TestingAlgorithms/TestingAlgorithms.html',
+      template:
+        './src/diseases/Chlomydia/TestingAlgorithms/TestingAlgorithms.html',
       filename: 'chlomydia/testing_algorithms.html',
       inject: true,
       chunks: ['chlomydiaTestingAlgorithms']
@@ -152,31 +185,36 @@ module.exports = {
       chunks: ['chlomydiaTreatments']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Chlomydia/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
+      template:
+        './src/diseases/Chlomydia/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
       filename: 'chlomydia/treatment_algorithms.html',
       inject: true,
       chunks: ['chlomydiaTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Chlomydia/ChlomydiaVsOther/ChlomydiaVsOther.html',
+      template:
+        './src/diseases/Chlomydia/ChlomydiaVsOther/ChlomydiaVsOther.html',
       filename: 'chlomydia/chlomydia_vs_other.html',
       inject: true,
       chunks: ['chlomydiaVsOther']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Chlomydia/ChlomydiaVsGonorrhea/ChlomydiaVsGonorrhea.html',
+      template:
+        './src/diseases/Chlomydia/ChlomydiaVsGonorrhea/ChlomydiaVsGonorrhea.html',
       filename: 'chlomydia/chlomydia_vs_gonorrhea.html',
       inject: true,
       chunks: ['chlomydiaVsGonorrhea']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Chlomydia/ChlomydiaVsVaginosis/ChlomydiaVsVaginosis.html',
+      template:
+        './src/diseases/Chlomydia/ChlomydiaVsVaginosis/ChlomydiaVsVaginosis.html',
       filename: 'chlomydia/chlomydia_vs_vaginosis.html',
       inject: true,
       chunks: ['chlomydiaVsVaginosis']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Chlomydia/ChlomydiaVsYeast/ChlomydiaVsYeast.html',
+      template:
+        './src/diseases/Chlomydia/ChlomydiaVsYeast/ChlomydiaVsYeast.html',
       filename: 'chlomydia/chlomydia_vs_yeast.html',
       inject: true,
       chunks: ['chlomydiaVsYeast']
@@ -224,7 +262,8 @@ module.exports = {
       chunks: ['gonorrheaTesting']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Gonorrhea/TestingAlgorithms/TestingAlgorithms.html',
+      template:
+        './src/diseases/Gonorrhea/TestingAlgorithms/TestingAlgorithms.html',
       filename: 'gonorrhea/testing_algorithms.html',
       inject: true,
       chunks: ['gonorrheaTestingAlgorithms']
@@ -236,25 +275,29 @@ module.exports = {
       chunks: ['gonorrheaTreatments']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Gonorrhea/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
+      template:
+        './src/diseases/Gonorrhea/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
       filename: 'gonorrhea/treatment_algorithms.html',
       inject: true,
       chunks: ['gonorrheaTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Gonorrhea/GonorrheaVsOther/GonorrheaVsOther.html',
+      template:
+        './src/diseases/Gonorrhea/GonorrheaVsOther/GonorrheaVsOther.html',
       filename: 'gonorrhea/gonorrhea_vs_other.html',
       inject: true,
       chunks: ['gonorrheaVsOther']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Gonorrhea/GonorrheaVsChlomydia/GonorrheaVsChlomydia.html',
+      template:
+        './src/diseases/Gonorrhea/GonorrheaVsChlomydia/GonorrheaVsChlomydia.html',
       filename: 'gonorrhea/gonorrhea_vs_chlomydia.html',
       inject: true,
       chunks: ['gonorrheaVsChlomydia']
     }),
     new HtmlWebpackPlugin({
-      template: './src/diseases/Gonorrhea/GonorrheaVsVaginosis/GonorrheaVsVaginosis.html',
+      template:
+        './src/diseases/Gonorrhea/GonorrheaVsVaginosis/GonorrheaVsVaginosis.html',
       filename: 'gonorrhea/gonorrhea_vs_vaginosis.html',
       inject: true,
       chunks: ['gonorrheaVsVaginosis']
@@ -270,6 +313,99 @@ module.exports = {
       filename: 'gonorrhea/myths.html',
       inject: true,
       chunks: ['gonorrheaMyths']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Herpes.html',
+      filename: 'herpes.html',
+      inject: true,
+      chunks: ['herpes']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Overview/Overview.html',
+      filename: 'herpes/overview.html',
+      inject: true,
+      chunks: ['herpesOverview']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/WhatISee/WhatISee.html',
+      filename: 'herpes/what_i_see.html',
+      inject: true,
+      chunks: ['herpesWhatISee']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/WhatIFeel/WhatIFeel.html',
+      filename: 'herpes/what_i_feel.html',
+      inject: true,
+      chunks: ['herpesWhatIFeel']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Odds/Odds.html',
+      filename: 'herpes/odds.html',
+      inject: true,
+      chunks: ['herpesOdds']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Testing/Testing.html',
+      filename: 'herpes/testing.html',
+      inject: true,
+      chunks: ['herpesTesting']
+    }),
+    new HtmlWebpackPlugin({
+      template:
+        './src/diseases/Herpes/TestingAlgorithms/TestingAlgorithms.html',
+      filename: 'herpes/testing_algorithms.html',
+      inject: true,
+      chunks: ['herpesTestingAlgorithms']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Treatments/Treatments.html',
+      filename: 'herpes/treatments.html',
+      inject: true,
+      chunks: ['herpesTreatments']
+    }),
+    new HtmlWebpackPlugin({
+      template:
+        './src/diseases/Herpes/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
+      filename: 'herpes/treatment_algorithms.html',
+      inject: true,
+      chunks: ['herpesTreatmentAlgorithms']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Protecting/Protecting.html',
+      filename: 'herpes/protecting.html',
+      inject: true,
+      chunks: ['herpesProtecting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Comparision/Comparision.html',
+      filename: 'herpes/herpes_vs_other.html',
+      inject: true,
+      chunks: ['herpesVsOther']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/HerpesVsSyphilis/HerpesVsSyphilis.html',
+      filename: 'herpes/herpes_vs_syphilis.html',
+      inject: true,
+      chunks: ['herpesVsSyphilis']
+    }),
+    new HtmlWebpackPlugin({
+      template:
+        './src/diseases/Herpes/HerpesVsBalanitis/HerpesVsBalanitis.html',
+      filename: 'herpes/herpes_vs_balanitis.html',
+      inject: true,
+      chunks: ['herpesVsBalanitis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/HerpesVsYeast/HerpesVsYeast.html',
+      filename: 'herpes/herpes_vs_yeast.html',
+      inject: true,
+      chunks: ['herpesVsYeast']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Herpes/Myths/Myths.html',
+      filename: 'herpes/myths.html',
+      inject: true,
+      chunks: ['herpesMyths']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
