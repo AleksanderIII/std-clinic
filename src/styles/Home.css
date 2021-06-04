@@ -99,7 +99,7 @@
   margin: 0 auto;
 }
 .home section.insurances {
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//insurances-bg.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/insurances-bg.svg') no-repeat;
   background-position: right 40px bottom -10px;
 }
 .home section.insurances .row.row-insurances {
@@ -126,7 +126,7 @@
   line-height: 1.6;
 }
 .home section.no-insurance {
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//no-insurance-bg.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/no-insurance-bg.svg') no-repeat;
   background-position: top left;
 }
 .home section.no-insurance .row.row-no-insurance {
@@ -240,7 +240,7 @@
   margin-top: 1.5rem;
 }
 .home .section.people-choose {
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images/people-choose-bg.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/people-choose-bg.svg') no-repeat;
   background-position: 50% 50%;
 }
 .home .section.people-choose .row-people-choose {
@@ -277,7 +277,7 @@
   position: relative;
   width: 424px;
   height: 282px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images/tbox-bg.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/tbox-bg.svg') no-repeat;
   background-size: contain;
   background-position: center;
   overflow: hidden;
@@ -329,7 +329,7 @@
   font-size: 6.25rem;
 }
 .home .have-a-question div p:last-child {
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//question_border.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/question_border.svg') no-repeat;
   margin-top: 30px;
   margin-left: 75px;
   padding-left: 60px;
@@ -345,6 +345,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 50px;
 }
 .home .related-topics .topics .topic {
   display: flex;
@@ -364,35 +365,35 @@
 }
 .home .related-topics .topics .topic:first-child {
   margin-top: 50px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//topic1.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic1.svg') no-repeat;
 }
 .home .related-topics .topics .topic:first-child span {
   color: white;
 }
 .home .related-topics .topics .topic:nth-child(2) {
   margin-top: 50px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//topic2.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic2.svg') no-repeat;
 }
 .home .related-topics .topics .topic:nth-child(2) span {
   color: #E1745F;
 }
 .home .related-topics .topics .topic:nth-child(3) {
   margin-top: 50px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//topic3.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic3.svg') no-repeat;
 }
 .home .related-topics .topics .topic:nth-child(3) span {
   color: #27377A;
 }
 .home .related-topics .topics .topic:nth-child(4) {
   margin-top: 78px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//topic4.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic4.svg') no-repeat;
 }
 .home .related-topics .topics .topic:nth-child(4) span {
   color: rgba(39, 55, 122, 0.63);
 }
 .home .related-topics .topics .topic:nth-child(5) {
   margin-top: 78px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//topic5.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic5.svg') no-repeat;
   background-size: contain;
 }
 .home .related-topics .topics .topic:nth-child(5) span {
@@ -400,7 +401,7 @@
 }
 .home .related-topics .topics .topic:nth-child(6) {
   margin-top: 78px;
-  background: url(http://d12qz6jssicxsf.cloudfront.net/images//topic6.svg) no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic6.svg') no-repeat;
 }
 .home .related-topics .topics .topic:nth-child(6) span {
   color: rgba(39, 55, 122, 0.75);
