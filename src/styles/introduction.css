@@ -1,0 +1,42 @@
+.deases .introduction {
+    margin-top: 190px;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.deases .introduction h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #DC593A;
+    font-weight: 700;
+    font-size: 2.125rem;
+    line-height: 2.75rem;
+}
+
+.deases .introduction-main_part {
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin-left: -100px;
+    padding: 20px 40px 20px 100px;
+    background: rgba(237, 123, 101, 0.08);
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+.deases .introduction-text {
+    min-width: 60%;
+    max-width: 60%;
+    width: 60%;
+    color: #354A87;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+}
+
+.deases .introduction-text p {
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.deases .introduction-image {
+    margin-left: -20px;
+}

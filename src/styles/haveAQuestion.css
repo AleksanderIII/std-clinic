@@ -1,0 +1,59 @@
+.have-a-question {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    background: #6C8CC6;
+}
+
+.have-a-question-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 200px 0 200px;
+}
+
+.have-a-question-wrapper h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.have-a-question-wrapper div {
+    display: flex;
+    width: 100%;
+}
+
+.have-a-question-wrapper div p {
+    width: calc(100% / 3);
+    color: white;
+    display: flex;
+}
+
+.have-a-question-wrapper div p:first-child {
+    padding-right: 75px;
+    padding-top: 35px;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.have-a-question-wrapper div p:first-child span {
+    margin-left: 20px;
+}
+
+.have-a-question-wrapper div p:nth-child(2) {
+    justify-content: center;
+    font-size: 6.25rem;
+}
+
+.have-a-question-wrapper div p:last-child {
+    background: url(http://d12qz6jssicxsf.cloudfront.net/images/question_border.svg) no-repeat;
+    margin-top: 30px;
+    margin-left: 75px;
+    padding-left: 60px;
+    padding-top: 10px;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    font-weight: 600;
+}

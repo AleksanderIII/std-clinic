@@ -1,0 +1,40 @@
+footer {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #66BED3 85.67%, #69C5DC 99.99%), #C4C4C4;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+footer p {
+  color: white;
+}
+footer .footer-header {
+  margin-bottom: 30px;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+footer li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+footer li:last-child {
+  margin-bottom: 0;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contact img {
+  margin-right: 25px;
+}

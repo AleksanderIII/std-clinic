@@ -1,0 +1,59 @@
+.deases .nav-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.deases .nav-tabs .tab {
+    color: #354A87;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 100px;
+    border-radius: 100px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    line-height: 1.625rem;
+    background: linear-gradient(90deg, rgba(126, 196, 172, 0.19) 43.31%, rgba(124, 196, 177, 0.19) 55.19%, rgba(119, 197, 191, 0.19) 72.2%, rgba(109, 197, 211, 0.19) 92.2%, rgba(105, 197, 220, 0.19) 100.01%);
+}
+
+.deases .nav-tabs .tab:nth-child(3),
+.deases .nav-tabs .tab:nth-child(6),
+.deases .nav-tabs .tab:nth-child(9) {
+    margin-right: 0;
+}
+
+.deases .nav-tabs .tab:first-child,
+.deases .nav-tabs .tab:nth-child(6),
+.deases .nav-tabs .tab:nth-child(7),
+.deases .nav-tabs .tab:nth-child(12),
+.deases .nav-tabs .tab:nth-child(13) {
+    background: #68C3D9;
+}
+
+.deases .nav-tabs .tab:nth-child(2),
+.deases .nav-tabs .tab:nth-child(8),
+.deases .nav-tabs .tab:nth-child(14) {
+    background: #7EC4AC;
+}
+
+.deases .nav-tabs .tab:nth-child(3),
+.deases .nav-tabs .tab:nth-child(9) {
+    background: #EE8853;
+}
+
+.deases .nav-tabs .tab:nth-child(4),
+.deases .nav-tabs .tab:nth-child(10) {
+    background: #4566A8;
+}
+
+.deases .nav-tabs .tab:nth-child(5),
+.deases .nav-tabs .tab:nth-child(11) {
+    background: #A2AED0;
+}

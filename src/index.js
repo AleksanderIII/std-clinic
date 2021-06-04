@@ -1,3 +1,8 @@
+import './styles/Header.css'
+import './styles/Footer.css'
+import './styles/Home.css'
+import './styles/index.css'
+
 export function toggleQuestion (event) {
   if (event.target.closest('li')) {
     const li = event.target.closest('li')
@@ -18,5 +23,3 @@ function closeOtherQuestions (li) {
     }
   })
 }
-console.log('home')
-require('./styles/index.less')
