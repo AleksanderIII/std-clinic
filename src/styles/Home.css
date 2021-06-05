@@ -171,6 +171,12 @@
   margin-bottom: 50px;
 }
 
+.home section.no-insurance .row.row-no-insurance .text-with-icon img,
+.home section.no-insurance .row.row-no-insurance .data .heading-with-icon img,
+.home .section.people-choose .row-people-choose .final_data img {
+  margin-right: 15px;
+}
+
 .home section.no-insurance .row.row-no-insurance .offer {
   margin-left: 60px;
 }
@@ -301,6 +307,10 @@
 .home .section.people-choose .row-people-choose .data .column {
   padding: 20px;
   width: 50%;
+}
+
+.home .section.people-choose .row-people-choose .data .column .text-with-icon img {
+  margin-right: 15px;
 }
 
 .home .section.people-choose .row-people-choose .final_data {
@@ -698,6 +708,10 @@
     overflow-x: auto;
   }
 
+  .home section.no-insurance .row.std-tests .table-wrap table {
+    margin: 0 auto;
+  }
+
   .home section.no-insurance .row.std-tests .table-head th .text {
     font-size: 1.5rem;
   }
@@ -762,7 +776,7 @@
     margin-right: 15px;
   }
 
-  .home .section.people-choose .row-people-choose .data .column .location {
+  .home .section.people-choose .row-people-choose .data .column .location-icon {
     width: 50px;
     height: 40px;
     margin-right: 15px;
@@ -852,6 +866,10 @@
     padding-top: 12px;
     width: 100%;
     height: 57px;
+  }
+
+  .home .related-topics .topics {
+    justify-content: center;
   }
 
   .home .section.related-topics h2 {
