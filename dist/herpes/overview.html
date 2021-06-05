@@ -1,0 +1,945 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>STD Clinic</title><script defer="defer" src="../herpesOverview.998e7927.bundle.js"></script><style type="text/css">footer {
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(90deg, #66BED3 85.67%, #69C5DC 99.99%), #C4C4C4;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+footer p {
+  color: white;
+}
+footer .footer-header {
+  margin-bottom: 30px;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+footer li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+footer li:last-child {
+  margin-bottom: 0;
+}
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.contact img {
+  margin-right: 25px;
+}
+
+@media (min-width: 1200px) {
+  .menu-btn{
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    z-index: 1;
+  }
+
+  .header-mainRow,
+  .menu-wrapper,
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .header {
+    position: fixed;
+    background: white;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header-logo img {
+    display: block;
+    max-width: 150px;
+  }
+
+  .header-mainRow {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    background: #ffffff;
+  }
+
+  .location {
+    width: 100%;
+    background: #F0FAFC;
+  }
+
+  .location-content {
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin: 0 auto;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 12px 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+  }
+
+  .menu-wrapper {
+    align-items: center;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  .menu-item,
+  .menu-subfolder-item {
+    list-style-type: none;
+  }
+
+  .menu-item,
+  .menu-link,
+  .menu-item p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 0.9375rem;
+    color: var(--menu-items-color);
+    position: relative;
+  }
+
+  .menu-item {
+    padding: 0 15px;
+  }
+
+  .menu-item img {
+    position: relative;
+    top: 3px;
+    transform: rotate(180deg);
+  }
+
+  .menu-item:hover .menu-subfolder {
+    display: block;
+  }
+
+  .menu-item:hover img {
+    transform: rotate(0deg);
+  }
+
+  .menu-subfolder {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 0 0 10px #e9e8e8;
+  }
+
+  .menu-subfolder-item {
+    padding: 10px 15px;
+    background: #ffffff;
+  }
+
+  .menu-subfolder-item:hover {
+    background: #e0b56e;
+  }
+
+  .menu-subfolder-item:hover a {
+    color: white;
+    font-weight: 600;
+  }
+
+  .menu-subfolder-item .menu-link {
+    cursor: pointer;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contacts-location {
+    padding: 8px 12px 8px 0;
+    border-right: 1px solid var(--menu-items-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--menu-items-color);
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contacts-location:before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 22px;
+    background: url('http://d12qz6jssicxsf.cloudfront.net/images/location.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5px;
+  }
+
+  .contacts-number {
+    padding: 8px 0 8px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.4;
+  }
+
+  .contacts-number a.number {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+  }
+
+  .contacts-number a.number:before {
+    content: '';
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    width: 20px;
+    height: 22px;
+    background: url('http://d12qz6jssicxsf.cloudfront.net/images/phone.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5px;
+  }
+
+  .contacts-number a {
+    color: var(--menu-items-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  .contacts-number .btn.menu-cta-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: var(--heading-secondary-orange);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+  }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    position: fixed;
+    width: 100vw;
+    height: 56px;
+    background: white;
+    box-shadow: 0 0 10px #e5e5e5;
+  }
+
+  .header-mainRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .menu-wrapper,
+  .btn {
+    display: none;
+  }
+
+  .header-logo img {
+    height: 30px;
+    width: 93px;
+  }
+
+  .location-content {
+    display: none;
+  }
+
+  a.number {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 700;
+    color: #27377A;
+    padding: 2px 0;
+    margin-right: -20px;
+  }
+
+  a.number::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 22px;
+    background: url(http://d12qz6jssicxsf.cloudfront.net/images/phone.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 8px;
+  }
+}
+.deases .question {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto-Medium', sans-serif;
+}
+
+.deases .question-text {
+  padding: 20px;
+  background-color: rgba(98, 158, 168, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.17rem;
+}
+
+.deases .question-text img {
+  transition: 0.5s transform;
+  transform: rotate(0deg);
+}
+
+.deases .question-text:hover {
+  cursor: pointer;
+}
+
+.deases .question .answer {
+  display: block;
+  margin: 20px 20px 0px 20px;
+}
+
+.deases .question .answer p.bold-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.05rem;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.deases .question .answer p.semibold-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.05rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.deases .question .answer b {
+  font-weight: 700;
+}
+
+.deases .question .answer,
+.deases .question .answer p {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+.deases .question.hidden .answer {
+  display: none;
+}
+
+.deases .question.hidden .question-text img {
+  transition: 0.5s transform;
+  transform: rotate(180deg);
+}
+
+.deases .overview {
+  margin-top: 190px;
+  padding: 0 30px 50px 30px;
+}
+
+.deases .overview .section-text {
+  margin: 0;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #354A87;
+}
+
+.deases .overview .highlightrd_cell {
+  background: #F6F9FA;
+}
+
+.deases .overview.filled {
+  background: #68C3D9;
+}
+
+.deases .overview-content {
+  display: flex;
+  flex-direction: column;
+  background: white;
+}
+
+.deases .overview-content.filled {
+  margin: 0 50px;
+}
+
+.deases .overview-heading:not(.filled) {
+  background: #68C3D9;
+}
+
+.deases .overview-heading {
+  margin-bottom: 10px;
+  padding: 50px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.deases .overview-heading h2 {
+  margin-top: 0;
+  font-size: 2.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.deases .overview-heading img {
+  margin-right: 50px;
+  margin-left: 80px;
+}
+
+.deases .overview-heading p {
+  font-family: 'Roboto-Light', sans-serif;
+  font-weight: 400;
+  padding-right: 30px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: white;
+}
+
+.deases .overview-heading p b {
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.deases .overview-heading ul {
+  margin: 20px 0;
+}
+
+.deases .overview-heading ul li {
+  margin-left: 30px;
+  padding-right: 30px;
+  list-style-type: disc;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  margin-bottom: 10px;
+}
+
+.deases .overview h3 {
+  margin: 40px 0;
+  text-align: center;
+  color: #DC593A;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+
+.deases .overview .bold-text {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  text-align: left;
+  color: #354A87;
+  margin: 30px 0px 30px 0px;
+}
+
+.deases .overview .bold-text~ul {
+  margin-left: 40px;
+  margin-right: 0px;
+}
+
+.deases .overview .bold-text~ul li {
+  font-family: 'Montserrat-Medium', sans-serif;
+  list-style-type: disc;
+  color: #354A87;
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.deases .overview .legend {
+  margin: 30px 0px 10px 20px;
+}
+
+.deases .overview .graph_header {
+  font-family: 'Montserrat-Medium', sans-serif;
+  margin: 0px 0 20px 0px;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.deases .overview .graph_header~ul {
+  margin-left: 40px;
+}
+
+.deases .overview table {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.deases .overview table td {
+  color: #629EA8;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  width: 208px;
+  padding: 30px;
+  border: 1px solid rgba(84, 101, 135, 0.4);
+  line-height: 1.25rem;
+}
+
+.deases .overview table td p.table-bold-text {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25rem;
+  color: #4F67A3;
+}
+
+.deases .overview table td ul {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.deases .overview table td ul li {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.deases .overview table th {
+  font-family: 'Montserrat-Medium', sans-serif;
+  vertical-align: middle;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 20px;
+  border: 1px solid rgba(84, 101, 135, 0.4);
+  line-height: 1.5rem;
+  color: #4F67A3;
+}
+
+.deases .overview .FAQ {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-bottom: 0;
+  background: linear-gradient(25.45deg, rgba(246, 246, 246, 0.15) 14.89%, rgba(102, 190, 211, 0.15) 90.58%);
+  margin-top: 30px;
+}
+
+.deases .overview .FAQ-content {
+  padding: 0 40px;
+}
+
+.deases .overview .FAQ-content>p {
+  margin-bottom: 30px;
+  font-family: 'Roboto-Medium', sans-serif;
+  font-size: 1rem;
+}
+
+.deases .overview .FAQ h3 {
+  text-align: center;
+  color: #354A87;
+  font-size: 1.875rem;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 700;
+}
+
+.deases .overview .FAQ ul {
+  margin-top: 15px;
+}
+
+.deases .overview .FAQ ul li {
+  color: #354A87;
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+
+.deases .overview .FAQ ul li span {
+  color: #E57967;
+}
+
+.deases .overview .collage {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.deases .overview .collage h3 {
+  margin: 0 auto;
+  margin-bottom: 0;
+  margin-top: 40px;
+  line-height: 1.875rem;
+  letter-spacing: 0px;
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.deases .overview .collage-item {
+  padding-top: 40px;
+}
+
+.deases .overview .collage-item p.bold-text {
+  margin: 20px 0 15px 0;
+  color: #DC593A;
+}
+
+.deases .overview .collage-item p {
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+.deases .overview .collage.three-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.deases .overview .collage.three-column .column {
+  width: calc(100% / 3);
+  padding-right: 15px;
+}
+
+.deases .overview .collage.three-column .column:last-child {
+  padding-right: 0;
+}
+
+.deases .overview .collage.two-column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.deases .overview .collage.two-column .column {
+  width: 50%;
+  padding-right: 5px;
+}
+
+.deases .overview .collage.two-column .column:last-child {
+  padding-right: 0;
+}
+
+.deases .overview .button {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin: 30px 30px 50px 30px;
+}
+
+.deases .overview .button button {
+  background: linear-gradient(90deg, rgba(126, 196, 172, 0.2) 43.35%, rgba(124, 196, 177, 0.2) 55.23%, rgba(119, 197, 191, 0.2) 72.22%, rgba(109, 197, 211, 0.2) 92.19%, rgba(105, 197, 220, 0.2) 100%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #354A87;
+  border-radius: 30px;
+  width: 200px;
+  border: none;
+  padding: 20px 22px;
+  margin-left: 20px;
+}
+
+.deases .overview .answer ul {
+  margin-left: 40px;
+}
+
+.deases .overview .answer ul li {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  list-style-type: disc;
+  font-size: 0.875rem;
+  margin-bottom: 7px;
+}
+
+.deases .overview .answer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url(4e6430d1b1cdd53aab1db777a7684a59.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'ProximaNova';
+  src: url(db098dc77c7aafe660e58e9eb280be48.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url(3cd786652b8a2e9d41f210cb1a527ff6.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url(e2d60bc49517598c0ce8b98f8d4e579f.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url(fa8441f345d83a0bc4ec345a6948dbb0.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(a8d6ac03c7b96b7acb6228ff2676139d.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  src: url(8be2d1487420548b3b8ddba68270b26b.ttf) format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  src: url(7429a63c09f79a1760b0233e3e46f776.ttf) format("truetype");
+  font-display: swap;
+}
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+strong,
+b,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tbody,
+thead,
+tr,
+th,
+td,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1rem;
+}
+ol,
+ul {
+  list-style: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+:root {
+  --menu-items-color: #27377A;
+  --heading-dark-blue: #27377A;
+  --heading-primary-orange: #EC7159;
+  --heading-secondary-orange: #DC593A;
+  --body-text: #3C4B94;
+  --table-bg: #589ECB;
+}
+.blue-text {
+  color: #40518A;
+}
+.orange-text {
+  color: #E1634C;
+}
+body,
+p,
+a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+}
+p {
+  color: var(--body-text);
+  line-height: 1.5;
+}
+p.small {
+  font-size: 1rem;
+}
+p.medium {
+  font-size: 1.25rem;
+}
+p.large {
+  font-size: 1.5rem;
+}
+h1 {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-size: 2.125rem;
+  color: var(--heading-primary-orange);
+  font-weight: bold;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6875rem;
+  font-weight: 400;
+}
+h3 {
+  font-family: 'Roboto-Light', sanse-serif;
+  font-size: 1.875rem;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+}
+h1,
+h2,
+h3 {
+  margin: 1.5rem 0;
+  line-height: 1.4;
+}
+.dark-blue {
+  color: var(--heading-dark-blue);
+}
+.primary-orange {
+  color: var(--heading-primary-orange);
+}
+.secondary-orange {
+  color: var(--heading-secondary-orange);
+}
+.centered {
+  text-align: center;
+}
+.col-2 {
+  width: 16.666%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-12 {
+  width: 100%;
+}
+section {
+  padding: 75px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.section-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.have-a-question {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    background: #6C8CC6;
+}
+
+.have-a-question-wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 200px 0 200px;
+}
+
+.have-a-question-wrapper h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.have-a-question-wrapper div {
+    display: flex;
+    width: 100%;
+}
+
+.have-a-question-wrapper div p {
+    width: calc(100% / 3);
+    color: white;
+    display: flex;
+}
+
+.have-a-question-wrapper div p:first-child {
+    padding-right: 75px;
+    padding-top: 35px;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.have-a-question-wrapper div p:first-child span {
+    margin-left: 20px;
+}
+
+.have-a-question-wrapper div p:nth-child(2) {
+    justify-content: center;
+    font-size: 6.25rem;
+}
+
+.have-a-question-wrapper div p:last-child {
+    background: url(http://d12qz6jssicxsf.cloudfront.net/images/question_border.svg) no-repeat;
+    margin-top: 30px;
+    margin-left: 75px;
+    padding-left: 60px;
+    padding-top: 10px;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+</style></head><body><header class="header"><div class="location"><p class="location-content">274 Madison Ave Suite 705 New York, 10016</p></div><div class="header-mainRow"><a class="header-logo" href="/"><img src="http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg" alt="STD Center NY logo" width="150px" height="47px"/></a><nav class="menu-wrapper"><ul class="menu"><li class="menu-item"><a class="menu-link" href="/">Home</a></li><li class="menu-item"><p>STD tests <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><ul class="menu-subfolder"><li class="menu-subfolder-item"><a class="menu-link">Chlamydia</a></li><li class="menu-subfolder-item"><a class="menu-link">Gonorrhea</a></li><li class="menu-subfolder-item"><a class="menu-link">Herpes</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">HIV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">HPV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Syphilis</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Gardnerella(BV)</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Trichomoniasis</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Mycoplasma</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Ureaplasma</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Yeast in Women</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Balanitis</a></li></ul></li><li class="menu-item"><p class="menu-link">STD diseases <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><ul class="menu-subfolder"><li class="menu-subfolder-item"><a class="menu-link" href="../chlomydia.html">Chlamydia</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../gonorrhea.html">Gonorrhea</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../herpes.html">Herpes</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../hiv.html">HIV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../syphilis.html">Syphillis</a></li></ul></li><li class="menu-item"><a class="menu-link" href="/how-it-works.html">How it works</a></li><li class="menu-item"><a class="menu-link" href="/office-hours.html">Meet the doctor</a></li><li class="menu-item"><a class="menu-link" href="/office-hours.html">Office hours</a></li></ul></nav><div class="header-contacts"><div class="contacts-number"><a href="tel:2126965900" class="number">212.696.5900 </a><a class="btn menu-cta-button" href="/online-appointment.html">Book Online</a></div></div></div></header><div class="content deases"><section class="overview"><div class="overview-content"><div class="overview-heading"><h2>Herpes virus overview: type 1 (HSV-1 or “oral”) and type 2 (HSV-2 or “genital”)</h2><p>Here we will give you an overview of the two different herpes virus types: herpes 1 (HSV-1) and herpes 2 (HSV-2).</p><br/><p>Physicians and the general public refer to them differently:</p><ul><li>Medical doctors refer to them as herpes simplex virus type 1 (HSV-1) and herpes simplex virus type 2 (HSV-2).</li><li>The general public refers to HSV-1 and HSV-2 herpes as “oral” and “genital” herpes, respectively.</li></ul><p>This discrepancy occurs because doctors must be more precise in their language. It’s true that HSV-1 affects mainly the oral area and HSV-2 affects mainly the genital area, but each of them can affect either area, so the terms “oral herpes” and “genital herpes” aren’t entirely accurate.</p><br/><p>In this general overview, we’ll tell you about the following:</p><ul><li>General herpes statistics</li><li>Type-specific herpes statistics</li><li>Patients’ FAQ</li></ul></div><h3>Table 1. Herpes virus statistics (regardless of type)</h3><p class="bold-text">In this table, we summarize how prevalent herpes of either type is in the general population. We provide separate information for the percentages of the population that are confirmed positive and assumed positive.</p><ul><li>“Confirmed positive” refers to the percentage of the population that has tested positive for herpes.</li><li>“Assumed positive” refers to the percentage of the population estimated to have herpes based on scientific studies of significantly smaller groups of people.</li></ul><table><thead><tr><th></th><th>Confirmed positive</th><th>Assumed positive</th></tr></thead><tbody><tr><td><p class="bold-text">Herpes</p></td><td>No exact data available</td><td>90% of total population</td></tr></tbody></table><h3>Table 2. Herpes virus statistics based on type</h3><p class="bold-text">In this table, we summarize the prevalence of herpes based on the virus type.</p><p class="section-text">As in the previous table, information is presented separately for the percentages of the population that are confirmed positive and assumed positive.</p><br/><ul><li>“Confirmed positive” refers to the percentage of the population that has tested positive for herpes.</li><li>“Assumed positive” refers to the percentage of the population estimated to have herpes based on scientific studies of significantly smaller groups of people.</li></ul><table><thead><tr><th>Herpes type</th><th>Confirmed positive</th><th>Assumed positive</th></tr></thead><tbody><tr><td><p class="table-bold-text">HSV-1</p></td><td>No data available</td><td>50%–80%<br/>of total population</td></tr><tr><td><p class="table-bold-text">HSV-2</p></td><td>1.19%–2.38% of total population (only 10%–20% of infected people have been diagnosed with HSV-2)</td><td>11.9%<br/>of total population</td></tr></tbody></table><div class="FAQ"><h3>Frequently Asked Questions</h3><div class="FAQ-content"><p>Here we summarize real patients’ questions, grouped by topic, and Dr. Fuzayloff’s answers to them. “Dr. F (https://stdcenterny.com/meet-doctor-fuzayloff.html) ” (his patients’ name for him) has been an STD doctor for over two decades in Midtown Manhattan, NYC</p><ul><li class="question hidden"><p class="question-text">What are some common names for herpes and what do they mean? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Since herpes is a very common condition and most people have heard of it, it has a lot of different names that mean the same thing. Here are the most common names used by doctors and the general public. They are interchangeable.</p><p class="bold-text">Herpes simplex virus type 1</p><ul><li>Doctors call it:<ul><li>HSV-1</li><li>Herpes simplex labialis</li><li>Other people call it:</li><li>Fever blisters</li><li>Oral herpes</li><li>Herpes one</li><li>Cold sores</li></ul></li></ul><p class="bold-text">Herpes simplex virus type 2</p><ul><li>Doctors call it:<ul><li>HSV-2</li><li>Herpes genitalis</li><li>Anogenital herpes viral infection</li></ul></li><li>Other people call it:<ul><li>Genital herpes</li><li>Genital sore</li><li>Herpes two</li></ul></li></ul></div></li><li class="question hidden"><p class="question-text">Why is HSV-1 called “oral herpes” and HSV-2 called “genital herpes”? Are they limited to those areas? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>The terms “oral” and “genital” are used mostly by the general public. They’re not precise terms and are rarely used by doctors.</p><br/><p>These names are based on the anatomic areas each type mainly affects.</p><ul><li>HSV-1 primarily affects the oral area.</li><li>HSV-2 primarily affects the genital area (58.7% of genital herpes cases).</li></ul><p>But since both types of virus can affect either area (oral or genital), doctors don’t use these terms but instead refer to them by virus type: herpes simplex virus type 1 (HSV-1) and herpes simplex virus type 2 (HSV-2).</p><ul><li>HSV-1 affects the genital area in up to 41.3% of cases caused by oral-to-genital sex.</li><li>HSV-2 can cause oral herpes (but this does not happen as often as HSV-1 affects the genital area).</li></ul></div></li><li class="question hidden"><p class="question-text">Are the two herpes virus types (HSV-1 and HSV-2) similar? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Yes! They’re in the same virus family (herpes simplex).</p><br/><p>Here are the main similarities:</p><p class="bold-text">Lifelong infection</p><p>Once you have either type, you will never get rid of it.</p><p class="bold-text">Same symptoms</p><p>HSV-1 and HSV-2 cause similar symptoms (local tingling, burning, headache, etc.) and signs (fluid-filled blisters, sores, fever, lymph node enlargement, etc.).</p><p class="bold-text">Same treatment</p><p>The two types are treated with the same medication. The treatment regimen depends on the anatomic location of the virus, not the virus type. (See the treatment section of this article.)</p><p class="bold-text">Same prognosis</p><p>The two types have the same great prognosis: herpes usually does not affect life expectancy.</p></div></li><li class="question hidden"><p class="question-text">Are there differences between HSV-1 and HSV-2? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Yes! HSV-1 and HSV-2 have several differences. The differences are not considered clinically significant enough to warrant different treatment or result in a different prognosis.</p><p class="bold-text">Area affected</p><p>HSV-1 primarily affects the oral region. HSV-2 mostly affects the genital area. However, both virus types may affect either the oral or genital area.</p><p class="bold-text">Prevalence</p><p>HSV-1 is more common than HSV-2. HSV-1 affects up to 80% of people, whereas only 10%–15% of the world’s population is infected with HSV-2.</p><p class="bold-text">Transmission rate</p><p>HSV-2 is slightly easier to pass than HSV-1. That is, it is slightly more contagious.</p><p class="bold-text">Time of virus acquisition</p><p>People usually get HSV-1 during their childhood from friends and parents through nonsexual transmission. In contrast, HSV-2 is mainly transmitted after 14 years of age, and for that reason it carries the stigma of being an STD. But both viruses can be acquired at any age.</p><p class="bold-text">Frequency of outbreaks</p><p>HSV-2 (regardless of its anatomic location) causes more frequent outbreaks than HSV 1.</p><br/><p>The difference is clinically insignificant and most true early in the disease process. It is good to know that with both herpes types, the number of outbreaks will decrease over time.</p></div></li></ul></div></div><a class="button" href="../herpes.html"><img src="http://d12qz6jssicxsf.cloudfront.net/images/arrow.svg" height="30" width="32"/> <button>Select other section</button></a></div></section></div><section class="section have-a-question"><div class="have-a-question-wrapper"><h2>Have a question?</h2><div><p><img src="http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg" height="40" width="40"/> <span>212.696.5900</span></p><p>?</p><p>ask online</p></div></div></section><footer><div class="section-wrapper footer"><div><p class="footer-header">Quick Links</p><nav><ul><li>Home</li><li>Meet the doctor</li><li>Office hours</li><li>PPD testing</li><li>Privacy Statement</li><li>Blog</li></ul></nav></div><div><p class="footer-header">Contact Us</p><div class="contact"><img src="http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg" height="24px" width="24px"/><p><span>274 Madison Ave, Suite 705</span><br/><span>New York, 10016</span></p></div><p class="contact"><img src="http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg" height="24px" width="24px"/> 212.696.5900</p></div><div><p class="footer-header">Follow Us</p><p><img marginright="20px" src="http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg" height="40px" width="40px"/> <img src="http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg" height="40px" width="40px"/></p></div></div></footer></body></html>

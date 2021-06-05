@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title><script defer="defer" src="../chlomydiaOdds.6d294e6c.bundle.js"></script><style type="text/css">footer {
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>STD Clinic</title><script defer="defer" src="../chlomydiaOdds.e41858b2.bundle.js"></script><style type="text/css">footer {
   width: 100%;
   margin: 0 auto;
   background: linear-gradient(90deg, #66BED3 85.67%, #69C5DC 99.99%), #C4C4C4;
@@ -39,180 +39,266 @@ footer li:last-child {
   margin-right: 25px;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  background: white;
-  z-index: 1;
-}
-.header-mainRow,
-.menu-wrapper,
-.menu {
-  display: flex;
-  flex-direction: row;
-}
-.menu {
-  align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.header {
-  position: fixed;
-  background: white;
-  padding: 0;
-  align-items: center;
-  width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.header-logo img {
-  display: block;
-  max-width: 150px;
-}
-.header-mainRow {
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1200px;
-  background: #ffffff;
-}
-.location {
-  width: 100%;
-  background: #F0FAFC;
-}
-.location-content {
-  font-family: 'Montserrat-Medium', sans-serif;
-  margin: 0 auto;
-  font-size: 0.8125rem;
-  font-weight: 500;
-  line-height: 1;
-  padding: 12px 0;
-  display: flex;
-  justify-content: flex-end;
-  width: 1200px;
-}
-.menu-wrapper {
-  align-items: center;
-}
-nav ul {
-  padding: 0;
-}
-.menu-item,
-.menu-subfolder-item {
-  list-style-type: none;
-}
-.menu-item,
-.menu-link,
-.menu-item p {
-  font-family: 'Montserrat-Medium', sans-serif;
-  font-size: 0.9375rem;
-  color: var(--menu-items-color);
-  position: relative;
-}
-.menu-item {
-  padding: 0 15px;
-}
-.menu-item img {
-  position: relative;
-  top: 3px;
-  transform: rotate(180deg);
-}
-.menu-item:hover .menu-subfolder {
-  display: block;
-}
-.menu-item:hover img {
-  transform: rotate(0deg);
-}
-.menu-subfolder {
-  display: none;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  padding-top: 10px;
-  box-shadow: 0 0 10px #e9e8e8;
-}
-.menu-subfolder-item {
-  padding: 10px 15px;
-  background: #ffffff;
-}
-.menu-subfolder-item:hover {
-  background: #e0b56e;
-}
-.menu-subfolder-item:hover a {
-  color: white;
-  font-weight: 600;
-}
-.menu-subfolder-item .menu-link {
-  cursor: pointer;
-}
-.header-contacts {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.contacts-location {
-  padding: 8px 12px 8px 0;
-  border-right: 1px solid var(--menu-items-color);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  line-height: 1.4;
-  color: var(--menu-items-color);
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
-}
-.contacts-location:before {
-  content: '';
-  display: block;
-  width: 17px;
-  height: 22px;
-  background: url('http://d12qz6jssicxsf.cloudfront.net/images/location.svg') no-repeat;
-  background-position: center;
-  background-size: contain;
-  margin-right: 5px;
-}
-.contacts-number {
-  padding: 8px 0 8px 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  line-height: 1.4;
-}
-.contacts-number a.number {
-  display: flex;
-  align-items: center;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-}
-.contacts-number a.number:before {
-  content: '';
-  display: block;
-  font-size: 0.875rem;
-  line-height: 1.0625rem;
-  width: 20px;
-  height: 22px;
-  background: url('http://d12qz6jssicxsf.cloudfront.net/images/phone.svg') no-repeat;
-  background-position: center;
-  background-size: contain;
-  margin-right: 5px;
-}
-.contacts-number a {
-  color: var(--menu-items-color);
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-}
-.contacts-number .btn.menu-cta-button {
-  display: block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background: var(--heading-secondary-orange);
-  border-radius: 5px;
-  color: #fff;
-  font-size: 0.875rem;
-  font-family: 'Montserrat-SemiBold', sans-serif;
+@media (min-width: 1200px) {
+  .menu-btn{
+    display: none;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    z-index: 1;
+  }
+
+  .header-mainRow,
+  .menu-wrapper,
+  .menu {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .header {
+    position: fixed;
+    background: white;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .header-logo img {
+    display: block;
+    max-width: 150px;
+  }
+
+  .header-mainRow {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    background: #ffffff;
+  }
+
+  .location {
+    width: 100%;
+    background: #F0FAFC;
+  }
+
+  .location-content {
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin: 0 auto;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1;
+    padding: 12px 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+  }
+
+  .menu-wrapper {
+    align-items: center;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  .menu-item,
+  .menu-subfolder-item {
+    list-style-type: none;
+  }
+
+  .menu-item,
+  .menu-link,
+  .menu-item p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 0.9375rem;
+    color: var(--menu-items-color);
+    position: relative;
+  }
+
+  .menu-item {
+    padding: 0 15px;
+  }
+
+  .menu-item img {
+    position: relative;
+    top: 3px;
+    transform: rotate(180deg);
+  }
+
+  .menu-item:hover .menu-subfolder {
+    display: block;
+  }
+
+  .menu-item:hover img {
+    transform: rotate(0deg);
+  }
+
+  .menu-subfolder {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    box-shadow: 0 0 10px #e9e8e8;
+  }
+
+  .menu-subfolder-item {
+    padding: 10px 15px;
+    background: #ffffff;
+  }
+
+  .menu-subfolder-item:hover {
+    background: #e0b56e;
+  }
+
+  .menu-subfolder-item:hover a {
+    color: white;
+    font-weight: 600;
+  }
+
+  .menu-subfolder-item .menu-link {
+    cursor: pointer;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contacts-location {
+    padding: 8px 12px 8px 0;
+    border-right: 1px solid var(--menu-items-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--menu-items-color);
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .contacts-location:before {
+    content: '';
+    display: block;
+    width: 17px;
+    height: 22px;
+    background: url('http://d12qz6jssicxsf.cloudfront.net/images/location.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5px;
+  }
+
+  .contacts-number {
+    padding: 8px 0 8px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.4;
+  }
+
+  .contacts-number a.number {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+  }
+
+  .contacts-number a.number:before {
+    content: '';
+    display: block;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
+    width: 20px;
+    height: 22px;
+    background: url('http://d12qz6jssicxsf.cloudfront.net/images/phone.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5px;
+  }
+
+  .contacts-number a {
+    color: var(--menu-items-color);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+  }
+
+  .contacts-number .btn.menu-cta-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: var(--heading-secondary-orange);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.875rem;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+  }
 }
 
+@media (max-width: 1200px) {
+  .header {
+    position: fixed;
+    width: 100vw;
+    height: 56px;
+    background: white;
+    box-shadow: 0 0 10px #e5e5e5;
+  }
+
+  .header-mainRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .menu-wrapper,
+  .btn {
+    display: none;
+  }
+
+  .header-logo img {
+    height: 30px;
+    width: 93px;
+  }
+
+  .location-content {
+    display: none;
+  }
+
+  a.number {
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 700;
+    color: #27377A;
+    padding: 2px 0;
+    margin-right: -20px;
+  }
+
+  a.number::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 22px;
+    background: url(http://d12qz6jssicxsf.cloudfront.net/images/phone.svg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 8px;
+  }
+}
 .deases .question {
   display: flex;
   flex-direction: column;
@@ -1209,4 +1295,4 @@ section {
     list-style-type: disc;
     margin-bottom: 10px;
 }
-</style></head><body><header class="header"><div class="location"><p class="location-content">274 Madison Ave Suite 705 New York, 10016</p></div><div class="header-mainRow"><a class="header-logo" href="/"><img src="http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg" alt="STD Center NY logo" width="150px" height="47px"/></a><nav class="menu-wrapper"><ul class="menu"><li class="menu-item"><link class="menu-link" to="/">Home</li><li class="menu-item"><p>STD tests <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><ul class="menu-subfolder"><li class="menu-subfolder-item"><a class="menu-link">Chlamydia</a></li><li class="menu-subfolder-item"><link class="menu-link">Gonorrhea</li><li class="menu-subfolder-item"><link class="menu-link">Herpes</li><li class="menu-subfolder-item"><a class="menu-link" href="#">HIV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">HPV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Syphilis</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Gardnerella(BV)</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Trichomoniasis</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Mycoplasma</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Ureaplasma</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Yeast in Women</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Balanitis</a></li></ul></li><li class="menu-item"><p class="menu-link">STD diseases <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><ul class="menu-subfolder"><li class="menu-subfolder-item"><link class="menu-link" href="../chlomydia.html">Chlamydia</li><li class="menu-subfolder-item"><link class="menu-link" to="/gonorrhea">Gonorrhea</li><li class="menu-subfolder-item"><link class="menu-link" to="/herpes">Herpes</li><li class="menu-subfolder-item"><link class="menu-link" to="/hiv">HIV</li><li class="menu-subfolder-item"><link class="menu-link">Syphillis</li></ul></li><li class="menu-item"><a class="menu-link" href="/how-it-works.html">How it works</a></li><li class="menu-item"><a class="menu-link" href="/office-hours.html">Meet the doctor</a></li><li class="menu-item"><a class="menu-link" href="/office-hours.html">Office hours</a></li></ul></nav><div class="header-contacts"><div class="contacts-number"><a href="tel:2126965900" class="number">212.696.5900 </a><a class="btn menu-cta-button" href="/online-appointment.html">Book Online</a></div></div></div></header><div class="content deases"><section class="my_odds"><div class="my_odds-content"><div class="my_odds-heading"><div><h2 id="my_odds">The odds of getting chlamydia</h2><p>In this section, we’ll talk about the odds of getting chlamydia. Since most chlamydia cases are asymptomatic and the complications of untreated chlamydia can be quite serious, the likelihood that someone will contract chlamydia is important. Doctors rely on the odds of transmission in the early stages of diagnosis and treatment. Here we summarize important information about the prevalence, incidence, and transmission of chlamydia. We’ve separated it by gender, sexual orientation, and transmission routes. We’ve also collected data about transmission rates for protected, unprotected, one-time, and multiple sexual acts. Let’s dive in!</p></div></div><h3>Prevalence of chlamydia in the US irrespective of gender</h3><p class="bold-text">Chlamydia is the most prevalent STD in the United States. From 2000 to 2018, the number of chlamydia cases increased significantly in all regions.</p><table><thead><tr><th>Year</th><th>Number of<br/>Chlamydia Cases</th></tr></thead><tbody><tr><td><ul><li>2000</li><li>2010</li><li>2018</li></ul></td><td><ul><li>709,452</li><li>1,307,893</li><li>1,758,668</li></ul></td></tr></tbody></table><h3>Prevalence of chlamydia in US by gender</h3><p class="bold-text">As we can see from the table below, statistically, chlamydia is twice as prevalent in females as males. There are a few reasons for that:</p><ul><li>Females have more contact with healthcare providers for matters related to sexual health (Pap smears, oral contraceptives, IUS insertions, pregnancies)</li><li>Females are considered more susceptible biologically</li><li>The number of reported cases in males is artificially low because females are diagnosed first and their male partners are treated</li></ul><p class="section-text">The number of cases in both genders are going up. From 2017 to 2018, the incidence (rate of new cases) increased 5.7% and 11.4% for males and females, respectively.</p><table><thead><tr><th>Incidence in the US</th><th>Females</th><th>Males</th></tr></thead><tbody><tr><td><ul><li>2007</li><li>2010</li><li>2018</li></ul></td><td><ul><li>825,660</li><li>949,802</li><li>1,145,063</li></ul></td><td><ul><li>280,337</li><li>353,923</li><li>610,447</li></ul></td></tr></tbody></table><h3>Prevalence of chlamydia in NYC by gender</h3><p class="section-text">Since we live and practice in New York City, it’s helpful to know what’s going on in our city. The chance of contracting chlamydia in NYC is 30% higher than the national average.</p><br/><p class="section-text">According to data in a 2018 report, chlamydia continued to be the most common reportable STD in NYC with 119,670 diagnoses (a 2.4% increase over 2017).</p><br/><p class="bold-text">Here are some factors that may contribute to these realities:</p><ul><li>A drop in condom use</li><li>Increased screening</li><li>Lack of funding for STI prevention programs</li><li>Lack of awareness about the disease</li></ul><table><thead><tr><th>Incidence in NYC</th><th>Females<br/>(cases per 100,000)</th><th>Males<br/>(cases per 100,000)</th></tr></thead><tbody><tr><td>2009</td><td>944.3</td><td>487.5</td></tr><tr><td>2018</td><td>933.5</td><td>745.5</td></tr></tbody></table><h3>Incidence of chlamydia per 100,000 people by state</h3><img class="map" src="http://d12qz6jssicxsf.cloudfront.net/images/map.jpg" width="940px" height="540px"/><h3>Prevalence of chlamydia in gay and bisexual men by anatomical site</h3><p class="section-text">As we can see from the table below, rectal and penile chlamydia are much more prevalent than oral chlamydia among homosexual males.</p><br/><p class="section-text">For that reason, all anal-receptive males should have a chlamydia swab, in addition to a urine test/penile swab, as a routine part of STD testing.</p><br/><p class="section-text">Note: A negative test in one anatomic area does not exclude the possibility that you have chlamydia in another area. Chlamydia infection stays at the point of contact and infects the local area.</p><table><thead><tr><th>Anatomical Site</th><th>Prevalence</th></tr></thead><tbody><tr><td><ul><li>Rectum</li><li>Urethra</li><li>Pharynx</li></ul></td><td><ul><li>7.9%</li><li>5.2%</li><li>1.4%</li></ul></td></tr></tbody></table><h3>Prevalence of oral and rectal chlamydia in heterosexual females</h3><p class="section-text">The table below shows the significantly greater prevalence of rectal chlamydia as compared to oral chlamydia in heterosexual females.</p><br/><p class="section-text">For that reason, all females who practice rectal insertive sex need to be tested for chlamydia with a rectal swab.</p><br/><p class="section-text">Note: A negative test in one anatomic area does not exclude the possibility that you have chlamydia in another area. Chlamydia infection stays at the point of contact and infects the local area.</p><table><thead><tr><th>Anatomical Site</th><th>Prevalence in Heterosexual Females</th></tr></thead><tbody><tr><td>Rectal</td><td>11.8%</td></tr><tr><td>Oral</td><td>2%</td></tr></tbody></table><h3>Prevalence of oral and rectal chlamydia in heterosexual females</h3><p class="section-text">The table below shows the significantly greater prevalence of rectal chlamydia as compared to oral chlamydia in heterosexual females.</p><br/><p class="section-text">For that reason, all females who practice rectal insertive sex need to be tested for chlamydia with a rectal swab.</p><br/><p class="section-text">Note: A negative test in one anatomic area does not exclude the possibility that you have chlamydia in another area. Chlamydia infection stays at the point of contact and infects the local area.</p><table><thead><tr><th></th><th>Accuracy</th><th>How soon it be done?</th></tr></thead><tbody><tr><td>Per unprotected sexual act</td><td>4.5%–40%</td><td>4.5%–32%</td></tr><tr><td>Per protected sexual act</td><td>0.053%</td><td>0.053%</td></tr><tr><td>Multiple sexual acts</td><td>77%</td><td>76%</td></tr></tbody></table><h3>Rates of transmission of chlamydia in gay and bisexual men<br/>(multiple sexual acts)</h3><p class="section-text">Here we summarize chlamydia transmission in gay and bisexual men by transmission route. This table shows us that the chance of getting chlamydia if you’re “on the bottom” is much higher than if you’re “on top.”</p><table><thead><tr><th></th><th>Urethra to Rectum<br/>(being “top”)</th><th>Rectum to Urethra<br/>(being “bottom”)</th></tr></thead><tbody><tr><td>Multiple sexual acts</td><td>47%</td><td>30%</td></tr></tbody></table><div class="FAQ"><h3>Frequently Asked Questions</h3><div class="FAQ-content"><p>In this section, our expert doctor will answer some common patient questions about chlamydia transmission in more depth. Dr. Fuzayloff has been a practicing physician at a busy STD center in Midtown Manhattan, New York City, for over two decades.</p><ul onclick="{toggleQuestion}"><li class="question hidden"><p class="question-text">Is one gender more likely to contract chlamydia than the other? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><p class="answer">Females are twice as likely to get chlamydia as men. This is explained by the fact that they have a bigger genital mucosal area and a greater chance of sustaining microscopic damage during sex.</p></li><li class="question hidden"><p class="question-text">What is the chance of getting chlamydia in one unprotected sexual act? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><p class="answer">We lack precise data—the transmission rate per unprotected sexual act ranges from 4.5% to 40%.</p></li><li class="question hidden"><p class="question-text">How contagious is chlamydia? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><ul><li>A person can pass chlamydia as soon as he or she is infected.</li><li>Chlamydia patient are infectious whether or not they have symptoms.</li><li>Chlamydia patients continue to transmit the infection until they are cured (seven days after finishing the treatment) regardless of the presence or absence of symptoms and signs.</li></ul></div></li><li class="question hidden"><p class="question-text">How is chlamydia transmitted? Why are certain organs infected more than others? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Chlamydia is a sexually transmitted disease. It can be passed through vaginal, penile, and anal contact; through oral sex (this is less risky), and by using sex toys. It is transmitted by body fluids under specific conditions.</p><p class="semibold-text">How transmission occurs</p><p>Body fluid containing chlamydia must come in contact with a specific type of tissue for infection to occur. That tissue can be found in the cervix, urethra, rectum, and eyes.</p><p class="semibold-text">Why some areas are more susceptible to chlamydia infection than others</p><p>Rectal, cervical, and urethral chlamydia are more common than oral chlamydia. This difference might be associated with:</p><ul><li>Differences in the tissues lining these organs (chlamydia adheres to some of them more easily than others)</li><li>Local immune response</li><li>The prevalence of microlesions in the vaginal, penile, or anal area because of friction might be key</li></ul></div></li><li class="question hidden"><p class="question-text">Is it possible for chlamydia to be transmitted in unusual ways? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><p class="answer">Chlamydia cannot survive in dry conditions, so toilet seats and cutlery are not contagious. It’s not possible to get chlamydia from kissing. If body fluids have not dried (such as on wet towels) and your genital area or eyes are exposed to them, you can get chlamydia that way.</p></li><li class="question hidden"><p class="question-text">What is the chance of a male passing chlamydia to a female, and vice versa? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Medicine lacks precise data on chlamydia transmission rates. Statistics vary. Here’s the most we can say:</p><p class="semibold-text">Per sexual act</p><p>Male to female: 4.5%–40%</p><p>Female to male: 4.5%–32%</p><p class="semibold-text">Multiple sexual contacts</p><p>One cross-sectional study where couples had multiple sexual contacts found:</p><ul><li>77% of female partners of infected men tested positive for chlamydia</li><li>76% of male partners of infected women tested positive for chlamydia</li></ul></div></li><li class="question hidden"><p class="question-text">What is the chance of passing chlamydia rectally? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>It is possible to pass and contract chlamydia anally.</p><p class="semibold-text">Heterosexual females</p><p>In one study, the prevalence of rectal chlamydia in heterosexual females was 11.8%.</p><p class="semibold-text">Homosexual males</p><p>A small study found that 47% of male partners of infected gay and bisexual men had rectal chlamydia.</p><br/><p>Overall, the risk of passing chlamydia from urethra to rectum is higher (47%) than the risk of passing it from rectum to urethra (30%). Again, this is explained by the type of tissue lining each organ and amount of microscopic damage that might occur during intercourse.</p></div></li><li class="question hidden"><p class="question-text">What is the chance of passing chlamydia rectally? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>It is possible to pass and contract chlamydia anally.</p><p class="semibold-text">Heterosexual females</p><p>In one study, the prevalence of rectal chlamydia in heterosexual females was 11.8%.</p><p class="semibold-text">Homosexual males</p><p>A small study found that 47% of male partners of infected gay and bisexual men had rectal chlamydia.</p><br/><p>Overall, the risk of passing chlamydia from urethra to rectum is higher (47%) than the risk of passing it from rectum to urethra (30%). Again, this is explained by the type of tissue lining each organ and amount of microscopic damage that might occur during intercourse.</p></div></li><li class="question hidden"><p class="question-text">What is the chance of passing chlamydia orally? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>The chance of either passing or acquiring chlamydia orally is low, but it is possible. According to one study, the prevalence of oral chlamydia is:</p><ul><li>2% in heterosexual women</li><li>1.4% in gay and bisexual men</li></ul></div></li></ul></div></div><a class="button" href="../chlomydia.html"><img src="http://d12qz6jssicxsf.cloudfront.net/images/arrow.svg" height="30" width="32"/> <button>Select other section</button></a></div></section></div><section class="section have-a-question"><div class="have-a-question-wrapper"><h2>Have a question?</h2><div><p><img src="http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg" height="40" width="40"/> <span>212.696.5900</span></p><p>?</p><p>ask online</p></div></div></section><footer><div class="section-wrapper footer"><div><p class="footer-header">Quick Links</p><nav><ul><li>Home</li><li>Meet the doctor</li><li>Office hours</li><li>PPD testing</li><li>Privacy Statement</li><li>Blog</li></ul></nav></div><div><p class="footer-header">Contact Us</p><div class="contact"><img src="http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg" height="24px" width="24px"/><p><span>274 Madison Ave, Suite 705</span><br/><span>New York, 10016</span></p></div><p class="contact"><img src="http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg" height="24px" width="24px"/> 212.696.5900</p></div><div><p class="footer-header">Follow Us</p><p><img marginright="20px" src="http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg" height="40px" width="40px"/> <img src="http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg" height="40px" width="40px"/></p></div></div></footer></body></html>
+</style></head><body><header class="header"><div class="location"><p class="location-content">274 Madison Ave Suite 705 New York, 10016</p></div><div class="header-mainRow"><a class="header-logo" href="/"><img src="http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg" alt="STD Center NY logo" width="150px" height="47px"/></a><nav class="menu-wrapper"><ul class="menu"><li class="menu-item"><a class="menu-link" href="/">Home</a></li><li class="menu-item"><p>STD tests <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><ul class="menu-subfolder"><li class="menu-subfolder-item"><a class="menu-link">Chlamydia</a></li><li class="menu-subfolder-item"><a class="menu-link">Gonorrhea</a></li><li class="menu-subfolder-item"><a class="menu-link">Herpes</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">HIV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">HPV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Syphilis</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Gardnerella(BV)</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Trichomoniasis</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Mycoplasma</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Ureaplasma</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Yeast in Women</a></li><li class="menu-subfolder-item"><a class="menu-link" href="#">Balanitis</a></li></ul></li><li class="menu-item"><p class="menu-link">STD diseases <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><ul class="menu-subfolder"><li class="menu-subfolder-item"><a class="menu-link" href="../chlomydia.html">Chlamydia</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../gonorrhea.html">Gonorrhea</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../herpes.html">Herpes</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../hiv.html">HIV</a></li><li class="menu-subfolder-item"><a class="menu-link" href="../syphilis.html">Syphillis</a></li></ul></li><li class="menu-item"><a class="menu-link" href="/how-it-works.html">How it works</a></li><li class="menu-item"><a class="menu-link" href="/office-hours.html">Meet the doctor</a></li><li class="menu-item"><a class="menu-link" href="/office-hours.html">Office hours</a></li></ul></nav><div class="header-contacts"><div class="contacts-number"><a href="tel:2126965900" class="number">212.696.5900 </a><a class="btn menu-cta-button" href="/online-appointment.html">Book Online</a></div></div></div></header><div class="content deases"><section class="my_odds"><div class="my_odds-content"><div class="my_odds-heading"><div><h2 id="my_odds">The odds of getting chlamydia</h2><p>In this section, we’ll talk about the odds of getting chlamydia. Since most chlamydia cases are asymptomatic and the complications of untreated chlamydia can be quite serious, the likelihood that someone will contract chlamydia is important. Doctors rely on the odds of transmission in the early stages of diagnosis and treatment. Here we summarize important information about the prevalence, incidence, and transmission of chlamydia. We’ve separated it by gender, sexual orientation, and transmission routes. We’ve also collected data about transmission rates for protected, unprotected, one-time, and multiple sexual acts. Let’s dive in!</p></div></div><h3>Prevalence of chlamydia in the US irrespective of gender</h3><p class="bold-text">Chlamydia is the most prevalent STD in the United States. From 2000 to 2018, the number of chlamydia cases increased significantly in all regions.</p><table><thead><tr><th>Year</th><th>Number of<br/>Chlamydia Cases</th></tr></thead><tbody><tr><td><ul><li>2000</li><li>2010</li><li>2018</li></ul></td><td><ul><li>709,452</li><li>1,307,893</li><li>1,758,668</li></ul></td></tr></tbody></table><h3>Prevalence of chlamydia in US by gender</h3><p class="bold-text">As we can see from the table below, statistically, chlamydia is twice as prevalent in females as males. There are a few reasons for that:</p><ul><li>Females have more contact with healthcare providers for matters related to sexual health (Pap smears, oral contraceptives, IUS insertions, pregnancies)</li><li>Females are considered more susceptible biologically</li><li>The number of reported cases in males is artificially low because females are diagnosed first and their male partners are treated</li></ul><p class="section-text">The number of cases in both genders are going up. From 2017 to 2018, the incidence (rate of new cases) increased 5.7% and 11.4% for males and females, respectively.</p><table><thead><tr><th>Incidence in the US</th><th>Females</th><th>Males</th></tr></thead><tbody><tr><td><ul><li>2007</li><li>2010</li><li>2018</li></ul></td><td><ul><li>825,660</li><li>949,802</li><li>1,145,063</li></ul></td><td><ul><li>280,337</li><li>353,923</li><li>610,447</li></ul></td></tr></tbody></table><h3>Prevalence of chlamydia in NYC by gender</h3><p class="section-text">Since we live and practice in New York City, it’s helpful to know what’s going on in our city. The chance of contracting chlamydia in NYC is 30% higher than the national average.</p><br/><p class="section-text">According to data in a 2018 report, chlamydia continued to be the most common reportable STD in NYC with 119,670 diagnoses (a 2.4% increase over 2017).</p><br/><p class="bold-text">Here are some factors that may contribute to these realities:</p><ul><li>A drop in condom use</li><li>Increased screening</li><li>Lack of funding for STI prevention programs</li><li>Lack of awareness about the disease</li></ul><table><thead><tr><th>Incidence in NYC</th><th>Females<br/>(cases per 100,000)</th><th>Males<br/>(cases per 100,000)</th></tr></thead><tbody><tr><td>2009</td><td>944.3</td><td>487.5</td></tr><tr><td>2018</td><td>933.5</td><td>745.5</td></tr></tbody></table><h3>Incidence of chlamydia per 100,000 people by state</h3><img class="map" src="http://d12qz6jssicxsf.cloudfront.net/images/map.jpg" width="940px" height="540px"/><h3>Prevalence of chlamydia in gay and bisexual men by anatomical site</h3><p class="section-text">As we can see from the table below, rectal and penile chlamydia are much more prevalent than oral chlamydia among homosexual males.</p><br/><p class="section-text">For that reason, all anal-receptive males should have a chlamydia swab, in addition to a urine test/penile swab, as a routine part of STD testing.</p><br/><p class="section-text">Note: A negative test in one anatomic area does not exclude the possibility that you have chlamydia in another area. Chlamydia infection stays at the point of contact and infects the local area.</p><table><thead><tr><th>Anatomical Site</th><th>Prevalence</th></tr></thead><tbody><tr><td><ul><li>Rectum</li><li>Urethra</li><li>Pharynx</li></ul></td><td><ul><li>7.9%</li><li>5.2%</li><li>1.4%</li></ul></td></tr></tbody></table><h3>Prevalence of oral and rectal chlamydia in heterosexual females</h3><p class="section-text">The table below shows the significantly greater prevalence of rectal chlamydia as compared to oral chlamydia in heterosexual females.</p><br/><p class="section-text">For that reason, all females who practice rectal insertive sex need to be tested for chlamydia with a rectal swab.</p><br/><p class="section-text">Note: A negative test in one anatomic area does not exclude the possibility that you have chlamydia in another area. Chlamydia infection stays at the point of contact and infects the local area.</p><table><thead><tr><th>Anatomical Site</th><th>Prevalence in Heterosexual Females</th></tr></thead><tbody><tr><td>Rectal</td><td>11.8%</td></tr><tr><td>Oral</td><td>2%</td></tr></tbody></table><h3>Prevalence of oral and rectal chlamydia in heterosexual females</h3><p class="section-text">The table below shows the significantly greater prevalence of rectal chlamydia as compared to oral chlamydia in heterosexual females.</p><br/><p class="section-text">For that reason, all females who practice rectal insertive sex need to be tested for chlamydia with a rectal swab.</p><br/><p class="section-text">Note: A negative test in one anatomic area does not exclude the possibility that you have chlamydia in another area. Chlamydia infection stays at the point of contact and infects the local area.</p><table><thead><tr><th></th><th>Accuracy</th><th>How soon it be done?</th></tr></thead><tbody><tr><td>Per unprotected sexual act</td><td>4.5%–40%</td><td>4.5%–32%</td></tr><tr><td>Per protected sexual act</td><td>0.053%</td><td>0.053%</td></tr><tr><td>Multiple sexual acts</td><td>77%</td><td>76%</td></tr></tbody></table><h3>Rates of transmission of chlamydia in gay and bisexual men<br/>(multiple sexual acts)</h3><p class="section-text">Here we summarize chlamydia transmission in gay and bisexual men by transmission route. This table shows us that the chance of getting chlamydia if you’re “on the bottom” is much higher than if you’re “on top.”</p><table><thead><tr><th></th><th>Urethra to Rectum<br/>(being “top”)</th><th>Rectum to Urethra<br/>(being “bottom”)</th></tr></thead><tbody><tr><td>Multiple sexual acts</td><td>47%</td><td>30%</td></tr></tbody></table><div class="FAQ"><h3>Frequently Asked Questions</h3><div class="FAQ-content"><p>In this section, our expert doctor will answer some common patient questions about chlamydia transmission in more depth. Dr. Fuzayloff has been a practicing physician at a busy STD center in Midtown Manhattan, New York City, for over two decades.</p><ul onclick="{toggleQuestion}"><li class="question hidden"><p class="question-text">Is one gender more likely to contract chlamydia than the other? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><p class="answer">Females are twice as likely to get chlamydia as men. This is explained by the fact that they have a bigger genital mucosal area and a greater chance of sustaining microscopic damage during sex.</p></li><li class="question hidden"><p class="question-text">What is the chance of getting chlamydia in one unprotected sexual act? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><p class="answer">We lack precise data—the transmission rate per unprotected sexual act ranges from 4.5% to 40%.</p></li><li class="question hidden"><p class="question-text">How contagious is chlamydia? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><ul><li>A person can pass chlamydia as soon as he or she is infected.</li><li>Chlamydia patient are infectious whether or not they have symptoms.</li><li>Chlamydia patients continue to transmit the infection until they are cured (seven days after finishing the treatment) regardless of the presence or absence of symptoms and signs.</li></ul></div></li><li class="question hidden"><p class="question-text">How is chlamydia transmitted? Why are certain organs infected more than others? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Chlamydia is a sexually transmitted disease. It can be passed through vaginal, penile, and anal contact; through oral sex (this is less risky), and by using sex toys. It is transmitted by body fluids under specific conditions.</p><p class="semibold-text">How transmission occurs</p><p>Body fluid containing chlamydia must come in contact with a specific type of tissue for infection to occur. That tissue can be found in the cervix, urethra, rectum, and eyes.</p><p class="semibold-text">Why some areas are more susceptible to chlamydia infection than others</p><p>Rectal, cervical, and urethral chlamydia are more common than oral chlamydia. This difference might be associated with:</p><ul><li>Differences in the tissues lining these organs (chlamydia adheres to some of them more easily than others)</li><li>Local immune response</li><li>The prevalence of microlesions in the vaginal, penile, or anal area because of friction might be key</li></ul></div></li><li class="question hidden"><p class="question-text">Is it possible for chlamydia to be transmitted in unusual ways? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><p class="answer">Chlamydia cannot survive in dry conditions, so toilet seats and cutlery are not contagious. It’s not possible to get chlamydia from kissing. If body fluids have not dried (such as on wet towels) and your genital area or eyes are exposed to them, you can get chlamydia that way.</p></li><li class="question hidden"><p class="question-text">What is the chance of a male passing chlamydia to a female, and vice versa? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>Medicine lacks precise data on chlamydia transmission rates. Statistics vary. Here’s the most we can say:</p><p class="semibold-text">Per sexual act</p><p>Male to female: 4.5%–40%</p><p>Female to male: 4.5%–32%</p><p class="semibold-text">Multiple sexual contacts</p><p>One cross-sectional study where couples had multiple sexual contacts found:</p><ul><li>77% of female partners of infected men tested positive for chlamydia</li><li>76% of male partners of infected women tested positive for chlamydia</li></ul></div></li><li class="question hidden"><p class="question-text">What is the chance of passing chlamydia rectally? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>It is possible to pass and contract chlamydia anally.</p><p class="semibold-text">Heterosexual females</p><p>In one study, the prevalence of rectal chlamydia in heterosexual females was 11.8%.</p><p class="semibold-text">Homosexual males</p><p>A small study found that 47% of male partners of infected gay and bisexual men had rectal chlamydia.</p><br/><p>Overall, the risk of passing chlamydia from urethra to rectum is higher (47%) than the risk of passing it from rectum to urethra (30%). Again, this is explained by the type of tissue lining each organ and amount of microscopic damage that might occur during intercourse.</p></div></li><li class="question hidden"><p class="question-text">What is the chance of passing chlamydia rectally? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>It is possible to pass and contract chlamydia anally.</p><p class="semibold-text">Heterosexual females</p><p>In one study, the prevalence of rectal chlamydia in heterosexual females was 11.8%.</p><p class="semibold-text">Homosexual males</p><p>A small study found that 47% of male partners of infected gay and bisexual men had rectal chlamydia.</p><br/><p>Overall, the risk of passing chlamydia from urethra to rectum is higher (47%) than the risk of passing it from rectum to urethra (30%). Again, this is explained by the type of tissue lining each organ and amount of microscopic damage that might occur during intercourse.</p></div></li><li class="question hidden"><p class="question-text">What is the chance of passing chlamydia orally? <img src="http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg" height="15" width="30"/></p><div class="answer"><p>The chance of either passing or acquiring chlamydia orally is low, but it is possible. According to one study, the prevalence of oral chlamydia is:</p><ul><li>2% in heterosexual women</li><li>1.4% in gay and bisexual men</li></ul></div></li></ul></div></div><a class="button" href="../chlomydia.html"><img src="http://d12qz6jssicxsf.cloudfront.net/images/arrow.svg" height="30" width="32"/> <button>Select other section</button></a></div></section></div><section class="section have-a-question"><div class="have-a-question-wrapper"><h2>Have a question?</h2><div><p><img src="http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg" height="40" width="40"/> <span>212.696.5900</span></p><p>?</p><p>ask online</p></div></div></section><footer><div class="section-wrapper footer"><div><p class="footer-header">Quick Links</p><nav><ul><li>Home</li><li>Meet the doctor</li><li>Office hours</li><li>PPD testing</li><li>Privacy Statement</li><li>Blog</li></ul></nav></div><div><p class="footer-header">Contact Us</p><div class="contact"><img src="http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg" height="24px" width="24px"/><p><span>274 Madison Ave, Suite 705</span><br/><span>New York, 10016</span></p></div><p class="contact"><img src="http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg" height="24px" width="24px"/> 212.696.5900</p></div><div><p class="footer-header">Follow Us</p><p><img marginright="20px" src="http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg" height="40px" width="40px"/> <img src="http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg" height="40px" width="40px"/></p></div></div></footer></body></html>
