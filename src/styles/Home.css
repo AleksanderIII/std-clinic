@@ -490,6 +490,7 @@
 
 @media (max-width: 1200px) {
   .home section.intro-banner {
+    width: 100vw;
     padding: 0 16px;
     margin-top: 86px;
     background: none;
