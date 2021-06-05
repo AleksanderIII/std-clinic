@@ -538,10 +538,11 @@
 
   .home .no-insurance-button {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     height: 57px;
     width: 100%;
     padding: 5px;
+    max-width: 330px;
   }
 
   .home .no-insurance-button .secondary-orange {
