@@ -494,6 +494,11 @@
     width: 100vw;
   }
 
+  .home .section-wrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+
   .home section.intro-banner {
     width: 100%;
     margin-top: 86px;
@@ -688,23 +693,38 @@
     font-family: 'Roboto', sans-serif;
   }
 
-  .home section.no-insurance .row.std-tests table {
-    overflow-x: auto;
-    display: table;
-  }
-
-  .home section.no-insurance .row.std-tests table,
-  .home section.no-insurance .row.std-tests tbody,
-  .home section.no-insurance .row.std-tests thead {
+  .home section.no-insurance .row.std-tests .table-wrap {
     width: 100%;
+    overflow-x: auto;
   }
 
-  .home section.no-insurance .row.std-tests .table-head th {
-    position: static;
+  .home section.no-insurance .row.std-tests .table-head th .text {
+    font-size: 1.5rem;
   }
 
   .home section.no-insurance .row.std-tests .table-body td {
-    position: static;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .home .table-row td:first-child,
+  .home .table-row th:first-child {
+    width: 300px !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+  }
+
+  .home .table-row td:nth-child(2),
+  .home .table-row th:nth-child(2) {
+    width: 150px !important;
+    min-width: 150px !important;
+    max-width: 150px !important;
+  }
+
+  .home section.no-insurance .row.std-tests .notice {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 30px;
   }
 
   .home .section.people-choose {
@@ -817,7 +837,7 @@
     margin-top: 30px;
   }
 
-  .home .related-topics .topics .topic:nth-child(6){
+  .home .related-topics .topics .topic:nth-child(6) {
     margin-bottom: 50px;
   }
 }
