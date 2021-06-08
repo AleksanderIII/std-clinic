@@ -383,3 +383,104 @@
 .deases .testing_types .answer_legend {
     font-size: 0.75rem !important;
 }
+
+@media (max-width: 1200px) {
+    .deases .testing_types {
+        margin-top: 56px;
+        padding: 0;
+    }
+
+    .deases .testing_types-heading {
+        padding: 32px 0;
+    }
+
+    .deases .testing_types-heading h2 {
+        font-size: 1.5rem;
+        padding: 0 16px;
+    }
+
+    .deases .testing_types-heading p {
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        margin-right: 0;
+    }
+
+    .deases .testing_types-content {
+        width: 100%;
+    }
+
+    .deases .testing_types h3,
+    .deases .testing_types p,
+    .deases .testing_types ul,
+    .deases .testing_types .table-wrap {
+        padding: 0 16px;
+    }
+
+    .deases .testing_types ul{
+        margin: 10px 0;
+    }
+
+    .deases .testing_types ul li {
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+    }
+
+    .table-wrap {
+        display: block;
+        overflow-x: auto;
+        margin-right: 16px;
+    }
+
+    .deases .testing_types .FAQ {
+        padding: 32px 16px;
+    }
+
+    .deases .testing_types .FAQ ul li{
+        margin-bottom: 10px;
+    }
+
+    .deases .testing_types .FAQ h3 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .deases .testing_types .FAQ-content>p {
+        font-size: 0.875rem;
+        padding: 0;
+    }
+
+    .deases .testing_types .FAQ-content {
+        padding: 0;
+    }
+
+    .deases .testing_types .FAQ ul {
+        padding: 0;
+    }
+
+    .deases .testing_types .FAQ ul li .question-text {
+        padding: 10px 20px;
+    }
+
+    .deases .testing_types .FAQ ul li .answer {
+        margin: 16px;
+        padding: 0;
+    }
+
+    .deases .testing_types .FAQ ul li .answer p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .deases .testing_types .FAQ ul li .answer p.bold-text,
+    .deases .testing_types .FAQ ul li .answer p.semibold-text {
+        margin: 10px 0;
+    }
+
+    .deases .testing_types .button{
+        margin: 20px;
+    }
+}

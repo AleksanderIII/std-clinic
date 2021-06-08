@@ -32,4 +32,12 @@ if (ul) {
   ul.addEventListener('click', event => toggleQuestion(event))
 }
 
-console.log('whatIFeel')
+
+const navigator = document.getElementById('navigator')
+const navigation = document.getElementById('navigation')
+navigator.addEventListener('click', toggleNavigator)
+
+function toggleNavigator () {
+  navigator.classList.toggle('closed')
+  navigation.classList.toggle('closed')
+}

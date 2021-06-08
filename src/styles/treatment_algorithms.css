@@ -317,3 +317,43 @@
     font-size: 0.875rem;
     color: #3c4b94;
 }
+
+@media (max-width: 1200px) {
+    .deases .treatment-algorithm {
+        margin-top: 56px;
+        padding: 0;
+    }
+
+    .deases .treatment-algorithm-heading {
+        padding: 32px 0;
+    }
+
+    .deases .treatment-algorithm-heading h2 {
+        font-size: 1.5rem;
+        padding: 0 16px;
+    }
+
+    .deases .treatment-algorithm-heading p {
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.375rem;
+        padding: 0 16px;
+    }
+
+    .deases .treatment-algorithm-content {
+        width: 100%;
+    }
+
+    .deases .treatment-algorithm .algorithm {
+        width: 100%;
+        height: auto;
+    }
+
+    .deases .treatment-algorithm h3,
+    .deases .treatment-algorithm p,
+    .deases .treatment-algorithm .algorithm {
+        padding: 0 16px;
+    }
+
+
+}
