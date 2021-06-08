@@ -51,7 +51,7 @@ footer li:last-child {
     flex-direction: column;
   }
 
-  .footer.section-wrapper{
+  .footer.section-wrapper {
     padding-top: 0;
   }
 
@@ -60,5 +60,15 @@ footer li:last-child {
     font-family: 'Montserrat-SemiBold', sans-serif;
     font-size: 1.125rem;
     font-weight: 500;
+  }
+
+  footer li {
+    font-size: 0.875rem;
+  }
+
+  footer .contact,
+  footer .contact span {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
   }
 }
