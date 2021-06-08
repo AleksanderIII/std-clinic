@@ -71,4 +71,9 @@ footer li:last-child {
     font-size: 0.875rem;
     line-height: 1.5rem;
   }
+
+  .contact img,
+  footer img {
+    margin-right: 15px;
+  }
 }
