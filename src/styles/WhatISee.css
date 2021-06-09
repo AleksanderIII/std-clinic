@@ -11,6 +11,11 @@
     color: #354A87;
 }
 
+.deases .what_i_see .what_i_see-heading .bold-text,
+.deases .what_i_see .what_i_see-heading .bold-text~ul li {
+    color: white;
+}
+
 .deases .what_i_see .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -407,6 +412,14 @@
         padding: 0 16px;
     }
 
+    .deases .what_i_see .what_i_see-heading .bold-text {
+        margin: 20px 0 10px 0;
+    }
+
+    .deases .what_i_see .what_i_see-heading .bold-text~ul {
+        margin: 0 0 10px 16px;
+    }
+
     .deases .what_i_see-heading p {
         font-size: 0.875rem;
         font-weight: 400;
@@ -414,8 +427,24 @@
         padding: 0 16px;
     }
 
+    .deases .what_i_see h3~.bold-text{
+        margin-top: 0;
+    }
+
+    .deases .what_i_see .bold-text~.table-wrap{
+        margin-top: 0;
+    }
+
     .deases .what_i_see-content {
         width: 100%;
+    }
+
+    .deases .what_i_see .collage{
+        flex-direction: column;
+    }
+
+    .deases .what_i_see .collage-item{
+        margin: 0 auto;
     }
 
     .deases .what_i_see-content p,

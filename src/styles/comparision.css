@@ -11,6 +11,13 @@
     color: #354A87;
 }
 
+
+.deases .comparision .comparision-heading .bold-text,
+.deases .comparision .comparision-heading .bold-text~ul li,
+.deases .comparision .comparision-heading ul li {
+    color: white;
+}
+
 .deases .comparision .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -371,6 +378,14 @@
         padding: 32px 0;
     }
 
+    .deases .comparision .comparision-heading ul {
+        margin: 10px 0 10px 16px;
+    }
+    .deases .comparision-heading ul li{
+        padding-right: 0;
+        margin: 0 0 10px 16px;
+    }
+
     .deases .comparision-heading h2 {
         font-size: 1.5rem;
         padding: 0 16px;
@@ -414,11 +429,12 @@
         overflow-x: auto;
         margin-right: 16px;
     }
+
     .deases .comparision .FAQ {
         padding: 32px 16px;
     }
 
-    .deases .comparision .FAQ ul li{
+    .deases .comparision .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -461,7 +477,7 @@
         margin: 10px 0;
     }
 
-    .deases .comparision .button{
+    .deases .comparision .button {
         margin: 20px;
     }
 }

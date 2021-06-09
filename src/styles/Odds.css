@@ -11,6 +11,12 @@
     color: #354A87;
 }
 
+.deases .my_odds .my_odds-heading .bold-text,
+.deases .my_odds .my_odds-heading .bold-text~ul li ,
+.deases .my_odds .my_odds-heading ul li{
+    color: white;
+}
+
 .deases .my_odds .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -382,6 +388,15 @@
     .deases .my_odds p,
     .deases .my_odds .table-wrap {
         padding: 0 16px;
+    }
+
+    .deases .my_odds-content ul {
+        margin: 0;
+        padding: 10px 16px;
+    }
+
+    .deases .my_odds-content ul li{
+        margin-left: 16px;
     }
 
     .table-wrap {

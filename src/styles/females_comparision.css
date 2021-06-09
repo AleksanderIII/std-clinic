@@ -384,7 +384,14 @@
     }
 
     .deases .females_comparision .collage{
+        margin: 10px 0;
+        padding: 0 16px;
         flex-direction: column;
+    }
+
+    .deases .females_comparision .collage img{
+        width: 100%;
+        height: auto;
     }
     
     .deases .females_comparision .FAQ {

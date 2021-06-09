@@ -11,6 +11,11 @@
     color: #354A87;
 }
 
+.deases .what_i_feel .what_i_feel-heading .bold-text,
+.deases .what_i_feel .what_i_feel-heading .bold-text~ul li {
+    color: white;
+}
+
 .deases .what_i_feel .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -339,8 +344,24 @@
         line-height: 1.375rem;
     }
 
+    .deases .what_i_feel .what_i_feel-heading .bold-text {
+        margin: 20px 0 10px 0;
+    }
+
+    .deases .what_i_feel .what_i_feel-heading .bold-text~ul {
+        margin: 0 0 10px 16px;
+    }
+
     .deases .what_i_feel-content {
         width: 100%;
+    }
+
+    .deases .what_i_feel h3~.bold-text{
+        margin-top: 0;
+    }
+
+    .deases .what_i_feel .bold-text~.table-wrap{
+        margin-top: 0;
     }
 
     .deases .what_i_feel h3,
@@ -360,7 +381,7 @@
         padding: 32px 16px;
     }
 
-    .deases .what_i_feel .FAQ ul li{
+    .deases .what_i_feel .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -403,7 +424,7 @@
         margin: 10px 0;
     }
 
-    .deases .what_i_feel .button{
+    .deases .what_i_feel .button {
         margin: 20px;
     }
 }

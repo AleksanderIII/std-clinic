@@ -151,7 +151,85 @@
         </div>
     </header>
     <div class='content deases'>
-
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px' />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Herpes navigation</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../herpes/overview.html'>
+                        Herpes overview
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/what_i_feel.html'>
+                        What i feel?(symptoms)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/what_i_see.html'>
+                        What i see?(signs)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/odds.html'>
+                        Odds of getting it
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/testing.html'>
+                        Testing
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/testing_algorithms.html'>
+                        Testing algorithm
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/treatments.html'>
+                        Treatments
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/treatment_algorithms.html'>
+                        Treatment algoritm
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/protecting.html'>
+                        Protecting
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/herpes_vs_other.html'>
+                        Comparision of herpes
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/herpes_vs_syphilis.html'>
+                        Herpes vs. syphilis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/herpes_vs_balanitis.html'>
+                        Herpes vs. Balanitis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/herpes_vs_yeast.html'>
+                        Herpes vs. vaginal yeast
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../herpes/myths.html'>
+                        Myths
+                    </a>
+                </li>
+            </ul>
+        </div>
         <section class='section testing_types'>
             <div class='testing_types-heading'>
                 <h2 id='testing_types'>
@@ -212,44 +290,47 @@
                     (during an outbreak or not), the testing technique, and the herpes
                     viral load.
                 </p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Test Type</th>
-                            <th> Test accuracy</th>
-                            <th>False positive </th>
-                            <th>False negative </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Swab (culture)</td>
-                            <td> 100% </td>
-                            <td> 0% </td>
-                            <td>
-                                Depends on the time of sample collection: usually 25% but may be
-                                up to 70% (very small window for sample collection)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Blood test (antibodies)</td>
-                            <td>
-                                Commercially available IgG test: 94% <br /> <br />
-                                Washington University (Western blot) test: > 99%
-                            </td>
-                            <td>
-                                Commercially available IgG test: up to 19% <br />
-                                <br />
-                                Washington University (Western blot) test*: 0%
-                            </td>
-                            <td>
-                                Commercially available IgG test: up to 38% <br />
-                                <br />
-                                Washington University (Western Blot) test*: 0%
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Test Type</th>
+                                <th> Test accuracy</th>
+                                <th>False positive </th>
+                                <th>False negative </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Swab (culture)</td>
+                                <td> 100% </td>
+                                <td> 0% </td>
+                                <td>
+                                    Depends on the time of sample collection: usually 25% but may be
+                                    up to 70% (very small window for sample collection)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Blood test (antibodies)</td>
+                                <td>
+                                    Commercially available IgG test: 94% <br /> <br />
+                                    Washington University (Western blot) test: > 99%
+                                </td>
+                                <td>
+                                    Commercially available IgG test: up to 19% <br />
+                                    <br />
+                                    Washington University (Western blot) test*: 0%
+                                </td>
+                                <td>
+                                    Commercially available IgG test: up to 38% <br />
+                                    <br />
+                                    Washington University (Western Blot) test*: 0%
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <br />
                 <p class='section-text'>
                     * The Washington University (Western blot) test is considered the
@@ -287,62 +368,65 @@
                         best done)
                     </li>
                 </ul>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Test type</th>
-                            <th colspan='2'>Ideal time</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Swab (culture)</td>
-                            <td colspan='2'>
-                                The swab test may be performed as soon as the first blisters
-                                appear (the sample to be tested must be collected from a herpes
-                                lesion).
-                                <br />
-                                <br />
-                                <b>Technique:</b> A doctor scrapes
-                                the fresh lesion(s), collecting skin and fluid. To get accurate
-                                test results, this should be done within 48 hours of the
-                                appearance of the lesion (accuracy gradually decreases beginning
-                                24 hours after the appearance of the blisters).
-                                <br />
-                                <br />
-                                Note that technique and timing are important. This test is not
-                                commonly done for that reason,
-                            </td>
-                        </tr>
-                        <tr>
-                            <td rowspan='2'>Blood test for IgG (antibodies)</td>
-                            <td>
-                                <p class='table-bold-text centered'>Earliest time</p>
-                            </td>
-                            <td>
-                                <p class='table-bold-text centered'>Ideal time</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <ul>
-                                    <li>
-                                        3 weeks after contracting the disease, over 50% of infected
-                                        people are positive for herpes
-                                    </li>
-                                    <li>
-                                        6 weeks after contracting the disease, over 70% of infected
-                                        people are positive for herpes
-                                    </li>
-                                </ul>
-                            </td>
-                            <td>
-                                12 weeks after the initial exposure, over 92% of infected people
-                                are positive
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Test type</th>
+                                <th colspan='2'>Ideal time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Swab (culture)</td>
+                                <td colspan='2'>
+                                    The swab test may be performed as soon as the first blisters
+                                    appear (the sample to be tested must be collected from a herpes
+                                    lesion).
+                                    <br />
+                                    <br />
+                                    <b>Technique:</b> A doctor scrapes
+                                    the fresh lesion(s), collecting skin and fluid. To get accurate
+                                    test results, this should be done within 48 hours of the
+                                    appearance of the lesion (accuracy gradually decreases beginning
+                                    24 hours after the appearance of the blisters).
+                                    <br />
+                                    <br />
+                                    Note that technique and timing are important. This test is not
+                                    commonly done for that reason,
+                                </td>
+                            </tr>
+                            <tr>
+                                <td rowspan='2'>Blood test for IgG (antibodies)</td>
+                                <td>
+                                    <p class='table-bold-text centered'>Earliest time</p>
+                                </td>
+                                <td>
+                                    <p class='table-bold-text centered'>Ideal time</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <ul>
+                                        <li>
+                                            3 weeks after contracting the disease, over 50% of infected
+                                            people are positive for herpes
+                                        </li>
+                                        <li>
+                                            6 weeks after contracting the disease, over 70% of infected
+                                            people are positive for herpes
+                                        </li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    12 weeks after the initial exposure, over 92% of infected people
+                                    are positive
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <div class='FAQ'>
                     <h3>Frequently Asked Questions</h3>
                     <div class='FAQ-content'>
@@ -544,106 +628,109 @@
                                         month or longer to get done and usually is not covered by
                                         health insurance.
                                     </p>
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Parameters</th>
-                                                <th>IgG—HerpesSelect®</th>
-                                                <th>Washington University (Western blot)</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Accuracy </td>
-                                                <td>97%–98%</td>
-                                                <td>> 99%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Collection method</td>
-                                                <td>Blood test</td>
-                                                <td>Blood test</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Insurance coverage and cost</td>
-                                                <td>
-                                                    <ul>
-                                                        <li }}>
-                                                            Covered by Insurance
-                                                        </li>
-                                                        <li>
-                                                            If no health insurance, out-of-pocket cost is
-                                                            about $70
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            Usually not covered by health insurance
-                                                            <ul>
-                                                                <li>
-                                                                    Out-of-pocket cost is about $130 (test only)
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                    There will also be a charge for a doctor visit to
-                                                    collect the blood and have the test ordered
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Where it’s done</td>
-                                                <td>
-                                                    Most healthcare facilities:
-                                                    <ul>
-                                                        <li>
-                                                            STD clinics
-                                                        </li>
-                                                        <li>
-                                                            PCPs
-                                                        </li>
-                                                        <li>
-                                                            urgent care clinics
-                                                        </li>
-                                                        <li>
-                                                            women’s health clinics
-                                                        </li>
-                                                        <li>
-                                                            hospitals
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                                <td>
-                                                    University of Washington <br />
-                                                    <br />
-                                                    Virology Department (specimen collected at the point
-                                                    of service and send to UW)
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Time to get results</td>
-                                                <td>Usually, 3–4 days </td>
-                                                <td>
-                                                    May take more than a month for the entire process:
-                                                    <br />
-                                                    <ul>
-                                                        <li>
-                                                            contacting the university to get a kit
-                                                        </li>
-                                                        <li>
-                                                            seeing a doctor for blood draw
-                                                        </li>
-                                                        <li>
-                                                            sending a kit back
-                                                        </li>
-                                                        <li>
-                                                            getting your results
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-wrap">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Parameters</th>
+                                                    <th>IgG—HerpesSelect®</th>
+                                                    <th>Washington University (Western blot)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Accuracy </td>
+                                                    <td>97%–98%</td>
+                                                    <td>> 99%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Collection method</td>
+                                                    <td>Blood test</td>
+                                                    <td>Blood test</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Insurance coverage and cost</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li }}>
+                                                                Covered by Insurance
+                                                            </li>
+                                                            <li>
+                                                                If no health insurance, out-of-pocket cost is
+                                                                about $70
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                Usually not covered by health insurance
+                                                                <ul>
+                                                                    <li>
+                                                                        Out-of-pocket cost is about $130 (test only)
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                        </ul>
+                                                        There will also be a charge for a doctor visit to
+                                                        collect the blood and have the test ordered
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Where it’s done</td>
+                                                    <td>
+                                                        Most healthcare facilities:
+                                                        <ul>
+                                                            <li>
+                                                                STD clinics
+                                                            </li>
+                                                            <li>
+                                                                PCPs
+                                                            </li>
+                                                            <li>
+                                                                urgent care clinics
+                                                            </li>
+                                                            <li>
+                                                                women’s health clinics
+                                                            </li>
+                                                            <li>
+                                                                hospitals
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        University of Washington <br />
+                                                        <br />
+                                                        Virology Department (specimen collected at the point
+                                                        of service and send to UW)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Time to get results</td>
+                                                    <td>Usually, 3–4 days </td>
+                                                    <td>
+                                                        May take more than a month for the entire process:
+                                                        <br />
+                                                        <ul>
+                                                            <li>
+                                                                contacting the university to get a kit
+                                                            </li>
+                                                            <li>
+                                                                seeing a doctor for blood draw
+                                                            </li>
+                                                            <li>
+                                                                sending a kit back
+                                                            </li>
+                                                            <li>
+                                                                getting your results
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                     <br />
                                     <p>
                                         To learn more, you can call 206-520-4600 and ask for an “HSV
@@ -717,94 +804,97 @@
                                         collection kit.
                                     </p>
                                     <br />
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Parameters</th>
-                                                <th>HerpesSelect®</th>
-                                                <th>Culture</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Test accuracy </td>
-                                                <td>97%–98%</td>
-                                                <td>100%</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Timing</td>
-                                                <td>
-                                                    Can be done:
-                                                    <ul>
-                                                        <li>
-                                                            anytime to confirm herpes status
-                                                        </li>
-                                                        <li>
-                                                            3 weeks after exposure to confirm recent
-                                                            contraction
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                                <td>Can be done only during an outbreak</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Collection method</td>
-                                                <td>Blood test</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            Blister (ideally) should be broken and swabbed
-                                                        </li>
-                                                        <li>
-                                                            Sores that are not crusted can be swabbed (not
-                                                            ideal)
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Insurance coverage and cost</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            Covered by insurance
-                                                        </li>
-                                                        <li>
-                                                            If not insured, out-of-pocket cost is $70 (for the
-                                                            test); a one-time office visit fee will also be
-                                                            charged
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            Covered by health insurance
-                                                        </li>
-                                                    </ul>
-                                                    If not insured, out-of-pocket cost is $130 (for the
-                                                    test); a one-time office visit fee will also be
-                                                    charged
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Testing facilities</td>
-                                                <td>
-                                                    Most healthcare facilities: STD clinics, PCPs, urgent
-                                                    care clinics, women’s health clinics, hospitals
-                                                </td>
-                                                <td>
-                                                    Mainly STD clinics and hospitals (most non-specialized
-                                                    healthcare facilities do not carry the kit)
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Time to get results</td>
-                                                <td>3–4 days</td>
-                                                <td>4–7 days</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-wrap">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Parameters</th>
+                                                    <th>HerpesSelect®</th>
+                                                    <th>Culture</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Test accuracy </td>
+                                                    <td>97%–98%</td>
+                                                    <td>100%</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Timing</td>
+                                                    <td>
+                                                        Can be done:
+                                                        <ul>
+                                                            <li>
+                                                                anytime to confirm herpes status
+                                                            </li>
+                                                            <li>
+                                                                3 weeks after exposure to confirm recent
+                                                                contraction
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>Can be done only during an outbreak</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Collection method</td>
+                                                    <td>Blood test</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                Blister (ideally) should be broken and swabbed
+                                                            </li>
+                                                            <li>
+                                                                Sores that are not crusted can be swabbed (not
+                                                                ideal)
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Insurance coverage and cost</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                Covered by insurance
+                                                            </li>
+                                                            <li>
+                                                                If not insured, out-of-pocket cost is $70 (for the
+                                                                test); a one-time office visit fee will also be
+                                                                charged
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                Covered by health insurance
+                                                            </li>
+                                                        </ul>
+                                                        If not insured, out-of-pocket cost is $130 (for the
+                                                        test); a one-time office visit fee will also be
+                                                        charged
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Testing facilities</td>
+                                                    <td>
+                                                        Most healthcare facilities: STD clinics, PCPs, urgent
+                                                        care clinics, women’s health clinics, hospitals
+                                                    </td>
+                                                    <td>
+                                                        Mainly STD clinics and hospitals (most non-specialized
+                                                        healthcare facilities do not carry the kit)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Time to get results</td>
+                                                    <td>3–4 days</td>
+                                                    <td>4–7 days</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
                             </li>
                             <li class='question hidden'>
@@ -919,28 +1009,31 @@
                                         In the table below, we summarize the common and official
                                         names for herpes tests:
                                     </p>
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Common name </th>
-                                                <th>Laboratory official name</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Washington University HSV test </td>
-                                                <td>Western blot</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Herpes IgG test </td>
-                                                <td>HerpeSelect ®</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Herpes culture test (swab) </td>
-                                                <td>ELVIS ®</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-wrap">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Common name </th>
+                                                    <th>Laboratory official name</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Washington University HSV test </td>
+                                                    <td>Western blot</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Herpes IgG test </td>
+                                                    <td>HerpeSelect ®</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Herpes culture test (swab) </td>
+                                                    <td>ELVIS ®</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
                             </li>
                             <li class='question hidden'>
@@ -1166,70 +1259,73 @@
                                         under ideal conditions at the right time for that test (see
                                         the discussion above).
                                     </p>
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th>Test</th>
-                                                <th>Positive</th>
-                                                <th>Negative</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Culture </td>
-                                                <td>
-                                                    You may be 100% sure that you are herpes-positive and
-                                                    that your skin lesion is herpes.
-                                                </td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            The skin that was swabbed is not a herpes lesion.
-                                                            It does not mean you do not have latent herpes.
-                                                            (Being positive for herpes in the blood and having
-                                                            a herpes skin outbreak are two different things.)
-                                                        </li>
-                                                        <li>
-                                                            There is always a chance that not enough sample
-                                                            was collected; 25% of herpes swab tests are
-                                                            considered false negatives
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Commercially available IgG</td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            You are most likely herpes-positive.
-                                                        </li>
-                                                        <li>
-                                                            There is a 19% chance of a false-positive result.
-                                                            This means that about 19% of people tested
-                                                            negative are actually herpes-positive.
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                                <td>
-                                                    <ul>
-                                                        <li>
-                                                            You are considered herpes negative.
-                                                        </li>
-                                                        <li>
-                                                            There is about a 38% chance that you got a
-                                                            false-negative test result.
-                                                        </li>
-                                                    </ul>
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Washington University HSV </td>
-                                                <td>You are most likely (> 99%) herpes-positive.</td>
-                                                <td>You are most likely (> 99%) herpes-negative.</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-wrap">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Test</th>
+                                                    <th>Positive</th>
+                                                    <th>Negative</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Culture </td>
+                                                    <td>
+                                                        You may be 100% sure that you are herpes-positive and
+                                                        that your skin lesion is herpes.
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                The skin that was swabbed is not a herpes lesion.
+                                                                It does not mean you do not have latent herpes.
+                                                                (Being positive for herpes in the blood and having
+                                                                a herpes skin outbreak are two different things.)
+                                                            </li>
+                                                            <li>
+                                                                There is always a chance that not enough sample
+                                                                was collected; 25% of herpes swab tests are
+                                                                considered false negatives
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Commercially available IgG</td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                You are most likely herpes-positive.
+                                                            </li>
+                                                            <li>
+                                                                There is a 19% chance of a false-positive result.
+                                                                This means that about 19% of people tested
+                                                                negative are actually herpes-positive.
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                    <td>
+                                                        <ul>
+                                                            <li>
+                                                                You are considered herpes negative.
+                                                            </li>
+                                                            <li>
+                                                                There is about a 38% chance that you got a
+                                                                false-negative test result.
+                                                            </li>
+                                                        </ul>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Washington University HSV </td>
+                                                    <td>You are most likely (> 99%) herpes-positive.</td>
+                                                    <td>You are most likely (> 99%) herpes-negative.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
                             </li>
                             <li class='question hidden'>
@@ -1473,8 +1569,7 @@
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img  src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px'
-                        width='40px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
                 </p>
             </div>

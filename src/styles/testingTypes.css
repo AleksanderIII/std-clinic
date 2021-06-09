@@ -11,6 +11,10 @@
     color: #354A87;
 }
 
+.deases .testing_types .testing_types-heading .bold-text{
+    color: white;
+}
+
 .deases .testing_types .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -415,6 +419,11 @@
     .deases .testing_types ul,
     .deases .testing_types .table-wrap {
         padding: 0 16px;
+    }
+
+    
+    .deases .testing_types .testing_types-heading .bold-text~ul {
+        margin: 0 0 10px 16px;
     }
 
     .deases .testing_types ul{

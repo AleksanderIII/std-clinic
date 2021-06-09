@@ -391,6 +391,15 @@
         padding: 0 16px;
     }
 
+    .deases .protecting-content ul {
+        margin: 0;
+        padding: 10px 16px;
+    }
+
+    .deases .protecting-content ul li{
+        margin-left: 16px;
+    }
+
     .table-wrap {
         display: block;
         overflow-x: auto;

@@ -1,9 +1,9 @@
-.deases .chlomydia_gonorrhea {
+.deases .overview {
     margin-top: 190px;
     padding: 0 30px 50px 30px;
 }
 
-.deases .chlomydia_gonorrhea .section-text {
+.deases .overview .section-text {
     margin: 0;
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1rem;
@@ -11,47 +11,47 @@
     color: #354A87;
 }
 
-.deases .chlomydia_gonorrhea .highlightrd_cell {
+.deases .overview .highlightrd_cell {
     background: #F6F9FA;
 }
 
-.deases .chlomydia_gonorrhea.filled {
-    background: #EE8853;
+.deases .overview.filled {
+    background: #68C3D9;
 }
 
-.deases .chlomydia_gonorrhea-content {
+.deases .overview-content {
     display: flex;
     flex-direction: column;
     background: white;
 }
 
-.deases .chlomydia_gonorrhea-content.filled {
+.deases .overview-content.filled {
     margin: 0 50px;
 }
 
-.deases .chlomydia_gonorrhea-heading:not(.filled) {
-    background: #EE8853;
+.deases .overview-heading:not(.filled) {
+    background: #68C3D9;
 }
 
-.deases .chlomydia_gonorrhea-heading {
+.deases .overview-heading {
     margin-bottom: 10px;
     padding: 50px;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.deases .chlomydia_gonorrhea-heading h2 {
+.deases .overview-heading h2 {
     margin-top: 0;
     font-size: 2.25rem;
     font-family: 'Montserrat', sans-serif;
 }
 
-.deases .chlomydia_gonorrhea-heading img {
+.deases .overview-heading img {
     margin-right: 50px;
     margin-left: 80px;
 }
 
-.deases .chlomydia_gonorrhea-heading p {
+.deases .overview-heading p {
     font-family: 'Roboto-Light', sans-serif;
     font-weight: 400;
     padding-right: 30px;
@@ -60,15 +60,15 @@
     color: white;
 }
 
-.deases .chlomydia_gonorrhea-heading p b {
+.deases .overview-heading p b {
     font-family: 'Montserrat-Medium', sans-serif;
 }
 
-.deases .chlomydia_gonorrhea-heading ul {
+.deases .overview-heading ul {
     margin: 20px 0;
 }
 
-.deases .chlomydia_gonorrhea-heading ul li {
+.deases .overview-heading ul li {
     margin-left: 30px;
     padding-right: 30px;
     list-style-type: disc;
@@ -77,7 +77,7 @@
     margin-bottom: 10px;
 }
 
-.deases .chlomydia_gonorrhea h3 {
+.deases .overview h3 {
     margin: 40px 0;
     text-align: center;
     color: #DC593A;
@@ -86,7 +86,7 @@
     line-height: 1.875rem;
 }
 
-.deases .chlomydia_gonorrhea .bold-text {
+.deases .overview .bold-text {
     font-family: 'Montserrat-SemiBold', sans-serif;
     font-weight: 600;
     font-size: 1rem;
@@ -96,12 +96,12 @@
     margin: 30px 0px 30px 0px;
 }
 
-.deases .chlomydia_gonorrhea .bold-text~ul {
+.deases .overview .bold-text~ul {
     margin-left: 40px;
     margin-right: 0px;
 }
 
-.deases .chlomydia_gonorrhea .bold-text~ul li {
+.deases .overview .bold-text~ul li {
     font-family: 'Montserrat-Medium', sans-serif;
     list-style-type: disc;
     color: #354A87;
@@ -111,27 +111,27 @@
     font-weight: 500;
 }
 
-.deases .chlomydia_gonorrhea .legend {
+.deases .overview .legend {
     margin: 30px 0px 10px 20px;
 }
 
-.deases .chlomydia_gonorrhea .graph_header {
+.deases .overview .graph_header {
     font-family: 'Montserrat-Medium', sans-serif;
     margin: 0px 0 20px 0px;
     font-weight: 500;
     font-size: 1rem;
 }
 
-.deases .chlomydia_gonorrhea .graph_header~ul {
+.deases .overview .graph_header~ul {
     margin-left: 40px;
 }
 
-.deases .chlomydia_gonorrhea table {
+.deases .overview table {
     margin: 0 auto;
     margin-top: 30px;
 }
 
-.deases .chlomydia_gonorrhea table td {
+.deases .overview table td {
     color: #629EA8;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
@@ -141,7 +141,7 @@
     line-height: 1.25rem;
 }
 
-.deases .chlomydia_gonorrhea table td p.table-bold-text {
+.deases .overview table td p.table-bold-text {
     margin: 0;
     margin-bottom: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -151,12 +151,12 @@
     color: #4F67A3;
 }
 
-.deases .chlomydia_gonorrhea table td ul {
+.deases .overview table td ul {
     margin: 0;
     margin-bottom: 20px;
 }
 
-.deases .chlomydia_gonorrhea table td ul li {
+.deases .overview table td ul li {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -167,7 +167,7 @@
     margin-bottom: 10px;
 }
 
-.deases .chlomydia_gonorrhea table th {
+.deases .overview table th {
     font-family: 'Montserrat-Medium', sans-serif;
     vertical-align: middle;
     font-weight: 700;
@@ -178,7 +178,7 @@
     color: #4F67A3;
 }
 
-.deases .chlomydia_gonorrhea .FAQ {
+.deases .overview .FAQ {
     display: flex;
     flex-direction: column;
     padding: 50px;
@@ -187,17 +187,17 @@
     margin-top: 30px;
 }
 
-.deases .chlomydia_gonorrhea .FAQ-content {
+.deases .overview .FAQ-content {
     padding: 0 40px;
 }
 
-.deases .chlomydia_gonorrhea .FAQ-content>p {
+.deases .overview .FAQ-content>p {
     margin-bottom: 30px;
     font-family: 'Roboto-Medium', sans-serif;
     font-size: 1rem;
 }
 
-.deases .chlomydia_gonorrhea .FAQ h3 {
+.deases .overview .FAQ h3 {
     text-align: center;
     color: #354A87;
     font-size: 1.875rem;
@@ -205,27 +205,27 @@
     font-weight: 700;
 }
 
-.deases .chlomydia_gonorrhea .FAQ ul {
+.deases .overview .FAQ ul {
     margin-top: 15px;
 }
 
-.deases .chlomydia_gonorrhea .FAQ ul li {
+.deases .overview .FAQ ul li {
     color: #354A87;
     font-size: 1.125rem;
     margin-bottom: 20px;
 }
 
-.deases .chlomydia_gonorrhea .FAQ ul li span {
+.deases .overview .FAQ ul li span {
     color: #E57967;
 }
 
-.deases .chlomydia_gonorrhea .collage {
+.deases .overview .collage {
     margin: 0 auto;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.deases .chlomydia_gonorrhea .collage h3 {
+.deases .overview .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
     margin-top: 40px;
@@ -234,59 +234,59 @@
     font-family: 'Montserrat-Medium', sans-serif;
 }
 
-.deases .chlomydia_gonorrhea .collage-item {
+.deases .overview .collage-item {
     padding-top: 40px;
 }
 
-.deases .chlomydia_gonorrhea .collage-item p.bold-text {
+.deases .overview .collage-item p.bold-text {
     margin: 20px 0 15px 0;
     color: #DC593A;
 }
 
-.deases .chlomydia_gonorrhea .collage-item p {
+.deases .overview .collage-item p {
     margin-top: 25px;
     margin-bottom: 0;
     font-family: 'Montserrat-SemiBold', sans-serif;
 }
 
-.deases .chlomydia_gonorrhea .collage.three-column {
+.deases .overview .collage.three-column {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.deases .chlomydia_gonorrhea .collage.three-column .column {
+.deases .overview .collage.three-column .column {
     width: calc(100% / 3);
     padding-right: 15px;
 }
 
-.deases .chlomydia_gonorrhea .collage.three-column .column:last-child {
+.deases .overview .collage.three-column .column:last-child {
     padding-right: 0;
 }
 
-.deases .chlomydia_gonorrhea .collage.two-column {
+.deases .overview .collage.two-column {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.deases .chlomydia_gonorrhea .collage.two-column .column {
+.deases .overview .collage.two-column .column {
     width: 50%;
     padding-right: 5px;
 }
 
-.deases .chlomydia_gonorrhea .collage.two-column .column:last-child {
+.deases .overview .collage.two-column .column:last-child {
     padding-right: 0;
 }
 
-.deases .chlomydia_gonorrhea .button {
+.deases .overview .button {
     display: flex;
     align-items: center;
     align-self: center;
     margin: 30px 30px 50px 30px;
 }
 
-.deases .chlomydia_gonorrhea .button button {
+.deases .overview .button button {
     background: linear-gradient(90deg, rgba(126, 196, 172, 0.2) 43.35%, rgba(124, 196, 177, 0.2) 55.23%, rgba(119, 197, 191, 0.2) 72.22%, rgba(109, 197, 211, 0.2) 92.19%, rgba(105, 197, 220, 0.2) 100%);
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
@@ -299,107 +299,55 @@
     margin-left: 20px;
 }
 
-.deases .chlomydia_gonorrhea .highlightrd_cell {
-    background: #F6F9FA;
+.deases .overview .answer ul {
+    margin-left: 40px;
 }
 
-.deases .chlomydia_gonorrhea .image-name {
-    font-weight: 700;
-    font-size: 1.875rem;
-    letter-spacing: 0;
-    width: 100%;
-    padding-left: 50px;
-    text-align: 'left';
-}
-
-.deases .chlomydia_gonorrhea ul {
-    margin: 30px 0 15px 0;
-}
-
-.deases .chlomydia_gonorrhea ul li {
-    font-family: 'Montserrat-Medium', sans-serif;
-    color: #354A87;
-    font-size: 0.875rem;
-    margin-bottom: 20px;
+.deases .overview .answer ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     list-style-type: disc;
-}
-
-.deases .chlomydia_gonorrhea .collage {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.deases .chlomydia_gonorrhea .collage-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-}
-
-.deases .chlomydia_gonorrhea .answer ul {
-    margin-left: 30px;
-}
-
-.deases .chlomydia_gonorrhea .answer ul li {
-    font-family: 'Roboto-Medium', sans-serif;
-    font-weight: 400;
     font-size: 0.875rem;
-    list-style-type: disc;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
-.deases .chlomydia_gonorrhea .answer .small-note {
-    font-size: 0.75rem;
-}
-
-.deases .chlomydia_gonorrhea table td p.table-bold-text,
-.deases .chlomydia_gonorrhea table tr td ul li {
-    color: #629EA8;
-}
-
-.deases .chlomydia_gonorrhea .answer table ul li {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    color: #629EA8;
+.deases .overview .answer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
 }
 
 
 @media (max-width: 1200px) {
-    .deases .chlomydia_gonorrhea {
+    .deases .overview {
         margin-top: 56px;
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea-heading {
+    .deases .overview-heading {
         padding: 32px 0;
     }
 
-    .deases .chlomydia_gonorrhea-heading h2 {
+    .deases .overview-heading h2 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
 
-    .deases .chlomydia_gonorrhea-heading p {
+    .deases .overview-heading p {
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1.375rem;
         padding: 0 16px;
     }
 
-    .deases .chlomydia_gonorrhea-content {
+    .deases .overview-content {
         width: 100%;
     }
 
-    .deases .chlomydia_gonorrhea h3,
-    .deases .chlomydia_gonorrhea p,
-    .deases .chlomydia_gonorrhea .table-wrap {
+    .deases .overview h3,
+    .deases .overview p,
+    .deases .overview .table-wrap {
         padding: 0 16px;
-    }
-
-    .collage img {
-        height: auto;
-        width: 100%;
     }
 
     .table-wrap {
@@ -408,59 +356,54 @@
         margin-right: 16px;
     }
 
-    .deases .chlomydia_gonorrhea .collage {
-        flex-direction: column;
-    }
-
-
-    .deases .chlomydia_gonorrhea .FAQ {
+    .deases .overview .FAQ {
         padding: 32px 16px;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul li {
+    .deases .overview .FAQ ul li {
         margin-bottom: 10px;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ h3 {
+    .deases .overview .FAQ h3 {
         font-size: 1.5rem;
         margin: 0;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ-content>p {
+    .deases .overview .FAQ-content>p {
         font-size: 0.875rem;
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ-content {
+    .deases .overview .FAQ-content {
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul {
+    .deases .overview .FAQ ul {
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul li .question-text {
+    .deases .overview .FAQ ul li .question-text {
         padding: 10px 20px;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul li .answer {
+    .deases .overview .FAQ ul li .answer {
         margin: 16px;
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul li .answer p {
+    .deases .overview .FAQ ul li .answer p {
         margin: 0;
         padding: 0;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul li .answer p.bold-text,
-    .deases .chlomydia_gonorrhea .FAQ ul li .answer p.semibold-text {
+    .deases .overview .FAQ ul li .answer p.bold-text,
+    .deases .overview .FAQ ul li .answer p.semibold-text {
         margin: 10px 0;
     }
 
-    .deases .chlomydia_gonorrhea .button {
+    .deases .overview .button {
         margin: 20px;
     }
 }

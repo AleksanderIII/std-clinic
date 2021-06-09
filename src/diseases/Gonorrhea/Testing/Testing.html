@@ -151,7 +151,75 @@
         </div>
     </header>
     <div class='content deases'>
-
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px' />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Gonorrhea navigation</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/what_i_feel.html'>
+                        What will i feel?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/what_i_see.html'>
+                        What will you see?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/odds.html'>
+                        Odds of getting it
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/testing.html'>
+                        Testing
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/testing_algorithms.html'>
+                        Testing algorithm
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/treatments.html'>
+                        Treatments
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/treatment_algorithms.html'>
+                        Treatment algoritm
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/gonorrhea_vs_other.html'>
+                        Gonorrhea vs. other dz
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/gonorrhea_vs_chlomydia.html'>
+                        Gonorrhea vs chlomydia
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/gonorrhea_vs_vaginosis.html'>
+                        Gonorrhea vs bacterial vaginosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/protecting.html'>
+                        Protecting
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../gonorrhea/myths.html'>
+                        Myths
+                    </a>
+                </li>
+            </ul>
+        </div>
         <section class='section testing_types'>
             <div class='testing_types-heading'>
                 <h2 id='testing_types'>
@@ -207,62 +275,65 @@
                     reliability and may vary from case to case. (Different factors such as
                     the testing technique may affect the actual results.)
                 </p>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Test Type</th>
-                            <th>Earliest testing time</th>
-                            <th>Ideal Testing Time</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Genital Swab</td>
-                            <td>
-                                2–7 days <br />
-                                Likely to detect <br /> (no rate of accuracy)
-                            </td>
-                            <td>
-                                2 weeks <br />
-                                (99% accuracy)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Rectal swab</td>
-                            <td>
-                                2–7 days <br />
-                                Likely to detect <br /> (no stats of accuracy)
-                            </td>
-                            <td>
-                                2 weeks <br />
-                                (99% accuracy)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Oral swab</td>
-                            <td>
-                                2–7 days <br />
-                                Likely to detect <br /> (no stats of accuracy)
-                            </td>
-                            <td>
-                                2 weeks
-                                <br />
-                                (99.4% accuracy)
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Urine test</td>
-                            <td>
-                                2–7 days <br />
-                                Likely to detect <br /> (no stats of accuracy)
-                            </td>
-                            <td>
-                                2 weeks <br />
-                                (79% accuracy)
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Test Type</th>
+                                <th>Earliest testing time</th>
+                                <th>Ideal Testing Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Genital Swab</td>
+                                <td>
+                                    2–7 days <br />
+                                    Likely to detect <br /> (no rate of accuracy)
+                                </td>
+                                <td>
+                                    2 weeks <br />
+                                    (99% accuracy)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Rectal swab</td>
+                                <td>
+                                    2–7 days <br />
+                                    Likely to detect <br /> (no stats of accuracy)
+                                </td>
+                                <td>
+                                    2 weeks <br />
+                                    (99% accuracy)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Oral swab</td>
+                                <td>
+                                    2–7 days <br />
+                                    Likely to detect <br /> (no stats of accuracy)
+                                </td>
+                                <td>
+                                    2 weeks
+                                    <br />
+                                    (99.4% accuracy)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Urine test</td>
+                                <td>
+                                    2–7 days <br />
+                                    Likely to detect <br /> (no stats of accuracy)
+                                </td>
+                                <td>
+                                    2 weeks <br />
+                                    (79% accuracy)
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
                 <div class='FAQ'>
                     <h3>Frequently Asked Questions</h3>
                     <div class='FAQ-content'>
@@ -287,71 +358,74 @@
                                         recommended for both symptomatic and asymptomatic people who
                                         are falling into one of the following categories:
                                     </p>
-                                    <table>
-                                        <thead>
-                                            <tr>
-                                                <th colspan='3' class='centered'>
-                                                    Asymptomatic people
-                                                </th>
-                                            </tr>
-                                            <tr>
-                                                <th></th>
-                                                <th class='centered'>Characteristics</th>
-                                                <th class='centered'>Schedule</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td rowspan='3' class='row_name'>
-                                                    Preventive testing for general population
-                                                </td>
-                                                <td>
-                                                    Sexually active females younger than 25 years of age
-                                                </td>
-                                                <td>Once a year</td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    People who had unprotected sex with a new partner
-                                                </td>
-                                                <td>2–3 weeks after unprotected sex </td>
-                                            </tr>
-                                            <tr>
-                                                <td>People who have a gonorrhea- positive partner </td>
-                                                <td>2–3 weeks after unprotected sex</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan='3'></td>
-                                            </tr>
-                                            <tr>
-                                                <td rowspan='3' class='row_name'>
-                                                    Testing for high-risk individuals
-                                                </td>
-                                                <td>People with multiple sex partners</td>
-                                                <td>Once a year</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Sexually active MSM (male sex with male)</td>
-                                                <td>
-                                                    Once a year (For those who use drugs and/or have
-                                                    multiple partners, screening is recommended once every
-                                                    3–6 months.)
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>
-                                                    Pregnant women with high-risk behavior (e.g., having a
-                                                    partner with an STD, having multiple partners, etc.)
-                                                    or who live in a gonorrhea-prevalent area
-                                                </td>
-                                                <td>
-                                                    First trimester, also during the last trimester for
-                                                    those who proceed to practice high-risk behavior or
-                                                    live in a gonorrhea-prevalent area
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <div class="table-wrap">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th colspan='3' class='centered'>
+                                                        Asymptomatic people
+                                                    </th>
+                                                </tr>
+                                                <tr>
+                                                    <th></th>
+                                                    <th class='centered'>Characteristics</th>
+                                                    <th class='centered'>Schedule</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td rowspan='3' class='row_name'>
+                                                        Preventive testing for general population
+                                                    </td>
+                                                    <td>
+                                                        Sexually active females younger than 25 years of age
+                                                    </td>
+                                                    <td>Once a year</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        People who had unprotected sex with a new partner
+                                                    </td>
+                                                    <td>2–3 weeks after unprotected sex </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>People who have a gonorrhea- positive partner </td>
+                                                    <td>2–3 weeks after unprotected sex</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan='3'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td rowspan='3' class='row_name'>
+                                                        Testing for high-risk individuals
+                                                    </td>
+                                                    <td>People with multiple sex partners</td>
+                                                    <td>Once a year</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sexually active MSM (male sex with male)</td>
+                                                    <td>
+                                                        Once a year (For those who use drugs and/or have
+                                                        multiple partners, screening is recommended once every
+                                                        3–6 months.)
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Pregnant women with high-risk behavior (e.g., having a
+                                                        partner with an STD, having multiple partners, etc.)
+                                                        or who live in a gonorrhea-prevalent area
+                                                    </td>
+                                                    <td>
+                                                        First trimester, also during the last trimester for
+                                                        those who proceed to practice high-risk behavior or
+                                                        live in a gonorrhea-prevalent area
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
                             </li>
                             <li class='question hidden'>
@@ -855,8 +929,7 @@
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img  src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px'
-                        width='40px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
                 </p>
             </div>
