@@ -381,7 +381,8 @@
     .deases .comparision .comparision-heading ul {
         margin: 10px 0 10px 16px;
     }
-    .deases .comparision-heading ul li{
+
+    .deases .comparision-heading ul li {
         padding-right: 0;
         margin: 0 0 10px 16px;
     }
@@ -479,5 +480,10 @@
 
     .deases .comparision .button {
         margin: 20px;
+    }
+
+    .deases .comparision .image_example {
+        width: 100%;
+        height: auto;
     }
 }

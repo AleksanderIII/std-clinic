@@ -12,8 +12,8 @@
 }
 
 .deases .my_odds .my_odds-heading .bold-text,
-.deases .my_odds .my_odds-heading .bold-text~ul li ,
-.deases .my_odds .my_odds-heading ul li{
+.deases .my_odds .my_odds-heading .bold-text~ul li,
+.deases .my_odds .my_odds-heading ul li {
     color: white;
 }
 
@@ -395,7 +395,7 @@
         padding: 10px 16px;
     }
 
-    .deases .my_odds-content ul li{
+    .deases .my_odds-content ul li {
         margin-left: 16px;
     }
 
@@ -414,7 +414,7 @@
         padding: 32px 16px;
     }
 
-    .deases .my_odds .FAQ ul li{
+    .deases .my_odds .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -457,7 +457,12 @@
         margin: 10px 0;
     }
 
-    .deases .my_odds .button{
+    .deases .my_odds .button {
         margin: 20px;
+    }
+
+    .deases .graph {
+        width: 100%;
+        height: auto;
     }
 }

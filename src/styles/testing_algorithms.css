@@ -3,7 +3,7 @@
     padding: 0 30px 50px 30px;
 }
 
-.deases .testing_algoritms .testing_algoritms-heading ul li{
+.deases .testing_algoritms .testing_algoritms-heading ul li {
     color: white;
 }
 
@@ -360,7 +360,7 @@
         padding: 0 16px;
     }
 
-    .deases .testing_algoritms ul{
+    .deases .testing_algoritms ul {
         margin: 10px 0 10px 10px;
     }
 
@@ -373,5 +373,66 @@
     .deases .testing_algoritms .algorithm {
         width: 100%;
         height: auto;
+    }
+
+    .deases .testing_algoritms .table-wrap {
+        padding: 0 16px;
+    }
+
+    .table-wrap {
+        display: block;
+        overflow-x: auto;
+        margin-right: 16px;
+    }
+
+    .deases .testing_algoritms .FAQ {
+        padding: 32px 16px;
+    }
+
+    .deases .testing_algoritms .FAQ ul li {
+        margin-bottom: 10px;
+    }
+
+    .deases .testing_algoritms .FAQ h3 {
+        font-size: 1.5rem;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .deases .testing_algoritms .FAQ-content>p {
+        font-size: 0.875rem;
+        padding: 0;
+    }
+
+    .deases .testing_algoritms .FAQ-content {
+        padding: 0;
+    }
+
+    .deases .testing_algoritms .FAQ ul {
+        padding: 0;
+    }
+
+    .deases .testing_algoritms .FAQ ul li .question-text {
+        padding: 10px 20px;
+    }
+
+    .deases .testing_algoritms .FAQ ul li .answer {
+        margin: 16px;
+        padding: 0;
+    }
+
+    .deases .testing_algoritms .FAQ ul li .answer p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .deases .testing_algoritms .FAQ ul li .answer p.bold-text,
+    .deases .testing_algoritms .FAQ ul li .answer p.semibold-text {
+        margin: 10px 0;
+    }
+
+    .deases .testing_algoritms .button {
+        margin: 20px;
     }
 }

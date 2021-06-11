@@ -66,7 +66,17 @@ module.exports = {
     herpesVsBalanitis:
       './src/diseases/Herpes/HerpesVsBalanitis/herpesVsBalanitis.js',
     herpesVsYeast: './src/diseases/Herpes/HerpesVsYeast/herpesVsYeast.js',
-    herpesMyths: './src/diseases/Herpes/Myths/myths.js'
+    herpesMyths: './src/diseases/Herpes/Myths/myths.js',
+
+    hiv: './src/diseases/HIV/hiv.js',
+    hivSigns: './src/diseases/HIV/Signs/signs.js',
+    hivOdds: './src/diseases/HIV/Odds/odds.js',
+    hivTesting: './src/diseases/HIV/Testing/testing.js',
+    hivRapidTests: './src/diseases/HIV/RapidTests/rapidTests.js',
+    hivPrEP: './src/diseases/HIV/PrEP/prep.js',
+    hivPEP: './src/diseases/HIV/PEP/pep.js',
+    HIVVsOther: './src/diseases/HIV/HIVVsOther/hivVsOther.js',
+    hivProtecting: './src/diseases/HIV/Protecting/protecting.js'
   },
   output: {
     path: path.join(__dirname, '../build'),
@@ -406,6 +416,61 @@ module.exports = {
       filename: 'herpes/myths.html',
       inject: true,
       chunks: ['herpesMyths']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/HIV.html',
+      filename: 'hiv.html',
+      inject: true,
+      chunks: ['hiv']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/Signs/Signs.html',
+      filename: 'hiv/hiv_signs.html',
+      inject: true,
+      chunks: ['hivSigns']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/Odds/Odds.html',
+      filename: 'hiv/odds.html',
+      inject: true,
+      chunks: ['hivOdds']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/Testing/Testing.html',
+      filename: 'hiv/testing.html',
+      inject: true,
+      chunks: ['hivTesting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/RapidTests/RapidTests.html',
+      filename: 'hiv/rapid_tests.html',
+      inject: true,
+      chunks: ['hivRapidTests']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/PrEP/PrEP.html',
+      filename: 'hiv/prep.html',
+      inject: true,
+      chunks: ['hivPrEP']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/PEP/PEP.html',
+      filename: 'hiv/pep.html',
+      inject: true,
+      chunks: ['hivPEP']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/HIVVsOther/HIVVsOther.html',
+      filename: 'hiv/hiv_vs_other.html',
+      inject: true,
+      chunks: ['HIVVsOther']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/HIV/Protecting/Protecting.html',
+      filename: 'hiv/protecting.html',
+      inject: true,
+      chunks: ['hivProtecting']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',
