@@ -13,6 +13,11 @@ function toggleQuestion (event) {
 
     if (wasTheQuestionClosed) {
       closeOtherQuestions(li)
+      const coords = li.getBoundingClientRect()
+      window.scrollTo({
+        top: window.pageYOffset + coords.top - 150,
+        behavior: 'smooth'
+      })
     }
     li?.classList.toggle('hidden')
   }
