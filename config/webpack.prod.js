@@ -75,7 +75,20 @@ module.exports = {
     hivPrEP: './src/diseases/HIV/PrEP/prep.js',
     hivPEP: './src/diseases/HIV/PEP/pep.js',
     HIVVsOther: './src/diseases/HIV/HIVVsOther/hivVsOther.js',
-    hivProtecting: './src/diseases/HIV/Protecting/protecting.js'
+    hivProtecting: './src/diseases/HIV/Protecting/protecting.js',
+
+    testsChlomydia: './src/tests/Chlomydia/chlomydia.js',
+    testsGonorrhea:  './src/tests/Gonorrhea/gonorrhea.js',
+    testsHerpes:  './src/tests/Herpes/herpes.js',
+    testsHIV:  './src/tests/HIV/hiv.js',
+    testsHPV:  './src/tests/HPV/hpv.js',
+    testsSyphilis:  './src/tests/Syphilis/syphilils.js',
+    testsGardnerella:  './src/tests/Gardnerella/gardnerella.js',
+    testsTrichomoniasis:  './src/tests/Trichomoniasis/trichomoniasis.js',
+    testsMycoplasma:  './src/tests/Mycoplasma/mycoplasma.js',
+    testsUreaplasma:  './src/tests/Ureaplasma/ureaplasma.js',
+    testsYeast:  './src/tests/Yeast/yeast.js',
+    testsBalanitis:  './src/tests/Balanitis/balanitis.js',
   },
   output: {
     path: path.join(__dirname, '../dist'),
@@ -463,6 +476,78 @@ module.exports = {
       filename: 'hiv/protecting.html',
       inject: true,
       chunks: ['hivProtecting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Chlomydia/Chlomydia.html',
+      filename: 'tests/chlomydia.html',
+      inject: true,
+      chunks: ['testsChlomydia']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Gonorrhea/Gonorrhea.html',
+      filename: 'tests/gonorrhea.html',
+      inject: true,
+      chunks: ['testsGonorrhea']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Herpes/Herpes.html',
+      filename: 'tests/herpes.html',
+      inject: true,
+      chunks: ['testsHerpes']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/HIV/HIV.html',
+      filename: 'tests/hiv.html',
+      inject: true,
+      chunks: ['testsHIV']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/HPV/HPV.html',
+      filename: 'tests/hpv.html',
+      inject: true,
+      chunks: ['testsHPV']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Syphilis/Syphilis.html',
+      filename: 'tests/syphilils.html',
+      inject: true,
+      chunks: ['testsSyphilis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Gardnerella/Gardnerella.html',
+      filename: 'tests/gardnerella.html',
+      inject: true,
+      chunks: ['testsGardnerella']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Trichomoniasis/Trichomoniasis.html',
+      filename: 'tests/trichomoniasis.html',
+      inject: true,
+      chunks: ['testsTrichomoniasis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Mycoplasma/Mycoplasma.html',
+      filename: 'tests/mycoplasma.html',
+      inject: true,
+      chunks: ['testsMycoplasma']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Ureaplasma/Ureaplasma.html',
+      filename: 'tests/ureaplasma.html',
+      inject: true,
+      chunks: ['testsUreaplasma']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Yeast/Yeast.html',
+      filename: 'tests/yeast.html',
+      inject: true,
+      chunks: ['testsYeast']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/tests/Balanitis/Balanitis.html',
+      filename: 'tests/balanitis.html',
+      inject: true,
+      chunks: ['testsBalanitis']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

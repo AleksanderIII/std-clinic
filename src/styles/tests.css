@@ -1,0 +1,540 @@
+.testing section.intro-banner {
+  margin-top: 130px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images/image_testing.svg) no-repeat;
+  background-position: bottom right -50px;
+  background-size: contain;
+}
+.testing .icon-img {
+  width: 40px;
+  height: auto;
+  margin-right: 20px;
+}
+.testing .text-with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  margin: 25px 0;
+}
+.testing .text-with-icon:nth-child(4) {
+  position: relative;
+  top: 5px;
+}
+.testing .text-with-icon:nth-child(5) {
+  position: relative;
+  top: 10px;
+}
+.testing .row.rating {
+  max-width: 700px;
+  margin: 150px auto 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.testing .rating-number,
+.testing .rating-customer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.625rem;
+  color: var(--body-text);
+}
+.testing .rating-number,
+.testing .rating-stars,
+.testing .rating-customer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  margin: 0 20px;
+}
+.testing .row.people-say {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.testing .people-say--icon-wrapper {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testing .consult .row.consulting {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.testing .consult .row.consulting .speech-bubble {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testing .consult .row.consulting .speech-bubble p {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  text-align: center;
+  margin-top: 24px;
+}
+.testing .consult .row.consulting .speech-bubble img {
+  margin: 0 auto;
+}
+.testing .at_glance h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.93rem;
+}
+.testing .at_glance h2 img {
+  margin-left: 50px;
+}
+.testing .at_glance .info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.testing .at_glance .info p {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.testing .at_glance .info .warning {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.875rem;
+  background: rgba(221, 95, 68, 0.05);
+  padding: 15px 25px;
+}
+.testing .at_glance .info .warning img {
+  margin-right: 15px;
+}
+.testing .at_glance .info_item {
+  min-height: 572px;
+  width: 49%;
+  padding: 0px 45px 20px 40px;
+}
+.testing .at_glance .info_item:first-child h3 {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//info1header.svg) no-repeat;
+  background-size: cover;
+}
+.testing .at_glance .info_item h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+.testing .at_glance .info_item h3 span {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.testing .at_glance .info_item h4 {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.testing .at_glance .info_item li {
+  list-style-image: url(http://d12qz6jssicxsf.cloudfront.net/images//point.svg);
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.testing .at_glance .info_item:first-child,
+.testing .at_glance .info_item:nth-child(3) {
+  margin-right: 2%;
+}
+.testing .at_glance .info_item:first-child,
+.testing .at_glance .info_item:last-child {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//info1.svg) no-repeat;
+  background-size: contain;
+}
+.testing .at_glance .info_item:nth-child(2),
+.testing .at_glance .info_item:nth-child(3) {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//info2.svg) no-repeat;
+  background-size: contain;
+}
+.testing .at_glance .info_item:nth-child(2) h3,
+.testing .at_glance .info_item:nth-child(3) h3 {
+  background-color: rgba(220, 89, 58, 0.1);
+  border-radius: 30px;
+}
+.testing .at_glance .info_item:nth-child(2) {
+  padding: 0;
+}
+.testing .at_glance .info_item:nth-child(2) .legend {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.testing .at_glance .info_item:nth-child(2) h3,
+.testing .at_glance .info_item:nth-child(2) .description,
+.testing .at_glance .info_item:nth-child(2) .legend {
+  margin-left: 40px;
+  margin-right: 80px;
+}
+.testing .at_glance .info_item:nth-child(2) table {
+  margin-bottom: 20px;
+}
+.testing .at_glance .info_item:nth-child(2) table td {
+  text-align: center;
+  padding: 10px 30px;
+}
+.testing .at_glance .info_item:nth-child(2) table td:first-child {
+  text-align: left;
+  width: 30%;
+}
+.testing .at_glance .info_item:nth-child(2) table td:nth-child(2) {
+  width: 40%;
+  padding: 10px 0;
+}
+.testing .at_glance .info_item:nth-child(2) table td:last-child {
+  text-align: right;
+  width: 30%;
+}
+.testing .at_glance .info_item:nth-child(2) table tr td:first-child,
+.testing .at_glance .info_item:nth-child(2) table tr td:last-child {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.testing .at_glance .info_item:nth-child(3) .description {
+  margin-bottom: 50px;
+}
+.testing .at_glance .info_item:nth-child(3) table,
+.testing .at_glance .info_item:nth-child(3) table tbody,
+.testing .at_glance .info_item:nth-child(4) table,
+.testing .at_glance .info_item:nth-child(4) table tbody {
+  width: 100%;
+}
+.testing .at_glance .info_item:nth-child(3) table tr td:first-child,
+.testing .at_glance .info_item:nth-child(4) table tr td:first-child {
+  width: 40%;
+}
+.testing .at_glance .info_item:nth-child(3) table tr td:nth-child(2),
+.testing .at_glance .info_item:nth-child(4) table tr td:nth-child(2) {
+  width: 60%;
+}
+.testing .at_glance .info_item:nth-child(3) table tr td,
+.testing .at_glance .info_item:nth-child(4) table tr td {
+  padding: 10px 0;
+  line-height: 1.5rem;
+}
+.testing .at_glance .info_item:nth-child(3) table tr td:first-child {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.testing .at_glance .info_item:nth-child(4) h3 {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//info4header.svg) no-repeat;
+}
+.testing .at_glance .info_item:nth-child(4) table {
+  margin-top: 50px;
+}
+.testing .at_glance .info_item:nth-child(4) table tr td:first-child {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.testing .common_questions {
+  padding-top: 0;
+}
+.testing .common_questions h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 2.93rem;
+}
+.testing .common_questions h2 img {
+  margin-left: 50px;
+}
+.testing .common_questions .questions {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.testing .common_questions .questions li {
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  background: rgba(214, 216, 235, 0.15);
+  border-radius: 30px;
+  font-family: 'Montserrat', sans-serif;
+  color: #40518A;
+}
+.testing .common_questions .questions div {
+  width: 50%;
+}
+.testing .common_questions .questions div:last-child {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//common_bg.svg) no-repeat;
+  background-position: 50% 50%;
+}
+.testing section.insurances {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//insurances-bg.svg) no-repeat;
+  background-position: right 40px bottom -10px;
+}
+.testing section.insurances .row.row-insurances {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+}
+.testing section.insurances .row.row-insurances .data {
+  display: flex;
+}
+.testing section.insurances .row.row-insurances .data-column {
+  width: 50%;
+}
+.testing section.insurances .row.row-insurances-description {
+  width: 50%;
+}
+.testing section.insurances .row.row-insurances .data-column ul li {
+  color: var(--body-text);
+  font-size: 1.375rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+.testing section.no-insurance {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//no-insurance-bg.svg) no-repeat;
+  background-position: top left;
+}
+.testing section.no-insurance .row.row-no-insurance {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.testing section.no-insurance .row.row-no-insurance .data {
+  width: 80%;
+}
+.testing section.no-insurance .row.row-no-insurance .data .heading-with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  margin: 30px 0 60px 0;
+}
+.testing section.no-insurance .row.row-no-insurance .text-with-icon {
+  margin-bottom: 50px;
+}
+.testing section.no-insurance .row.row-no-insurance .offer {
+  margin-left: 60px;
+}
+.testing section.no-insurance .row.row-no-insurance .image {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.testing section.no-insurance .row.row-no-insurance .image img {
+  width: 100%;
+}
+.testing section.no-insurance .row.std-tests {
+  display: flex;
+  flex-direction: column;
+  max-width: 650px;
+  margin: 20px auto 0 auto;
+}
+.testing section.no-insurance .row.std-tests h3 {
+  letter-spacing: 0;
+}
+.testing .table {
+  border: 1px solid var(--table-bg);
+}
+.testing .table-head th .text {
+  font-size: 1.875rem;
+  line-height: 1.5;
+  position: relative;
+  display: flex;
+  min-height: 92px;
+  padding-bottom: 20px;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Montserrat-Medium';
+}
+.testing .table-head th {
+  position: relative;
+  z-index: 1;
+  padding: 15px 35px;
+  vertical-align: middle;
+  border-top: none;
+  border-bottom: none;
+}
+.testing .table-head th:last-child .text {
+  color: #fff;
+}
+.testing .table-head th .text:after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 173px;
+  height: 3px;
+  margin: 0 auto;
+  content: '';
+  opacity: 0.7;
+  background: var(--table-bg);
+}
+.testing .table-head th:nth-child(2) .text:after {
+  right: -35px;
+  left: auto;
+  width: 80px;
+  background: #fff;
+}
+.testing .table-body tr:first-child td {
+  padding-top: 30px;
+}
+.testing .table-body tr:last-child td {
+  padding-bottom: 70px;
+}
+.testing .table-body td {
+  font-size: 1.625rem;
+  line-height: 2.25rem;
+  position: relative;
+  z-index: 1;
+  padding: 10px 20px 10px 35px;
+  letter-spacing: 0.02em;
+  color: var(--body-text);
+  border-top: none;
+}
+.testing .table-column:nth-child(2n) {
+  background: var(--table-bg);
+  color: #fff;
+  font-family: 'Montserrat-Medium';
+}
+.testing .notice {
+  margin-top: 1.5rem;
+}
+.testing .have-a-question {
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px 200px;
+  background: linear-gradient(90deg, #5477B5 0%, #557DB9 18.87%, #578BC1 48.65%, #5CA1CC 85.41%, #5FABD1 100%);
+}
+.testing .have-a-question h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.testing .have-a-question div {
+  display: flex;
+  width: 100%;
+}
+.testing .have-a-question div p {
+  width: calc(100% / 3);
+  color: white;
+  display: flex;
+}
+.testing .have-a-question div p:first-child {
+  padding-right: 75px;
+  padding-top: 35px;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+.testing .have-a-question div p:first-child span {
+  margin-left: 20px;
+}
+.testing .have-a-question div p:nth-child(2) {
+  justify-content: center;
+  font-size: 6.25rem;
+}
+.testing .have-a-question div p:last-child {
+  background: url(http://d12qz6jssicxsf.cloudfront.net/images//question_border.svg) no-repeat;
+  margin-top: 30px;
+  margin-left: 75px;
+  padding-left: 60px;
+  padding-top: 10px;
+  justify-content: flex-start;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.testing .related-topics h2 {
+  font-size: 1.875rem;
+}
+.testing .related-topics .topics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.testing .related-topics .topics .topic {
+  display: flex;
+  width: 288px;
+  height: 209px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.testing .related-topics .topics .topic p {
+  width: 185px;
+  height: 90px;
+  margin-left: -20px;
+}
+.testing .related-topics .topics .topic span:last-child {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.testing .related-topics .topics .topic:first-child {
+  margin-top: 50px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic1.svg') no-repeat;
+}
+.testing .related-topics .topics .topic:first-child span {
+  color: white;
+}
+.testing .related-topics .topics .topic:nth-child(2) {
+  margin-top: 50px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic2.svg') no-repeat;
+}
+.testing .related-topics .topics .topic:nth-child(2) span {
+  color: #E1745F;
+}
+.testing .related-topics .topics .topic:nth-child(3) {
+  margin-top: 50px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic3.svg') no-repeat;
+}
+.testing .related-topics .topics .topic:nth-child(3) span {
+  color: #27377A;
+}
+.testing .related-topics .topics .topic:nth-child(4) {
+  margin-top: 78px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic4.svg') no-repeat;
+}
+.testing .related-topics .topics .topic:nth-child(4) span {
+  color: rgba(39, 55, 122, 0.63);
+}
+.testing .related-topics .topics .topic:nth-child(5) {
+  margin-top: 78px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic5.svg') no-repeat;
+  background-size: contain;
+}
+.testing .related-topics .topics .topic:nth-child(5) span {
+  color: white;
+}
+.testing .related-topics .topics .topic:nth-child(6) {
+  margin-top: 78px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/topic6.svg') no-repeat;
+}
+.testing .related-topics .topics .topic:nth-child(6) span {
+  color: rgba(39, 55, 122, 0.75);
+}
