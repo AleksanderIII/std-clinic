@@ -161,15 +161,16 @@ p.large {
 
 h1 {
   font-family: 'Roboto-Medium', sans-serif;
-  font-size: 2.125rem;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
   color: var(--heading-primary-orange);
   font-weight: bold;
 }
 
 h2 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.6875rem;
-  font-weight: 400;
+  font-family: 'Roboto-Medium', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 500;
 }
 
 h3 {

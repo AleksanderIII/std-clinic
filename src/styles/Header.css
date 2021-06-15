@@ -52,7 +52,7 @@
   }
 
   .location-content {
-    font-family: 'Montserrat-Medium', sans-serif;
+    font-family: 'Montserrat-Semibold', sans-serif;
     margin: 0 auto;
     font-size: 0.8125rem;
     font-weight: 500;
@@ -61,6 +61,19 @@
     display: flex;
     justify-content: flex-end;
     width: 1200px;
+  }
+
+  .location-content:before{
+    content: '';
+    display: block;
+    width: 14px;
+    height: 17px;
+    background: url('../../assets/icons/map-pin-fill.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5px;
+    position: relative;
+    top: -3px;
   }
 
   .menu-wrapper {
@@ -180,7 +193,7 @@
     display: block;
     font-size: 0.875rem;
     line-height: 1.0625rem;
-    width: 20px;
+    width: 16px;
     height: 22px;
     background: url('http://d12qz6jssicxsf.cloudfront.net/images/phone.svg') no-repeat;
     background-position: center;

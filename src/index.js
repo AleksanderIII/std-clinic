@@ -23,3 +23,19 @@ function closeOtherQuestions (li) {
     }
   })
 }
+
+const slider = document.getElementById('slider')
+const slideritemsAmount = slider.querySelectorAll('.row').length
+let currentItem = 0
+let shift = 100
+setInterval(() => {
+  if (currentItem === slideritemsAmount - 1) {
+    slider.style.transform = `translateX(0)`
+    shift = 100
+    currentItem = 0
+  } else {
+    slider.style.transform = `translateX(-${shift}%)`
+    currentItem = currentItem + 1
+    shift = shift + 100
+  }
+}, 5000)

@@ -6,9 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
-    <link rel="stylesheet" type="text/css" href="./styles/Header.css">
-    <link rel="stylesheet" type="text/css" href="./styles/Footer.css">
-    <link rel="stylesheet" type="text/css" href="./styles/Home.css">
 </head>
 
 <body>
@@ -486,20 +483,55 @@
         </section>
 
         <section class='section review'>
-            <div class='row'>
-                <div class='column'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/client-review.svg' width='224px'
-                        height='341px' alt='image of testimonials from patients' />
+            <div id='slider' class="slider">
+                <div class='row'>
+                    <div class='column'>
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/client-review.svg' width='224px'
+                            height='341px' alt='image of testimonials from patients' />
+                    </div>
+                    <div class='column'>
+                        <div class='tbox'>
+                            <p class='tbox-text'>
+                                Thank goodness my concerns were off base, but knowing it for sure has been a huge stress
+                                reliever. I was able to be seen the same day I booked my appointment and the doctor took
+                                his
+                                time with me!
+                            </p>
+                            <p class='tbox-legend'>Julia</p>
+                        </div>
+                    </div>
                 </div>
-                <div class='column'>
-                    <div class='tbox'>
-                        <p class='tbox-text'>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the industry's
-                            standard dummy text ever since the 1500s, when an unknown
-                            printer took
-                        </p>
-                        <p class='tbox-legend'>Rachel Smith</p>
+                <div class='row'>
+                    <div class='column'>
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/client-review.svg' width='224px'
+                            height='341px' alt='image of testimonials from patients' />
+                    </div>
+                    <div class='column'>
+                        <div class='tbox'>
+                            <p class='tbox-text'>
+                                Dr. F is very thoughtful and kind. Very good Doctor. I’ve already recommended him to one
+                                of
+                                my friends
+                            </p>
+                            <p class='tbox-legend'>Diana</p>
+                        </div>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='column'>
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/client-review.svg' width='224px'
+                            height='341px' alt='image of testimonials from patients' />
+                    </div>
+                    <div class='column'>
+                        <div class='tbox'>
+                            <p class='tbox-text'>
+                                It took me forever to get myself to an STD clinic but once I did I felt silly for not
+                                coming
+                                sooner. The doctor talked to me about my concerns and made me feel completely
+                                comfortable.
+                            </p>
+                            <p class='tbox-legend'>Dennis</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -509,8 +541,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px' width='40px' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -521,46 +558,30 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/1.svg" alt="">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/2.svg" alt="">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/3.svg" alt="">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/4.svg" alt="">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/5.svg" alt="">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/6.svg" alt="">
+                </div>
+                <div class='topic'>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/8.svg" alt="">
+                </div>
+                <div class='topic'>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/7.svg" alt="">
+                </div>
+                <div class='topic'>
                 </div>
             </div>
         </section>
@@ -571,7 +592,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -600,8 +621,13 @@
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a>
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
+                    </a>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            width='40px' />
+                    </a>
                 </p>
             </div>
         </div>
