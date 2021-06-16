@@ -502,9 +502,9 @@
     }
 
     .answer, .deases .what_i_feel .FAQ ul li .answer p.semibold-text{
-        font-weight: 500;
+        font-weight: 600;
     }
     .answer, .deases .what_i_feel .FAQ ul li .answer p.bold-text{
-        font-weight: 600;
+        font-weight: 700;
     }
 }
