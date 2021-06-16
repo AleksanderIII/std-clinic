@@ -433,6 +433,7 @@
     .table-wrap {
         display: block;
         overflow-x: auto;
+        margin-right: 16px;
     }
 
     .deases .what_i_feel .FAQ {
