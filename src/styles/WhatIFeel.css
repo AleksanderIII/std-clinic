@@ -356,12 +356,16 @@
         padding: 32px 0;
     }
 
-    .deases .what_i_feel-heading h2 {
+    .deases .what_i_feel-content .what_i_feel-heading {
+        padding: 20px 0;
+    }
+
+    .deases .what_i_feel-content .what_i_feel-heading h2 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
 
-    .deases .what_i_feel-heading p {
+    .deases .what_i_feel-content .what_i_feel-heading p {
         font-size: 0.875rem;
         font-weight: 400;
         line-height: 1.375rem;
@@ -387,6 +391,30 @@
         margin-top: 0;
     }
 
+    .deases .what_i_feel h3 {
+        font-size: 1.125rem;
+        margin: 30px 0 15px 0;
+    }
+
+    .deases .what_i_feel p,
+    .deases .what_i_feel ul li,
+    .deases .what_i_feel table th,
+    .deases .what_i_feel table td p.table-bold-text,
+    .deases .what_i_feel table td ul li {
+        font-size: 0.875rem;
+    }
+
+    .deases .what_i_feel table th,
+    .deases .what_i_feel table td{
+        padding: 20px;
+        min-width: 170px;
+        width: 170px;
+    }
+    .deases .what_i_feel table td p.table-bold-text,
+    .deases .what_i_feel table td ul{
+        padding: 0;
+    }
+
     .deases .what_i_feel h3,
     .deases .what_i_feel p,
     .deases .what_i_feel ul,
@@ -394,10 +422,13 @@
         padding: 0 16px;
     }
 
+    .deases .what_i_feel table{
+        margin-right: 16px;
+    }
+
     .table-wrap {
         display: block;
         overflow-x: auto;
-        margin-right: 16px;
     }
 
     .deases .what_i_feel .FAQ {
@@ -426,6 +457,7 @@
 
     .deases .what_i_feel .FAQ ul {
         padding: 0;
+        margin-left: 0;
     }
 
     .deases .what_i_feel .FAQ ul li .question-text {
@@ -449,5 +481,10 @@
 
     .deases .what_i_feel .button {
         margin: 20px;
+        margin-bottom: 40px;
+    }
+
+    .deases .what_i_feel .FAQ{
+        padding-bottom: 0;
     }
 }
