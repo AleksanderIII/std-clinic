@@ -500,4 +500,11 @@
     .answer, .deases .what_i_feel .FAQ ul li .answer p{
         font-weight: 400;
     }
+
+    .answer, .deases .what_i_feel .FAQ ul li .answer p.semibold-text{
+        font-weight: 500;
+    }
+    .answer, .deases .what_i_feel .FAQ ul li .answer p.bold-text{
+        font-weight: 600;
+    }
 }
