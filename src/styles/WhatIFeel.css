@@ -405,13 +405,14 @@
     }
 
     .deases .what_i_feel table th,
-    .deases .what_i_feel table td{
+    .deases .what_i_feel table td {
         padding: 20px;
         min-width: 170px;
         width: 170px;
     }
+
     .deases .what_i_feel table td p.table-bold-text,
-    .deases .what_i_feel table td ul{
+    .deases .what_i_feel table td ul {
         padding: 0;
     }
 
@@ -422,7 +423,7 @@
         padding: 0 16px;
     }
 
-    .deases .what_i_feel table{
+    .deases .what_i_feel table {
         margin-right: 16px;
     }
 
@@ -469,6 +470,11 @@
         padding: 0;
     }
 
+    .deases .what_i_feel .FAQ ul li .answer,
+    .deases .what_i_feel .FAQ ul li .answer p {
+        font-size: 0.8125rem;
+    }
+
     .deases .what_i_feel .FAQ ul li .answer p {
         margin: 0;
         padding: 0;
@@ -484,7 +490,7 @@
         margin-bottom: 40px;
     }
 
-    .deases .what_i_feel .FAQ{
+    .deases .what_i_feel .FAQ {
         padding-bottom: 0;
     }
 }
