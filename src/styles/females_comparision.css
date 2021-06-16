@@ -40,6 +40,21 @@
     color: white;
 }
 
+.deases .females_comparision .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.deases .females_comparision .link {
+    font-weight: 700;
+    font-size: 0.625rem;
+    letter-spacing: 0;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: 'left';
+}
+
 .deases .females_comparision-heading h2 {
     margin-top: 0;
     font-size: 2.25rem;
@@ -351,6 +366,67 @@
         padding: 0;
     }
 
+    .deases .females_comparision h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .females_comparision table td,
+    .deases .females_comparision table th,
+    .deases .females_comparision table td ul li,
+    .deases .females_comparision table td p.table-bold-text,
+    .deases .females_comparision .section-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .females_comparision table td,
+    .deases .females_comparision table th {
+        padding: 20px;
+        min-width: 200px;
+    }
+
+    .deases .females_comparision .collage {
+        width: 100%;
+        padding: 0 16px;
+        margin: 0%;
+    }
+
+    .deases .females_comparision .collage-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .deases .females_comparision .image-name {
+        font-size: 1.25rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .females_comparision .collage-column .bold-text{
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .deases .females_comparision .FAQ ul li p.question-text{
+        font-size: 0.875rem;
+    }
+
+    .deases .females_comparision .FAQ ul li .answer td,
+    .deases .females_comparision .FAQ ul li .answer th,
+    .deases .females_comparision .FAQ ul li .answer p{
+        font-size: 0.8125rem;
+    }
+
+    .deases .females_comparision .link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .collage img {
+        width: 100%;
+        height: auto;
+    }
+
     .deases .females_comparision-heading {
         padding: 32px 0;
     }
@@ -370,7 +446,7 @@
     .deases .females_comparision-content {
         width: 100%;
     }
-    
+
     .deases .females_comparision h3,
     .deases .females_comparision p,
     .deases .females_comparision .table-wrap {
@@ -383,22 +459,22 @@
         margin-right: 16px;
     }
 
-    .deases .females_comparision .collage{
+    .deases .females_comparision .collage {
         margin: 10px 0;
         padding: 0 16px;
         flex-direction: column;
     }
 
-    .deases .females_comparision .collage img{
+    .deases .females_comparision .collage img {
         width: 100%;
         height: auto;
     }
-    
+
     .deases .females_comparision .FAQ {
         padding: 32px 16px;
     }
 
-    .deases .females_comparision .FAQ ul li{
+    .deases .females_comparision .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -441,7 +517,7 @@
         margin: 10px 0;
     }
 
-    .deases .females_comparision .button{
+    .deases .females_comparision .button {
         margin: 20px;
     }
 }

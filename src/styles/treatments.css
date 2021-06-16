@@ -11,6 +11,16 @@
     color: #354A87;
 }
 
+.deases .treatment .treatment-heading ul {
+    margin-left: 20px;
+}
+
+.deases .treatment .treatment-heading ul li {
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+    color: white;
+}
+
 .deases .treatment .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -279,6 +289,14 @@
     padding-right: 0;
 }
 
+.deases .treatment .FAQ ul {
+    margin: 15px 0 20px 0;
+}
+
+.deases .question-text {
+    font-weight: 600;
+}
+
 .deases .treatment .button {
     display: flex;
     align-items: center;
@@ -378,6 +396,33 @@
         padding: 0;
     }
 
+    .deases .treatment .treatment-heading ul li {
+        font-size: 0.875rem;
+        margin-bottom: 10px;
+    }
+
+    .deases .treatment h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .treatment ul {
+        margin: 10px 16px 10px 40px;
+    }
+
+    .deases .treatment ul li {
+        margin-bottom: 10px;
+        line-height: 1.5rem;
+    }
+
+    .deases .treatment p,
+    .deases .treatment ul li,
+    .deases .treatment .section-text,
+    .deases .treatment .bold-text,
+    .deases .treatment .bold-text~ul li {
+        font-size: 0.875rem;
+    }
+
     .deases .treatment-heading {
         padding: 32px 0;
     }
@@ -398,8 +443,24 @@
         width: 100%;
     }
 
-    .deases .treatment-heading .bold-text{
+    .deases .treatment-heading .bold-text {
         margin: 10px 0;
+    }
+
+    .deases .treatment table {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .deases .treatment table th,
+    .deases .treatment table td,
+    .deases .treatment table td p.table-bold-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .treatment table th,
+    .deases .treatment table td {
+        padding: 20px;
     }
 
     .deases .treatment-heading .bold-text,
@@ -416,7 +477,7 @@
         margin-bottom: 10px;
     }
 
-    .deases .treatment  .treatment-heading .bold-text~ul{
+    .deases .treatment .treatment-heading .bold-text~ul {
         margin: 10px 0 10px 16px;
     }
 
@@ -432,7 +493,7 @@
         margin-right: 16px;
     }
 
-    .deases .treatment .bold-text~ul{
+    .deases .treatment .bold-text~ul {
         margin-left: 30px;
         padding-right: 16px;
     }
@@ -441,7 +502,17 @@
         padding: 32px 16px;
     }
 
-    .deases .treatment .FAQ ul li{
+    .deases .treatment .FAQ .answer ul {
+        margin-left: 20px;
+    }
+
+    .deases .treatment .FAQ ul li .answer,
+    .deases .treatment .FAQ ul li .answer p,
+    .deases .treatment .FAQ .answer ul li {
+        font-size: 0.8125rem;
+    }
+
+    .deases .treatment .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -484,11 +555,11 @@
         margin: 10px 0;
     }
 
-    .deases .treatment .button{
+    .deases .treatment .button {
         margin: 20px;
     }
 
-    .deases .treatment .FAQ ul{
+    .deases .treatment .FAQ ul {
         margin: 10px 0;
     }
 }

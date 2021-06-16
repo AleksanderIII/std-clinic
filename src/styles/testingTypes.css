@@ -11,7 +11,7 @@
     color: #354A87;
 }
 
-.deases .testing_types .testing_types-heading .bold-text{
+.deases .testing_types .testing_types-heading .bold-text {
     color: white;
 }
 
@@ -97,7 +97,11 @@
     line-height: 1.625rem;
     text-align: left;
     color: #354A87;
-    margin: 30px 0px 30px 0px;
+    margin: 20px 0px 30px 0px;
+}
+
+.deases .testing_types b {
+    font-weight: 600;
 }
 
 .deases .testing_types .bold-text~ul {
@@ -388,10 +392,60 @@
     font-size: 0.75rem !important;
 }
 
+.deases .testing_types .FAQ ul {
+    margin-left: 0;
+}
+
+.deases .testing_types-content .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.deases .testing_types .FAQ .shifted {
+    margin-left: 20px;
+}
+
+.deases .testing_types .FAQ .shifted ul {
+    margin-left: 20px;
+}
+
+
 @media (max-width: 1200px) {
     .deases .testing_types {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .testing_types h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .testing_types .bold-text~ul {
+        margin-left: 20px;
+    }
+
+    .deases .testing_types .section-text,
+    .deases .testing_types .bold-text,
+    .deases .testing_types ul li,
+    .deases .testing_types .bold-text~ul li,
+    .deases .testing_types table th,
+    .deases .testing_types table td,
+    .deases .testing_types table tr td:first-child {
+        font-size: 0.875rem;
+    }
+
+    .deases .testing_types table th,
+    .deases .testing_types table td {
+        padding: 20px;
+        width: 180px;
+        min-width: 180px;
+        max-width: 180px;
+    }
+
+    .deases .testing_types .bold-text {
+        margin-top: 10px;
+        margin-bottom: 20px;
     }
 
     .deases .testing_types-heading {
@@ -410,6 +464,30 @@
         margin-right: 0;
     }
 
+    .deases .question-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .testing_types .FAQ ul li .answer p,
+    .deases .testing_types .FAQ ul li .answer table td,
+    .deases .testing_types .FAQ ul li .answer table th,
+    .deases .testing_types .FAQ table td:first-child:not(.centered):not(.row_name),
+    .deases .testing_types .FAQ ul li {
+        font-size: 0.8125rem;
+    }
+
+    .deases .testing_types .FAQ ul li .answer p.source {
+        font-size: 0.625rem;
+    }
+
+    .deases .testing_types .FAQ ul li .answer p.semibold-text {
+        font-weight: 600;
+    }
+
+    .deases .testing_types .FAQ ul li .answer p.bold-text {
+        font-weight: 700;
+    }
+
     .deases .testing_types-content {
         width: 100%;
     }
@@ -421,12 +499,12 @@
         padding: 0 16px;
     }
 
-    
+
     .deases .testing_types .testing_types-heading .bold-text~ul {
         margin: 0 0 10px 16px;
     }
 
-    .deases .testing_types ul{
+    .deases .testing_types ul {
         margin: 10px 0;
     }
 
@@ -446,7 +524,7 @@
         padding: 32px 16px;
     }
 
-    .deases .testing_types .FAQ ul li{
+    .deases .testing_types .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -489,7 +567,7 @@
         margin: 10px 0;
     }
 
-    .deases .testing_types .button{
+    .deases .testing_types .button {
         margin: 20px;
     }
 }

@@ -25,6 +25,11 @@
     background: white;
 }
 
+.deases .protecting .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
 .deases .protecting-content.filled {
     margin: 0 50px;
 }
@@ -365,6 +370,36 @@
         padding: 0;
     }
 
+    .deases .protecting h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .protecting ul li {
+        line-height: 1.5rem;
+    }
+
+    .deases .protecting p,
+    .deases .protecting ul li,
+    .deases .protecting .section-text,
+    .deases .protecting table th,
+    .deases .protecting table td,
+    .deases .protecting table li,
+    .deases .protecting table td p.table-bold-text,
+    .deases .protecting .FAQ ul li p.question-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .protecting .FAQ ul li .answer p ,
+    .deases .protecting .FAQ ul li .answer ul li{
+        font-size: 0.8125rem;
+    }
+
+    .deases .protecting .protecting-heading ul li {
+        font-size: 0.875rem;
+        margin-bottom: 10px;
+    }
+
     .deases .protecting-heading {
         padding: 32px 0;
     }
@@ -396,7 +431,7 @@
         padding: 10px 16px;
     }
 
-    .deases .protecting-content ul li{
+    .deases .protecting-content ul li {
         margin-left: 16px;
     }
 

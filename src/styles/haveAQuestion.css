@@ -58,6 +58,10 @@
     font-weight: 600;
 }
 
+.have-a-question-wrapper a {
+    color: white;
+}
+
 
 
 @media (max-width: 1200px) {
@@ -67,7 +71,7 @@
         width: 100vw;
     }
 
-    .have-a-question-wrapper{
+    .have-a-question-wrapper {
         width: 100%;
         padding: 0;
     }

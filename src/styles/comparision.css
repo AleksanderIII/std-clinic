@@ -11,6 +11,18 @@
     color: #354A87;
 }
 
+.deases .comparision .comparision-heading ul {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.deases .comparision ul li {
+    font-size: 1rem;
+}
+
+.deases .comparision .comparision-heading ul li {
+    font-size: 1.125rem;
+}
 
 .deases .comparision .comparision-heading .bold-text,
 .deases .comparision .comparision-heading .bold-text~ul li,
@@ -342,9 +354,14 @@
 .deases .comparision ul li {
     font-family: 'Montserrat-Medium', sans-serif;
     color: #354A87;
-    font-size: 0.875rem;
     margin-bottom: 20px;
     list-style-type: disc;
+}
+
+
+.deases .comparision .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 
 .deases .comparision .FAQ ul {
@@ -374,12 +391,59 @@
         padding: 0;
     }
 
+    .deases .comparision h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .comparision ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 16px;
+    }
+
+    .deases .comparision .section-text,
+    .deases .comparision ul li {
+        font-size: 0.875rem;
+        margin-bottom: 10px;
+    }
+
+
+    .deases .comparision table th,
+    .deases .comparision table td {
+        padding: 20px;
+        width: 200px;
+        min-width: 200px;
+    }
+
+    .deases .comparision .FAQ ul li p.question-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .comparision .FAQ ul li .answer p,
+    .deases .comparision .FAQ ul li .answer li,
+    .deases .comparision table th,
+    .deases .comparision table td {
+        font-size: 0.8125rem;
+    }
+
+    .deases .comparision table th,
+    .deases .comparision table td,
+    .deases .comparision table .bold-text,
+    .deases .comparision table td p.table-bold-text {
+        font-size: 0.875rem;
+    }
+
     .deases .comparision-heading {
         padding: 32px 0;
     }
 
     .deases .comparision .comparision-heading ul {
         margin: 10px 0 10px 16px;
+    }
+
+    .deases .comparision .comparision-heading ul li {
+        font-size: 0.875rem;
     }
 
     .deases .comparision-heading ul li {

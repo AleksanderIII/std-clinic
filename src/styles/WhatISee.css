@@ -57,7 +57,7 @@
 }
 
 .deases .what_i_see-heading p {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-right: 30px;
     font-size: 1.125rem;
@@ -91,6 +91,21 @@
     line-height: 1.875rem;
 }
 
+.deases .what_i_see ul {
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.deases .what_i_see ul li {
+    font-family: 'Montserrat-Medium', sans-serif;
+    list-style-type: disc;
+    color: #354A87;
+    margin-bottom: 15px;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
 .deases .what_i_see .bold-text {
     font-family: 'Montserrat-SemiBold', sans-serif;
     font-weight: 600;
@@ -117,7 +132,20 @@
 }
 
 .deases .what_i_see .legend {
-    margin: 30px 0px 10px 20px;
+    font-size: 0.875rem;
+    margin: 20px 0px 10px 20px;
+}
+
+.deases .what_i_see table ul li {
+    color: #629EA8;
+}
+
+.deases .what_i_see .subHeader {
+    font-size: 1.125rem;
+}
+
+.deases .what_i_see .graph-description {
+    margin-left: 20px;
 }
 
 .deases .what_i_see .graph_header {
@@ -183,6 +211,10 @@
     color: #4F67A3;
 }
 
+.deases .what_i_see .discharge .bold-text {
+    margin-bottom: 10px;
+}
+
 .deases .what_i_see .FAQ {
     display: flex;
     flex-direction: column;
@@ -191,6 +223,12 @@
     background: linear-gradient(25.45deg, rgba(246, 246, 246, 0.15) 14.89%, rgba(102, 190, 211, 0.15) 90.58%);
     margin-top: 30px;
 }
+
+.deases .what_i_see-content .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
 
 .deases .what_i_see .FAQ-content {
     padding: 0 40px;
@@ -261,6 +299,7 @@
 
 .deases .what_i_see .collage.three-column {
     display: flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
@@ -271,13 +310,16 @@
 }
 
 .deases .what_i_see .collage.two-column {
+    width: 100%;
+    max-width: 1140px;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .deases .what_i_see .collage.two-column .column {
-    width: 50%;
+    width: 500px;
     padding-right: 5px;
 }
 
@@ -316,12 +358,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.deases .what_i_see .collage-item {
-    max-width: 326px;
-    width: 326px;
-    margin-right: 30px;
 }
 
 .deases .what_i_see .collage-item:nth-child(4),
@@ -397,10 +433,49 @@
     margin-bottom: 10px;
 }
 
+.deases .what_i_see .collage-item .item-header {
+    font-weight: 600;
+}
+
+.deases .what_i_see .collage-item .link {
+    font-size: 0.625rem;
+}
+
+
+.deases .what_i_see .three-column .collage-item {
+    max-width: 326px;
+    width: 326px;
+    margin-right: 30px;
+}
+
 @media (max-width: 1200px) {
     .deases .what_i_see {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .what_i_see h3 {
+        font-size: 1.125rem;
+        font-weight: 500;
+        margin: 15px 0;
+    }
+
+    .deases .what_i_see .subHeader {
+        font-size: 1rem;
+    }
+
+    .deases .what_i_see p,
+    .deases .what_i_see ul li {
+        margin-bottom: 10px;
+    }
+
+    .deases .what_i_see p,
+    .deases .what_i_see ul li {
+        font-size: 0.875rem;
+    }
+
+    .deases .what_i_see .legend {
+        font-size: 0.8125rem;
     }
 
     .deases .what_i_see-heading {
@@ -464,15 +539,56 @@
         height: auto;
     }
 
+    .deases .what_i_see table td,
+    .deases .what_i_see table th {
+        padding: 20px;
+        width: 170px;
+        min-width: 170px;
+        max-width: 170px;
+    }
+
+    .deases .what_i_see table th {
+        font-size: 0.875rem;
+    }
+
+    .deases .what_i_see table td {
+        font-size: 0.75rem;
+    }
+
+    .deases .what_i_see table td ul,
+    .deases .what_i_see table td ul li,
+    .deases .what_i_see table td p.table-bold-text {
+        font-size: 0.75rem;
+        padding-left: 0;
+    }
+
     .deases .what_i_see .graph {
         margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
         height: 164px;
         width: 328px;
     }
 
+    .deases .what_i_see ul {
+        margin-top: 20px;
+    }
+
+    .deases .what_i_see .discharge ul {
+        margin: 10px 0 20px 0;
+    }
+
+    .deases .what_i_see .discharge ul li {
+        font-size: 0.875rem;
+    }
 
     .deases .what_i_see .FAQ {
         padding: 32px 16px;
+    }
+
+    .deases .what_i_see .FAQ ul {
+        margin-left: 0;
+        margin-top: 0;
     }
 
     .deases .what_i_see .FAQ ul li {
@@ -506,6 +622,20 @@
     .deases .what_i_see .FAQ ul li .answer {
         margin: 16px;
         padding: 0;
+    }
+
+    .deases .what_i_see .FAQ ul li .answer,
+    .deases .what_i_see .FAQ ul li .answer p,
+    .deases .what_i_see .FAQ ul li .answer ul li {
+        font-size: 0.8125rem;
+    }
+
+    .deases .what_i_see .FAQ ul li .answer p.semibold-text {
+        font-weight: 600;
+    }
+
+    .deases .what_i_see .FAQ ul li .answer p.bold-text {
+        font-weight: 700;
     }
 
     .deases .what_i_see .FAQ ul li .answer p {
@@ -542,5 +672,11 @@
     .answer_image {
         width: 100%;
         height: auto;
+    }
+
+    .deases .what_i_see .collage.two-column .column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

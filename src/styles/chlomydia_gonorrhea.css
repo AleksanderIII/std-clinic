@@ -310,6 +310,22 @@
     width: 100%;
     padding-left: 50px;
     text-align: 'left';
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.deases .chlomydia_gonorrhea .collage-column {
+    margin-bottom: 80px;
+}
+
+.deases .chlomydia_gonorrhea .link {
+    font-weight: 700;
+    font-size: 0.625rem;
+    letter-spacing: 0;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: 'left';
 }
 
 .deases .chlomydia_gonorrhea ul {
@@ -364,11 +380,69 @@
     color: #629EA8;
 }
 
+.deases .chlomydia_gonorrhea .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.deases .chlomydia_gonorrhea .FAQ table td ul {
+    margin-left: 0px;
+}
+
 
 @media (max-width: 1200px) {
     .deases .chlomydia_gonorrhea {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .chlomydia_gonorrhea h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .chlomydia_gonorrhea table th {
+        min-width: 250px;
+    }
+
+    .deases .chlomydia_gonorrhea table th,
+    .deases .chlomydia_gonorrhea table td,
+    .deases .chlomydia_gonorrhea table td p.table-bold-text,
+    .deases .chlomydia_gonorrhea table td ul li,
+    .deases .chlomydia_gonorrhea p {
+        font-size: 0.875rem;
+    }
+
+    .deases .chlomydia_gonorrhea .collage {
+        width: 100%;
+        padding: 0 16px;
+        margin: 0%;
+    }
+
+    .deases .chlomydia_gonorrhea .collage-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .deases .chlomydia_gonorrhea .image-name {
+        font-size: 1.25rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .chlomydia_gonorrhea .link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .collage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deases .chlomydia_gonorrhea table th,
+    .deases .chlomydia_gonorrhea table td {
+        padding: 20px;
     }
 
     .deases .chlomydia_gonorrhea-heading {
@@ -378,6 +452,16 @@
     .deases .chlomydia_gonorrhea-heading h2 {
         font-size: 1.5rem;
         padding: 0 16px;
+    }
+
+    .deases .chlomydia_gonorrhea .FAQ ul li p.question-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .chlomydia_gonorrhea .FAQ ul li .answer p,
+    .deases .chlomydia_gonorrhea .FAQ table th,
+    .deases .chlomydia_gonorrhea .FAQ table li {
+        font-size: 0.8125rem;
     }
 
     .deases .chlomydia_gonorrhea-heading p {

@@ -19,6 +19,21 @@
     background: #A2AED0;
 }
 
+.deases .female_chlomydia_yeast .link {
+    font-weight: 700;
+    font-size: 0.625rem;
+    letter-spacing: 0;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: 'left';
+}
+
+.deases .female_chlomydia_yeast .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
 .deases .female_chlomydia_yeast-content {
     display: flex;
     flex-direction: column;
@@ -366,6 +381,65 @@
         padding: 0;
     }
 
+    .deases .female_chlomydia_yeast h3 {
+        font-size: 1.125rem;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .female_chlomydia_yeast table th {
+        min-width: 250px;
+    }
+
+    .deases .female_chlomydia_yeast table th,
+    .deases .female_chlomydia_yeast table td,
+    .deases .female_chlomydia_yeast table td p.table-bold-text,
+    .deases .female_chlomydia_yeast table td ul li,
+    .deases .female_chlomydia_yeast p,
+    .deases .female_chlomydia_yeast .bold-text {
+        font-size: 0.875rem;
+    }
+
+    .deases .female_chlomydia_yeast .collage {
+        width: 100%;
+        padding: 0 16px;
+        margin: 0%;
+    }
+
+    .deases .female_chlomydia_yeast .collage-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .deases .female_chlomydia_yeast .image-name {
+        font-size: 1.25rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .female_chlomydia_yeast .link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .female_chlomydia_yeast .collage-column .image-name{
+        margin-left: 0;
+    }
+
+    .collage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deases .female_chlomydia_yeast .FAQ ul li p.question-text{
+        font-size: 0.875rem;
+    }
+
+    .deases .female_chlomydia_yeast .FAQ ul li .answer p,
+    .deases .female_chlomydia_yeast table th,
+    .deases .female_chlomydia_yeast table td{
+        font-size: 0.8125rem;
+    }
+
     .deases .female_chlomydia_yeast-heading {
         padding: 32px 0;
     }
@@ -398,7 +472,7 @@
         margin-right: 16px;
     }
 
-    .deases .female_chlomydia_yeast .collage{
+    .deases .female_chlomydia_yeast .collage {
         flex-direction: column;
     }
 
@@ -406,7 +480,7 @@
         padding: 32px 16px;
     }
 
-    .deases .female_chlomydia_yeast .FAQ ul li{
+    .deases .female_chlomydia_yeast .FAQ ul li {
         margin-bottom: 10px;
     }
 
@@ -449,7 +523,7 @@
         margin: 10px 0;
     }
 
-    .deases .female_chlomydia_yeast .button{
+    .deases .female_chlomydia_yeast .button {
         margin: 20px;
     }
 }
