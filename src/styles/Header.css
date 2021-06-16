@@ -126,6 +126,7 @@
   }
 
   .menu-subfolder-item {
+    width: 100%;
     padding: 10px 15px;
     background: #ffffff;
   }
@@ -135,11 +136,13 @@
   }
 
   .menu-subfolder-item:hover a {
+    width: 100%;
     color: white;
     font-weight: 600;
   }
 
   .menu-subfolder-item .menu-link {
+    width: 100%;
     cursor: pointer;
   }
 
