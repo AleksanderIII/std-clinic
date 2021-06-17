@@ -20,7 +20,7 @@
 }
 
 .deases .female_chlomydia_yeast .link {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 0.625rem;
     letter-spacing: 0;
     width: 100%;
@@ -356,6 +356,7 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 1.875rem;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .deases .female_chlomydia_yeast .answer ul {

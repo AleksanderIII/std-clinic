@@ -46,7 +46,7 @@
 }
 
 .deases .females_comparision .link {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 0.625rem;
     letter-spacing: 0;
     width: 100%;
@@ -108,7 +108,7 @@
     line-height: 1.625rem;
     text-align: left;
     color: #354A87;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 15px 0px;
 }
 
 .deases .females_comparision .bold-text~ul {
@@ -342,6 +342,7 @@
     font-size: 1.875rem;
     font-weight: 700;
 }
+
 
 .deases .females_comparision .answer ul {
     margin-left: 30px;

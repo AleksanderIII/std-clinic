@@ -383,7 +383,7 @@
 
 .home .section.review .row .column .tbox-legend {
   position: absolute;
-  bottom: 40px;
+  bottom: 50px;
   right: 65px;
   color: #DC593A;
 }
@@ -891,6 +891,13 @@
   .home .related-topics .topics .topic:last-child {
     height: 0;
     margin-bottom: 50px;
+  }
+
+  .home .section.review .row .column .tbox-legend {
+    position: absolute;
+    bottom: 45px;
+    right: 65px;
+    color: #DC593A;
   }
 
 }

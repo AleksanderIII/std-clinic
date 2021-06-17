@@ -327,6 +327,10 @@
     padding-right: 0;
 }
 
+.deases .what_i_see .collage .description {
+    margin-top: 15px;
+}
+
 .deases .what_i_see .button {
     display: flex;
     align-items: center;
@@ -434,10 +438,12 @@
 }
 
 .deases .what_i_see .collage-item .item-header {
+    margin-top: 15px;
     font-weight: 600;
 }
 
 .deases .what_i_see .collage-item .link {
+    margin-top: 15px;
     font-size: 0.625rem;
 }
 
@@ -448,10 +454,33 @@
     margin-right: 30px;
 }
 
+.deases .what_i_see .collage.two-column.separated {
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+
+.deases .what_i_see .FAQ ul{
+    margin-left: 0;
+}
+
 @media (max-width: 1200px) {
     .deases .what_i_see {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .what_i_see .collage-item p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .what_i_see .collage.two-column .column {
+        align-items: flex-start;
+    }
+
+    .deases .what_i_see .collage.two-column.separated {
+        justify-content: flex-start;
+        padding-left: 10px;
     }
 
     .deases .what_i_see h3 {
@@ -663,10 +692,33 @@
         margin-top: 10px;
     }
 
-    .deases .what_i_see .collage.two-column .column img,
+    .deases .what_i_see .collage.three-column,
+    .deases .what_i_see .collage.two-column {
+        max-width: 100%;
+        width: 100%;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .deases .what_i_see .three-column .collage-item,
+    .deases .what_i_see .collage.two-column .collage-item {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .deases .what_i_see .collage h3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .deases .what_i_see .collage-item img {
-        width: 328px;
-        height: 328px;
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        height: auto;
     }
 
     .answer_image {
@@ -677,6 +729,5 @@
     .deases .what_i_see .collage.two-column .column {
         display: flex;
         flex-direction: column;
-        align-items: center;
     }
 }
