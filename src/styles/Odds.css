@@ -260,6 +260,10 @@
     font-family: 'Montserrat-SemiBold', sans-serif;
 }
 
+.deases .my_odds .FAQ .answer ul {
+    margin-left: 20px;
+}
+
 .deases .my_odds .collage.three-column {
     display: flex;
     flex-direction: row;
