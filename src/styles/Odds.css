@@ -400,6 +400,10 @@
         margin: 25px 0 15px 0;
     }
 
+    .deases .my_odds ul li{
+        font-weight: 400;
+    }
+
     .my_odds p {
         font-size: 0.875rem;
         line-height: 1.5rem;
