@@ -452,6 +452,7 @@
 
     .deases .what_i_feel .FAQ ul li {
         margin-bottom: 10px;
+        font-weight: 400;
         font-size: 0.8125rem;
     }
 
@@ -488,6 +489,10 @@
     .deases .what_i_feel .FAQ ul li .answer,
     .deases .what_i_feel .FAQ ul li .answer p {
         font-size: 0.8125rem;
+    }
+
+    .deases .what_i_feel .FAQ ul li .answer ul li {
+        margin-bottom: 5px;
     }
 
     .deases .what_i_feel .FAQ ul li .answer p {
