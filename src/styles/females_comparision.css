@@ -372,6 +372,10 @@
         margin: 25px 0 15px 0;
     }
 
+    .deases .females_comparision table td ul li{
+        font-weight: 400;
+    }
+
     .deases .females_comparision table td,
     .deases .females_comparision table th,
     .deases .females_comparision table td ul li,
