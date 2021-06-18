@@ -525,6 +525,10 @@
     }
 
     .deases .testing_types .FAQ ul li {
+        margin-bottom: 10px;
+    }
+
+    .deases .testing_types .FAQ .answer ul li {
         margin-bottom: 5px;
     }
 
