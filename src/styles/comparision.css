@@ -11,6 +11,10 @@
     color: #354A87;
 }
 
+.deases .comparision .comparision-heading ul li {
+    margin-bottom: 10px;
+}
+
 .deases .comparision .comparision-heading ul {
     margin-left: 20px;
     margin-top: 20px;
@@ -565,7 +569,7 @@
         margin: 10px 0;
     }
 
-    .deases .comparision table td ul li{
+    .deases .comparision table td ul li {
         font-weight: 400;
     }
 
