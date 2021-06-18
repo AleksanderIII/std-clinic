@@ -396,6 +396,10 @@
         padding: 0;
     }
 
+    deases .treatment .bold-text~ul li{
+        font-weight: 400;
+    }
+
     .deases .treatment ul li p.bold-text {
         padding-left: 0;
     }
