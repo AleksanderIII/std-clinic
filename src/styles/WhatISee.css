@@ -608,10 +608,6 @@
         width: 328px;
     }
 
-    .deases .what_i_see ul {
-        margin-top: 20px;
-    }
-
     .deases .what_i_see .discharge ul {
         margin: 10px 0 20px 0;
     }
@@ -666,6 +662,7 @@
     .deases .what_i_see .FAQ ul li .answer p,
     .deases .what_i_see .FAQ ul li .answer ul li {
         font-size: 0.8125rem;
+        margin-bottom: 5px;
     }
 
     .deases .what_i_see .FAQ ul li .answer p.semibold-text {
