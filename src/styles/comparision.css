@@ -561,6 +561,10 @@
         margin: 10px 0;
     }
 
+    .deases .comparision .FAQ table ul li{
+        font-weight: 400;
+    }
+
     .deases .comparision .button {
         margin: 20px;
     }
