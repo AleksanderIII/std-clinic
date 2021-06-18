@@ -333,6 +333,11 @@
         padding: 0;
     }
 
+    .deases .myth ul li,
+    .deases .myth ul li.section-text {
+        font-weight: 400;
+    }
+
     .deases .myth .bold-text~ul {
         margin-left: 16px;
         margin-right: 16px;
