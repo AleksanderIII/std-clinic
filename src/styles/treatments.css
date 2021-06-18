@@ -396,8 +396,8 @@
         padding: 0;
     }
 
-    deases .treatment .bold-text~ul li,
-    deases .treatment ul li {
+    .deases .treatment .bold-text~ul li,
+    .deases .treatment ul li {
         font-weight: 400;
     }
 
