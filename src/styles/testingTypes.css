@@ -508,6 +508,10 @@
         margin: 10px 0;
     }
 
+    .deases .testing_types h3 {
+        font-weight: 500;
+    }
+
     .deases .testing_types ul li {
         font-size: 0.875rem;
         font-weight: 400;

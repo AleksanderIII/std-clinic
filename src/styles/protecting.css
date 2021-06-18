@@ -369,6 +369,10 @@
         margin-top: 56px;
         padding: 0;
     }
+    
+    .deases .protecting h3 {
+        font-weight: 500;
+    }
 
     .deases .protecting-heading ul {
         margin: 10px 0;

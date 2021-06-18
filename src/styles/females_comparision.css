@@ -368,6 +368,10 @@
     }
 
     .deases .females_comparision h3 {
+        font-weight: 500;
+    }
+
+    .deases .females_comparision h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
     }

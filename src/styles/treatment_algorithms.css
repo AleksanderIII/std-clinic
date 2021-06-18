@@ -324,6 +324,10 @@
         padding: 0;
     }
 
+    .deases .treatment-algorithm h3 {
+        font-weight: 500;
+    }
+
     .deases .treatment-algorithm-heading ul {
         margin: 5px 0;
     }

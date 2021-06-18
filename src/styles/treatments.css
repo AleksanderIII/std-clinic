@@ -395,6 +395,10 @@
         margin-top: 56px;
         padding: 0;
     }
+    
+    .deases .treatment h3 {
+        font-weight: 500;
+    }
 
     .deases .treatment .bold-text~ul li,
     .deases .treatment ul li {

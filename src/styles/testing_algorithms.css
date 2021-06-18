@@ -325,12 +325,14 @@
     margin: 0;
 }
 
-
-
 @media (max-width: 1200px) {
     .deases .testing_algoritms {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .testing_algoritms h3 {
+        font-weight: 500;
     }
 
     .deases .testing_algoritms-heading {

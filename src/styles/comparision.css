@@ -556,6 +556,10 @@
         padding: 0;
     }
 
+    .deases .comparision h3 {
+        font-weight: 500;
+    }
+
     .deases .comparision .FAQ ul li .answer p.bold-text,
     .deases .comparision .FAQ ul li .answer p.semibold-text {
         margin: 10px 0;

@@ -400,6 +400,10 @@
         margin: 25px 0 15px 0;
     }
 
+    .deases .my_odds h3 {
+        font-weight: 500;
+    }
+
     .deases .my_odds table td ul li {
         font-weight: 400;
     }
