@@ -333,6 +333,10 @@
         padding: 0;
     }
 
+    .deases .myth h3 {
+        font-weight: 500;
+    }
+
     .deases .myth ul li,
     .deases .myth ul li.section-text,
     .deases .myth .bold-text~ul li {
