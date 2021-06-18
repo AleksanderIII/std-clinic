@@ -374,6 +374,10 @@
         margin: 10px 0;
     }
 
+    .deases .protecting table td ul li{
+        font-weight: 400;
+    }
+
     .deases .protecting table td,
     .deases .protecting table th {
         padding: 20px;
