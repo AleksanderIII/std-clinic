@@ -199,6 +199,10 @@
     color: #4F67A3;
 }
 
+.deases .what_i_feel table p {
+    padding-left: 0;
+}
+
 .deases .what_i_feel .FAQ {
     display: flex;
     flex-direction: column;
@@ -235,6 +239,7 @@
 
 .deases .what_i_feel .FAQ ul {
     margin-top: 15px;
+    margin-left: 0;
 }
 
 .deases .what_i_feel .FAQ ul li {
@@ -441,8 +446,13 @@
         padding: 32px 16px;
     }
 
+    .deases .what_i_feel .FAQ .answer ul {
+        margin-left: 16px;
+    }
+
     .deases .what_i_feel .FAQ ul li {
         margin-bottom: 10px;
+        font-size: 0.8125rem;
     }
 
     .deases .what_i_feel .FAQ h3 {

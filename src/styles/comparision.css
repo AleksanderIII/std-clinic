@@ -396,6 +396,10 @@
         margin: 25px 0 15px 0;
     }
 
+    .deases .comparision p {
+        font-size: 0.875rem;
+    }
+
     .deases .comparision ul {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -405,9 +409,24 @@
     .deases .comparision .section-text,
     .deases .comparision ul li {
         font-size: 0.875rem;
+        line-height: 1.2rem;
         margin-bottom: 10px;
     }
 
+    .deases .comparision table td p.table-bold-text {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .deases .comparision .answer ul {
+        margin-left: 16px;
+    }
+
+    .deases .comparision .FAQ table td p.table-bold-text,
+    .deases .comparision .FAQ table td,
+    .deases .comparision .FAQ table th {
+        font-size: 0.8125rem;
+    }
 
     .deases .comparision table th,
     .deases .comparision table td {

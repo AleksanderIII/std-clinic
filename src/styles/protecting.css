@@ -370,6 +370,20 @@
         padding: 0;
     }
 
+    .deases .protecting-heading ul {
+        margin: 10px 0;
+    }
+
+    .deases .protecting table td,
+    .deases .protecting table th {
+        padding: 20px;
+        min-width: 200px;
+    }
+
+    .deases .protecting table td ul {
+        padding: 0;
+    }
+
     .deases .protecting h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -390,14 +404,14 @@
         font-size: 0.875rem;
     }
 
-    .deases .protecting .FAQ ul li .answer p ,
-    .deases .protecting .FAQ ul li .answer ul li{
+    .deases .protecting .FAQ ul li .answer p,
+    .deases .protecting .FAQ ul li .answer ul li {
         font-size: 0.8125rem;
     }
 
     .deases .protecting .protecting-heading ul li {
         font-size: 0.875rem;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
 
     .deases .protecting-heading {

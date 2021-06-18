@@ -382,6 +382,10 @@
         padding: 0;
     }
 
+    .deases .my_odds .my_odds-heading ul li {
+        margin-bottom: 5px;
+    }
+
     .deases .my_odds-heading {
         padding: 32px 0;
     }
@@ -473,8 +477,17 @@
         padding: 32px 16px;
     }
 
+    .deases .my_odds .FAQ .answer ul{
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
     .deases .my_odds .FAQ ul li {
         margin-bottom: 10px;
+    }
+
+    .deases .my_odds .FAQ .answer ul li{
+        margin-bottom: 5px;
     }
 
     .deases .my_odds .FAQ h3 {
@@ -508,7 +521,9 @@
 
     .deases .my_odds .FAQ ul li .answer,
     .deases .my_odds .answer ul li,
-    .deases .my_odds .FAQ ul li .answer p {
+    .deases .my_odds .FAQ ul li .answer p,
+    .deases .my_odds table td,
+    .deases .my_odds table th {
         font-size: 0.8125rem;
     }
 

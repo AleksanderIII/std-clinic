@@ -396,6 +396,28 @@
         padding: 0;
     }
 
+    .deases .treatment ul li p.bold-text {
+        padding-left: 0;
+    }
+
+    .deases .treatment table th{
+        min-width: 200px;
+    }
+
+    .deases .treatment .FAQ .answer ul li{
+        margin-bottom: 5px;
+    }
+
+    .deases .treatment table td p.table-bold-text{
+        margin-bottom: 5px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .treatment .treatment-content .bold-text~ul {
+        margin-left: 16px;
+    }
+
     .deases .treatment .treatment-heading ul li {
         font-size: 0.875rem;
         margin-bottom: 10px;

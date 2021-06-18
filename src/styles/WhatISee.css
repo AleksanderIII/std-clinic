@@ -459,6 +459,10 @@
     padding-left: 35px;
 }
 
+.deases .what_i_see table p {
+    padding-left: 0;
+}
+
 .deases .what_i_see .FAQ ul{
     margin-left: 0;
 }

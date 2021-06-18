@@ -333,6 +333,17 @@
         padding: 0;
     }
 
+    .deases .myth .bold-text~ul {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .deases .myth .bold-text~ul li {
+        font-size: 0.875rem;
+        margin-left: 16px;
+        margin-bottom: 5px;
+    }
+
     .deases .myth ul {
         margin-left: 40px;
         margin-right: 16px;
