@@ -396,7 +396,8 @@
         padding: 0;
     }
 
-    deases .treatment .bold-text~ul li{
+    deases .treatment .bold-text~ul li,
+    deases .treatment ul li {
         font-weight: 400;
     }
 
@@ -404,15 +405,15 @@
         padding-left: 0;
     }
 
-    .deases .treatment table th{
+    .deases .treatment table th {
         min-width: 200px;
     }
 
-    .deases .treatment .FAQ .answer ul li{
+    .deases .treatment .FAQ .answer ul li {
         margin-bottom: 5px;
     }
 
-    .deases .treatment table td p.table-bold-text{
+    .deases .treatment table td p.table-bold-text {
         margin-bottom: 5px;
         padding-left: 0;
         padding-right: 0;
