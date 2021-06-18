@@ -334,7 +334,8 @@
     }
 
     .deases .myth ul li,
-    .deases .myth ul li.section-text {
+    .deases .myth ul li.section-text,
+    .deases .myth .bold-text~ul li {
         font-weight: 400;
     }
 
