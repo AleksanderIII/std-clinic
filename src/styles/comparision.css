@@ -15,6 +15,16 @@
     margin-bottom: 10px;
 }
 
+.deases .comparision .link {
+    font-weight: 500;
+    font-size: 0.625rem;
+    letter-spacing: 0;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 50px;
+    text-align: left;
+}
+
 .deases .comparision .comparision-heading ul {
     margin-left: 20px;
     margin-top: 20px;
@@ -298,6 +308,10 @@
     padding-right: 5px;
 }
 
+.deases .comparision .collage.two-column .column .name {
+    font-size: 1.875rem;
+}
+
 .deases .comparision .collage.two-column .column:last-child {
     padding-right: 0;
 }
@@ -370,6 +384,11 @@
 
 .deases .comparision .FAQ ul {
     margin-left: 0px;
+    margin-right: 0;
+}
+
+.deases .comparision .FAQ .answer ul li {
+    margin-bottom: 5px;
 }
 
 .deases .comparision .answer ul {
@@ -388,6 +407,13 @@
     font-size: 0.75rem;
 }
 
+.deases .comparision ul li {
+    line-height: 1.5rem;
+}
+
+.deases .comparision table td b {
+    font-weight: 600;
+}
 
 @media (max-width: 1200px) {
     .deases .comparision {
@@ -413,8 +439,42 @@
     .deases .comparision .section-text,
     .deases .comparision ul li {
         font-size: 0.875rem;
-        line-height: 1.2rem;
+        line-height: 1.4rem;
         margin-bottom: 10px;
+    }
+
+    .deases .comparision .collage {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 16px;
+    }
+
+    .deases .comparision .collage.two-column .column {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .deases .comparision .collage.two-column .column img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deases .comparision .collage.two-column .column .name,
+    .deases .comparision .collage.two-column .column .link {
+        padding: 0;
+    }
+
+    .deases .comparision .collage.two-column .column .name {
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+
+    .deases .comparision .collage.two-column .column .link {
+        margin-bottom: 20px;
+    }
+
+    .deases .comparision .collage.two-column {
+        flex-direction: column;
     }
 
     .deases .comparision table td p.table-bold-text {

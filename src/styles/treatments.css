@@ -390,14 +390,31 @@
     margin-top: 10px;
 }
 
+.deases .treatment ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.deases .treatment ul li {
+    line-height: 1.5rem;
+}
+
+
 @media (max-width: 1200px) {
     .deases .treatment {
         margin-top: 56px;
         padding: 0;
     }
-    
+
     .deases .treatment h3 {
         font-weight: 500;
+    }
+
+    .deases .treatment .FAQ .answer table td,
+    .deases .treatment .FAQ .answer table th,
+    .deases .treatment .FAQ .answer table td ul li {
+        font-size: 0.8125rem;
     }
 
     .deases .treatment .bold-text~ul li,

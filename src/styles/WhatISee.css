@@ -11,6 +11,15 @@
     color: #354A87;
 }
 
+.deases .what_i_see .what_i_see-heading ul{
+    margin-top: 10px;
+}
+
+.deases .what_i_see .what_i_see-heading ul li {
+    color: white;
+    font-size: 1.125rem;
+}
+
 .deases .what_i_see .what_i_see-heading .bold-text,
 .deases .what_i_see .what_i_see-heading .bold-text~ul li {
     color: white;
@@ -92,7 +101,7 @@
 }
 
 .deases .what_i_see ul {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 25px;
 }
 
@@ -100,7 +109,7 @@
     font-family: 'Montserrat-Medium', sans-serif;
     list-style-type: disc;
     color: #354A87;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 1.5rem;
     font-size: 1rem;
     font-weight: 500;
@@ -463,14 +472,32 @@
     padding-left: 0;
 }
 
-.deases .what_i_see .FAQ ul{
+.deases .what_i_see .FAQ ul {
     margin-left: 0;
+}
+
+.deases .what_i_see .collage ul{
+    margin-top: 0;
+    margin-left: 0px;
+}
+
+.deases .what_i_see .collage-item li{
+    margin-left: 20px;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 1200px) {
     .deases .what_i_see {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .what_i_see .what_i_see-heading ul{
+        margin-left: 16px;
+    }
+
+    .deases .what_i_see .what_i_see-heading ul li{
+        font-size: 0.875rem;
     }
 
     .deases .what_i_see .collage-item p {
@@ -497,7 +524,7 @@
         font-size: 1rem;
     }
 
-    .deases .what_i_see ul{
+    .deases .what_i_see ul {
         margin-top: 10px;
     }
 
@@ -507,9 +534,24 @@
         font-weight: 400;
     }
 
+    .deases .what_i_see .collage ul{
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .deases .what_i_see .non-mobile{
+        display: none;
+    }
+
     .deases .what_i_see p,
-    .deases .what_i_see ul li {
+    .deases .what_i_see ul li,
+    .deases .what_i_see .section-text,
+    .deases .what_i_see .collage-item li {
         font-size: 0.875rem;
+    }
+
+    .deases .what_i_see table td ul li{
+        margin-bottom: 5px;
     }
 
     .deases .what_i_see .legend {

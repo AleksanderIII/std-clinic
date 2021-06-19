@@ -334,6 +334,7 @@
 
     .deases .treatment-algorithm-heading ul li {
         font-size: 0.875rem;
+        margin-bottom: 5px;
     }
 
     .deases .treatment-algorithm h3 {
@@ -376,5 +377,19 @@
         padding: 0 16px;
     }
 
+    .deases .treatment-algorithm .bold-text{
+        margin-bottom: 10px !important;
+    }
+
+    .deases .treatment-algorithm .bold-text~ul{
+        margin-left: 30px;
+        margin-right: 16px;
+    }
+
+    .deases .treatment-algorithm .bold-text,
+    .deases .treatment-algorithm ul li,
+    .deases .treatment-algorithm .bold-text~ul li{
+        font-size: 0.875rem;
+    }
 
 }

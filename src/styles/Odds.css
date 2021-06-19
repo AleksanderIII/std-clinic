@@ -384,6 +384,7 @@
 
     .deases .my_odds .my_odds-heading ul li {
         margin-bottom: 5px;
+        font-size: 0.875rem !important;
     }
 
     .deases .my_odds-heading {

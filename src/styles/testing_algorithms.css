@@ -7,6 +7,10 @@
     color: white;
 }
 
+.deases .testing_algoritms .testing_algoritms-heading ul li {
+    font-size: 1.125rem;
+}
+
 .deases .testing_algoritms .section-text {
     margin: 0;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -331,6 +335,10 @@
         padding: 0;
     }
 
+    .deases .testing_algoritms .testing_algoritms-heading ul li{
+        font-size: 0.875rem;
+    }
+
     .deases .testing_algoritms h3 {
         font-weight: 500;
     }
@@ -339,7 +347,7 @@
         padding: 32px 0;
     }
 
-    .deases .testing_algoritms h3{
+    .deases .testing_algoritms h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
     }
@@ -360,11 +368,11 @@
         width: 100%;
     }
 
-    .deases .testing_algoritms p{
+    .deases .testing_algoritms p {
         font-size: 0.875rem;
     }
 
-    .deases .testing_algoritms p.legend{
+    .deases .testing_algoritms p.legend {
         font-size: 0.8125rem;
     }
 

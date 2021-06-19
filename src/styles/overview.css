@@ -11,6 +11,27 @@
     color: #354A87;
 }
 
+.deases .overview p {
+    font-weight: 500;
+}
+
+
+.deases .overview .overview-heading ul li {
+    color: white;
+}
+
+.deases .overview ul {
+    margin-top: 10px;
+}
+
+.deases .overview ul li {
+    font-weight: 500;
+    list-style-type: disc;
+    color: #354A87;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
 .deases .overview .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -317,11 +338,81 @@
     font-size: 0.875rem;
 }
 
+.deases .overview .FAQ ul li.question {
+    margin-left: 0;
+}
+
+.deases .overview .FAQ ul p.question-text {
+    font-weight: 600;
+}
+
+.deases .overview .FAQ .answer ul {
+    margin-left: 20px;
+}
+
+.deases .overview .FAQ .answer ul li {
+    margin-left: 0px;
+}
 
 @media (max-width: 1200px) {
     .deases .overview {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .overview-heading ul {
+        margin: 10px 0;
+    }
+
+    .deases .overview-heading ul li {
+        font-size: 0.875rem;
+        margin-bottom: 5px;
+    }
+
+    .deases .overview h3 {
+        font-size: 1.125rem;
+        font-weight: 600;
+        margin: 25px 0 15px 0;
+    }
+
+    .deases .overview p,
+    .deases .overview ul li,
+    .deases .overview table td,
+    .deases .overview table th,
+    .deases .overview .section-text {
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+    .deases .overview .FAQ ul{
+        margin-left: 0;
+    }
+
+    .deases .overview .FAQ .answer ul{
+        margin-top: 10px;
+    }
+
+    .deases .overview .FAQ .answer ul li{
+        margin-bottom: 5px;
+    }
+
+    .deases .overview .FAQ ul li .answer p,
+    .deases .overview .FAQ ul li .answer ul li{
+        font-size: 0.8125rem;
+    }
+
+    .deases .overview table{
+        margin-top: 10px;
+    }
+
+    .deases .overview table td,
+    .deases .overview table th{
+        padding: 20px;
+        min-width: 200px;
+    }
+
+    .deases .overview ul {
+        margin-left: 16px;
     }
 
     .deases .overview-heading {

@@ -15,6 +15,14 @@
     background: #F6F9FA;
 }
 
+.deases .protecting ul {
+    margin-left: 20px;
+}
+
+.deases .protecting .protecting-heading ul li {
+    font-size: 1.125rem;
+}
+
 .deases .protecting.filled {
     background: #68C3CA;
 }
@@ -98,11 +106,11 @@
     line-height: 1.625rem;
     text-align: left;
     color: #354A87;
-    margin: 30px 0px 30px 0px;
+    margin: 30px 0px 15px 0px;
 }
 
 .deases .protecting .bold-text~ul {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 0px;
 }
 
@@ -312,7 +320,7 @@
 }
 
 .deases .protecting ul li {
-    margin-left: 40px;
+    margin-left: 20px;
     margin-bottom: 15px;
     list-style-type: disc;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -369,16 +377,37 @@
         margin-top: 56px;
         padding: 0;
     }
-    
+
     .deases .protecting h3 {
         font-weight: 500;
     }
 
     .deases .protecting-heading ul {
-        margin: 10px 0;
+        margin: 10px 16px;
     }
 
-    .deases .protecting table td ul li{
+    .deases .protecting .protecting-heading ul li{
+        padding-right: 0;
+    }
+
+    .deases .protecting-content ul li{
+        margin-bottom: 5px;
+    }
+
+    .deases .protecting-content ul li ul{
+        margin-top: 5px !important;
+    }
+
+    .deases .protecting .bold-text{
+        margin-top: 10px;
+    }
+
+    .deases .protecting .bold-text~ul li{
+        font-size: 0.875rem;
+        margin-bottom: 5px;
+    }
+
+    .deases .protecting table td ul li {
         font-weight: 400;
     }
 

@@ -347,6 +347,10 @@
     margin-bottom: 0;
 }
 
+.deases .female_chlomydia_yeast table td b{
+    font-weight: 600;
+}
+
 .deases .female_chlomydia_yeast .collage-column .image-name {
     width: 100%;
     color: #354A87;
@@ -366,9 +370,10 @@
 .deases .female_chlomydia_yeast .answer ul li {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
-    font-weight: 700;
+    font-weight: 500;
     list-style-type: disc;
     margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 .deases .female_chlomydia_yeast table td p.table-bold-text {
@@ -391,13 +396,29 @@
         min-width: 250px;
     }
 
+    .deases .female_chlomydia_yeast-heading ul{
+        padding-right: 16px;
+    }
+
+    .deases .female_chlomydia_yeast-heading ul li{
+        font-size: 0.875rem;
+        padding-right: 0;
+        margin-bottom: 5px;
+    }
+
     .deases .female_chlomydia_yeast table th,
     .deases .female_chlomydia_yeast table td,
     .deases .female_chlomydia_yeast table td p.table-bold-text,
     .deases .female_chlomydia_yeast table td ul li,
     .deases .female_chlomydia_yeast p,
+    .deases .female_chlomydia_yeast .section-text,
     .deases .female_chlomydia_yeast .bold-text {
         font-size: 0.875rem;
+    }
+
+    .deases .female_chlomydia_yeast .FAQ .answer ul li{
+        font-size: 0.8125rem;
+        margin-bottom: 5px;
     }
 
     .deases .female_chlomydia_yeast .collage {

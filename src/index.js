@@ -39,3 +39,10 @@ setInterval(() => {
     shift = shift + 100
   }
 }, 5000)
+
+const mobileMenuBtn = document.getElementById('mobile-menu-btn')
+const mobileMenu = document.getElementById('mobile-menu')
+mobileMenuBtn.addEventListener('click', toggleMenu)
+function toggleMenu () {
+  mobileMenu.classList.toggle('hidden')
+}

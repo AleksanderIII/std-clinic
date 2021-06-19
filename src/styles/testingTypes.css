@@ -50,6 +50,20 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.deases .testing_types ul {
+    margin: 10px 0;
+    margin-left: 40px;
+}
+
+.deases .testing_types ul li {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.375rem;
+    color: #354A87;
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
 .deases .testing_types-heading img {
     margin-right: 50px;
     margin-left: 80px;
@@ -319,7 +333,7 @@
 }
 
 .deases .testing_types ul {
-    margin: 30px 0 30px 0px;
+    margin: 10px 0 10px 40px;
 }
 
 .deases .testing_types ul li b {
@@ -409,11 +423,29 @@
     margin-left: 20px;
 }
 
+.deases .testing_types .FAQ .answer ul {
+    margin-left: 30px;
+}
+
+.deases .testing_types .FAQ .answer table td ul {
+    margin-left: 0;
+}
+
+.deases .testing_types .FAQ .answer table td ul li {
+    color: #629EA8;
+}
+
 
 @media (max-width: 1200px) {
     .deases .testing_types {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .testing_types ul {
+        margin: 0 16px;
+        padding-left: 16px;
+        padding-right: 0;
     }
 
     .deases .testing_types h3 {
@@ -431,8 +463,13 @@
     .deases .testing_types .bold-text~ul li,
     .deases .testing_types table th,
     .deases .testing_types table td,
-    .deases .testing_types table tr td:first-child {
+    .deases .testing_types table tr td:first-child,
+    .deases .testing_types table td p.table-bold-text {
         font-size: 0.875rem;
+    }
+
+    .deases .testing_types table td ul{
+        padding-left: 0;
     }
 
     .deases .testing_types table th,
@@ -494,7 +531,6 @@
 
     .deases .testing_types h3,
     .deases .testing_types p,
-    .deases .testing_types ul,
     .deases .testing_types .table-wrap {
         padding: 0 16px;
     }
@@ -502,10 +538,6 @@
 
     .deases .testing_types .testing_types-heading .bold-text~ul {
         margin: 0 0 10px 16px;
-    }
-
-    .deases .testing_types ul {
-        margin: 10px 0;
     }
 
     .deases .testing_types h3 {
