@@ -327,7 +327,9 @@
   }
 
   .mobile-footer {
+    z-index: 5;
     position: fixed;
+    background: white;
     bottom: 0;
     height: 85px;
     margin: 0 30px;
