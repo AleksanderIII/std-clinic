@@ -378,7 +378,8 @@
         padding: 0;
     }
 
-    .deases .protecting-content ul li{
+    .deases .protecting-content ul li,
+    .deases .protecting .protecting-heading ul li{
         font-weight: 400;
     }
 
