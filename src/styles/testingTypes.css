@@ -86,6 +86,10 @@
     margin: 20px 0;
 }
 
+.deases .testing_types .testing_types-heading ul{
+    margin-left: 20px;
+}
+
 .deases .testing_types-heading ul li {
     margin-left: 30px;
     padding-right: 30px;
