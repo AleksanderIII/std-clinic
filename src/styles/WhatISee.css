@@ -11,7 +11,7 @@
     color: #354A87;
 }
 
-.deases .what_i_see .what_i_see-heading ul{
+.deases .what_i_see .what_i_see-heading ul {
     margin-top: 10px;
 }
 
@@ -477,12 +477,12 @@
     margin-left: 0;
 }
 
-.deases .what_i_see .collage ul{
+.deases .what_i_see .collage ul {
     margin-top: 0;
     margin-left: 0px;
 }
 
-.deases .what_i_see .collage-item li{
+.deases .what_i_see .collage-item li {
     margin-left: 20px;
     margin-bottom: 5px;
 }
@@ -493,11 +493,11 @@
         padding: 0;
     }
 
-    .deases .what_i_see .what_i_see-heading ul{
+    .deases .what_i_see .what_i_see-heading ul {
         margin-left: 16px;
     }
 
-    .deases .what_i_see .what_i_see-heading ul li{
+    .deases .what_i_see .what_i_see-heading ul li {
         font-size: 0.875rem;
     }
 
@@ -535,12 +535,12 @@
         font-weight: 400;
     }
 
-    .deases .what_i_see .collage ul{
+    .deases .what_i_see .collage ul {
         margin-left: 0;
         padding: 0;
     }
 
-    .deases .what_i_see .non-mobile{
+    .deases .what_i_see .non-mobile {
         display: none;
     }
 
@@ -551,7 +551,7 @@
         font-size: 0.875rem;
     }
 
-    .deases .what_i_see table td ul li{
+    .deases .what_i_see table td ul li {
         margin-bottom: 5px;
         font-weight: 400;
     }
@@ -658,7 +658,8 @@
 
     .deases .what_i_see .discharge ul li {
         font-size: 0.875rem;
-         font-weight: 400;
+        font-weight: 400;
+        margin-bottom: 5px;
     }
 
     .deases .what_i_see .FAQ {
