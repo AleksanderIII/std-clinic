@@ -236,11 +236,39 @@
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 1px solid grey;
     visibility: visible;
   }
 
-  .mobile-menu.hidden{
+  .header-contacts {
+    visibility: visible;
+  }
+
+  .header-contacts.hidden {
+    visibility: hidden;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .close-btn {
+    height: 34px;
+    width: 34px;
+    padding: 5px;
+    border-radius: 10px;
+    background: rgba(39, 55, 122, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.8125rem;
+  }
+
+  .menu-btn.hidden {
+    display: none;
+  }
+
+  .mobile-menu.hidden {
     visibility: hidden;
   }
 
@@ -253,7 +281,7 @@
   .menu-content {
     padding: 30px;
     width: 100%;
-    height: calc(100vh - 95px);
+    height: calc(100vh - 150px);
     overflow-y: auto;
   }
 
@@ -261,13 +289,21 @@
     margin-bottom: 10px;
   }
 
+  .menu-content .menu-item .menu-subfolder {
+    display: block;
+  }
+
+  .menu-content .menu-item.hidden .menu-subfolder {
+    display: none;
+  }
+
+  .menu-content .menu-item.hidden img{
+    transform: rotate(180deg);
+  }
+
   .menu-content .menu-item,
   .menu-content .menu-item a {
     color: #354A87;
-  }
-
-  .menu-content .menu-item img {
-    display: none;
   }
 
   .menu-content .menu-subfolder {
@@ -275,7 +311,48 @@
   }
 
   .menu-content .menu-subfolder-item {
-    margin: 10px 0;
+    margin: 15px 0;
+  }
+
+  .menu-content .menu-item .menu-link {
+    font-weight: 600;
+    line-height: 1.875rem;
+    font-size: 1.125rem;
+  }
+
+  .menu-content .menu-subfolder-item .menu-link {
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+  }
+
+  .mobile-footer {
+    height: 85px;
+    margin: 0 30px;
+    border-top: 1px solid #27377A;
+  }
+
+  .mobile-footer-contacts a.number {
+    padding: 15px 0;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .mobile-footer-location-content {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .mobile-footer-location-content:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background: url('http://d12qz6jssicxsf.cloudfront.net/images/map-pin-fill.svg') no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 5px;
   }
 
   .header {

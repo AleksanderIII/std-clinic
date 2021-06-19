@@ -136,7 +136,7 @@
                 </ul>
             </nav>
 
-            <div class='header-contacts'>
+            <div class='header-contacts' id="header-contacts">
                 <div class='contacts-number'>
                     <a href='tel:2126965900' class='number'>
                         212.696.5900
@@ -148,17 +148,17 @@
             </div>
             <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
                 alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
         </div>
         <div id="mobile-menu" class="mobile-menu hidden">
-            <p class="mobile-menu__header">Navigation</p>
             <ul class='menu-content'>
                 <li class='menu-item'>
                     <a class='menu-link' href='/'>
                         Home
                     </a>
                 </li>
-                <li class='menu-item'>
-                    <p>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
                         STD tests
                         <img src='http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg' height='15' width='30'
                             alt="arrow down" />
@@ -222,7 +222,7 @@
                         </li>
                     </ul>
                 </li>
-                <li class='menu-item'>
+                <li class='menu-item hidden'>
                     <p class='menu-link'>
                         STD diseases
                         <img src='http://d12qz6jssicxsf.cloudfront.net/images/arrowDown.svg' height='15' width='30'
@@ -264,6 +264,20 @@
                     </a>
                 </li>
             </ul>
+            <div class="mobile-footer">
+                <div class='mobile-footer-contacts'>
+                    <div class='mobile-footer-contacts-number'>
+                        <a href='tel:2126965900' class='number'>
+                            212.696.5900
+                        </a>
+                    </div>
+                </div>
+                <div class='mobile-footer-location'>
+                    <p class='mobile-footer-location-content'>
+                        274 Madison Ave Suite 705 New York, 10016
+                    </p>
+                </div>
+            </div>
         </div>
     </header>
     <div class='content home'>
