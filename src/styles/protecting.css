@@ -395,8 +395,8 @@
         margin: 10px 16px;
     }
 
-    .deases .female_chlomydia_yeast .answer ul li{
-        font-weight: 400 !important;
+    .deases .female_chlomydia_yeast .FAQ .answer ul li{
+        font-weight: 400;
     }
 
     .deases .protecting .protecting-heading ul li{
