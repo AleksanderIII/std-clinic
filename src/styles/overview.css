@@ -370,7 +370,7 @@
         font-weight: 400;
     }
 
-    .deases .overview p{
+    .deases .overview p {
         font-weight: 400;
     }
 
@@ -380,6 +380,15 @@
         margin: 25px 0 15px 0;
     }
 
+
+
+    .deases .overview p,
+    .deases .overview ul li,
+    .deases .overview table td,
+    .deases .overview .section-text {
+        font-weight: 400;
+    }
+
     .deases .overview p,
     .deases .overview ul li,
     .deases .overview table td,
@@ -387,32 +396,31 @@
     .deases .overview .section-text {
         font-size: 0.875rem;
         line-height: 1.5rem;
-        font-weight: 400;
     }
 
-    .deases .overview .FAQ ul{
+    .deases .overview .FAQ ul {
         margin-left: 0;
     }
 
-    .deases .overview .FAQ .answer ul{
+    .deases .overview .FAQ .answer ul {
         margin-top: 10px;
     }
 
-    .deases .overview .FAQ .answer ul li{
+    .deases .overview .FAQ .answer ul li {
         margin-bottom: 5px;
     }
 
     .deases .overview .FAQ ul li .answer p,
-    .deases .overview .FAQ ul li .answer ul li{
+    .deases .overview .FAQ ul li .answer ul li {
         font-size: 0.8125rem;
     }
 
-    .deases .overview table{
+    .deases .overview table {
         margin-top: 10px;
     }
 
     .deases .overview table td,
-    .deases .overview table th{
+    .deases .overview table th {
         padding: 20px;
         min-width: 200px;
     }
