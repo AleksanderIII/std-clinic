@@ -358,14 +358,19 @@
         padding: 0;
     }
 
-    .deases .what_i_feel .what_i_feel-heading ul li{
+    .deases .what_i_feel .what_i_feel-heading ul li {
         font-size: 0.875rem;
         margin-left: 20px;
         margin-bottom: 5px;
     }
 
-    .deases .what_i_feel ul li{
+    .deases .what_i_feel-content p{
+        font-weight: 400;
+    }
+
+    .deases .what_i_feel ul li {
         margin-bottom: 5px;
+        font-weight: 400;
     }
 
     .deases .what_i_feel h3 {
