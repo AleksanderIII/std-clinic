@@ -485,6 +485,10 @@
         max-width: 180px;
     }
 
+    .deases .testing_types .bold-text~ul li{
+        font-weight: 400;
+    }
+
     .deases .testing_types .testing_types-heading ul {
         margin-left: 10px;
         padding-left: 6px;
