@@ -506,6 +506,10 @@
         padding-right: 0;
     }
 
+    .deases .what_i_see .collage-item .item-header {
+        font-size: 1rem;
+    }
+
     .deases .what_i_see .collage.two-column .column {
         align-items: flex-start;
     }
