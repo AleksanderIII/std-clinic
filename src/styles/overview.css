@@ -413,6 +413,7 @@
     .deases .overview .FAQ ul li .answer p,
     .deases .overview .FAQ ul li .answer ul li {
         font-size: 0.8125rem;
+        font-weight: 400;
     }
 
     .deases .overview table {
