@@ -367,6 +367,7 @@
     .deases .overview-heading ul li {
         font-size: 0.875rem;
         margin-bottom: 5px;
+        font-weight: 400;
     }
 
     .deases .overview h3 {
