@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content deases'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px' />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>HIV navigation</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../hiv/hiv_signs.html'>
+                        Early HIV signs
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/odds.html'>
+                        Your odds
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/testing.html'>
+                        Testing
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/rapid_tests.html'>
+                        Rapid HIV tests
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/prep.html'>
+                        HIV PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/pep.html'>
+                        HIV (PEP)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/hiv_vs_other.html'>
+                        HIV vs. other diseases
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/protecting.html'>
+                        Protecting
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class='section what_i_see'>
+            <div class='what_i_see-heading' style="background-color: #68C3D9;">
+                <div>
+                    <h2 id='what_i_see'>Syphilis symptoms and signs </h2>
+                    <p> This section will describe what you may feel (symptoms) or see (signs) if you’ve contracted
+                        syphilis.
+                    </p>
+                    <p class="bold-text" style="margin-top: 10px; margin-bottom: 10px;">Symptoms (what you feel)</p>
+                    <p>As with any infectious disease, symptoms usually precede signs by a little. Symptoms are the
+                        sensations that you feel because of the disease process.
+                    </p>
+                    <p class="bold-text" style="margin-top: 10px; margin-bottom: 10px;">Signs (what you see)</p>
+                    <p>Signs are things you and your healthcare provider can see that are caused by the disease process.
+                        Signs usually follow symptoms or come at the same time. Signs, unlike symptoms, are objective
+                        and therefore more trusted by doctors.
+                    </p>
+                    <br>
+                    <p>Knowing what the symptoms and signs of syphilis are might be helpful in reaching an early
+                        diagnosis and starting treatment.
+                    </p>
+                </div>
+            </div>
+            <div class='what_i_see-content'>
+                <h3>Primary syphilis, or chancre</h3>
+                <p class='section-text'> Chancre is the localized skin symptoms of early syphilis. This stage lasts for
+                    one to two months. An initial local infection spreads quickly all over the body. </p>
+                <ul>
+                    <li>47 to 92 % of people who’ve contracted syphilis get a primary syphilis chancre, or sore
+                    </li>
+                    <li>25% get multiple chancres
+                    </li>
+                    <li>Only 25% of chancres (mostly in the rectal area) become painful; it’s often misdiagnosed as a
+                        rectal fissure or fistula then
+                    </li>
+                </ul>
+                <p class="bold-text">Incubation period</p>
+                <p class="section-text">The incubation period for the chancre is 3 to 90 days (21 days on average).</p>
+                <p class="bold-text">From bump to ulcer to healing</p>
+                <ul>
+                    <li>It starts as a single bump that eventually becomes an ulcer, which takes about 7 days.
+                    </li>
+                    <li>The sores are usually painless. </li>
+                    <li>The chancre ulcer is 1–2 cm in diameter, well defined, and firm with raised borders and a clean
+                        base (i.e., there’s no crusting at the base).
+                    </li>
+                    <li>It heals without treatment in 3 to 6 weeks. The mechanism of healing is not completely
+                        understood but it’s believed to be a local immune response.
+                    </li>
+                </ul>
+                <p class="bold-text">Most common areas</p>
+                <ul>
+                    <li>A chancre can develop anywhere on the skin, but it usually shows up in an area where the skin is
+                        thin and moist area and therefore can be easily damaged and penetrated by the syphilis
+                        spirochete.
+                    </li>
+                    <li>It is usually on the genitals, the most common site of contact.
+                        <ul>
+                            <li>Males: head and corona sulcus of the penis</li>
+                            <li>Females (in descending order of frequency): labia majora, labia minora, fourchette (a
+                                thin fold of skin at the back of the vulva), perineum
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Because of oral to genital sex, 12 to 14% of primary syphilis sores affect the oral mucosa.
+                    </li>
+                </ul>
+                <p class="bold-text">The following chart shows where a syphilis chancre most commonly appears in in
+                    homosexual males.
+                </p>
+                <p class="section-text">22% of homosexual males get chancres in their rectum.
+                </p>
+                <img src="http://d12qz6jssicxsf.cloudfront.net/images/graph_syphilis.svg" width="940" height="530"
+                    alt="">
+                <p class="bold-text" style="margin-bottom: 0;"> Other associated symptoms</p>
+                <ul>
+                    <li>Mild local bilateral inguinal lymphadenopathy (swollen lymph nodes in the groin area) is almost
+                        always present. It is usually (80% of the time) painless.
+                    </li>
+                </ul>
+                <h3>Chancre photos</h3>
+                <p class="bold-text"> Syphilis bump</p>
+                <p class="section-text">This is a photo of a syphilis bump that will eventually (in seven days)
+                    ulcerate, forming the chancre (sore).
+                </p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/syphilis_bump.jpg" width="500" height="356"
+                        alt="">
+                    <p class="link">Image source: Ayurveda Treatment Venereal Diseases - KHOKAR.
+                        https://www.khokardispensary.com/ayurveda-treatment-venereal-diseases/. Accessed January 22,
+                        2021.</p>
+                </div>
+                <p class="bold-text">Penile syphilis chancre</p>
+                <p class="section-text">This photo is of a syphilis sore on the penile shaft. Note the raised, hard,
+                    well-defined borders and the clean base.</p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/penile_syphilis_chancre.jpg" width="500"
+                        height="358" alt="">
+                    <p class="link">Image source: New York City Department of Health T, Hygiene Bureau of Sexually
+                        Transmitted Infections M. The Diagnosis, Management and Prevention of Syphilis An Update and
+                        Review STD HIV PREVENTION TRAINING CENTER.; 2019. https://www.cdc.gov/. Accessed January 22,
+                        2021.</p>
+                </div>
+                <br>
+                <p class="section-text">This image shows two syphilis sores with well-defined borders.</p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/penile_syphilis_chancre2.jpg" width="500"
+                        height="670" alt="">
+                    <p class="link">Image source: Vanessa Ngan, Staff Writer, 2003. Syphilis | DermNet NZ. Retrieved
+                        from https://dermnetnz.org/topics/syphilis/. Accessed January 22, 2021.</p>
+                </div>
+                <br>
+                <p class="bold-text"> Vaginal chancre</p>
+                <p class="section-text">Here is a photo of a syphilis sore on the vagina wall.</p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/vaginal_chancre.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Ayurveda Treatment Venereal Diseases - KHOKAR.
+                        https://www.khokardispensary.com/ayurveda-treatment-venereal-diseases/. Accessed January 22,
+                        2021.</p>
+                </div>
+                <p class="bold-text"> Anal chancre</p>
+                <p class="section-text">This image is of two syphilis sores near the anus. Note the hard, raised
+                    borders.</p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/anal_chancre.jpg" width="500" height="358"
+                        alt="">
+                </div>
+                <br>
+
+                <p class="bold-text"> Syphilis sore on the lip </p>
+                <p class="section-text">This photo shows a well-defined sore on the patient’s lip with raised, hard
+                    borders. “Well-defined” means there is a clear separation from the rest of the lip.
+                </p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/lip_chancre.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Qiao J, Fang H. Syphilitic chancre of the mouth. CMAJ.
+                        2011;183(17):2015. doi:10.1503/cmaj.110664. Retrieved from
+                        https://www.cmaj.ca/content/183/17/2015. </p>
+                </div>
+
+
+                <p class="bold-text"> Rectal syphilis sore </p>
+                <p class="section-text"> Here are rectal syphilis sores; 60% of people who contract syphilis don’t
+                    notice the primary syphilis lesion because of its location and the fact that it’s not painful.
+                </p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/rectal_sore.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Syphilis—Primary (Anal Chancre) - MSD Manual Professional Edition.
+                        https://www.msdmanuals.com/professional/multimedia/image/v1023437. Accessed January 22, 2021.
+                    </p>
+                </div>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/rectal_sore2.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Chancre syphilitique= القرح الافرنجي الاولي.
+                        https://dermaamin.com/site/atlas-of-dermatology/3-c/248-chancre-syphilitique-.html. Accessed
+                        January 22, 2021.
+                    </p>
+                </div>
+
+
+                <p class="bold-text"> Syphilis sore of the tongue </p>
+                <p class="section-text"> This image is of a syphilis sore on the tongue with well-defined borders and a
+                    clean base (there’s no pus).
+                </p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/tongue_sore.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Division of STD Prevention, National Center for HIV/AIDS, Viral
+                        Hepatitis, STD, and TB Prevention, Centers for Disease Control and Prevention.
+                        www.cdc.gov/std/syphilis/images.htm
+                    </p>
+                </div>
+
+                <p class="bold-text"> Syphilis sore of the tongue </p>
+                <p class="section-text"> Within a few weeks to a few months, 25% of people who contract syphilis will
+                    develop systemic symptoms that represent secondary syphilis. It is possible to have multiple
+                    episodes that resolve without treatment. Secondary syphilis can produce a wide variety of signs and
+                    symptoms:
+                </p>
+                <br>
+                <div>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/syphilis_graph_2.svg" width="940" height="548"
+                        alt="">
+                </div>
+
+                <p class="bold-text"> Generalized symptoms </p>
+                <p class="section-text"> Patients with secondary syphilis can have systemic symptoms of fatigue, fever,
+                    body aches, and weight loss. These symptoms might be due to their body’s immune response to a
+                    widespread virus.
+                </p>
+
+                <p class="bold-text"> Lymph node enlargement</p>
+                <p class="section-text"><i>Half of people with secondary syphilis will have enlarged lymph nodes in the
+                        neck, armpits, or groin area that are usually not tender (or only very mildly tender).
+                    </i>
+                </p>
+                <p class="bold-text"> Skin rash</p>
+                <p class="section-text"> Rash is the most common sign of secondary syphilis—75% to 90% of people who
+                    have syphilis get it. </p><br>
+                <p class="section-text">Of those, 20% don’t notice the rash because it can be very subtle and get better
+                    on its own.</p><br>
+                <p class="section-text">A syphilis rash can take any form or shape. Any rash can be a syphilis rash.</p>
+                <br>
+                <p class="section-text">The classic presentation of the syphilis rash is a rash that affects the entire
+                    torso and extremities, including the palms of the hands and the soles of the feet. Rash on the palms
+                    and soles is a very important sign.
+                </p><br>
+                <p class="section-text">Usually, the rash is reddish-brown and 0.5 to 2 cm in diameter. Although it is
+                    usually scaly, it may be smooth.
+                </p>
+                <br>
+                <p class="bold-text"> Secondary syphilis rash</p>
+                <p class="section-text">Widespread, brown reddish raised spots</p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/syphilis_rash.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Syphilis: Signs, Symptoms, How To Test, Stages, Picture, Treatment,
+                        Curable?
+                        https://www.gentside.co.uk/health/syphilis-definition-symptoms-treatment-what-is-it_art154.html.
+                        Accessed January 22, 2021.
+                    </p>
+                </div>
+                <p class="bold-text">Secondary syphilis rash affecting the palms and soles</p>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/palms_soles_1.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: CDC/ NCHSTP/ Division of STD Prevention, STD Clinical Slides-
+                        Syphilis. https://www.cdc.gov/ std/training/clinicalslides/slides-dl.htm
+                    </p>
+                </div>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/palms_soles_2.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Division of STD Prevention, National Center for HIV/AIDS, Viral
+                        Hepatitis, STD, and TB Prevention, Centers for Disease Control and Prevention.
+                        www.cdc.gov/std/syphilis/images.htm
+                    </p>
+                </div>
+                <br>
+                <p class="bold-text">Hair loss</p>
+                <p class="section-text">Secondary syphilis presents in 10%–15% of people with so called “moth eaten”
+                    alopecia (hair loss).</p>
+                <div>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/hair_loss.jpg" width="746" height="358"
+                        alt="">
+                    <p class="link">Image source: Qiao J, Fang H. Moth-eaten alopecia: A sign of secondary syphilis.
+                        CMAJ. 2013;185(1):61. doi:10.1503/cmaj.120229
+                    </p>
+                </div>
+                <p class="bold-text"> Mucosal surfaces</p>
+                <p class="section-text"> Secondary syphilis can affect the oral mucosal surfaces—5% to 30% of patients
+                    may develop mucous patches, which are whitish erosions on the oral mucosa or tongue.
+                </p>
+                <p class="bold-text"> Photos of secondary syphilis white oral patches </p>
+                <p class="section-text"> They are very contagious. </p>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/oral_patches.jpg" width="500" height="358"
+                        alt="">
+                    <p class="link">Image source: Hertel et al. Oral Syphilis. J Oral Maxillofac Surg 2013.
+                    </p>
+                </div>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/oral_patches2.jpg" width="295" height="400"
+                        alt="">
+                    <p class="link">Image source: Hertel et al. Oral Syphilis. J Oral Maxillofac Surg 2013.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/oral_patches3.jpg" width="746" height="358"
+                        alt="">
+                    <p class="link">Image source: Hertel et al. Oral Syphilis. J Oral Maxillofac Surg 2013.
+                    </p>
+                </div>
+                <p class="bold-text">Condylomata lata</p>
+                <p class="section-text">Condylomata lata are large, raised, gray to white lesions that may develop in
+                    warm, moist areas such as the mouth and perineum. Five percent to 25% of patients with secondary
+                    syphilis get them.
+                </p><br>
+                <p class="section-text">They occur in areas containing a high concentration of syphilis infection and
+                    are highly contagious. Where they develop is believes to be close to the place where syphilis
+                    initially entered the patient’s body.
+                </p><br>
+                <p class="section-text">Photos of condylomata lata in the anal area
+                </p>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/condylomata lata.jpg" width="295" height="400"
+                        alt="">
+                    <p class="link">Image source: Bruins, F. G., Van Deudekom, F. J. A., & De Vries, H. J. C. (2015).
+                        Syphilitic condylomata lata mimicking anogenital warts. BMJ (Online), 350.
+                        https://doi.org/10.1136/bmj.h1259
+                    </p>
+                </div>
+                <br>
+                <div class="example">
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/condylomata lata2.jpg" width="295"
+                        height="541" alt="">
+                    <p class="link">Image source: Bruins, F. G., Van Deudekom, F. J. A., & De Vries, H. J. C. (2015).
+                        Syphilitic condylomata lata mimicking anogenital warts. BMJ (Online), 350.
+                        https://doi.org/10.1136/bmj.h1259
+                    </p>
+                </div>
+                <h3>Latent (asymptomatic) syphilis</h3>
+                <p class="section-text"> Latent syphilis occurs when the patient has syphilis but no sign or symptoms of
+                    the disease. Syphilis in the latent stage can be diagnosed only through a blood test.
+                </p><br>
+                <p class="section-text"> Latent syphilis can be early-stage or late-stage. This division is, of course,
+                    based on how long the patient has had syphilis.
+                </p><br>
+                <p class="section-text"> Doctors assume the duration of syphilis based on the last negative syphilis
+                    test.
+                </p>
+                <ul>
+                    <li>Early latent syphilis is assumed with a last negative syphilis test within the last 12 months.
+                    </li>
+                    <li>Late latent syphilis is assumed with a last negative syphilis test more than 12 month ago.</li>
+                </ul>
+                <br>
+                <p class="section-text">The division is important to the chance of syphilis transmission and the
+                    treatment.</p>
+                <ul>
+                    <li> Syphilis is more likely to be transmitted to someone else when it is in its early latent phase
+                        because there’s a higher chance then of a skin lesion or rash that is very infectious.
+                    </li>
+                    <li> The treatment for early latent syphilis is one shot of penicillin, while the treatment for late
+                        latent syphilis is three shots (one per week for three weeks).
+                    </li>
+                </ul>
+                <h3>Tertiary (late) syphilis</h3>
+                <p class="section-text">Around 15% to 30 % of untreated syphilis patient will go into late-stage
+                    syphilis. In this stage, syphilis can damage the eyes, brain, nerve tissue, heart, blood vessels,
+                    bones, and joints.
+                </p>
+                <br>
+                <p class="section-text">Late-stage syphilis usually happens many years after the original untreated
+                    infection.
+                </p>
+                <a class='button' href='../hiv.html'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/arrow.svg' height='30' width='32' />
+                    <button>Select other section</button>
+                </a>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' alt="phone icon"
+                            height='40px' width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

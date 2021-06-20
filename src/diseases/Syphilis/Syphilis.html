@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content deases'>
+        <section class='introduction'>
+            <div class='introduction-text'>
+                <h2>All you need to know about Syphilis</h2>
+                <p class='introduction-main_part'>
+                    Patients with syphilis can present with different symptoms depending on the disease staging. But
+                    most people diagnosed with syphilis have no symptoms; they’re diagnosed based on a blood test.
+                    <br>
+                    <br>
+                    Doctors think of syphilis as having two stages: early and late.
+                </p>
+                <br>
+                <p class="bold-text">Early syphilis</p>
+                <br>
+                <p>As the name suggests, syphilis is referred to as early stage within weeks to months after the patient
+                    contracts it. Doctors separate it further into these categories:
+                </p>
+                <ul>
+                    <li>Primary</li>
+                    <li>Secondary</li>
+                    <li>Latent</li>
+                </ul>
+                <br>
+                <p class="bold-text">Late syphilis </p>
+                <br>
+                <p>If syphilis is untreated for longer than a year, it can progress to late-stage syphilis, which can
+                    cause serious complications. It can take from 1 year to 30 years for complications involving vital
+                    organs, including the heart, brain, to occur.
+                </p>
+            </div>
+            <img class='introduction-image'
+                src='http://d12qz6jssicxsf.cloudfront.net/images/introduction_clomydia.svg' />
+        </section>
+        <section class="introduction-addition" style="padding-top: 20px; padding-bottom: 10px;">
+            <p> The primary practical reason for knowing the stage is that it determines the duration of treatment:
+                one shot versus three or more, depending on the complications.
+            </p>
+            <br>
+            <p>The information on this page should help you think and see like a doctor does. It is not a
+                replacement for a doctor visit or testing. We’ve separated this page into sections to make it easier
+                for you to go straight to the part you need based on the disease stage you’re in.
+            </p>
+            <br>
+            <p>Each section begins with tables that provide an overview of important facts. They are followed by
+                frequently asked questions answered by our expert STD doctor (“Dr. F”).
+            </p>
+            <br>
+            <p>Let’s get started.</p>
+        </section>
+        <section class='section nav-tabs' id='nav_tabs'>
+            <a class='tab' href='../syphilis/syphilis_signs.html'>
+                Syphilis symtoms
+            </a>
+            <a class='tab' href='../syphilis/odds.html'>
+                Odds of getting it
+            </a>
+            <a class='tab' href='../syphilis/testing.html'>
+                Syphilis testing
+            </a>
+            <a class='tab' href='../syphilis/treatment.html'>
+                Syphilis treatment
+            </a>
+            <a class='tab' href='../syphilis/comparision.html'>
+                Comparison
+            </a>
+            <a class='tab' href='../syphilis/protecting.html'>
+                Protecting
+            </a>
+        </section>
+    </div>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -459,6 +459,14 @@
     font-size: 0.625rem;
 }
 
+.deases .what_i_see .example {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.deases .what_i_see .example .link {
+    font-size: 0.625rem;
+}
 
 .deases .what_i_see .three-column .collage-item {
     max-width: 326px;

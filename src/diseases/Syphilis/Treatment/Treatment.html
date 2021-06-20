@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content deases'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px' />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>HIV navigation</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../hiv/hiv_signs.html'>
+                        Early HIV signs
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/odds.html'>
+                        Your odds
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/testing.html'>
+                        Testing
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/rapid_tests.html'>
+                        Rapid HIV tests
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/prep.html'>
+                        HIV PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/pep.html'>
+                        HIV (PEP)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/hiv_vs_other.html'>
+                        HIV vs. other diseases
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../hiv/protecting.html'>
+                        Protecting
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class='treatment'>
+            <div class='treatment-heading'>
+                <div>
+                    <h2 id='treatment'> HIV post-exposure prophylaxis (PEP)</h2>
+                    <p>
+                        Post-exposure HIV prophylaxis (PEP) should reduce the chance of
+                        acquiring HIV after high-risk exposure.
+                    </p>
+                    <br />
+                    <p>
+                        This chapter provides practical information on HIV post-exposure
+                        prophylaxis (PEP) and will help you make a decision about whether
+                        PEP is for you.
+                    </p>
+                    <br />
+                    <p>Whether to start the medication depends on several factors:</p>
+                    <br />
+                    <ul>
+                        <li>
+                            The chance of getting HIV with the kind of sexual encounter you
+                            had (you’re more likely to get HIV from some sexual activities)
+                        </li>
+                        <li>
+                            The amount of time that’s passed post exposure
+                        </li>
+                        <li>
+                            PEP side effects
+                        </li>
+                        <li>
+                            Cost
+                        </li>
+                    </ul>
+                    <p>
+                        If you have had an exposure that concerns you and you’re considering
+                        PEP, this chapter is for you.
+                    </p>
+                    <br />
+                    <p>Let’s move on!</p>
+                </div>
+            </div>
+            <div class='treatment-content'>
+                <h3>Who should consider PEP </h3>
+                <p class='section-text'>
+                    Here are the two most important criteria for PEP treatment:
+                </p>
+                <ul>
+                    <li>Treatment should be started within 72 hours of exposure</li>
+                    <li>The exposure should be high risk</li>
+                </ul>
+                <p class='section-text'>
+                    Let’s talk about each of these in more detail.
+                </p>
+                <p class='bold-text'>
+                    PEP timing
+                </p>
+                <ul>
+                    <li>Treatment should be started within 72 hours of exposure </li>
+                    <li>
+                        Ideally, it should be given within the first 24 hours after exposure
+                    </li>
+                    <li>Once the decision is made, the first dose should be taken</li>
+                </ul>
+                <p class='bold-text'>High-risk exposure, defined</p>
+                <p class='section-text'>
+                    Any (both insertive and receptive) unprotected vaginal or rectal sex
+                    or exposure to blood or bodily fluids mixed with blood is considered
+                    high risk.
+                </p>
+                <br />
+                <p class='section-text'>
+                    The table below shows the chance of contracting HIV through various
+                    types of unprotected sexual activities.
+                </p>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Chance of contracting HIV*</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><b>Receptive anal (“bottom”)</b> </td>
+                                <td class='highlightrd_cell'>1/72</td>
+                            </tr>
+                            <tr>
+                                <td><b>Insertive anal (“top”)</b> </td>
+                                <td class='highlightrd_cell'>1/900</td>
+                            </tr>
+                            <tr>
+                                <td><b>Females (penile to vaginal receptive intercourse)</b> </td>
+                                <td class='highlightrd_cell'>1/1,250</td>
+                            </tr>
+                            <tr>
+                                <td><b>Males (penile to vaginal insertive intercourse)</b> </td>
+                                <td class='highlightrd_cell'>½,500</td>
+                            </tr>
+                            <tr>
+                                <td><b>Oral sex (both giving and receiving)</b> </td>
+                                <td class='highlightrd_cell'>negligible</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <b>Sex toys, biting, spitting, throwing body fluids (saliva, semen)</b>
+                                </td>
+                                <td class='highlightrd_cell'>negligible</td>
+                            </tr>
+                            <tr>
+                                <td><b>Blood exposure to mucous membranes</b> </td>
+                                <td class='highlightrd_cell'>1/1,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class='section-text'>
+                    *The number of people who engage in the activity, unprotected, who
+                    contract HIV.
+                </p>
+                <p class='bold-text'>How doctors decide whether to recommend PEP</p>
+                <p class='section-text'>
+                    Not every unprotected sexual encounter is treated the same way by
+                    doctors—some are considered riskier than others. People who had
+                    high-risk contact are encouraged by doctors to initiate PEP. The
+                    following are considered high risk:
+                </p>
+                <ul>
+                    <li>Unprotected sex with an HIV-positive partner </li>
+                    <li>Sexual assault</li>
+                </ul>
+                <p class='section-text'>
+                    If you’re not in either of those categories, you can decide whether to
+                    be on PEP by looking at your statistical chance of getting HIV (based
+                    on the type of sexual activity you had) and your personal wishes.
+                </p>
+                <h3>If you’re already on PrEP</h3>
+                <p class='section-text'>
+                    Typically, someone who is taking PrEP medications and not missing
+                    doses frequently does not need to also take PEP after a high-risk
+                    exposure. But if PrEP is taken sporadically or if it wasn’t taken
+                    within the last week before exposure, PEP is advised.
+                </p>
+                <h3>The common PEP regimen</h3>
+                <p class='section-text'>
+                    PEP is a 28-day, three-drug regimen. Most commonly used is the
+                    combination of Truvada plus raltegravir or dolutegravir.
+                </p>
+                <ul>
+                    <li>Truvada: 200/300 mg once a day </li>
+                </ul>
+                <p class='section-text'>PLUS </p>
+                <ul>
+                    <li>Raltegravir 400 mg twice daily</li>
+                </ul>
+                <p class='section-text'>OR</p>
+                <ul>
+                    <li>Dolutegravir 50 mg once daily</li>
+                </ul>
+                <p class='section-text'>This is a 28-day regimen.</p>
+                <br>
+                <p class='section-text'>Dolutegravir vs. raltegravir</p>
+                <br>
+                <p><u>Dolutegravir is preferred for two reason:</u> </p>
+                <ul>
+                    <li>It’s convenient—it only has to be taken once a day </li>
+                    <li>It’s a better medication for a drug-resistant HIV virus</li>
+                </ul>
+                <p style="margin-top: 0; margin-bottom: 10px;" class='bold-text'>
+                    PEP effectiveness
+                </p>
+                <p class='section-text'>
+                    No clinical trials on non-occupational post-exposure prophylaxis have
+                    been conducted. PEP is not 100% effective, but it is very effective if
+                    taken consistently and correctly. It is believed that it is more than
+                    80% effective.
+                </p>
+                <h3>Reasons for PEP failures</h3>
+                <p>
+                    Here are the most common reasons for a PEP regimen failure:
+                </p>
+                <ul>
+                    <li>Not taking the medication as prescribed (missing doses)</li>
+                    <li>
+                        Delay in starting the medication (ideally it should be initiated
+                        within the first 24 hours, but it can be started within 72 hours of
+                        exposure)
+                    </li>
+                    <li>Ongoing HIV exposure</li>
+                    <li>Drug-resistant HIV virus (very uncommon)</li>
+                </ul>
+                <h3>Testing necessary before, during, and after PEP</h3>
+                <p class='section-text'>
+                    Here we summarize the testing necessary before starting PEP,
+                    post-treatment testing, and testing needed during PEP.
+                </p>
+                <br />
+                <p class='section-text'>
+                    Please keep in mind that PEP treatment should not be delayed—the first
+                    dose should be administered as soon as possible.
+                </p>
+                <p class='bold-text' style="margin-bottom: 10px;">Monitoring during PEP</p>
+                <p class='section-text'>
+                    A person who is receiving HIV PEP should have the following tests
+                    after the first dose (within the first few days):
+                </p>
+                <ul>
+                    <li>One-time rapid HIV antigen/antibody test</li>
+                    <li>Hepatitis B (Hep B antigen test)</li>
+                    <li>Hepatitis C (Hep C antibody test)</li>
+                </ul>
+                <p class='bold-text' style="margin-bottom: 10px; margin-top: 0;">Post-treatment testing</p>
+                <p class='section-text'>
+                    After PEP has been completed, a one-time fourth-generation HIV test is
+                    necessary.
+                </p>
+                <p class='bold-text' style="margin-bottom: 10px;">
+                    Why routine multiple HIV tests are unnecessary during PEP
+                </p>
+                <p class='section-text'>
+                    Most people are very concerned getting HIV and want frequent HIV
+                    testing while they’re on PEP. But it’s unnecessary—here’s why:
+                </p>
+                <ul>
+                    <li>
+                        The test usually remains negative because HIV has a “window” during
+                        which infection is not detected
+                    </li>
+                    <li>
+                        The HIV virus may be falsely suppressed while someone is on
+                        medication
+                    </li>
+                    <li>
+                        People may (unwisely) stop taking the medication because they assume
+                        they’re negative after a few negative tests within during the 28
+                        days they’re on PEP
+                    </li>
+                </ul>
+                <p class='section-text'>
+                    The above information applies to all types of HIV testing: the
+                    fourth-generation antigen/antibody test, HIV RNA test, or antibody
+                    test.
+                </p>
+                <h3>Why Descovy is not used instead of Truvada in PEP</h3>
+                <p class='section-text'>
+                    Descovy presently is not used in PEP because data are insufficient to
+                    support its efficacy.
+                </p>
+                <h3>When PEP can be stopped</h3>
+                <p class='section-text'>
+                    PEP can be stopped at any time without tapering the medication dose.
+                </p>
+                <p class='bold-text' style="margin-bottom: 10px;">
+                    There are a few reasons people stop the medication:
+                </p>
+                <ul>
+                    <li>
+                        Their partner agrees to be tested and tests negative for HIV
+                        <ul>
+                            <li>
+                                A negative rapid HIV test (fourth-generation antigen/antibody)
+                                is usually enough
+                            </li>
+                            <li>
+                                A negative HIV RNA is necessary if new infection suspected
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Their HIV-positive partner has an HIV RNA test showing suppressed
+                        virus (undetectable viral load)
+                    </li>
+                </ul>
+                <h3>Most common PEP side effects</h3>
+                <p class='section-text'>
+                    The most PEP side effects are mild and do not result in
+                    discontinuation of the regimen. This table shows the most common side
+                    effects and the percentage of people who experience them:
+                </p>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Side effects</th>
+                                <th class='highlightrd_cell'>Chance of side effect</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="text-align: left;">Nausea and vomiting</td>
+                                <td class='highlightrd_cell'>27%</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Diarrhea</td>
+                                <td class='highlightrd_cell'>21%</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Headache </td>
+                                <td class='highlightrd_cell'>21%</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: left;">Fatigue</td>
+                                <td class='highlightrd_cell'>14%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <a class='button' href='../hiv.html'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/arrow.svg' height='30' width='32' />
+                    <button>Select other section</button>
+                </a>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' alt="phone icon"
+                            height='40px' width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

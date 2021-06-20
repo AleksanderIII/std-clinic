@@ -78,6 +78,14 @@ module.exports = {
     HIVVsOther: './src/diseases/HIV/HIVVsOther/hivVsOther.js',
     hivProtecting: './src/diseases/HIV/Protecting/protecting.js',
 
+    syphilis: './src/diseases/Syphilis/syphilis.js',
+    syphilisSigns: './src/diseases/Syphilis/Signs/signs.js',
+    syphilisOdds: './src/diseases/Syphilis/Odds/odds.js',
+    syphilisTesting: './src/diseases/Syphilis/Testing/testing.js',
+    syphilisTreatment: './src/diseases/Syphilis/Treatment/treatment.js',
+    syphilisComparision: './src/diseases/Syphilis/Comparision/comparision.js',
+    syphilisProtecting: './src/diseases/Syphilis/Protecting/protecting.js',
+
     testsChlomydia: './src/tests/Chlomydia/chlomydia.js',
     testsGonorrhea:  './src/tests/Gonorrhea/gonorrhea.js',
     testsHerpes:  './src/tests/Herpes/herpes.js',
@@ -478,6 +486,51 @@ module.exports = {
       inject: true,
       chunks: ['hivProtecting']
     }),
+
+
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Syphilis.html',
+      filename: 'syphilis.html',
+      inject: true,
+      chunks: ['syphilis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Signs/Signs.html',
+      filename: 'syphilis/syphilis_signs.html',
+      inject: true,
+      chunks: ['syphilisSigns']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Odds/Odds.html',
+      filename: 'syphilis/odds.html',
+      inject: true,
+      chunks: ['syphilisOdds']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Testing/Testing.html',
+      filename: 'syphilis/testing.html',
+      inject: true,
+      chunks: ['syphilisTesting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Comparision/Comparision.html',
+      filename: 'syphilis/comparision.html',
+      inject: true,
+      chunks: ['syphilisComparision']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Protecting/Protecting.html',
+      filename: 'syphilis/protecting.html',
+      inject: true,
+      chunks: ['syphilisProtecting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/diseases/Syphilis/Treatment/Treatment.html',
+      filename: 'syphilis/treatment.html',
+      inject: true,
+      chunks: ['syphilisTreatment']
+    }),
+
     new HtmlWebpackPlugin({
       template: './src/tests/Chlomydia/Chlomydia.html',
       filename: 'tests/chlomydia.html',

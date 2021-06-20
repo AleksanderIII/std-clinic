@@ -13,6 +13,22 @@
     line-height: 2.75rem;
 }
 
+.deases .introduction .bold-text {
+    font-weight: 600;
+}
+
+.deases .introduction ul {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.deases .introduction ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
 .deases .introduction-main_part {
     font-family: 'Montserrat-Medium', sans-serif;
     margin-left: -100px;
@@ -41,6 +57,14 @@
     margin-left: -20px;
 }
 
+.introduction-addition p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    line-height: 1.5;
+    color: #354A87;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
 @media (max-width: 1200px) {
     .deases .introduction {
         flex-direction: column;
@@ -49,6 +73,10 @@
         margin-top: 60px;
         padding-bottom: 40px;
         border-bottom: 1px solid #46B188;
+    }
+
+    .deases .introduction .bold-text {
+        font-weight: 500;
     }
 
     .deases .introduction-text {
