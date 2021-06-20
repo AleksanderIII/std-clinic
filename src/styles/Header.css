@@ -279,7 +279,7 @@
   }
 
   .menu-content {
-    padding: 30px;
+    margin: 30px;
     width: 100%;
     height: calc(100vh - 150px);
     overflow-y: auto;
@@ -297,7 +297,7 @@
     display: none;
   }
 
-  .menu-content .menu-item.hidden img{
+  .menu-content .menu-item.hidden img {
     transform: rotate(180deg);
   }
 
