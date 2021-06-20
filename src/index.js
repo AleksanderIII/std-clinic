@@ -55,9 +55,14 @@ function toggleMenu () {
 }
 
 const menuItems = mobileMenu.querySelectorAll('.menu-item')
-menuItems.forEach(menuItem => {
+menuItems.forEach((menuItem, index) => {
   if (menuItem.querySelectorAll('.menu-subfolder')) {
     menuItem.addEventListener('click', function () {
+      menuItems.forEach((item, itemIndex) => {
+        if (index !== itemIndex) {
+          item.classList.add('hidden')
+        }
+      })
       menuItem.classList.toggle('hidden')
     })
   }
