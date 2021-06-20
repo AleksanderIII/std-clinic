@@ -17,6 +17,10 @@
     color: white;
 }
 
+.deases .my_odds table th .light-font {
+    font-weight: 500;
+}
+
 .deases .my_odds table td ul li {
     color: #629EA8;
 }
@@ -131,6 +135,16 @@
     margin: 0px 0 20px 0px;
     font-weight: 500;
     font-size: 1rem;
+}
+
+.deases .my_odds .graph {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.deases .my_odds .FAQ .answer .graph {
+    display: flex;
 }
 
 .deases .my_odds .graph_header~ul {
@@ -382,9 +396,27 @@
         padding: 0;
     }
 
+    .deases .my_odds table th .light-font {
+        font-weight: 400;
+    }
+
+    .deases .my_odds .graph {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
     .deases .my_odds .my_odds-heading ul li {
         margin-bottom: 5px;
         font-size: 0.875rem !important;
+    }
+
+    .deases .my_odds table {
+        margin-top: 20px;
+    }
+
+    .deases .my_odds .FAQ .answer .graph {
+        padding-right: 0;
+        padding-left: 0;
     }
 
     .deases .my_odds-heading {

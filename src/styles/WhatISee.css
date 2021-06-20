@@ -432,7 +432,9 @@
 }
 
 .deases .what_i_see .graph {
-    margin: 15px 90px 45px 80px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 45px;
 }
 
 .deases .what_i_see .FAQ .answer ul {
@@ -486,6 +488,16 @@
     margin-left: 20px;
     margin-bottom: 5px;
 }
+
+.deases .what_i_see .image {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.deases .what_i_see .FAQ ul li .answer p.link {
+    font-size: 0.625rem;
+}
+
 
 @media (max-width: 1200px) {
     .deases .what_i_see {
@@ -650,10 +662,17 @@
 
     .deases .what_i_see .graph {
         margin: 0 auto;
+        padding-left: 16px;
+        padding-right: 16px;
         margin-top: 10px;
         margin-bottom: 20px;
-        height: 164px;
-        width: 328px;
+        height: auto;
+        width: 100%;
+    }
+
+    .deases .what_i_see .image {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .deases .what_i_see .discharge ul {

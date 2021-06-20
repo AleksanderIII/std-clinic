@@ -417,6 +417,11 @@
         font-size: 0.8125rem;
     }
 
+    .deases .treatment .bold-text{
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
     .deases .treatment .bold-text~ul li,
     .deases .treatment ul li {
         font-weight: 400;
@@ -463,7 +468,7 @@
     }
 
     .deases .treatment ul li {
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         line-height: 1.5rem;
     }
 

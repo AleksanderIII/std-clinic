@@ -371,6 +371,14 @@
     color: white;
 }
 
+.deases .protecting table .light-font {
+    font-weight: 500;
+}
+
+.deases .protecting table b {
+    font-weight: 600;
+}
+
 
 @media (max-width: 1200px) {
     .deases .protecting {
@@ -378,12 +386,20 @@
         padding: 0;
     }
 
-    .deases .protecting .bold-text~ul li{
+    .deases .protecting table .light-font {
+        font-weight: 400;
+    }
+
+    .deases .protecting table b {
+        font-weight: 500;
+    }
+
+    .deases .protecting .bold-text~ul li {
         font-weight: 400;
     }
 
     .deases .protecting-content ul li,
-    .deases .protecting .protecting-heading ul li{
+    .deases .protecting .protecting-heading ul li {
         font-weight: 400;
     }
 
@@ -395,23 +411,23 @@
         margin: 10px 16px;
     }
 
-    .deases .protecting .protecting-heading ul li{
+    .deases .protecting .protecting-heading ul li {
         padding-right: 0;
     }
 
-    .deases .protecting-content ul li{
+    .deases .protecting-content ul li {
         margin-bottom: 5px;
     }
 
-    .deases .protecting-content ul li ul{
+    .deases .protecting-content ul li ul {
         margin-top: 5px !important;
     }
 
-    .deases .protecting .bold-text{
+    .deases .protecting .bold-text {
         margin-top: 10px;
     }
 
-    .deases .protecting .bold-text~ul li{
+    .deases .protecting .bold-text~ul li {
         font-size: 0.875rem;
         margin-bottom: 5px;
     }

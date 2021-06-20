@@ -25,6 +25,10 @@
     text-align: left;
 }
 
+.deases .comparision table .light-font {
+    font-weight: 500;
+}
+
 .deases .comparision .comparision-heading ul {
     margin-left: 20px;
     margin-top: 20px;
@@ -415,10 +419,52 @@
     font-weight: 600;
 }
 
+.deases .comparision .subHeader {
+    font-size: 1.125rem;
+}
+
+.deases .comparision .example {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.deases .comparision .example .link {
+    position: relative;
+    word-break: break-all;
+    left: 5px;
+}
+
 @media (max-width: 1200px) {
     .deases .comparision {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .comparision .example {
+        width: 100%;
+    }
+
+    .deases .comparision ul {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+
+    .deases .comparision ul li {
+        margin-left: 15px;
+    }
+
+    .deases .comparision .example img {
+        width: 100%;
+        height: auto;
+        padding: 0 16px;
+    }
+
+    .deases .comparision .example .link {
+        padding: 0 16px;
+    }
+
+    .deases .comparision .subHeader {
+        font-size: 1rem;
     }
 
     .deases .comparision h3 {
@@ -477,6 +523,19 @@
         flex-direction: column;
     }
 
+    .deases .comparision .bold-text~ul li {
+        font-size: 0.875rem;
+    }
+
+    .deases .comparision .bold-text {
+        margin: 15px;
+    }
+
+    .deases .comparision table {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
     .deases .comparision table td p.table-bold-text {
         padding-right: 0;
         padding-left: 0;
@@ -484,6 +543,10 @@
 
     .deases .comparision .answer ul {
         margin-left: 16px;
+    }
+
+    .deases .comparision table .light-font {
+        font-weight: 400;
     }
 
     .deases .comparision .FAQ table td p.table-bold-text,
@@ -633,6 +696,10 @@
         font-weight: 400;
     }
 
+    .deases .comparision .bold-text~ul {
+        margin-left: 20px;
+    }
+
     .deases .comparision .button {
         margin: 20px;
     }
@@ -640,5 +707,10 @@
     .deases .comparision .image_example {
         width: 100%;
         height: auto;
+    }
+
+    .deases .comparision .bold-text {
+        padding-left: 0;
+        padding-right: 0;
     }
 }

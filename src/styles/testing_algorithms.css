@@ -19,6 +19,41 @@
     color: #354A87;
 }
 
+.deases .testing_algoritms table td ul li {
+    color: #629EA8;
+}
+
+.deases .testing_algoritms table td b {
+    font-weight: 600;
+}
+
+.deases .testing_algoritms .FAQ ul {
+    margin-left: 0;
+}
+
+.deases .testing_algoritms .FAQ ul li {
+    margin-left: 0;
+}
+
+.deases .testing_algoritms .FAQ ul li p.question-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.deases .testing_algoritms .FAQ .answer ul {
+    margin-left: 30px;
+}
+
+.deases .testing_algoritms .FAQ .answer ul li {
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+
+.deases .testing_algoritms .highlightrd_cell {
+    background: #F6F9FA;
+}
+
 .deases .testing_algoritms .highlightrd_cell {
     background: #F6F9FA;
 }
@@ -335,12 +370,39 @@
         padding: 0;
     }
 
-    .deases .testing_algoritms .testing_algoritms-heading ul li{
+    .deases .testing_algoritms .testing_algoritms-heading ul li {
         font-size: 0.875rem;
     }
 
     .deases .testing_algoritms h3 {
         font-weight: 500;
+    }
+
+    .deases .testing_algoritms .section-text,
+    .deases .testing_algoritms .bold-text,
+    .deases .testing_algoritms .bold-text~ul li,
+    .deases .testing_algoritms table th {
+        font-size: 0.875rem;
+    }
+
+    .deases .testing_algoritms table th,
+    .deases .testing_algoritms table td {
+        padding: 20px
+    }
+
+    .deases .testing_algoritms .FAQ ul li .answer p,
+    .deases .testing_algoritms .FAQ ul li .answer ul li,
+    .deases .testing_algoritms .FAQ ul li .answer table th,
+    .deases .testing_algoritms .FAQ ul li .answer table td{
+        font-size: 0.8125rem;
+    }
+
+    .deases .testing_algoritms .bold-text~ul li {
+        margin-bottom: 5px;
+    }
+
+    .deases .testing_algoritms table {
+        margin-top: 15px;
     }
 
     .deases .testing_algoritms-heading {
