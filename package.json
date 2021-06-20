@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/AleksanderIII/std#readme",
   "dependencies": {
+    "copy-webpack-plugin": "^9.0.0",
     "css-loader": "^5.2.6",
     "less": "^4.1.1",
     "less-loader": "^9.0.0",

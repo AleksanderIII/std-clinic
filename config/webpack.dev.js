@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HTMLInlineCSSWebpackPlugin = require('html-inline-css-webpack-plugin')
   .default
 
@@ -79,25 +80,25 @@ module.exports = {
     hivProtecting: './src/diseases/HIV/Protecting/protecting.js',
 
     testsChlomydia: './src/tests/Chlomydia/chlomydia.js',
-    testsGonorrhea:  './src/tests/Gonorrhea/gonorrhea.js',
-    testsHerpes:  './src/tests/Herpes/herpes.js',
-    testsHIV:  './src/tests/HIV/hiv.js',
-    testsHPV:  './src/tests/HPV/hpv.js',
-    testsSyphilis:  './src/tests/Syphilis/syphilils.js',
-    testsGardnerella:  './src/tests/Gardnerella/gardnerella.js',
-    testsTrichomoniasis:  './src/tests/Trichomoniasis/trichomoniasis.js',
-    testsMycoplasma:  './src/tests/Mycoplasma/mycoplasma.js',
-    testsUreaplasma:  './src/tests/Ureaplasma/ureaplasma.js',
-    testsYeast:  './src/tests/Yeast/yeast.js',
-    testsBalanitis:  './src/tests/Balanitis/balanitis.js',
+    testsGonorrhea: './src/tests/Gonorrhea/gonorrhea.js',
+    testsHerpes: './src/tests/Herpes/herpes.js',
+    testsHIV: './src/tests/HIV/hiv.js',
+    testsHPV: './src/tests/HPV/hpv.js',
+    testsSyphilis: './src/tests/Syphilis/syphilils.js',
+    testsGardnerella: './src/tests/Gardnerella/gardnerella.js',
+    testsTrichomoniasis: './src/tests/Trichomoniasis/trichomoniasis.js',
+    testsMycoplasma: './src/tests/Mycoplasma/mycoplasma.js',
+    testsUreaplasma: './src/tests/Ureaplasma/ureaplasma.js',
+    testsYeast: './src/tests/Yeast/yeast.js',
+    testsBalanitis: './src/tests/Balanitis/balanitis.js'
   },
   output: {
-    path: path.join(__dirname, '../build'),
+    path: path.join(__dirname, 'dist'),
     filename: '[name].bundle.js'
   },
   mode: 'development',
   devServer: {
-    contentBase: path.join(__dirname, '../build'),
+    contentBase: path.join(__dirname, 'dist'),
     compress: true,
     port: 3000,
     overlay: true
@@ -132,11 +133,7 @@ module.exports = {
         test: /\.(png|svg|jpe?g|gif)$/,
         use: [
           {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'assets/'
-            }
+            loader: 'file-loader'
           }
         ]
       },
@@ -560,6 +557,9 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'
+    }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: './src/images', to: 'images' }]
     }),
     new HTMLInlineCSSWebpackPlugin()
   ]
