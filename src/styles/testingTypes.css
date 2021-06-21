@@ -477,6 +477,10 @@
         padding: 0;
     }
 
+    .deases .testing_types .bold-text~ul li {
+        margin-bottom: 5px;
+    }
+
     .deases .testing_types .graph {
         width: 100%;
         height: auto;
