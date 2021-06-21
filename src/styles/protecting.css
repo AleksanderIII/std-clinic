@@ -379,11 +379,19 @@
     font-weight: 600;
 }
 
+.deases .protecting .note {
+    font-size: 0.875rem;
+}
+
 
 @media (max-width: 1200px) {
     .deases .protecting {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .protecting .note {
+        font-size: 0.8125rem;
     }
 
     .deases .protecting table .light-font {

@@ -19,6 +19,14 @@
     background: #F6F9FA;
 }
 
+.deases .testing_types .light-font {
+    font-weight: 500;
+}
+
+.deases .testing_types table td .light-font {
+    font-size: 0.875rem;
+}
+
 .deases .testing_types.filled {
     background: #4566A8;
 }
@@ -471,6 +479,10 @@
         font-size: 1.3rem;
     }
 
+    .deases .testing_types table td .light-font {
+        font-size: 0.8125rem;
+    }
+
     .deases .testing_types ul {
         margin: 0 16px;
         padding-left: 16px;
@@ -577,6 +589,9 @@
         padding: 0 16px;
     }
 
+    .deases .testing_types .light-font {
+        font-weight: 400;
+    }
 
     .deases .testing_types .testing_types-heading .bold-text~ul {
         margin: 0 0 10px 16px;

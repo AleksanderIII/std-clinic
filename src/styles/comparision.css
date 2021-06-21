@@ -23,6 +23,7 @@
     padding-left: 0px;
     padding-right: 50px;
     text-align: left;
+    word-break: break-all;
 }
 
 .deases .comparision table .light-font {
@@ -434,10 +435,24 @@
     left: 5px;
 }
 
+.deases .comparision .collage.three-column .column .name {
+    font-size: 1.5rem;
+}
+
+.deases .comparision .FAQ .answer .subHeader {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
 @media (max-width: 1200px) {
     .deases .comparision {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .comparision .FAQ .answer .subHeader {
+        font-size: 1rem;
+        font-weight: 600;
     }
 
     .deases .comparision .example {
@@ -509,6 +524,7 @@
     .deases .comparision .collage.two-column .column .link {
         padding: 0;
     }
+
 
     .deases .comparision .collage.two-column .column .name {
         font-size: 1.5rem;

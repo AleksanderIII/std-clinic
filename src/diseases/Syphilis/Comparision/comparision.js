@@ -32,11 +32,13 @@ function closeOtherQuestions (li) {
   })
 }
 
-const FAQ = document.getElementsByClassName('FAQ-content')[0]
-const ul = FAQ?.getElementsByTagName('ul')[0]
-if (ul) {
-  ul.addEventListener('click', event => toggleQuestion(event))
-}
+const FAQs = document.getElementsByClassName('FAQ-content')
+Array.from(FAQs).forEach(FAQ => {
+  const ul = FAQ?.getElementsByTagName('ul')[0]
+  if (ul) {
+    ul.addEventListener('click', event => toggleQuestion(event))
+  }
+})
 
 const navigator = document.getElementById('navigator')
 const navigation = document.getElementById('navigation')
