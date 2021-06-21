@@ -464,15 +464,23 @@
     color: #629EA8;
 }
 
-.deases .testing_types .graph{
+.deases .testing_types .graph {
     margin: 0 auto;
+    display: block;
 }
+
 
 
 @media (max-width: 1200px) {
     .deases .testing_types {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .testing_types .graph {
+        width: 100%;
+        height: auto;
+        padding: 0 16px;
     }
 
     .deases .testing_types p u {
