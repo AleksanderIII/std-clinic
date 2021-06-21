@@ -400,6 +400,10 @@
     line-height: 1.5rem;
 }
 
+.deases .treatment .graph {
+    margin: 0 auto;
+}
+
 
 @media (max-width: 1200px) {
     .deases .treatment {
@@ -417,7 +421,7 @@
         font-size: 0.8125rem;
     }
 
-    .deases .treatment .bold-text{
+    .deases .treatment .bold-text {
         margin-top: 20px;
         margin-bottom: 10px;
     }
@@ -427,7 +431,7 @@
         font-weight: 400;
     }
 
-    .deases .treatment .treatment-content .bold-text~ul{
+    .deases .treatment .treatment-content .bold-text~ul {
         padding-left: 16px;
     }
 

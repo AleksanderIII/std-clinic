@@ -464,6 +464,10 @@
     color: #629EA8;
 }
 
+.deases .testing_types .graph{
+    margin: 0 auto;
+}
+
 
 @media (max-width: 1200px) {
     .deases .testing_types {

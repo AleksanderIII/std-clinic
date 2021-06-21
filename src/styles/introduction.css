@@ -65,6 +65,10 @@
     font-size: 1.125rem;
 }
 
+.introduction .introduction-main_part .bold-text{
+
+}
+
 @media (max-width: 1200px) {
     .deases .introduction {
         flex-direction: column;
@@ -76,7 +80,7 @@
     }
 
     .deases .introduction .bold-text {
-        font-weight: 500;
+        font-weight: 600;
     }
 
     .deases .introduction-text {
