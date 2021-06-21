@@ -444,10 +444,45 @@
     font-weight: 700;
 }
 
+.deases .comparision .mobile {
+    display: none !important;
+}
+
 @media (max-width: 1200px) {
     .deases .comparision {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .comparision .bold-text~ul li {
+        margin-bottom: 5px;
+    }
+
+    .deases .comparision .collage.three-column .column {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .deases .comparision .collage.three-column .column img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deases .comparision .collage.three-column .column .name {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .deases .comparision .FAQ ul li.question {
+        margin-left: 0;
+    }
+
+    .deases .comparision .collage.three-column {
+        flex-direction: column;
+    }
+
+    .deases .comparision .collage.two-column .column .link {
+        max-width: 100%;
     }
 
     .deases .comparision .FAQ .answer .subHeader {
@@ -728,5 +763,13 @@
     .deases .comparision .bold-text {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .deases .comparision .desktop {
+        display: none !important;
+    }
+
+    .deases .comparision .mobile {
+        display: block !important;
     }
 }
