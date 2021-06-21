@@ -432,9 +432,24 @@
 }
 
 .deases .what_i_see .graph {
+    display: block;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 45px;
+}
+
+.deases .what_i_see .one-picture {
+    margin: 0 auto;
+}
+
+.deases .what_i_see .one-picture .link {
+    font-size: 0.625rem;
+}
+
+.deases .what_i_see .one-picture.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .deases .what_i_see .FAQ .answer ul {
@@ -513,8 +528,32 @@
         padding: 0;
     }
 
+    .deases .what_i_see .example {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .deases .what_i_see .one-picture {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .deases .what_i_see .one-picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .deases .what_i_see .example img {
+        width: 100%;
+        height: auto;
+    }
+
     .deases .what_i_see .what_i_see-heading ul {
         margin-left: 16px;
+    }
+
+    .deases .what_i_see .one-picture.row {
+        flex-direction: column;
     }
 
     .deases .what_i_see .what_i_see-heading ul li {
@@ -528,6 +567,18 @@
 
     .deases .what_i_see .collage-item .item-header {
         font-size: 1rem;
+    }
+
+    .deases .what_i_see .example .link,
+    .deases .what_i_see .one-picture.row,
+    .deases .what_i_see .one-picture .link {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .deases .what_i_see .bold-text~ul li {
+        margin-bottom: 5px;
+        font-size: 0.875rem;
     }
 
     .deases .what_i_see .collage.two-column .column {
@@ -612,9 +663,15 @@
         margin-top: 0;
     }
 
+    .deases .what_i_see .bold-text {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
     .deases .what_i_see .bold-text~.table-wrap {
         margin-top: 0;
     }
+
 
     .deases .what_i_see-content {
         width: 100%;
