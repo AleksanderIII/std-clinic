@@ -769,6 +769,10 @@
         display: none !important;
     }
 
+    .deases .comparision .bold-text~ul li{
+        font-weight: 400;
+    }
+
     .deases .comparision .mobile {
         display: block !important;
     }
