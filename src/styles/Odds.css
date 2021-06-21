@@ -390,10 +390,18 @@
     font-weight: 600;
 }
 
+.deases .my_odds table b{
+    font-weight: 600;
+}
+
 @media (max-width: 1200px) {
     .deases .my_odds {
         margin-top: 56px;
         padding: 0;
+    }
+
+    .deases .my_odds table b{
+        font-weight: 500;
     }
 
     .deases .my_odds table th .light-font {
