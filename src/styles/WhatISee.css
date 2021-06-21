@@ -578,6 +578,7 @@
 
     .deases .what_i_see .bold-text~ul li {
         margin-bottom: 5px;
+        font-weight: 400;
         font-size: 0.875rem;
     }
 
