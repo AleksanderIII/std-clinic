@@ -855,6 +855,53 @@
     width: 100vw;
   }
 
+  .testing section.FAQ_section {
+    padding: 0;
+  }
+
+  .testing section.FAQ_section .FAQ {
+    padding: 0 16px;
+  }
+
+  .FAQ h3 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+
+  .FAQ ul li p.question-text {
+    font-size: 0.875rem;
+    padding: 10px 20px;
+  }
+
+  .testing .consult .row.consulting .speech-bubble p {
+    font-size: 0.875rem;
+  }
+
+  .question .answer p,
+  .question .answer p.bold-text,
+  .question .answer ul li {
+    font-size: 0.8125rem;
+    line-height: 1.25rem;
+  }
+
+  .question .answer p.bold-text {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .question .answer .answer_image .source {
+    line-height: 1rem;
+  }
+
+  .FAQ-content {
+    padding: 0;
+  }
+
+  .testing .at_glance .info_item:first-child {
+    background: none;
+    border: 4px solid;
+  }
+
   .testing .section-wrapper {
     width: 100%;
     max-width: 100%;
@@ -870,7 +917,7 @@
 
   .testing section.intro-banner {
     width: 100%;
-    margin-top: 86px;
+    margin-top: 56px;
     background: none;
     background: linear-gradient(160.38deg, rgba(255, 255, 255, 0.7) 0.72%,
         rgba(248, 249, 252, 0.7) 42.89%,
@@ -879,6 +926,7 @@
 
   .testing h1 {
     font-size: 1.5rem;
+    font-weight: 700;
   }
 
   .testing h2 {
@@ -888,6 +936,7 @@
 
   .testing p.text-with-icon.medium {
     font-size: 0.875rem;
+    margin: 10px 0;
   }
 
   .testing p.text-with-icon.medium img {
@@ -902,6 +951,10 @@
     width: 100%;
     padding: 5px;
     max-width: 330px;
+  }
+
+  .testing .at_glance h2 {
+    font-size: 1.5rem;
   }
 
   .testing .no-insurance-button .secondary-orange {
@@ -920,6 +973,11 @@
 
   .testing .row.rating {
     width: 100%;
+    margin-top: 80px;
+  }
+
+  .desktop {
+    display: none !important;
   }
 
   .testing .row.rating .rating-customer {
@@ -954,6 +1012,10 @@
     font-size: 1.5rem;
   }
 
+  .testing .consult h2 {
+    margin-top: 0;
+  }
+
   .testing .section.consult {
     padding-top: 50px;
     padding-bottom: 0;
@@ -978,10 +1040,29 @@
     flex-direction: column-reverse;
   }
 
+  .testing section.insurances .row.row-insurances .insurances-description {
+    min-width: 100%;
+    width: 100%;
+  }
+
   .testing section.insurances h3 {
     text-align: center;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .testing section.insurances .row.row-insurances .data {
+    margin: 0 auto;
+  }
+
+  .testing .section.review {
+    padding-bottom: 50px;
+  }
+
+  .testing .section.review .row .column img {
+    position: static;
   }
 
   .testing section.insurances .row.row-insurances .data-column ul li {
@@ -1230,6 +1311,7 @@
 
   .testing .related-topics .topics {
     justify-content: center;
+    margin-bottom: 50px;
   }
 
   .testing .section.related-topics h2 {
