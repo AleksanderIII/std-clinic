@@ -970,6 +970,7 @@
   .testing .at_glance .info p {
     font-size: 0.875rem;
     margin-left: 15px;
+    font-weight: 400;
   }
 
   .testing .at_glance .info_item:nth-child(2) table {
