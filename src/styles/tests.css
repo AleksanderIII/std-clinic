@@ -1493,6 +1493,11 @@
     margin-bottom: 50px;
   }
 
+  .testing .related-topics .topics .topic {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
   .testing .section.related-topics h2 {
     text-align: center;
     margin-top: 50px;
