@@ -891,7 +891,107 @@
     width: 100vw;
   }
 
-  .rating-customer{
+  .testing .at_glance .info_item {
+    padding: 0;
+  }
+
+  .testing .at_glance .info_item:nth-child(3) h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .testing .at_glance .info_item:nth-child(3) .description {
+    font-size: 0.875rem;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+  }
+
+  .testing .at_glance .info_item:nth-child(3) ul {
+    margin-left: 30px !important;
+    margin-bottom: 15px;
+  }
+
+  .testing .at_glance .info .bold-text,
+  .testing .at_glance .info_item li {
+    font-size: 0.875rem;
+  }
+
+  .testing .at_glance .info_item:nth-child(2) h3 {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .info_item:nth-child(2) .description {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    font-size: 0.875rem !important;
+  }
+
+  .testing .at_glance .info .warning {
+    font-size: 0.8125rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+  }
+
+  .testing .at_glance .info_item:nth-child(2) table td {
+    padding: 10px;
+  }
+
+  .testing .at_glance .info_item:nth-child(2) table tr td:first-child,
+  .testing .at_glance .info_item:nth-child(2) table td:nth-child(2),
+  .testing .at_glance .info_item:nth-child(2) table tr td:last-child {
+    font-size: 0.8125rem;
+  }
+
+  .testing .at_glance .info_item:last-child {
+    background: none;
+    border: 4px solid rgba(214, 216, 235, 0.3);
+    border-radius: 30px 60px 40px 30px;
+  }
+
+  .testing .at_glance .info_item {
+    width: 100%;
+    height: auto;
+  }
+
+  .testing .at_glance .info_item:nth-child(4) h3 {
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .testing .at_glance .info_item:nth-child(4) ul {
+    margin-left: 30px !important;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+
+  .testing .at_glance .info p {
+    font-size: 0.875rem;
+    margin-left: 15px;
+  }
+
+  .testing .at_glance .info_item:nth-child(2) table {
+    margin-bottom: 10px;
+  }
+
+  .testing .at_glance .info_item:nth-child(2) .legend {
+    font-size: 0.8125rem;
+    margin-left: 15px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .testing .at_glance .info_item h4 {
+    font-size: 1rem;
+  }
+
+  .testing .at_glance .info_item h3 {
+    font-size: 1.125rem;
+  }
+
+  .rating-customer {
     font-size: 1.125rem !important;
     text-align: center;
   }
@@ -933,10 +1033,6 @@
     padding: 10px 20px;
   }
 
-  .testing .consult .row.consulting .speech-bubble p {
-    font-size: 0.875rem;
-  }
-
   .question .answer p,
   .question .answer p.bold-text,
   .question .answer ul li {
@@ -959,7 +1055,18 @@
 
   .testing .at_glance .info_item:first-child {
     background: none;
-    border: 4px solid;
+    border: 4px solid rgba(214, 216, 235, 0.3);
+    border-radius: 30px 60px 40px 30px;
+    padding: 0 16px;
+  }
+
+  .testing .at_glance .info_item h3 span {
+    font-size: 1.125rem;
+  }
+
+  .testing .at_glance .info_item h3 {
+    margin-left: -15px;
+    letter-spacing: 0;
   }
 
   .testing .section-wrapper {
@@ -1015,6 +1122,15 @@
 
   .testing .at_glance h2 {
     font-size: 1.5rem;
+    padding-left: 5px;
+  }
+
+  .testing .at_glance h2 img {
+    margin-left: 0;
+  }
+
+  .testing .wave {
+    width: 140px;
   }
 
   .testing .no-insurance-button .secondary-orange {
@@ -1090,7 +1206,7 @@
     padding-bottom: 50px;
     width: 100%;
     background: none;
-    background: rgba(104, 195, 217, 0.05);
+    background: rgba(220, 89, 58, 0.05);
   }
 
   .testing section.insurances .row.row-insurances {
@@ -1139,7 +1255,8 @@
 
   .testing section.no-insurance {
     background: none;
-    background: rgba(220, 89, 58, 0.05);
+    background: rgba(104, 195, 217, 0.05);
+    margin-top: 40px;
   }
 
   .testing section.no-insurance .row.row-no-insurance .data {
