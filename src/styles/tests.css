@@ -1,10 +1,42 @@
 .testing section.intro-banner {
+  position: relative;
   margin-top: 130px;
   padding-top: 20px;
   padding-bottom: 10px;
-  background: url('http://d12qz6jssicxsf.cloudfront.net/images/image_testing.svg') no-repeat;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/image_testing_bg.svg') no-repeat;
   background-position: bottom right -50px;
   background-size: contain;
+}
+
+.insurance-btn {
+  position: absolute;
+  display: flex;
+  top: 150px;
+  right: 75px;
+  flex-direction: row;
+  background: white;
+  color: #DC593A;
+  border: 2px solid #DC593A;
+  padding: 15px 20px;
+  border-radius: 5px;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+.insurance-btn span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 27px;
+  min-width: 27px;
+  height: 27px;
+  min-height: 27px;
+  border: 2px solid #DC593A;
 }
 
 .testing .icon-img {
@@ -849,10 +881,34 @@
   font-size: 0.875rem;
 }
 
+.mobile {
+  display: none !important;
+}
+
 @media (max-width: 1200px) {
   .testing section {
     padding: 0 16px;
     width: 100vw;
+  }
+
+  .rating-customer{
+    font-size: 1.125rem !important;
+    text-align: center;
+  }
+
+  .mobile {
+    display: block !important;
+  }
+
+  .insurance-btn {
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    height: 57px;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
   }
 
   .testing section.FAQ_section {
@@ -868,7 +924,7 @@
     margin: 20px 0;
   }
 
-  .FAQ ul li{
+  .FAQ ul li {
     margin-bottom: 10px;
   }
 
