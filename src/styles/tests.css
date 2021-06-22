@@ -868,6 +868,10 @@
     margin: 20px 0;
   }
 
+  .FAQ ul li{
+    margin-bottom: 10px;
+  }
+
   .FAQ ul li p.question-text {
     font-size: 0.875rem;
     padding: 10px 20px;
