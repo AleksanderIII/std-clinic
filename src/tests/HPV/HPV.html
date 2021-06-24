@@ -6,6 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,8 +83,7 @@
                     <li class='menu-item'>
                         <p>
                             STD tests
-                            <img src='images/arrowDown.svg' height='15'
-                                width='30' />
+                            <img src='../images/arrowDown.svg' height='15' width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -95,8 +147,7 @@
                     <li class='menu-item'>
                         <p class='menu-link'>
                             STD diseases
-                            <img src='images/arrowDown.svg' height='15'
-                                width='30' />
+                            <img src='../images/arrowDown.svg' height='15' width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -146,8 +197,138 @@
                     </a>
                 </div>
             </div>
-            <img class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg" width="27px"
-                height="24px">
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <div class='content testing'>
@@ -155,9 +336,9 @@
             <div class='section-wrapper'>
                 <div class='intro-text-wrapper'>
                     <h1>
-                        Get Chlamydia testing and
+                        Get checked and treated for
                         <br />
-                        treatment toady!
+                        genital warts Today!
                     </h1>
                     <p class='text-with-icon medium'>Covered by insurance</p>
                     <p class='text-with-icon medium'>
@@ -166,6 +347,12 @@
                     <p class='text-with-icon medium'>Same day appointment</p>
                     <p class='text-with-icon medium'>
                         All patients seen by a doctor
+                    </p>
+                    <p class="insurance-btn">
+                        <b>No insurance? <br class="desktop">
+                            <i> </i>
+                            No problem
+                        </b> <span class="desktop">i</span>
                     </p>
                 </div>
                 <div class='row rating'>
@@ -176,6 +363,9 @@
                         customer reviews
                     </a>
                 </div>
+                <a href='#' class='rating-customer mobile'>
+                    customer reviews
+                </a>
                 <div class='row people-say'>
                     <div class='people-say--icon-wrapper'>
                         <a href='https://www.zocdoc.com/doctor/slava-fuzayloff-do-9429' title='follow us on ZocDoc'>
@@ -228,191 +418,628 @@
                         <p>Text messaging service</p>
                     </div>
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/doctor.svg' alt='doctor graphic'
-                        height='250px' width='280px' />
+                        class="desktop" height='250px' width='280px' />
                 </div>
             </div>
         </section>
 
-        <section class='section at_glance blue-text'>
+        <section class='section at_glance blue-text' style="padding-top: 0;">
             <h2>
                 <span class='orange-text'>AT</span> A GLANCE
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
+                <img class="wave" src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px'
+                    height='14px' />
             </h2>
             <div class='info'>
-                <div class='info_item'>
+                <div class='info_item hiv' style="width: 100%;">
                     <h3>
-                        <span class='orange-text'>WHO</span> GET TESTED?
+                        <span class='orange-text'>WHO</span> SHOULD GET TESTED?
                     </h3>
-                    <p>
-                        Chlamydia testing is recommended <br />
-                        for both symptomatic and asymptomatic people.
-                    </p>
-                    <h4 class='orange-text'>NO sympthoms</h4>
-                    <ul>
-                        <li>Sexually active female 25 and younger</li>
-                        <li>People with multiple sex partners</li>
-                        <li>
-                            People who have had unprotected sex with a new partner
+                    <div class="description">
+                        <p class="bold-text">Females</p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Women should start screening with the Pap test at age 21.
+                            </li>
+                            <li style="list-style-type: disc;">Beginning at age 30, women have three options for
+                                screening:
+                                <br>
+                                <ul>
+                                    <li>1. A Pap test alone every three years</li>
+                                    <li>2. Co-testing with Pap and HPV tests every five years</li>
+                                    <li>3. An HPV test alone every five years</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="bold-text">Males</p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">No screening tests</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='info_item hiv' style="width: 100%;">
+                    <h3>
+                        <span class='orange-text'>WHEN</span> TO GET TESTED?
+                    </h3>
+                    <div class='description'>
+                        <p> The only body part that can be tested for screening (preventative) purposes is the vagina.
+                            Other body parts that can be affected by the HPV virus can be tested only if the patient has
+                            symptoms or is considered at high risk for it.
+                        </p>
+                        <br>
+                        <p class="bold-text">Female genitals</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Women should start screening with the Pap test at age 21.
+                            </li>
+                            <li style="list-style-type: disc;">Beginning at age 30, women have three options for
+                                screening:</li>
+                        </ul>
+                        <ul style="margin-left: 40px;">
+                            <li>1. A Pap test alone every three years</li>
+                            <li>2. Co-testing with Pap and HPV tests every five years</li>
+                            <li>3. An HPV test alone every five years</li>
+                        </ul><br>
+                        <p class="bold-text">Male genitals</p>
+                        <br>
+                        <p><u>No symptoms</u></p><br>
+                        <ul style="margin-left: 20px;">
+                            <li>No routine screening is advised.</li>
+                        </ul><br>
+                        <p><u> With symptoms</u></p><br>
+                        <p>Most visible warts can be diagnosed based on a visual physical exam and the history of the
+                            skin lesion.</p><br>
+                        <p class="bold-text">Throat</p><br>
+                        <p><u>No symptoms</u></p><br>
+                        <ul style="margin-left: 20px;">
+                            <li> No routine testing is advised unless the person is considered at very high risk
+                                (multiple lifetime oral sex partners).
+                            </li>
+                        </ul><br>
+                        <p><u> With symptoms</u></p><br>
+                        <ul style="margin-left: 20px;">
+                            <li>Most visible warts can be diagnosed based on a visual physical exam and the history of
+                                the skin
+                                lesion. A biopsy can be done if necessary.</li>
+                        </ul><br>
+                        <p class="bold-text">Rectal</p><br>
+                        <p><u> No symptoms</u></p><br>
+                        <ul style="margin-left: 20px;">
+                            <li>No routine testing is advised unless the person is considered at very high risk
+                                (multiple
+                                lifetime instances of “rectal receiving”—that is, being a “bottom”)</li>
+                        </ul><br>
+                        <p><u> With symptoms</u></p><br>
+                        <ul>
+                            <li>Most visible warts can be diagnosed based on a visual physical exam and the history of
+                                the skin
+                                lesion. A biopsy can be done if necessary.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class='info_item chlomydia' style="width: 100%;">
+                    <h3>
+                        <span class='orange-text'>TEST </span>TYPES
+                    </h3>
+                    <p class='description' style="margin-bottom: 20px;">
+                    <p>Testing for HPV is done in different ways, depending on the part of the body that needs to be
+                        tested.</p>
+                    <br>
+                    <ul style="margin-left: 20px;">
+                        <li style="list-style-type: disc;"> Female vagina: Pap smear test</li>
+                        <li style="list-style-type: disc;"> Male genital skin: Visual physical exam and biopsy if
+                            necessary
                         </li>
-                        <li>People who have a chlamydia-positive partner</li>
-                        <li>Sexually active homosexual male</li>
-                    </ul>
-                    <h4 class='orange-text'>WITH sympthoms </h4>
-                    <ul>
-                        <li>
-                            Sexually active people who have chlamydia-related signs and
-                            symptoms can be tested at any time, irrespective of the time
-                            that has passed since the exposure.
+                        <li style="list-style-type: disc;"> Rectal area: Pap smear or visual exam during anoscopy with
+                            possible biopsy
+                        </li>
+                        <li style="list-style-type: disc;"> Throat area: simple mirror exam of difficult-to-see throat
+                            areas
                         </li>
                     </ul>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia' style="width: 100%;">
                     <h3>
-                        <span class='orange-text'>WHEN</span> GET TESTED?
+                        <span class='orange-text'>TEST </span>PREPARATION
                     </h3>
-                    <p class='description'>
-                        Here we will summarize what is known about timing (how soon
-                        the test can be done) and the accuracy of chlamydia testsin
-                        various anatomic areas for asymptomatic people.
-                    </p>
-                    <p class='orange-text warning'>
-                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/danger-circle.svg' height='26'
-                            width='26' />
-                        If you have symptoms, the test can be done any time,
-                        irrespective of the amount of time that has passed since the
-                        sexual encounter that you believe may have given you
-                        chlamydia.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Genital swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    98.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Rectal swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.7% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Oral swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    80% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Urine test</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class='legend'>
-                        *Accuracy, if is done 2 weeks after exposure
-                    </p>
-                </div>
-                <div class='info_item'>
-                    <h3>
-                        <span class='orange-text'>TEST TYPE</span> AVAILABLE
-                    </h3>
-                    <p class='description'>
-                        Unlike other infections, chlamydia, if contracted, stays at
-                        the point of initial contact, so a negative test of one area
-                        of the body doesn’t rule out the possibility of having
-                        chlamydia in another area. This means that all “susceptible”
-                        areas that came into contact with the partner’s potentially
-                        affected areas during sex should be tested.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Male</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Female</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Anal receiving sex</td>
-                                <td>Anal swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Giving oral sex</td>
-                                <td>Throat swab</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class='info_item'>
-                    <h3>
-                        <span class='orange-text'>TEST PREPARATION</span> NEEDED
-                    </h3>
-                    <p>
-                        This is what need to be done for the testing to be <br />
-                        most accurate.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Urine test </td>
-                                <td>avoid urinating for 2 hours before a urine test </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Vaginal swab </td>
-                                <td>
-                                    avoid douching and using vagina cream for 24 hours prior
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Throat swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Recta swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Penile swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="description">
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;"> Vaginal: Avoid sexual intercourse, douching, and using
+                                vaginal creams for 24 hours before
+                                the test
+                            </li>
+                            <li style="list-style-type: disc;">Throat swab: No preparation is needed
+                            </li>
+                            <li style="list-style-type: disc;">Rectal swab: Avoid anal sex, douching, and enemas 24
+                                hours
+                                before the test
+                            </li>
+                            <li style="list-style-type: disc;">Skin exam: No preparation is needed
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class='section common_questions  blue-text'>
-            <h2>
-                <span class='orange-text'>COMMON</span> QUESTIONS
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
-            </h2>
-            <div class='questions'>
-                <div>
+        <section class="FAQ_section" style="padding-top: 0; padding-bottom: 0; width: 100%;">
+            <div class='FAQ'>
+                <h3>Frequently Asked Questions</h3>
+                <div class='FAQ-content'>
                     <ul>
-                        <li>How long does it take to get results back?</li>
-                        <li>How are different chlamydia tests done?</li>
-                        <li>What the test results mean?</li>
-                        <li>Can I get treated?</li>
-                        <li>Where to get tested?</li>
-                        <li>Should I tell my partner that I have chlamydia?</li>
-                        <li>Partner protection.</li>
-                        <li>Can I get infected with chlamydia again?</li>
-                        <li>If health insurance cover the testing?</li>
-                        <li>What is the cost without health insurance?</li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What is known about genital warts?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <ul>
+                                    <li>85% of all people get HPV in their lifetime</li>
+                                    <li> There are over 100 known HPV viruses
+                                    </li>
+                                    <li> 90% of those that get exposed never develop a visible skin lesion
+                                    </li>
+                                    <li> The first occurrence or a recurrence can happen months to years after
+                                        contracting
+                                        the virus
+                                    </li>
+                                    <li> Only 10% of those infected can transmit the virus to other people
+                                    </li>
+                                    <li> There is a 70% chance of getting HPV from an infected partner even without
+                                        visible
+                                        skin lesions
+                                    </li>
+                                    <li> 90% of HPV infections are cleared by the immune system but some will remain
+                                        latent
+                                        (that is, have no visible signs) for the rest of the person’s life
+                                    </li>
+                                    <li> HPV types 6 and 11 cause 70% of all visible genital warts
+                                    </li>
+                                    <li> HPV 16 and 18 cause 50% of cervical cancers in females
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How does HPV transmission occur?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <ul>
+                                    <li> HPV is transmitted through direct skin-to-skin contact. The infected skin or
+                                        mucosa
+                                        comes into contact with healthy skin and enters it through micro abrasions
+                                    </li>
+                                    <li>The presence of visible warts is not necessary for transmission to occur, but
+                                        visible warts have the highest concentration of the virus and increase the
+                                        chance of
+                                        transmission
+                                    </li>
+                                    <li>Once acquired, the HPV infection can develop into a visible wart or enter a
+                                        latent
+                                        state with no sign and symptoms
+                                    </li>
+                                    <li>The average time for the wart’s appearance is 2.9 months
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What are the risk factors for getting HPV?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <ul>
+                                    <li> Sexual activity—simple skin-to-skin contact—is the primary risk factor for
+                                        genital
+                                        warts.
+                                    </li>
+                                    <li>Here are some other factors that can predispose a person to HPV:
+                                        <ul>
+                                            <li>Weakened immune system due to HIV, diabetes, immunosuppressive
+                                                medications,
+                                                etc.</li>
+                                            <li>Smoking</li>
+                                        </ul>
+                                    </li>
+                                    <li>Male circumcision, on the other side, may reduce the risk of HPV infection.
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What do HPV lesions look like?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> The appearance of genital warts varies from person to person.</p><br>
+                                <p><u>Shape</u></p><br>
+                                <p>Genital warts are single or multiple flat, dome-shaped, or cauliflower-shaped skin
+                                    growths.
+                                </p><br>
+                                <p><u>Surface</u></p><br>
+                                <p>The surface may be smooth, velvety on a broad base.</p><br>
+                                <p><u>Color</u></p><br>
+                                <p>The color may vary from pale pink to white to skin-colored to brown.
+                                </p><br>
+                                <p><u>Size</u></p><br>
+                                <p>A wart can be from 1 mm to 1 inch in diameter.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Images
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Here we present photographs of HPV lesions on different body parts that we obtained
+                                    from
+                                    other educational websites.
+                                </p><br>
+                                <p><u>Anal warts</u></p><br>
+                                <p> This picture shows anal warts that are skin-colored with a typical cauliflower
+                                    appearance.
+                                </p>
+                                <br>
+                                <img src="http://d12qz6jssicxsf.cloudfront.net/images/hiv image1.jpg" width="400"
+                                    height="300" alt="">
+                                <p class="legend">Image source:
+                                    https://www.wirralsurgeon.co.uk/conditions-treated/anal-warts.html</p>
+                                <br>
+                                <p><u> Penile warts</u></p>
+                                <p>This picture shows slightly discolored penile warts.</p><br>
+                                <img src="http://d12qz6jssicxsf.cloudfront.net/images/hiv image2.jpg" width="400"
+                                    height="300" alt="">
+                                <p class="legend">Image source: https://www.medicalnewstoday.com/articles/155236</p>
+                                <br>
+                                <p><u>Oral warts</u></p>
+                                <p>This picture shows oral warts.</p>
+                                <img src="http://d12qz6jssicxsf.cloudfront.net/images/hiv image3.jpg" width="400"
+                                    height="300" alt="">
+                                <p class="legend">Image source:
+                                    https://www.ncbi.nlm.nih.gov/books/NBK547667/figure/article-19836.image.f2/</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What should I know about treatment for genital warts?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p class="bold-text" style="margin-top: 0;"> What is the best treatment for genital
+                                    warts?
+                                </p>
+                                <p> The “best” treatment for genital warts depends on the number of warts, their
+                                    location,
+                                    other health conditions you might have, and your doctor’s experience with different
+                                    treatment types and preference. There are many ways to treat genital warts,
+                                    including
+                                    topical medications and removing them with a procedure in the doctor’s office.
+                                </p>
+                                <p class="bold-text">Self-treatment options </p>
+                                <p> Two prescription medication are commonly used:</p>
+                                <p class="bold-text"> Podofilox (Condylox)</p>
+                                <p><u> How it works</u></p>
+                                <p>It destroys the wart tissue.</p><br>
+                                <p><u> How it’s used</u></p>
+                                <p> The medication is applied with a cotton swab to visible warts twice a day for three
+                                    days
+                                    in a row. Then for four days there is no treatment.
+                                </p><br>
+                                <p><u>Treatment duration</u></p>
+                                <p> Treatment should be continued until the warts are gone. This might take up to one
+                                    month.
+                                    Side effects include soreness and significant skin irritation.
+                                </p>
+                                <p class="bold-text"> Imiquimod (Aldara)</p>
+                                <p><u> How it works</u></p>
+                                <p> It triggers the immune system to get rid of the warts.
+                                </p><br>
+                                <p><u> How is it used?</u></p>
+                                <p> It is applied on the wart three days a week at bedtime and washed off in the
+                                    morning.
+                                </p><br>
+                                <p><u>Treatment duration</u></p>
+                                <p> Treatment might take up to 16 weeks.</p>
+                                <p class="bold-text"> Doctor’s office treatment options </p>
+                                <p> In a doctor’s office, genital warts can be destroyed by freezing, burning, or
+                                    surgically
+                                    removing them.
+                                </p><br>
+                                <p><b>Trichloracetic</b> acid (TCA) is an acid that destroys visible warts. It is
+                                    applied by
+                                    a doctor weekly for 3–4 weeks until the warts are gone. Side effects involve burning
+                                    and
+                                    pain. TCA treatment is not advised on the vagina, vulva, cervix, or urethral
+                                    opening.
+                                    TCA is not as effective as cryotherapy treatment.
+                                </p><br>
+                                <p><b>Cryotherapy</b> refers to the use of liquid nitrogen to destroy the warts. This is
+                                    the
+                                    most common method because of its effectiveness and simplicity. Side effects might
+                                    involve skin irritation, blistering, and sores that heal within a week.
+                                </p><br>
+                                <p><b>Electrocautery</b> uses electrical energy to destroy the warts. It’s a bit more
+                                    painful than cryotherapy and is usually done with local anesthesia.
+                                </p><br>
+                                <p><b>Laser treatment</b> uses light energy to remove the warts. Specialized equipment
+                                    is
+                                    necessary and for that reason this treatment is more expensive and not very common.
+                                    Laser treatment’s most common side effects are pain, scarring, and depigmentation
+                                    (lightening) of the skin.
+                                </p><br>
+                                <p><b> Surgical removal</b> (excision) is done mainly for
+                                </p>
+                                <ul>
+                                    <li> Warts that don’t get better with medical therapy, </li>
+                                    <li> Large warts when medical therapy is not going to be adequate, or
+                                    </li>
+                                    <li> Areas with precancerous changes.
+                                    </li>
+                                </ul>
+                                <p class="bold-text"> Are genital warts curable?</p>
+                                <p> Regardless of the treatment type, warts might come back within a few weeks to months
+                                    after the treatment. This is because treatment of the visible warts might not get
+                                    rid of
+                                    all of the HPV virus. Some of the skin cells of the genitals might look normal but
+                                    remain infected with HPV, and they could be far from the original area.
+                                </p><br>
+                                <p> Currently, there is no treatment that permanently removes HPV from all infected
+                                    cells,
+                                    but in most people the immune system clears the virus within two years (there’s no
+                                    test
+                                    to confirm that this has occurred).
+                                </p>
+                                <p class="bold-text">Does everybody need to be treated for HPV?</p>
+                                <p> Warts don’t necessarily have to be treated especially if they’re not bothersome.
+                                    Most
+                                    people get treatment to decrease the spread to other parts of their own body and to
+                                    partners, since visible warts have a higher concentration of the virus than normal
+                                    skin.
+                                </p> <br>
+                                <p> Warts might progress initially, so the number of warts and their size might
+                                    increase.
+                                    But it’s estimated that about 30% of genital warts get better within four months.
+                                </p>
+                                <p class="bold-text"> What causes reoccurrence of genital warts?
+                                </p>
+                                <p> The HPV virus might persist despite the resolution of visible warts. This happens
+                                    because some of the virus remains latent (inactive) in skin cells without creating
+                                    any
+                                    visible skin lesions.
+                                </p><br>
+                                <p> The reoccurrence rate is not defined.
+                                </p><br>
+                                <p> The most common causes of reoccurrence are believed to be mechanical irritation,
+                                    inflammation, or immunosuppression that causes the virus’s reactivation
+                                    (replication)
+                                    and the reappearance of warts.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What should I know about treatment for anal (rectal) warts?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p class="bold-text" style="margin-top: 0;"> Who should be screened for anal HPV?</p>
+                                <p> Screening for anal HPV is not common. It is reserved for the following categories of
+                                    people:
+                                </p>
+                                <ul>
+                                    <li> Men who have sex with men</li>
+                                    <li> Woman with a history of high-grade cervical (vulvar, vaginal) cancer</li>
+                                    <li> People with a history of anal warts</li>
+                                </ul>
+
+                                <p class="bold-text"> How often is an anal Pap smear performed?</p>
+                                <p> Anal screening for high-risk people is advised every two to three years.
+                                </p>
+                                <p class="bold-text">How accurate is an anal Pap smear for detecting HPV? </p>
+                                <p> The accuracy and sensitivity of the anal Pap smear is similar to the cervical Pap
+                                    smear
+                                    that is regularly performed on females: around 50%.
+                                </p>
+                                <p class="bold-text"> What is the next step if an anal Pap smear is abnormal?
+                                </p>
+                                <p> A Pap smear detects abnormal cells. If abnormal cells are detected on a Pap smear,
+                                    the
+                                    next step is to visualize the area and take a biopsy to assess the severity of the
+                                    disease.
+                                </p>
+                                <p class="bold-text"> What is the chance of anal HPV being malignant?
+                                </p>
+                                <p> Most anal warts (as well as other genital warts) are caused by HPV 6 and 11 and are
+                                    considered low risk for malignancy, but they may coinfect with other higher-risk
+                                    strains
+                                    (16 and 18) that can lead to cancer.
+                                </p><br>
+                                <p> Cancerous transformation of genital warts is very rare. People with a weakened
+                                    immune
+                                    system (due to cancer, HIV, or another immunosuppressive condition) may be
+                                    predisposed
+                                    to cancerous transformation.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What should I know about treatment for oral or throat HPV?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p class="bold-text" style="margin-top: 0;">How is oral HPV diagnosed?</p>
+                                <p> There is no test that can find early signs of HPV in the throat. It is most commonly
+                                    detected during a routine dental exam or when there are symptoms and signs.
+                                </p><br>
+                                <p> To diagnose asymptomatic oral HPV, doctors do a visual physical exam and use a small
+                                    mirror to check difficult-to-see areas (but this is not commonly done).
+                                </p><br>
+                                <p> Some structures of the throat that cannot be seen with a mirror can be accessed with
+                                    a
+                                    flexible laryngoscope by an ear, nose, and threat (ENT) physician.
+                                </p><br>
+                                <p> If an HPV lesion is noticed, it will be treated by removal and can be biopsied to
+                                    rule
+                                    out cancer if it is suspicious.
+                                </p>
+                                <p class="bold-text"> What is the best way to be protected from oral HPV?
+                                </p>
+                                <p> The only way to be protected from oral HPV is to not have sex.
+                                </p><br>
+                                <p> The HPV vaccine that was developed to reduce the risk of cervical cancer can reduce
+                                    the
+                                    risk of oral and throat HPV as well. Ideally, the vaccine should be given before the
+                                    beginning of sexual activity, but it can be somewhat helpful at any age.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can HPV (genital warts) be prevented?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>There is no sure way to prevent getting HPV.</p>
+                                <br>
+                                <p> But there are two common ways of decreasing the chance of getting HPV: </p>
+                                <ul>
+                                    <li> HPV vaccine</li>
+                                    <li>Reducing the number of sexual partners</li>
+                                </ul>
+                                <br>
+                                <p> Let’s talk about them in more detail!</p>
+                                <p class="bold-text">Vaccination</p>
+                                <p> Vaccines are given not to treat but to prevent the condition, and ideally (for the
+                                    best
+                                    results) should be given before the beginning of the patient’s sex life.
+                                </p>
+                                <ul>
+                                    <li>Two HPV vaccines are available: Gardasil and Gardasil 9.
+                                        <ul>
+                                            <li>Gardasil protects against four HPV types: 6, 11, 16, and 18.</li>
+                                            <li>Gardasil 9 protects against nine virus types: 6, 11, 16, and 18 plus
+                                                five
+                                                additional strains: HPV-31, HPV-33, HPV-45, HPV-52, and HPV-58.
+                                            </li>
+                                            <br>
+                                            <p> Note: Types 16 and 18 cause an estimated 70% of cervical cancer. Strains
+                                                HPV-31,
+                                                HPV-33, HPV-45, HPV-52, and HPV-58 are responsible for 20% of cervical
+                                                cancers.
+                                            </p>
+                                        </ul>
+                                    </li>
+                                    <li> Both vaccines are safe. </li>
+                                    <li> These vaccines can be given at any age, but ideally between the ages of 9 and
+                                        12.
+                                    </li>
+                                    <li> Here are the current recommendations for the HPV vaccine:
+                                        <ul>
+                                            <li>Females 9–26 years of age and up to age 45</li>
+                                            <li> Males 11–12 and up to age 21; from ages 22 to 26, the vaccine is
+                                                considered
+                                                optional
+                                            </li>
+                                            <br>
+                                            <p> Note: If the vaccine is not given at the ideal age, the response might
+                                                be
+                                                partial since the patient might have already been exposed to some common
+                                                HPV
+                                                strains. The vaccine is not harmful, regardless.
+                                            </p>
+                                        </ul>
+                                    </li>
+                                    <li> Health insurance covers the cost of the vaccine until the age of 45.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can I protect my partner from HPV?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p class="bold-text"> Sexual activity and HPV</p>
+                                <p> Sex—especially penetrative sex—is the primary risk factor for getting HPV. Avoiding
+                                    people with HPV would be ideal, but from a practical standpoint this is impossible
+                                    to do
+                                    since most people positive for HPV don’t have visible skin lesions; rather, their
+                                    infection is latent, and they can still spread the infection with skin-to-skin
+                                    contact.
+                                </p><br>
+                                <p> Condoms provide only partial protection since they don’t cover the entire skin area
+                                    that
+                                    might come into contact with an infected partner’s skin.
+                                </p>
+                                <p class="bold-text"> How can I talk with my partner about HPV?</p>
+                                <p> If you have had visible genital warts (that were treated or got better on their own)
+                                    in
+                                    the past, have an honest talk with your partner before sexual activity.
+                                </p><br>
+                                <p> Tell your partner these three main points about HPV:</p>
+                                <ul>
+                                    <li> It is a common condition and most people don’t have visible signs</li>
+                                    <li> There is no test to look for genital warts on the skin
+                                    </li>
+                                    <li> The test that is routinely performed for females is called a Pap smear; it
+                                        checks
+                                        for different wart types
+                                    </li>
+                                </ul>
+                                <p class="bold-text"> What’s the connection between HPV and infidelity?</p>
+                                <p> There is no clear-cut connection between HPV and cheating while in a relationship.
+                                    We do
+                                    not advise people to apologize for having HPV or to blame their partner for having
+                                    HPV.
+                                    And here’s why:
+                                </p>
+                                <ul>
+                                    <li> HPV is a very common infection, and 85% of people get it at some point in their
+                                        lifetime
+                                    </li>
+                                    <li> It is one of the risks people face by being sexually active
+                                    </li>
+                                    <li> Unlike other STDs, an HPV infection might remain latent (with no visible signs)
+                                        for
+                                        months or even years before showing up as a wart (and only 10% of positive
+                                        people
+                                        ever have symptoms)
+                                    </li>
+                                    <li> This means that if your partner has HPV and didn’t get it from you, they might
+                                        have
+                                        gotten it long before they met you
+                                    </li>
+                                    <li> Since sexual partners can share the same virus, it is always difficult to say
+                                        where
+                                        the infection originated, anyway
+                                    </li>
+                                    <li> Even if both partners are positive, only one may be symptomatic, and it’s not
+                                        necessarily the one who contracted the virus first
+                                    </li>
+                                </ul>
+                                <p class="bold-text">What is the connection between HPV and cancer?</p>
+                                <p> Not all HPV leads to cancer. This is a common misconception. Of more than 100 HPV
+                                    strains, only a handful are connected to cancer. It is true that HPV (some strains)
+                                    can
+                                    cause cancer, but it is a very unusual complication.
+                                </p><br>
+                                <p> The HPV vaccine significantly decreases the chance of cancer caused by cancerous
+                                    strains
+                                    of HPV for cervical cancer (which only people with a vagina can get) and rectal
+                                    cancer.
+                                </p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
             </div>
         </section>
+
 
         <section class='section insurances'>
             <div class='section-wrapper'>
@@ -455,27 +1082,27 @@
                 <div class='row row-no-insurance'>
                     <div class='data'>
                         <h3 class='heading-with-icon secondary-orange'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg' alt='dollar icon'
-                                class='icon-img' />
+                            <img class="dollar" src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg'
+                                alt='dollar icon' width="40px" height="40px" class='icon-img' />
                             NO INSURANCES? NO PROBLEM
                         </h3>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg' alt='guard icon'
-                                class='icon-img' />
-                            We offer affordable pricing and are happy to take on
-                            patients who are currently without medical insurance.
+                            <img class="guard" src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg'
+                                alt='guard icon' width="40px" height="43px" class='icon-img' />
+                            We offer affordable pricing and are happy to take on patients
+                            who are currently without medical insurance.
                         </p>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg' alt='like icon'
-                                class='icon-img' />
+                            <img class="like" src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg'
+                                alt='like icon' width="40px" height="43px" class='icon-img' />
                             Our guarantee to you is that you will never be surprised by
-                            any hidden fees or extra charges. All pricing is discussed
-                            up front before the tests are performed so that our patients
+                            any hidden fees or extra charges. All pricing is discussed up
+                            front before the tests are performed so that our patients
                             understand completely what they have been charged for.
                         </p>
                         <p class='offer large dark-blue'>
-                            We offer a <span class='primary-orange'>$90</span>
-                            initial office visit fee
+                            We offer a <span class='primary-orange'>$90</span> initial
+                            office visit fee
                             <span class='primary-orange'>($84 cash)</span>.
                             <br />
                             All patient seen by a doctor.
@@ -491,7 +1118,7 @@
                         PRICE FOR STD TESTS WITHOUT INSURANCES
                     </h3>
                     <div class="table-wrap">
-                        <table class='table'>
+                        <table class='insurance-table'>
                             <thead class='table-head'>
                                 <tr>
                                     <th class='table-column'>
@@ -499,9 +1126,7 @@
                                     </th>
                                     <th class='table-column'>
                                         <div class='text text-center'>
-                                            Credit
-                                            <br />
-                                            card
+                                            Credit card
                                         </div>
                                     </th>
                                 </tr>
@@ -512,9 +1137,7 @@
                                     <td class='table-column'>$50</td>
                                 </tr>
                                 <tr class='table-row'>
-                                    <td class='table-column'>
-                                        Chlamydia+Gonorrhea (both)
-                                    </td>
+                                    <td class='table-column'>Chlamydia+Gonorrhea (both)</td>
                                     <td class='table-column'>$120</td>
                                 </tr>
                                 <tr class='table-row'>
@@ -548,8 +1171,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40' width='40' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -560,47 +1188,21 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/hpv1.svg" alt="hand jobs and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/hpv2.svg" alt="one time sex and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/hpv3.svg" alt="molluscam contagiosum topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/hpv4.svg" alt="all about vaginal odor topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/hpv5.svg" alt="fast about std testing topic">
                 </div>
-                <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
-                </div>
+                <div class="topic desktop"></div>
             </div>
         </section>
     </div>
@@ -611,7 +1213,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -623,8 +1225,8 @@
             <div>
                 <p class='footer-header'>Contact Us</p>
                 <div class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' height='24px'
+                        alt="location icon" width='24px' />
                     <p>
                         <span>274 Madison Ave, Suite 705</span>
                         <br />
@@ -632,16 +1234,18 @@
                     </p>
                 </div>
                 <p class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' height='24px'
+                        alt="phone icon" width='24px' />
                     212.696.5900
                 </p>
             </div>
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            alt="facebook icon" width='40px' />
+                    </a>
                 </p>
             </div>
         </div>

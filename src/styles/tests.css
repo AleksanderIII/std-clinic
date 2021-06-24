@@ -478,7 +478,9 @@ section {
 
 .testing .at_glance .info_item.BV li::marker,
 .testing .at_glance .info_item.balanitis li::marker,
-.testing .at_glance .info_item.gonorrhea li::marker {
+.testing .at_glance .info_item.gonorrhea li::marker,
+.testing .at_glance .info_item.herpes li::marker,
+.testing .at_glance .info_item.hiv li::marker {
   color: #40518A;
   font-size: 0.8125rem;
 }
@@ -798,7 +800,7 @@ section {
   letter-spacing: 0;
 }
 
-.testing section.no-insurance .row.std-tests .table {
+.testing section.no-insurance .row.std-tests .insurance-table {
   border: 1px solid var(--table-bg);
 }
 
@@ -880,7 +882,7 @@ section {
   margin-top: 1.5rem;
 }
 
-.testing .table {
+.testing .insurance-table {
   border: 1px solid var(--table-bg);
 }
 
@@ -1206,22 +1208,30 @@ section {
 }
 
 .question .answer table td,
-.question .answer table th {
+.question .answer table th,
+.table td,
+.table th {
   border: 1px solid rgba(84, 101, 135, 0.4);
-  padding: 20px 30px;
+  padding: 20px 30px !important;
 }
 
-.question .answer table {
+.question .answer table,
+.table {
   margin: 0 auto;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-.question .answer table th {
+.question .answer table th,
+.table th {
   font-family: 'Montserrat-Medium', sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
   color: #4F67A3;
+}
+
+.table th {
+  font-size: 1rem;
 }
 
 .table-wrap {
@@ -1230,18 +1240,34 @@ section {
   margin-right: 16px;
 }
 
-.question .answer table td {
+.question .answer table td,
+.table td {
   color: #629EA8;
-  font-size: 0.875rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-size: 0.875rem !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500 !important;
 }
 
-.question .answer table .table-bold-text {
+.question .answer table .table-bold-text,
+.table .table-bold-text {
   font-family: 'Montserrat-Medium', sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
   color: #4F67A3;
+}
+
+.question .answer table td ul li,
+.table td ul li {
+  color: #629EA8;
+}
+
+.table td ul li {
+  font-size: 0.875rem !important; 
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.table td ul li::marker {
+  color: #629EA8 !important;
 }
 
 @media (max-width: 1200px) {

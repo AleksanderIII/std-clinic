@@ -6,6 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,8 +83,7 @@
                     <li class='menu-item'>
                         <p>
                             STD tests
-                            <img src='images/arrowDown.svg' height='15'
-                                width='30' />
+                            <img src='../images/arrowDown.svg' height='15' width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -95,8 +147,7 @@
                     <li class='menu-item'>
                         <p class='menu-link'>
                             STD diseases
-                            <img src='images/arrowDown.svg' height='15'
-                                width='30' />
+                            <img src='../images/arrowDown.svg' height='15' width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -146,8 +197,138 @@
                     </a>
                 </div>
             </div>
-            <img class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg" width="27px"
-                height="24px">
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <div class='content testing'>
@@ -155,9 +336,9 @@
             <div class='section-wrapper'>
                 <div class='intro-text-wrapper'>
                     <h1>
-                        Get Chlamydia testing and
+                        Get Herpes testing and
                         <br />
-                        treatment toady!
+                        treatment today!
                     </h1>
                     <p class='text-with-icon medium'>Covered by insurance</p>
                     <p class='text-with-icon medium'>
@@ -166,6 +347,12 @@
                     <p class='text-with-icon medium'>Same day appointment</p>
                     <p class='text-with-icon medium'>
                         All patients seen by a doctor
+                    </p>
+                    <p class="insurance-btn">
+                        <b>No insurance? <br class="desktop">
+                            <i> </i>
+                            No problem
+                        </b> <span class="desktop">i</span>
                     </p>
                 </div>
                 <div class='row rating'>
@@ -176,6 +363,9 @@
                         customer reviews
                     </a>
                 </div>
+                <a href='#' class='rating-customer mobile'>
+                    customer reviews
+                </a>
                 <div class='row people-say'>
                     <div class='people-say--icon-wrapper'>
                         <a href='https://www.zocdoc.com/doctor/slava-fuzayloff-do-9429' title='follow us on ZocDoc'>
@@ -228,191 +418,630 @@
                         <p>Text messaging service</p>
                     </div>
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/doctor.svg' alt='doctor graphic'
-                        height='250px' width='280px' />
+                        class="desktop" height='250px' width='280px' />
                 </div>
             </div>
         </section>
 
-        <section class='section at_glance blue-text'>
+        <section class='section at_glance blue-text' style="padding-top: 0;">
             <h2>
                 <span class='orange-text'>AT</span> A GLANCE
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
+                <img class="wave" src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px'
+                    height='14px' />
             </h2>
             <div class='info'>
-                <div class='info_item'>
+                <div class='info_item herpes'>
                     <h3>
-                        <span class='orange-text'>WHO</span> GET TESTED?
+                        <span class='orange-text'>WHO</span> SHOULD GET TESTED?
                     </h3>
-                    <p>
-                        Chlamydia testing is recommended <br />
-                        for both symptomatic and asymptomatic people.
-                    </p>
-                    <h4 class='orange-text'>NO sympthoms</h4>
                     <ul>
-                        <li>Sexually active female 25 and younger</li>
-                        <li>People with multiple sex partners</li>
-                        <li>
-                            People who have had unprotected sex with a new partner
+                        <li style="list-style-type: disc;">
+                            <p class="bold-text">Routine</p>
+                            <ul style="margin-left: 20px;">
+                                <li style="list-style-type: disc;">The <u>CDC does not recommend</u> routine herpes
+                                    testing
+                                </li>
+                            </ul>
                         </li>
-                        <li>People who have a chlamydia-positive partner</li>
-                        <li>Sexually active homosexual male</li>
-                    </ul>
-                    <h4 class='orange-text'>WITH sympthoms </h4>
-                    <ul>
-                        <li>
-                            Sexually active people who have chlamydia-related signs and
-                            symptoms can be tested at any time, irrespective of the time
-                            that has passed since the exposure.
+                        <li style="list-style-type: disc;">
+                            <p class="bold-text">Post-exposure testing</p>
+                            <ul style="margin-left: 20px;">
+                                <li style="list-style-type: disc;">If you have been exposed to a herpes-positive person
+                                    and want to know your status,
+                                    you should be tested three weeks after the exposure
+                                </li>
+                            </ul>
+                        </li>
+                        <li style="list-style-type: disc;">
+                            <p class="bold-text">When you have symptoms</p>
+                            <ul style="margin-left: 20px;">
+                                <li style="list-style-type: disc;">Of course, if you have symptoms and your condition
+                                    needs to be diagnosed, you should
+                                    be tested
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
-                <div class='info_item'>
+                <div class='info_item herpes'>
                     <h3>
-                        <span class='orange-text'>WHEN</span> GET TESTED?
+                        <span class='orange-text'>WHEN</span> TO GET TESTED?
                     </h3>
-                    <p class='description'>
-                        Here we will summarize what is known about timing (how soon
-                        the test can be done) and the accuracy of chlamydia testsin
-                        various anatomic areas for asymptomatic people.
-                    </p>
-                    <p class='orange-text warning'>
-                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/danger-circle.svg' height='26'
-                            width='26' />
-                        If you have symptoms, the test can be done any time,
-                        irrespective of the amount of time that has passed since the
-                        sexual encounter that you believe may have given you
-                        chlamydia.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Genital swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    98.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Rectal swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.7% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Oral swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    80% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Urine test</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class='legend'>
-                        *Accuracy, if is done 2 weeks after exposure
-                    </p>
+                    <div class="description">
+                        <p class="bold-text">No symptoms</p><br>
+                        <p class="bold-text">Routine </p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">A routine IgG test can be done at any time (if you’re not
+                                aware of a specific exposure)</li>
+                        </ul>
+                        <br>
+                        <p class="bold-text">Post-exposure testing</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">If you don’t have symptoms, only an IgG blood test can be
+                                done
+                                <ul style="margin-left: 40px;">
+                                    <li style="list-style-type: disc;">3 weeks after exposure: 50% accuracy</li>
+                                    <li style="list-style-type: disc;">6 weeks after exposure: 70% accuracy</li>
+                                    <li style="list-style-type: disc;">12 weeks after exposure: 92% accuracy</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="bold-text">When you have symptoms </p>
+                        <br>
+                        <ul style="margin-left: 20px; margin-bottom: 20px;">
+                            <li style="list-style-type: disc;">When the first blisters appear, a swab test can be done
+                            </li>
+                            <li style="list-style-type: disc;">The swab test requires that a sample be collected from a
+                                herpes lesion; it is not
+                                performed when no lesions are present. There is a very short window of time to collect a
+                                sample, so testing should not be delayed
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia'>
                     <h3>
-                        <span class='orange-text'>TEST TYPE</span> AVAILABLE
+                        <span class='orange-text'>TEST </span>TYPES
                     </h3>
-                    <p class='description'>
-                        Unlike other infections, chlamydia, if contracted, stays at
-                        the point of initial contact, so a negative test of one area
-                        of the body doesn’t rule out the possibility of having
-                        chlamydia in another area. This means that all “susceptible”
-                        areas that came into contact with the partner’s potentially
-                        affected areas during sex should be tested.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Male</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Female</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Anal receiving sex</td>
-                                <td>Anal swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Giving oral sex</td>
-                                <td>Throat swab</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class='description'>
+                        <p class="bold-text">Herpes swab or culture test</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Accuracy: 100%</li>
+                            <li style="list-style-type: disc;">Chance of a false positive result: This depends on when
+                                the sample is collected; the
+                                chance
+                                is most commonly 25%, but a false positive may be up to 70% likely if the sample is not
+                                collected at the proper time (again, there is a very short window for sample collection)
+                            </li>
+                        </ul>
+                        <br>
+                        <p class="bold-text">IgG Ab test</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Accuracy: 94%</li>
+                            <li style="list-style-type: disc;">Chance of a false positive result: 19%</li>
+                            <li style="list-style-type: disc;">Chance of a false negative result: 38%</li>
+                        </ul>
+                        <br>
+                        <p class="bold-text">Washington University test (western blot test)</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Accuracy: 99%</li>
+                            <li style="list-style-type: disc;">Chance of a false positive result: 0%</li>
+                            <li style="list-style-type: disc;">Chance of a false negative result: 0%</li>
+                            <li style="list-style-type: disc;">This test is the gold standard herpes blood test.
+                                “Western blot” is the name of the test
+                                and
+                                Washington University is where it’s done. False negative and false positive rates for
+                                the
+                                IgG test, which is commercially available, are determined in comparison to western blot
+                                results
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia'>
                     <h3>
-                        <span class='orange-text'>TEST PREPARATION</span> NEEDED
+                        <span class='orange-text'>TEST </span>PREPARATION
                     </h3>
-                    <p>
-                        This is what need to be done for the testing to be <br />
-                        most accurate.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Urine test </td>
-                                <td>avoid urinating for 2 hours before a urine test </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Vaginal swab </td>
-                                <td>
-                                    avoid douching and using vagina cream for 24 hours prior
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Throat swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Recta swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Penile swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="description">
+                        <p class="bold-text">Swab or culture test</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Do not break the blisters </li>
+                            <li style="list-style-type: disc;">Do not apply any cream 24 hours before testing </li>
+                            <li style="list-style-type: disc;"> Do not wipe the oozing sores</li>
+                        </ul>
+                        <br>
+                        <p class="bold-text"> IgG Ab test</p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;"> No special preparation is necessary for this simple
+                                blood test</li>
+                        </ul>
+                        <br>
+                        <p class="bold-text"> Washington University test (western blot test)</p>
+                        <br>
+                        <p> This test is done only in the Virology Department of the University of Washington (link to
+                            this page https://depts.washington.edu/uwviro/) in Seattle. The entire process may take more
+                            than a month. It involves the following steps:
+                        </p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;"> Contacting the university and obtain a test kit</li>
+                            <li style="list-style-type: disc;"> See a doctor to have blood drawn</li>
+                            <li style="list-style-type: disc;"> Return the kit to Washington University </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class='section common_questions  blue-text'>
-            <h2>
-                <span class='orange-text'>COMMON</span> QUESTIONS
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
-            </h2>
-            <div class='questions'>
-                <div>
+        <section class="FAQ_section" style="padding-top: 0; padding-bottom: 0;">
+            <div class='FAQ'>
+                <h3>Frequently Asked Questions</h3>
+                <div class='FAQ-content'>
                     <ul>
-                        <li>How long does it take to get results back?</li>
-                        <li>How are different chlamydia tests done?</li>
-                        <li>What the test results mean?</li>
-                        <li>Can I get treated?</li>
-                        <li>Where to get tested?</li>
-                        <li>Should I tell my partner that I have chlamydia?</li>
-                        <li>Partner protection.</li>
-                        <li>Can I get infected with chlamydia again?</li>
-                        <li>If health insurance cover the testing?</li>
-                        <li>What is the cost without health insurance?</li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How should I choose the right herpes test?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> To determine the type of test you need, two questions must be answered:
+                                </p>
+                                <ul>
+                                    <li>Do you currently have symptoms?</li>
+                                    <li>If not, how long ago were you exposed to a herpes-positive person?</li>
+                                </ul>
+                                <p class="bold-text">If you have symptoms </p>
+                                <ul>
+                                    <li>If you have a skin blister or sore that appears to be herpes, you can get the
+                                        most accurate test, a culture test
+                                    </li>
+                                    <li>These limitations apply to a culture test:
+                                        <ul>
+                                            <li>You must have a visible sore </li>
+                                            <li>Ideally, the test is performed within 24 hours of the appearance of
+                                                blisters (if necessary, it can be done within 48 hours)
+                                            </li>
+                                            <li>It is best for your herpes blister to be intact and broken only by the
+                                                health provider at the time of the test
+                                            </li>
+                                            <li>The sore must be wet so a swab can be done (dry, crusted sores cannot be
+                                                swabbed)
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <p class="bold-text">If you do not have symptoms</p>
+                                <ul>
+                                    <li>If at least three weeks have passed since your exposure (but ideally, three
+                                        months), you can get a herpes IgG antibody test
+                                    </li>
+                                    <li>With no symptoms, a swab test can’t be done because there is nothing to swab
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What do herpes test results mean?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> When your herpes test results are available, they must be interpreted. This is not
+                                    necessarily straightforward.
+                                </p><br>
+                                <p>In this table, we summarize what positive and negative results for each test
+                                    mean—assuming the test is done at the right time (see above).
+                                </p>
+                                <div class="table-wrap">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th style="width: 300px; min-width: 200px; text-align: center;">Test
+                                                </th>
+                                                <th style="width: 300px;min-width: 200px; text-align: center;">Positive
+                                                </th>
+                                                <th style="width: 300px; min-width: 200px;text-align: center;">Negative
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center;">Culture </td>
+                                                <td>You can be 100% certain that your
+                                                    skin lesion is caused by herpes</td>
+                                                <td>
+                                                    <ul>
+                                                        <li> The skin that was swabbed is probably not a herpes lesion.
+                                                            This doesn’t mean that you don’t have latent (symptomless)
+                                                            herpes. Being positive for herpes on a blood test and having
+                                                            a herpes skin outbreak are two different things
+                                                        </li>
+                                                        <li>False-negative results are possible: 25% of herpes swab
+                                                            tests are considered false negatives, which occurs when not
+                                                            enough sample was collected
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Commercially available IgG</td>
+                                                <td>
+                                                    <ul>
+                                                        <li>You are most likely herpes positive</li>
+                                                        <li> There is a 19% chance of false-positive result—this means
+                                                            that about 19% of people who test negative actually have
+                                                            herpes
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>You are considered herpes negative</li>
+                                                        <li>False-negative results are possible: there is about a 38%
+                                                            chance of this (you are herpes positive, but the test didn’t
+                                                            pick it up)
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Washington University HSV </td>
+                                                <td>You almost certainly (>99%) have herpes </td>
+                                                <td>You almost certainly (>99%) do not have herpes</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can I get herpes treatment?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Herpes treatment is given in three situations:</p>
+                                <ul>
+                                    <li> The patient has a current herpes outbreak</li>
+                                    <li>The patient has frequent herpes outbreaks</li>
+                                    <li> The patient wants to decrease the risk of passing herpes to a partner</li>
+                                </ul>
+                                <p class="bold-text">Treatment regimen for the first herpes outbreak</p>
+                                <ul>
+                                    <li> The first herpes outbreak is the most severe, with more discomfort and more
+                                        skin lesions, and it lasts the longest
+                                    </li>
+                                    <li> For that reason, treatment for the first outbreak involves a higher dose of
+                                        medication and a longer course of treatment than treatment for later outbreaks
+                                    </li>
+                                </ul>
+                                <p class="bold-text">Treatment regimen for recurrent herpes outbreaks</p>
+                                <p>Recurrent outbreaks are any outbreak after the first one. </p>
+                                <ul>
+                                    <li> Outbreaks are more common with herpes 1 than with herpes 2
+                                        <ul>
+                                            <li>HSV-1: 25% chance</li>
+                                            <li> HSV-2: 60%–90 % chance</li>
+                                        </ul>
+                                    </li>
+                                    <li>Outbreaks are more common during the first few years</li>
+                                </ul>
+                                <br>
+                                <p> The treatment regimen (dose and duration of medication) depend on the anatomic
+                                    location of the outbreak, not the herpes type.
+                                </p>
+                                <p class="bold-text">“Suppressive” herpes medication to reduce frequent outbreaks</p>
+                                <p> Very few herpes-positive people have frequent (more than five a year) herpes
+                                    outbreaks. Medication reduces the frequency of outbreaks by 70%–80%.
+                                </p><br>
+                                <p> Daily antiviral therapy is recommended for people who have frequent herpes
+                                    outbreaks. Your doctor should reevaluate your treatment 6 to 12 months after it
+                                    begins.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Is it important to know whether I have HSV-1 or HSV-2?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> No, it is not important for you and your doctor to know which type of herpes you
+                                    have because this knowledge won’t change the treatment plan or your prognosis
+                                    (expected outcome).
+                                </p><br>
+                                <p>Although there are some differences (for example, type 2 tends to cause more frequent
+                                    outbreaks and be transmitted more easily, especially during the first three months
+                                    after exposure), the treatment plan and prognosis are the same for both types:
+                                </p>
+                                <ul>
+                                    <li>Most people have a great long-term outcome. The exception can be people whose
+                                        immune systems are suppressed (for example, people with HIV and people
+                                        undergoing chemotherapy), who can develop serious complications from herpes of
+                                        either type
+                                    </li>
+                                    <li>Recurrent herpes treatment is based on the anatomic location of the virus in the
+                                        body rather than the type of herpes (as you may recall, both herpes types can
+                                        affect either the oral or genital area of the body)
+                                    </li>
+                                </ul>
+                                <br>
+                                <p><u>Herpes stigma</u></p><br>
+                                <p>Although we know that both types of herpes may be transmitted orally or genitally and
+                                    can affect virgins and people with only one sexual partner, some people feel
+                                    stigmatized if they learn that they have HSV-2 because it is considered an STD and
+                                    is commonly called “genital herpes.”
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How long does it take to get test results?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <ul>
+                                    <li> IgG test: 3 to 4 business days</li>
+                                    <li>Washington University Western blot test: one month or longer</li>
+                                    <li>Swab or culture test: 4 to 5 business days</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How is the Washington University western blot test different? How complicated is it?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> The Washington University herpes test is the gold standard of herpes blood tests. It
+                                    is more accurate and carries less risk of false positive and false negative results.
+                                </p><br>
+                                <p> This test detects specific herpes antibodies. The term “gold standard” means that
+                                    commercially available IgG herpes tests are compared to this test to rate their
+                                    accuracy.
+                                </p><br>
+                                <p> This test is performed only at the University of Washington Virology Department,
+                                    which makes this test less available to the general public. It is usually not
+                                    covered by health insurance.
+                                </p><br>
+                                <p> In the table below, we compare the Washington University HSV test and commercially
+                                    available, commonly used Herpes Select® IgG antibody tests with respect to common
+                                    practical parameters.
+                                </p>
+                                <div class="table-wrap">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th style="text-align: center;min-width: 200px; width: 300px;">
+                                                    Parameters </th>
+                                                <th style="text-align: center;min-width: 200px; width: 300px;">
+                                                    IgG-HerpesSelect®</th>
+                                                <th style="text-align: center;min-width: 200px; width: 300px;">
+                                                    Washington University
+                                                    (western blot) </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td style="text-align: center;">Accuracy </td>
+                                                <td style="text-align: center;">97%–98%</td>
+                                                <td style="text-align: center;">>99%</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Collection method </td>
+                                                <td style="text-align: center;">Blood test</td>
+                                                <td style="text-align: center;">Blood test</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Insurance coverage and cost</td>
+                                                <td>
+                                                    <ul>
+                                                        <li> Covered by insurance</li>
+                                                        <li> If no health insurance, out-of-pocket cost is about $70
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Usually not covered by health insurance</li>
+                                                        <li>Out-of-pocket cost is about $130 (for the test only) </li>
+                                                        <li>There will also be a charge for a regular doctor visit
+                                                            because a doctor needs to collect the blood and must order
+                                                            the test
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Where it is done</td>
+                                                <td>
+                                                    Most healthcare facilities: <br>
+                                                    <ul>
+                                                        <li><u>STD clinics</u> </li>
+                                                        <li>Primary care physicians</li>
+                                                        <li>Urgent care clinics</li>
+                                                        <li>Women’s health clinics</li>
+                                                        <li>Hospitals</li>
+                                                    </ul>
+                                                </td>
+                                                <td>University of Washington
+                                                    Virology Department (blood is drawn locally and sent to UW)</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;">Time in which results
+                                                    will be available</td>
+                                                <td>Usually 3–4 days </td>
+                                                <td>
+                                                    May take more than a month: <br>
+                                                    <ul>
+                                                        <li>Contact the university and get a kit</li>
+                                                        <li> See a doctor for a blood draw</li>
+                                                        <li> Return the kit to UW</li>
+                                                        <li> Receive your results</li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>To learn more, you can call 206-520-4600 and ask for an “HSV Type-Specific
+                                        Serology information packet.” </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What should I be aware of if I want to protect my partner from getting herpes?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> It’s not possible to eliminate the risk of giving your partner herpes because all
+                                    preventive measures offer only partial protection. However, there are ways to
+                                    significantly reduce the risk:
+                                </p>
+                                <br>
+                                <p><u>Avoid sex and kissing during outbreaks </u></p>
+                                <br>
+                                <p>This is when you are most contagious because your fluid-filled blisters and sores
+                                    have a high concertation of herpes virus.
+                                </p>
+                                <br>
+                                <p><u>Pay attention to prodrome symptoms
+                                    </u></p><br>
+                                <p>Prodrome herpes symptoms are usually very nonspecific symptoms (meaning they can
+                                    occur with many health conditions), such as fatigue, mild skin tingling, and
+                                    shooting pain where the outbreaks usually occur (in the oral or genital area).
+                                    Herpes virus is likely to shed during that period.
+                                </p>
+                                <br>
+                                <p> <u>Avoid skin trauma during sexual intercourse </u></p>
+                                <br>
+                                <p>Damaged skin is more vulnerable to herpes infection. Use silicon-based lubricant
+                                    during vaginal or anal sex.
+                                </p>
+                                <br>
+                                <p><u>Maintain proper hand hygiene</u></p>
+                                <br>
+                                <p>The herpes virus may stay on your hand after you touch your blisters or sores, and
+                                    you can easily transmit the infection if you touch your partner. Always wash your
+                                    hands with soap after you touch your herpes lesions.
+                                </p>
+                                <br>
+                                <p><u>Do not share utensils during oral herpes outbreaks</u></p>
+                                <br>
+                                <p>There is a theoretical risk of herpes transmission via utensils since it is possible
+                                    to exchange virus-containing fluids via utensils, bringing the skin around the mouth
+                                    or the oral mucosa into contact with the virus. The likelihood of this happening is
+                                    unknown and considered extremely low.
+                                </p>
+                                <br>
+                                <p><u>Use condoms</u></p>
+                                <br>
+                                <p>Condoms may decrease the chance of herpes transmission (per multiple sex acts) by
+                                    50%. However, the parts of the genitals that are not covered by condoms will still
+                                    be exposed to the virus.
+                                </p>
+                                <br>
+                                <p><u>Take antiviral medication </u></p>
+                                <br>
+                                <p>Appropriate antiviral therapy cuts the risk of herpes transmission (whether you have
+                                    symptoms or not) in half.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How can herpes be transmitted if I don’t have symptoms?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> The fact that it is possible to pass herpes when you don’t have symptoms makes
+                                    protecting your partner complicated. People want to be ethical and protect their
+                                    partner, but it’s not always possible.
+                                </p><br>
+                                <p>Many unanswered questions remain despite asymptomatic herpes transmission having been
+                                    researched. We still must make a lot of educated assumptions.
+                                </p><br>
+                                <p>Here’s what’s known about asymptomatic herpes transmission (“silent virus shedding”):
+                                </p>
+                                <br>
+                                <p><u>How it occurs</u></p><br>
+                                <p>Asymptomatic herpes transmission is believed to happen this way: Activated herpes
+                                    virus from a local nerve ganglion travels to the surface of the skin. Transmission
+                                    occurs with skin-to-skin contact where the virus is active. It is still unclear how
+                                    high a concentration of virus must be on the skin for transmission to occur.
+                                </p><br>
+                                <p><u>When it occurs</u></p>
+                                <br>
+                                <p>This is not completely clear. It is believed that the same factors that cause
+                                    flare-ups (stress, exhaustion, and disease) can increase the likelihood of
+                                    asymptomatic transmission. And it is believed that when this occurs, it’s because
+                                    the patient’s immune system strong enough to suppress the virus quickly, preventing
+                                    visible skin lesions.
+                                </p><br>
+                                <p><u>Riskiest time </u></p>
+                                <ul>
+                                    <li>
+                                        Transmission rates are highest in the first year after infection
+                                    </li>
+                                    <li>Transmission is most likely in the few days before and after an outbreak</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Does health insurance cover testing?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> The commercially available IgG antibody testing and the culture swab test are
+                                    covered by health insurance. The Washington University western blot test is not.
+                                </p><br>
+                                <p>If you want to be sure that your particular insurance covers the testing, call your
+                                    insurance company and ask:
+                                </p>
+                                <br>
+                                <p>1. The name of their preferred lab (e.g., Quest, Labcorp, Northwell)—they probably
+                                    have contractual pricing arrangements with certain labs
+                                </p>
+                                <p>2. Whether a herpes culture test and herpes IgG test are covered</p>
+                                <br>
+                                <p>If the insurance company representative asks you for ICD and CPT codes, give them
+                                    these:
+                                </p>
+                                <ul>
+                                    <li>ICD B00.9 </li>
+                                    <li>CPT 86695 or 86696</li>
+                                </ul>
+                                <p> 3. Ask what the patient responsibility is for the test (after a deductible or
+                                    coinsurance)</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Where can I be tested for herpes?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>The testing can be done in primary care offices, urgent care clinics, gynecology
+                                    clinics, planned parenthood clinics, and our specialized STD clinic. Free STD
+                                    clinics do not perform herpes blood testing since it is not recommended by the CDC.
+                                </p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
             </div>
         </section>
+
 
         <section class='section insurances'>
             <div class='section-wrapper'>
@@ -455,27 +1084,27 @@
                 <div class='row row-no-insurance'>
                     <div class='data'>
                         <h3 class='heading-with-icon secondary-orange'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg' alt='dollar icon'
-                                class='icon-img' />
+                            <img class="dollar" src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg'
+                                alt='dollar icon' width="40px" height="40px" class='icon-img' />
                             NO INSURANCES? NO PROBLEM
                         </h3>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg' alt='guard icon'
-                                class='icon-img' />
-                            We offer affordable pricing and are happy to take on
-                            patients who are currently without medical insurance.
+                            <img class="guard" src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg'
+                                alt='guard icon' width="40px" height="43px" class='icon-img' />
+                            We offer affordable pricing and are happy to take on patients
+                            who are currently without medical insurance.
                         </p>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg' alt='like icon'
-                                class='icon-img' />
+                            <img class="like" src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg'
+                                alt='like icon' width="40px" height="43px" class='icon-img' />
                             Our guarantee to you is that you will never be surprised by
-                            any hidden fees or extra charges. All pricing is discussed
-                            up front before the tests are performed so that our patients
+                            any hidden fees or extra charges. All pricing is discussed up
+                            front before the tests are performed so that our patients
                             understand completely what they have been charged for.
                         </p>
                         <p class='offer large dark-blue'>
-                            We offer a <span class='primary-orange'>$90</span>
-                            initial office visit fee
+                            We offer a <span class='primary-orange'>$90</span> initial
+                            office visit fee
                             <span class='primary-orange'>($84 cash)</span>.
                             <br />
                             All patient seen by a doctor.
@@ -491,7 +1120,7 @@
                         PRICE FOR STD TESTS WITHOUT INSURANCES
                     </h3>
                     <div class="table-wrap">
-                        <table class='table'>
+                        <table class='insurance-table'>
                             <thead class='table-head'>
                                 <tr>
                                     <th class='table-column'>
@@ -499,9 +1128,7 @@
                                     </th>
                                     <th class='table-column'>
                                         <div class='text text-center'>
-                                            Credit
-                                            <br />
-                                            card
+                                            Credit card
                                         </div>
                                     </th>
                                 </tr>
@@ -512,9 +1139,7 @@
                                     <td class='table-column'>$50</td>
                                 </tr>
                                 <tr class='table-row'>
-                                    <td class='table-column'>
-                                        Chlamydia+Gonorrhea (both)
-                                    </td>
+                                    <td class='table-column'>Chlamydia+Gonorrhea (both)</td>
                                     <td class='table-column'>$120</td>
                                 </tr>
                                 <tr class='table-row'>
@@ -548,8 +1173,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40' width='40' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -560,47 +1190,37 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes1.svg" alt="hand jobs and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes2.svg" alt="one time sex and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes3.svg"
+                        alt="molluscam contagiosum topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes4.svg"
+                        alt="all about vaginal odor topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes5.svg"
+                        alt="fast about std testing topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes6.svg"
+                        alt="fast about std testing topic">
                 </div>
+                <div class='topic'>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes7.svg"
+                        alt="fast about std testing topic">
+                </div>
+                <div class='topic'>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes8.svg"
+                        alt="fast about std testing topic">
+                </div>
+
+                <div class="topic desktop"></div>
             </div>
         </section>
     </div>
@@ -611,7 +1231,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -623,8 +1243,8 @@
             <div>
                 <p class='footer-header'>Contact Us</p>
                 <div class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' height='24px'
+                        alt="location icon" width='24px' />
                     <p>
                         <span>274 Madison Ave, Suite 705</span>
                         <br />
@@ -632,16 +1252,18 @@
                     </p>
                 </div>
                 <p class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' height='24px'
+                        alt="phone icon" width='24px' />
                     212.696.5900
                 </p>
             </div>
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            alt="facebook icon" width='40px' />
+                    </a>
                 </p>
             </div>
         </div>
