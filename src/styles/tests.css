@@ -455,10 +455,27 @@ section {
 }
 
 .testing .at_glance .info_item {
-  height: 570px;
   width: 560px;
   padding: 0px 45px 20px 40px;
   margin-bottom: 20px;
+}
+
+.testing .at_glance .info_item .bolder-text {
+  font-weight: 700;
+}
+
+.shift {
+  margin-left: 60px;
+}
+
+.testing .at_glance .info_item.BV li::marker {
+  color: #40518A;
+  font-size: 0.8125rem;
+}
+
+.testing .at_glance .info_item .lighter-font {
+  font-weight: 500;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .testing .at_glance .info_item:first-child h3 {
@@ -514,8 +531,8 @@ section {
 
 .testing .at_glance .info_item:first-child,
 .testing .at_glance .info_item:last-child {
-  background: url('http://d12qz6jssicxsf.cloudfront.net/images/info1.svg') no-repeat;
-  background-size: cover;
+  border-radius: 50px 150px 80px 50px;
+  border: 4px solid rgba(214, 216, 235, 0.3);
 }
 
 .testing .at_glance .info_item:nth-child(2),
@@ -1174,6 +1191,8 @@ section {
 
   .testing .at_glance .info_item {
     padding: 0;
+    padding-bottom: 30px !important;
+    min-height: 200px;
   }
 
   .testing .at_glance .info_item:nth-child(3) h3 {
