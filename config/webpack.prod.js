@@ -610,6 +610,9 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [{ from: './src/images', to: 'images' }]
     }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: './src/fonts', to: 'fonts' }]
+    }),
     new HTMLInlineCSSWebpackPlugin()
   ]
 }
