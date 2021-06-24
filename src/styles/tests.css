@@ -1818,6 +1818,10 @@ section {
     margin-right: 15px;
   }
 
+  .answer_image{
+    width: 100%;
+    height: auto;
+  }
 
   .testing .section.people-choose .row-people-choose .data .column .lock {
     width: 50px;
