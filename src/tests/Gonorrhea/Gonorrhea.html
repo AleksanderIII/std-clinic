@@ -6,6 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,8 +83,7 @@
                     <li class='menu-item'>
                         <p>
                             STD tests
-                            <img src='images/arrowDown.svg' height='15'
-                                width='30' />
+                            <img src='../images/arrowDown.svg' height='15' width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -95,8 +147,7 @@
                     <li class='menu-item'>
                         <p class='menu-link'>
                             STD diseases
-                            <img src='images/arrowDown.svg' height='15'
-                                width='30' />
+                            <img src='../images/arrowDown.svg' height='15' width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -146,8 +197,138 @@
                     </a>
                 </div>
             </div>
-            <img class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg" width="27px"
-                height="24px">
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <div class='content testing'>
@@ -155,9 +336,9 @@
             <div class='section-wrapper'>
                 <div class='intro-text-wrapper'>
                     <h1>
-                        Get Chlamydia testing and
+                        Get Gonorrhea testing and
                         <br />
-                        treatment toady!
+                        treatment today!
                     </h1>
                     <p class='text-with-icon medium'>Covered by insurance</p>
                     <p class='text-with-icon medium'>
@@ -166,6 +347,12 @@
                     <p class='text-with-icon medium'>Same day appointment</p>
                     <p class='text-with-icon medium'>
                         All patients seen by a doctor
+                    </p>
+                    <p class="insurance-btn">
+                        <b>No insurance? <br class="desktop">
+                            <i> </i>
+                            No problem
+                        </b> <span class="desktop">i</span>
                     </p>
                 </div>
                 <div class='row rating'>
@@ -176,6 +363,9 @@
                         customer reviews
                     </a>
                 </div>
+                <a href='#' class='rating-customer mobile'>
+                    customer reviews
+                </a>
                 <div class='row people-say'>
                     <div class='people-say--icon-wrapper'>
                         <a href='https://www.zocdoc.com/doctor/slava-fuzayloff-do-9429' title='follow us on ZocDoc'>
@@ -228,191 +418,379 @@
                         <p>Text messaging service</p>
                     </div>
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/doctor.svg' alt='doctor graphic'
-                        height='250px' width='280px' />
+                        class="desktop" height='250px' width='280px' />
                 </div>
             </div>
         </section>
 
-        <section class='section at_glance blue-text'>
+        <section class='section at_glance blue-text' style="padding-top: 0;">
             <h2>
                 <span class='orange-text'>AT</span> A GLANCE
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
+                <img class="wave" src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px'
+                    height='14px' />
             </h2>
             <div class='info'>
-                <div class='info_item'>
+                <div class='info_item gonorrhea'>
                     <h3>
-                        <span class='orange-text'>WHO</span> GET TESTED?
+                        <span class='orange-text'>WHO</span> SHOULD GET TESTED?
                     </h3>
-                    <p>
-                        Chlamydia testing is recommended <br />
-                        for both symptomatic and asymptomatic people.
-                    </p>
-                    <h4 class='orange-text'>NO sympthoms</h4>
-                    <ul>
-                        <li>Sexually active female 25 and younger</li>
-                        <li>People with multiple sex partners</li>
-                        <li>
-                            People who have had unprotected sex with a new partner
+                    <p> People who fall in these categories should be tested for gonorrhea even if they have no
+                        symptoms:</p>
+                    <br>
+                    <ul style="padding-left: 20px;">
+                        <li style="list-style-type: disc;">People with a partner who has been diagnosed with gonorrhea
                         </li>
-                        <li>People who have a chlamydia-positive partner</li>
-                        <li>Sexually active homosexual male</li>
+                        <li style="list-style-type: disc;">People who’ve had unprotected sex with a new partner</li>
+                        <li style="list-style-type: disc;">People who have sex with multiple partners</li>
+                        <li style="list-style-type: disc;">Homosexual males who are sexually active</li>
+                        <li style="list-style-type: disc;">Females age 25 and younger who are sexually active</li>
                     </ul>
-                    <h4 class='orange-text'>WITH sympthoms </h4>
-                    <ul>
-                        <li>
-                            Sexually active people who have chlamydia-related signs and
-                            symptoms can be tested at any time, irrespective of the time
-                            that has passed since the exposure.
-                        </li>
-                    </ul>
-                </div>
-                <div class='info_item'>
-                    <h3>
-                        <span class='orange-text'>WHEN</span> GET TESTED?
-                    </h3>
-                    <p class='description'>
-                        Here we will summarize what is known about timing (how soon
-                        the test can be done) and the accuracy of chlamydia testsin
-                        various anatomic areas for asymptomatic people.
-                    </p>
-                    <p class='orange-text warning'>
-                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/danger-circle.svg' height='26'
-                            width='26' />
-                        If you have symptoms, the test can be done any time,
-                        irrespective of the amount of time that has passed since the
-                        sexual encounter that you believe may have given you
-                        chlamydia.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Genital swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    98.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Rectal swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.7% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Oral swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    80% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Urine test</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class='legend'>
-                        *Accuracy, if is done 2 weeks after exposure
+                    <p>Of course, people who have signs and symptoms of gonorrhea should be tested, no matter how much
+                        time may have passed since they were exposed to someone with this disease.
                     </p>
                 </div>
-                <div class='info_item'>
+                <div class='info_item gonorrhea'>
                     <h3>
-                        <span class='orange-text'>TEST TYPE</span> AVAILABLE
+                        <span class='orange-text'>WHEN</span> TO GET OFFERED?
                     </h3>
-                    <p class='description'>
-                        Unlike other infections, chlamydia, if contracted, stays at
-                        the point of initial contact, so a negative test of one area
-                        of the body doesn’t rule out the possibility of having
-                        chlamydia in another area. This means that all “susceptible”
-                        areas that came into contact with the partner’s potentially
-                        affected areas during sex should be tested.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Male</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Female</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Anal receiving sex</td>
-                                <td>Anal swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Giving oral sex</td>
-                                <td>Throat swab</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="description">
+                        <p> People who have gonorrhea symptoms can and should be tested anytime, no matter how short or
+                            long
+                            a time it has been since they believe they may have contracted gonorrhea.
+                        </p><br>
+                        <p>Gonorrhea testing for people without symptoms can be done as early as 2–7 days after the
+                            suspected exposure. Here’s what we know about the accuracy of the various kinds of tests if
+                            they’re done two weeks after exposure:
+                        </p>
+                        <br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;"><b>Genital swab:</b> 99% accuracy </li>
+                            <li style="list-style-type: disc;"><b>Rectal swab:</b> 99% accuracy </li>
+                            <li style="list-style-type: disc;"><b> Oral swab:</b> 99.4% accuracy </li>
+                            <li style="list-style-type: disc;"><b>Urine test:</b> 79% accuracy</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class='info_item'>
+                <div class='info_item gonorrhea'>
                     <h3>
-                        <span class='orange-text'>TEST PREPARATION</span> NEEDED
+                        <span class='orange-text'>TEST </span>TYPES
                     </h3>
-                    <p>
-                        This is what need to be done for the testing to be <br />
-                        most accurate.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Urine test </td>
-                                <td>avoid urinating for 2 hours before a urine test </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Vaginal swab </td>
-                                <td>
-                                    avoid douching and using vagina cream for 24 hours prior
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Throat swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Recta swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Penile swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class='description'>
+                        <p> Gonorrhea is different from other infections in that it stays in the part of the body where
+                            it
+                            was contracted—in other words, the point of contact. This means that a negative test of one
+                            body
+                            part doesn’t mean that the person doesn’t have gonorrhea in another part of the body. All
+                            “susceptible” areas that came into contact with a part of a partner’s body that may have
+                            been
+                            infected with gonorrhea should be tested.
+                        </p>
+                        <br>
+                        <p>Urine and urethral tests can be done on both males and females. Females can have vaginal
+                            swabs.
+                            If the contact involved anal sex, the “receiving” person should have an anal swab. And if
+                            the
+                            contact involved oral sex, the “giver” should have a throat swab.
+                        </p>
+                    </div>
+                </div>
+                <div class='info_item gonorrhea'>
+                    <h3>
+                        <span class='orange-text'>TEST </span>PREPARATION
+                    </h3>
+                    <div class="description">
+                        <p> For a urine test to be as accurate possible, the patient should not urinate for 2 hours
+                            before the test.
+                        </p> <br>
+                        <p> Females who are going to have a vaginal swab should not douche or use vaginal cream for 24
+                            hours before the test.
+                        </p><br>
+                        <p> For throat, rectal, and penile swabs, no preparation is necessary.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class='section common_questions  blue-text'>
-            <h2>
-                <span class='orange-text'>COMMON</span> QUESTIONS
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
-            </h2>
-            <div class='questions'>
-                <div>
+        <section class="FAQ_section" style="padding-top: 0; padding-bottom: 0;">
+            <div class='FAQ'>
+                <h3>Frequently Asked Questions</h3>
+                <div class='FAQ-content'>
                     <ul>
-                        <li>How long does it take to get results back?</li>
-                        <li>How are different chlamydia tests done?</li>
-                        <li>What the test results mean?</li>
-                        <li>Can I get treated?</li>
-                        <li>Where to get tested?</li>
-                        <li>Should I tell my partner that I have chlamydia?</li>
-                        <li>Partner protection.</li>
-                        <li>Can I get infected with chlamydia again?</li>
-                        <li>If health insurance cover the testing?</li>
-                        <li>What is the cost without health insurance?</li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How is gonorrhea testing done?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p style="margin-top: 0;" class="bold-text">Vaginal swab </p>
+                                <p> Ideally, this test is performed by a doctor (self-swabbing is possible). A small
+                                    amount of fluid is collected from the vagina and/or cervix using a thin, sterile
+                                    cotton swab. See the illustration below.
+                                </p><br>
+                                <p> This procedure sometimes is very mildly uncomfortable. Rarely, the patient may have
+                                    minor spotting afterward (this can occur if the area is infected and the mucosa is
+                                    fragile).
+                                </p><br>
+                                <p class="legend"> Important: don’t use vaginal creams and don’t douche within the
+                                    24-hour period before the test.
+                                </p>
+                                <div class='answer_image'>
+                                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/answer_picture.jpg'
+                                        alt="Performance of the chlamydia swab test in females" height='250px'
+                                        height='250px' />
+                                    <p class='source'>
+                                        Image source: <br /> Chlamydia / N. Gonorrhoeae RNA, TMA -
+                                        Unisex Collection | Diagnostic Laboratory of Oklahoma.
+                                        https://www.dlolab.com/chlamydia-n-gonorrhoeae-rna-tma-unisex-collection.
+                                    </p>
+                                </div>
+                                <p class="bold-text"> Urethral swab for males </p>
+                                <p> A thin, sterile cotton swab is inserted three fourths of an inch into the urethra
+                                    (from the tip of the penis). The swab collects a small amount of fluid. This test,
+                                    which is done by a doctor, takes only about 15 to 30 seconds. The procedure may
+                                    cause mild discomfort.
+                                </p>
+                                <div class='answer_image'>
+                                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/answer_picture2.jpg'
+                                        alt="Performance of the chlamydia swab test in males" height='250px'
+                                        height='250px' />
+                                    <p class='source'>
+                                        Image source: <br /> Chlamydia / N. Gonorrhoeae RNA, TMA -
+                                        Unisex Collection | Diagnostic Laboratory of Oklahoma.
+                                        https://www.dlolab.com/chlamydia-n-gonorrhoeae-rna-tma-unisex-collection.
+                                    </p>
+                                </div>
+                                <p class="bold-text">Throat swab</p>
+                                <p>A thin, sterile Q-tip is used to swab the throat.</p>
+                                <p class="bold-text">Anal swab</p>
+                                <p> A thin, sterile Q-tip is used to swab the inside of the anus.
+                                </p>
+                                <p class="bold-text">Urine test</p>
+                                <p> As with other urine tests you’ve probably had, you will be asked to urinate in a
+                                    cup.</p>
+                                <p class="legend"> Important: Do not urinate for at least two hours before the test.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How long does it take to get results back?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>The rests of a urine test are usually back in three business days. The results of a
+                                    swab test usually take four business days.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What do the test results mean?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Test results can positive, negative, or equivocal (inconclusive). </p>
+                                <ul>
+                                    <li style="list-style-type: disc;">
+                                        <p class="bold-text"><u>Positive</u></p>
+                                    </li>
+                                </ul>
+                                <p> If your gonorrhea test is positive, you have gonorrhea and need to be treated. You
+                                    should be retested three weeks after your symptoms resolve. It is also advised that
+                                    you tell your partner about your diagnosis and suggest they be tested.
+                                </p>
+                                <ul>
+                                    <li style="list-style-type: disc;">
+                                        <p class="bold-text"><u>Negative</u></p>
+                                    </li>
+                                </ul>
+                                <p> If your gonorrhea test is negative, you may not have gonorrhea. Two factors must be
+                                    taken into account, though:
+                                </p>
+                                <ul style="margin-left: 40px;">
+                                    <li><u>Timing</u>—Two to three weeks after exposure to gonorrhea is the ideal time
+                                        to get
+                                        tested. If you were tested more quickly than that, your test results may not be
+                                        as accurate
+                                    </li>
+                                    <li><u>The accuracy</u> of the particular test—urine tests are 79% accurate, whereas
+                                        swab
+                                        tests are 99% accurate
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li style="list-style-type: disc;">
+                                        <p class="bold-text"><u>Equivocal/inconclusive</u></p>
+                                    </li>
+                                </ul>
+                                <p> If your gonorrhea test is equivocal, this means the results aren’t conclusive and
+                                    repeat testing is needed:
+                                </p>
+                                <ul style="margin-left: 40px;">
+                                    <li> The ideal test—a swab test—should be performed
+                                    </li>
+                                    <li> The new test should be done 2–3 weeks after the suspected exposure
+                                    </li>
+                                    <li> This time, the same test you had before should be repeated and an alternative
+                                        test should also be done
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can I be treated without test results?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Yes. Treatment can be initiated without a final diagnosis based on the doctor’s
+                                    clinical experience and assumptions about your condition based on everything he or
+                                    she has learned about your situation. This is called empiric treatment and there is
+                                    a consensus in medicine that it can be provided in these any of these circumstances:
+                                </p>
+                                <ul>
+                                    <li>You have signs and symptoms of gonorrhea, such as genital discharge, painful and
+                                        frequent urination, burning during urination, or bleeding from the genitals
+                                        after sexual intercourse or between menstrual periods
+                                    </li>
+                                    <li>You had sex with someone who has gonorrhea (even if you have no symptoms)
+                                    </li>
+                                    <li>You’ve tested <u>positive for chlamydia</u>
+                                    </li>
+                                    <li>(24% of heterosexual males and 38% of females who have chlamydia also test
+                                        positive for gonorrhea)
+                                    </li>
+                                    <li>You had sex with someone who has chlamydia
+                                    </li>
+                                    <li>You are very anxious about the possibility of having gonorrhea (it is best not
+                                        to use antibiotics without an objective reason, but if you’re extremely worried
+                                        and anxious about this, we will prescribe the medication)
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Where can I be tested for gonorrhea?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Primary care offices, urgent care clinics, gynecology clinics, planned parenthood
+                                    clinics, free STD centers, and our specialized STD clinic are all able to test you
+                                    for gonorrhea.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How can I protect my partner?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> The oral, genital, or rectal area can be infected with gonorrhea. For you to pass
+                                    gonorrhea to your partner, fluids from your body that are infected with gonorrhea
+                                    must come into contact with your partner’s mucosa. You can present this by following
+                                    these recommendations:
+                                </p>
+                                <ul>
+                                    <li> Don’t let your infected area come into contact with another person’s skin while
+                                        you have symptoms and for seven days after you’re treated
+                                    </li>
+                                    <li> Don’t allow your partner to touch the part of your body that’s infected
+                                    </li>
+                                    <li> Don’t share sex toys
+                                    </li>
+                                    <li> If you touch the part of your body that’s infected, wash your hands with soap
+                                        before touching another person
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Should I tell my partner that I have gonorrhea?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> You should tell everyone you’ve had a sexual encounter with in the last 60 days that
+                                    you have gonorrhea. Suggest they see a doctor and get tested to prevent the
+                                    infection from being passed back to you or on to someone else, and to prevent the
+                                    possibility of health problems due to gonorrhea.
+                                </p>
+                                <br>
+                                <p>If you’re not comfortable contacting your sex partners about this, we can notify them
+                                    on your behalf, anonymously, by phone, email, or text.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can I get gonorrhea again?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Yes, you can get gonorrhea again after being treated. This is one important reason to
+                                    tell your partner(s) about your infection; if they’re tested and treated, it’s less
+                                    likely you’ll get it again from them.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Is gonorrhea testing covered by health insurance?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Yes. Gonorrhea testing is typically covered by health insurance, as many times as
+                                    you need it, because it’s medically necessary.
+                                </p><br>
+                                <p>To be certain that it’s covered under your health insurance, call your insurance
+                                    company and ask what lab they prefer (they may have pricing agreements with certain
+                                    labs) and whether there is a copay, coinsurance, or deductible that applies, in
+                                    which case you will have financial responsibility.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What does gonorrhea testing cost without health insurance?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Without health insurance, an office visit is $84 cash (or $90 credit). The testing by
+                                    a certified lab is $60.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Who should get tested for oral or rectal gonorrhea?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Up to 3% of sexually active persons have pharyngeal (oral) gonorrhea at some point.
+                                    Under international guidelines, an oral swab test for gonorrhea is recommended to
+                                    anyone in these circumstances:
+                                </p>
+                                <ul>
+                                    <li>People who have signs and <u>symptoms of oral gonorrhea</u> </li>
+                                    <li>(a swollen, red pharynx; fever; pus-filled patches on the throat, etc.) </li>
+                                    <li>People who are engaging in high-risk behavior (oral sex, multiple partners,
+                                        etc.)</li>
+                                </ul>
+                                <p>According to the CDC, a screening test for oral gonorrhea is recommended for people
+                                    with HIV and for men having sex with men (MSMs) who have had oral sex in the last
+                                    year. Additionally, MSMs who use methamphetamine, have multiple sex partners, or
+                                    have one or more partners doing any of these things should have a screening test
+                                    every three to six months.
+                                </p><br>
+                                <p>Important: Gonococcal bacteria remain in the local area of the exposure, so oral
+                                    gonorrhea cannot be diagnosed using genital swabs, urine tests, and blood tests.
+                                </p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
             </div>
         </section>
+
 
         <section class='section insurances'>
             <div class='section-wrapper'>
@@ -455,27 +833,27 @@
                 <div class='row row-no-insurance'>
                     <div class='data'>
                         <h3 class='heading-with-icon secondary-orange'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg' alt='dollar icon'
-                                class='icon-img' />
+                            <img class="dollar" src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg'
+                                alt='dollar icon' width="40px" height="40px" class='icon-img' />
                             NO INSURANCES? NO PROBLEM
                         </h3>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg' alt='guard icon'
-                                class='icon-img' />
-                            We offer affordable pricing and are happy to take on
-                            patients who are currently without medical insurance.
+                            <img class="guard" src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg'
+                                alt='guard icon' width="40px" height="43px" class='icon-img' />
+                            We offer affordable pricing and are happy to take on patients
+                            who are currently without medical insurance.
                         </p>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg' alt='like icon'
-                                class='icon-img' />
+                            <img class="like" src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg'
+                                alt='like icon' width="40px" height="43px" class='icon-img' />
                             Our guarantee to you is that you will never be surprised by
-                            any hidden fees or extra charges. All pricing is discussed
-                            up front before the tests are performed so that our patients
+                            any hidden fees or extra charges. All pricing is discussed up
+                            front before the tests are performed so that our patients
                             understand completely what they have been charged for.
                         </p>
                         <p class='offer large dark-blue'>
-                            We offer a <span class='primary-orange'>$90</span>
-                            initial office visit fee
+                            We offer a <span class='primary-orange'>$90</span> initial
+                            office visit fee
                             <span class='primary-orange'>($84 cash)</span>.
                             <br />
                             All patient seen by a doctor.
@@ -499,9 +877,7 @@
                                     </th>
                                     <th class='table-column'>
                                         <div class='text text-center'>
-                                            Credit
-                                            <br />
-                                            card
+                                            Credit card
                                         </div>
                                     </th>
                                 </tr>
@@ -512,9 +888,7 @@
                                     <td class='table-column'>$50</td>
                                 </tr>
                                 <tr class='table-row'>
-                                    <td class='table-column'>
-                                        Chlamydia+Gonorrhea (both)
-                                    </td>
+                                    <td class='table-column'>Chlamydia+Gonorrhea (both)</td>
                                     <td class='table-column'>$120</td>
                                 </tr>
                                 <tr class='table-row'>
@@ -548,8 +922,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40' width='40' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -560,47 +939,21 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/1.svg" alt="hand jobs and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/2.svg" alt="one time sex and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/3.svg" alt="molluscam contagiosum topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/4.svg" alt="all about vaginal odor topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/5.svg" alt="fast about std testing topic">
                 </div>
-                <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
-                </div>
+                <div class="topic desktop"></div>
             </div>
         </section>
     </div>
@@ -611,7 +964,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -623,8 +976,8 @@
             <div>
                 <p class='footer-header'>Contact Us</p>
                 <div class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' height='24px'
+                        alt="location icon" width='24px' />
                     <p>
                         <span>274 Madison Ave, Suite 705</span>
                         <br />
@@ -632,16 +985,18 @@
                     </p>
                 </div>
                 <p class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' height='24px'
+                        alt="phone icon" width='24px' />
                     212.696.5900
                 </p>
             </div>
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            alt="facebook icon" width='40px' />
+                    </a>
                 </p>
             </div>
         </div>
