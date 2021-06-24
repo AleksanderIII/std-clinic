@@ -468,7 +468,16 @@ section {
   margin-left: 60px;
 }
 
-.testing .at_glance .info_item.BV li::marker {
+.shifted {
+  margin-left: 60px;
+}
+
+.testing .at_glance .info_item.chlomydia li::marker {
+  font-size: 0.8125rem;
+}
+
+.testing .at_glance .info_item.BV li::marker,
+.testing .at_glance .info_item.balanitis li::marker {
   color: #40518A;
   font-size: 0.8125rem;
 }
@@ -559,7 +568,7 @@ section {
 .testing .at_glance .info_item:nth-child(2) h3,
 .testing .at_glance .info_item:nth-child(2) .description,
 .testing .at_glance .info_item:nth-child(2) .legend {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-right: 80px;
 }
 
@@ -1171,6 +1180,10 @@ section {
   margin-left: 20px;
 }
 
+.question .answer .legend {
+  font-size: 0.75rem;
+}
+
 .question .answer ul li {
   list-style-type: disc;
   font-weight: 400;
@@ -1183,6 +1196,49 @@ section {
   display: none !important;
 }
 
+.question .answer table {
+  margin-top: 20px;
+}
+
+.question .answer table td,
+.question .answer table th {
+  border: 1px solid rgba(84, 101, 135, 0.4);
+  padding: 20px 30px;
+}
+
+.question .answer table {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.question .answer table th {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #4F67A3;
+}
+
+.table-wrap {
+  display: block;
+  overflow-x: auto;
+  margin-right: 16px;
+}
+
+.question .answer table td {
+  color: #629EA8;
+  font-size: 0.875rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.question .answer table .table-bold-text {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: #4F67A3;
+}
+
 @media (max-width: 1200px) {
   .testing section {
     padding: 0 16px;
@@ -1193,6 +1249,34 @@ section {
     padding: 0;
     padding-bottom: 30px !important;
     min-height: 200px;
+  }
+
+  .testing .at_glance .info_item ul,
+  .testing .at_glance .info_item p {
+    padding-right: 10px;
+  }
+
+  .shift {
+    padding-left: 35px;
+    margin-left: 0;
+  }
+
+  .shifted {
+    padding-left: 35px;
+    margin-left: 0;
+  }
+
+  .medium-shift {
+    padding-left: 10px;
+  }
+
+  .slight-shift {
+    padding-left: 5px;
+  }
+
+  .testing .at_glance .info_item .shifted li .bold-text,
+  .testing .at_glance .info_item .shift li .bold-text {
+    margin-left: 0;
   }
 
   .testing .at_glance .info_item:nth-child(3) h3 {
@@ -1269,7 +1353,7 @@ section {
 
   .testing .at_glance .info p {
     font-size: 0.875rem;
-    margin-left: 15px;
+    margin-left: 0;
     font-weight: 400;
   }
 
