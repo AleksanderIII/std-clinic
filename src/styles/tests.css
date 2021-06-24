@@ -282,6 +282,7 @@ section {
 
 .insurance-btn {
   position: absolute;
+  font-family: 'Montserrat-Medium', sans-serif;
   display: flex;
   top: 150px;
   right: 75px;
@@ -292,10 +293,11 @@ section {
   padding: 15px 20px;
   border-radius: 8px;
   align-items: center;
-  width: 200px;
+  width: 210px;
   height: 70px;
   justify-content: space-between;
   font-weight: 500;
+  line-height: 1.3rem;
   font-size: 1.125rem;
 }
 
@@ -490,8 +492,8 @@ section {
 
 .testing .at_glance .info_item li {
   margin-bottom: 5px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -662,8 +664,8 @@ section {
 }
 
 .testing section.insurances {
-  background: url('http://d12qz6jssicxsf.cloudfront.net/images/insurances-bg.svg') no-repeat;
-  background-position: right 0px bottom -25px;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/test_insurance_bg.svg') no-repeat;
+  background-position: right 0px bottom -70px;
 }
 
 .testing section.insurances .row.row-insurances {
@@ -704,8 +706,8 @@ section {
 }
 
 .testing section.no-insurance {
-  background: url('http://d12qz6jssicxsf.cloudfront.net/images/no-insurance-bg.svg') no-repeat;
-  background-position: top left;
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/test_no_insurance_bg.svg') no-repeat;
+  background-position: top 40px left -48px;
   margin-bottom: 80px;
 }
 
@@ -1117,8 +1119,13 @@ section {
   font-weight: 700;
 }
 
-.question .answer,
 .question .answer p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+.question .answer {
   font-family: 'Roboto-Medium', sans-serif;
   font-size: 0.875rem;
   line-height: 1.375rem;
@@ -1149,6 +1156,8 @@ section {
 
 .question .answer ul li {
   list-style-type: disc;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
   font-size: 0.875rem;
 }
@@ -1282,7 +1291,9 @@ section {
     border-radius: 12px;
     top: 0;
     right: 0;
+    font-weight: 500;
     margin-top: 30px;
+    font-size: 0.875rem;
   }
 
   .testing section.FAQ_section {
