@@ -1,4 +1,3 @@
-import '../../styles/index.css'
 import '../../styles/Header.css'
 import '../../styles/Footer.css'
 import '../../styles/tests.css'
