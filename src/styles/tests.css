@@ -1245,6 +1245,12 @@ section {
     width: 100vw;
   }
 
+  .question .answer table td,
+  .question .answer table th,
+  .question .answer table .table-bold-text {
+    font-size: 0.8125rem;
+  }
+
   .testing .at_glance .info_item {
     padding: 0;
     padding-bottom: 30px !important;
