@@ -1246,6 +1246,11 @@ section {
   }
 
   .question .answer table td,
+  .question .answer table th{
+    padding: 15px;
+  }
+
+  .question .answer table td,
   .question .answer table th,
   .question .answer table .table-bold-text {
     font-size: 0.8125rem;
