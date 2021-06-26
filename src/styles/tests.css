@@ -480,7 +480,8 @@ section {
 .testing .at_glance .info_item.balanitis li::marker,
 .testing .at_glance .info_item.gonorrhea li::marker,
 .testing .at_glance .info_item.herpes li::marker,
-.testing .at_glance .info_item.hiv li::marker {
+.testing .at_glance .info_item.hiv li::marker,
+.testing .at_glance .info_item.trichomoniasis li::marker {
   color: #40518A;
   font-size: 0.8125rem;
 }
