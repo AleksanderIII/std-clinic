@@ -98,6 +98,9 @@ module.exports = {
     testsUreaplasma:  './src/tests/Ureaplasma/ureaplasma.js',
     testsYeast:  './src/tests/Yeast/yeast.js',
     testsBalanitis:  './src/tests/Balanitis/balanitis.js',
+
+    blogs: './src/blogs/blogs.js',
+    blogGenitalWarts: './src/blogs/GenitalWarts/genitalWarts.js'
   },
   output: {
     path: path.join(__dirname, '../dist'),
@@ -602,6 +605,18 @@ module.exports = {
       filename: 'tests/balanitis.html',
       inject: true,
       chunks: ['testsBalanitis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/Blogs.html',
+      filename: 'blogs.html',
+      inject: true,
+      chunks: ['blogs']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/GenitalWarts/GenitalWarts.html',
+      filename: 'blogs/genital_warts.html',
+      inject: true,
+      chunks: ['blogGenitalWarts']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

@@ -1,0 +1,199 @@
+.blogs .blogs-list {
+    margin-top: 130px;
+    padding: 0 30px;
+}
+
+.blogs .blogs-list h2 {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #DC593A;
+    font-size: 2.5rem;
+}
+
+.blogs .blogs-list .blog-row {
+    margin-bottom: 50px;
+}
+
+.blogs .blogs-list .blog-row.three-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blogs .blogs-list .blog-row.three-column .column {
+    margin-right: 30px;
+    width: 360px;
+}
+
+.blogs .blogs-list .blog-row.three-column .column:last-child {
+    margin-right: 0;
+}
+
+.blogs .blogs-list .blog-row.three-column .date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(0, 26, 54, 0.7);
+    margin-top: 20px;
+}
+
+.blogs .blogs-list .blog-row.three-column .date b {
+    font-weight: 700;
+}
+
+.blogs .blogs-list .blog-row.three-column .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #27377A;
+    margin-top: 20px;
+    line-height: 1.875rem;
+}
+
+.blogs .have-a-question {
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px 200px;
+    background: linear-gradient(90deg, #5477B5 0%, #557DB9 18.87%, #578BC1 48.65%, #5CA1CC 85.41%, #5FABD1 100%);
+}
+
+.blogs .have-a-question h2 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.blogs .have-a-question div {
+    display: flex;
+    width: 100%;
+}
+
+.blogs .have-a-question a span {
+    color: white;
+}
+
+.blogs .have-a-question div p {
+    width: calc(100% / 3);
+    color: white;
+    display: flex;
+}
+
+.blogs .have-a-question div p:first-child {
+    padding-right: 75px;
+    padding-top: 35px;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.blogs .have-a-question div p:first-child span {
+    margin-left: 20px;
+}
+
+.blogs .have-a-question div p:nth-child(2) {
+    justify-content: center;
+    font-size: 6.25rem;
+}
+
+.blogs .have-a-question div p:last-child {
+    background: url('http://d12qz6jssicxsf.cloudfront.net/images/question_border.svg') no-repeat;
+    margin-top: 30px;
+    margin-left: 75px;
+    padding-left: 60px;
+    padding-top: 10px;
+    justify-content: flex-start;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.mobile {
+    display: none;
+}
+
+
+@media (max-width: 1200px) {
+    .blogs .blogs-list {
+        margin: 0 auto;
+        margin-top: 56px;
+        padding: 0;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .blogs .blogs-list h2 {
+        padding-top: 15px;
+    }
+
+    .blogs .blogs-list .blog-row:not(.three-column) {
+        margin-bottom: 32px;
+    }
+
+    .blogs .blogs-list .blog-row.three-column .column {
+        width: 100%;
+        margin: 0;
+        padding: 0 16px;
+        margin-bottom: 20px;
+    }
+
+    .blogs .blogs-list .blog-row.three-column .date {
+        margin-top: 15px;
+    }
+
+    .blogs .blogs-list .blog-row.three-column .title {
+        font-size: 1.125rem;
+        margin-top: 15px;
+    }
+
+    .blogs .blogs-list .blog-row {
+        margin-bottom: 0;
+    }
+
+    .blogs .blogs-list .blog-row {
+        width: 100%;
+    }
+
+    .blogs .blogs-list .blog-row img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blogs .have-a-question {
+        padding: 0 16px;
+    }
+
+    .blogs .have-a-question h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+        width: 100%;
+        padding-top: 40px;
+    }
+
+    .blogs .have-a-question div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blogs .have-a-question div p:first-child {
+        width: fit-content;
+        margin-top: 50px;
+        padding: 0;
+    }
+
+    .blogs .have-a-question div p:last-child {
+        background: url('http://d12qz6jssicxsf.cloudfront.net/images/question_border.svg') no-repeat center center;
+        margin: 0;
+        margin-bottom: 40px;
+        padding: 0;
+        padding-left: calc(50% - 45px);
+        padding-top: 12px;
+        width: 100%;
+        height: 57px;
+    }
+}

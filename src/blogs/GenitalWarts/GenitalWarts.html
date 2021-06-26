@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <section class="blog">
+            <h2>Genital warts(HPV) vs. skin tags: establishing the diagnosis</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_warts.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> This article should help people who aren’t doctors differentiate between skin tags and HPV
+                        (which is
+                        often called “genital warts”) and establish the right diagnosis.
+                    </p><br>
+                    <p>It’s important to distinguish these two conditions because one of them—genital warts—is
+                        infectious,
+                        meaning it can be passed from one person to another. Skin tags are not infectious; their
+                        formation
+                        is
+                        induced by other factors, as discussed below.
+                    </p><br>
+                    <p>Please keep in mind that neither condition is life threatening or even dangerous.
+                    </p><br>
+                    <p>Both skin tags and genital warts are common conditions affecting the genitals of people of all
+                        ages
+                        and
+                        both genders. They can be easily confused because they’re similar in appearance.
+                    </p><br>
+                    <p>When establishing the diagnosis and differentiating between those two conditions, a few things
+                        need
+                        to be
+                        considered in combination:
+                    </p>
+                    <ul>
+                        <li>Visual examination of the skin is 90% of the diagnosis.</li>
+                        <li>Context information is 10% of the diagnosis (mainly, it confirms the diagnosis made based on
+                            visual
+                            examination). The context includes the history of the bump (how it’s changing over time and
+                            how
+                            fast
+                            it is growing), the patient’s age, the location of the skin lesion, the prevalence of each
+                            condition
+                            in the geographic area, and the patient’s genetic predisposition.
+                        </li>
+                    </ul>
+                    <p>Let’s talks about each of these things in more detail!
+                    </p>
+                    <div class="subSection" id="visual_exam">
+                        <h3>Visual exam of the skin</h3>
+                    </div>
+                    <div class="subSection" id="appearance">
+                        <p class="subHeader">General appearance</p>
+                        <p><u>Skin tags</u></p>
+                        <ul>
+                            <li>A skin tag looks like a deflated balloon on a stalk.</li>
+                            <li>The base of the stalk is very thin, and it can be separated from the skin easily.</li>
+                        </ul>
+                        <p><u>Genital wart</u></p>
+                        <ul>
+                            <li>Genital warts, unlike skin tags, are flat and have a broader base, and they’re usually
+                                firmly attached to the skin.</li>
+                            <li>If the growth is pedunculated (it consists of finger-like projections), the width of the
+                                skin lesion at its base and top is the same, unlike with skin tags, which are bigger on
+                                top
+                                and have a much thinner base.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection" id="color">
+                        <p class="subHeader">Color</p>
+                        <p><u>Skin tags</u></p>
+                        <ul>
+                            <li>Skin tags can be different colors: the color of the patient’s skin (rarely), lighter, or
+                                (most commonly) darker. The color can change over time. Color differences are not cause
+                                for
+                                concern.
+                            </li>
+                        </ul>
+                        <p><u>Genital wart</u></p>
+                        <ul>
+                            <li>Genital warts are usually the color of the patient’s skin. Occasionally they are darker.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="feel">
+                        <p class="subHeader">Feel</p>
+                        <p><u> Skin tags</u></p>
+                        <ul>
+                            <li>Skin tags are very soft to the touch.</li>
+                            <li>They can bend easily since they usually have a thinner base and bigger top.</li>
+                        </ul>
+                        <p><u>Genital wart</u></p>
+                        <ul>
+                            <li>Genital warts are hard to the touch, with a rough and bumpy surface resembling
+                                cauliflower.
+                            </li>
+                            <li>They are usually flat (unless they are pedunculated) and not freely movable because of
+                                their
+                                broader base.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="growth_pattern">
+                        <p class="subHeader">Growth Pattern</p>
+                        <p><u> Skin tags</u></p>
+                        <ul>
+                            <li>A skin tag is usually a solitary growth.</li>
+                            <li>When there’s more than one skin tag, they’re separated by normal skin and they’re
+                                widespread, affecting different parts of the body at the same time.
+                            </li>
+                        </ul>
+                        <p><u>Genital wart</u></p>
+                        <ul>
+                            <li>Genital warts can appear in clusters. This is because, unlike skin tags, genital warts
+                                are
+                                infectious and can spread (through scratching and shaving) to adjacent tissue more
+                                easily
+                                than to more distant areas.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="body_areas">
+                        <p class="subHeader">Parts of the Body Affected</p>
+                        <p><u>Skin tags</u></p><br>
+                        <p>Skin tags prefer certain parts of the body where daily friction is more common:</p>
+                        <ul>
+                            <li>armpit</li>
+                            <li>neck</li>
+                            <li>under large breasts</li>
+                            <li>groin creases</li>
+                        </ul>
+                        <p>Check to see if you have bumps in those areas in addition to your genitals.</p><br>
+                        <p><u>Genital wart</u></p><br>
+                        <p>Genital warts, since they are infectious and transmitted through direct skin-to-skin contact,
+                            affect areas of skin not commonly protected during sexual contact and that are injured (by
+                            minor
+                            cuts) during sex:
+                        </p>
+                        <ul>
+                            <li>pubic area</li>
+                            <li>shaft of the penis</li>
+                            <li>area around the anus</li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="contextual_information">
+                        <h3>Contextual information that helps make the diagnosis</h3>
+                        <p> The context helps establish the right diagnosis by confirming the visual exam (about 10%
+                            of
+                            the
+                            diagnosis comes from the context). Contextual information includes the following:
+                        </p>
+                        <ul>
+                            <li>History of the condition</li>
+                            <li>Patient age</li>
+                            <li>Prevalence of the condition in the geographic area</li>
+                            <li>Patient’s genetic predisposition</li>
+                            <li>Other conditions that predispose the patient to the growth in question</li>
+                        </ul>
+                        <p>Let’s talk about each of these in detail!</p>
+                    </div>
+                    <div class="subSection" id="history">
+                        <p class="subHeader">History of the condition</p>
+                        <p>The history of the growth includes the following:</p>
+                        <br>
+                        <p>1. Why was the growth noticed? (Are there any symptoms, or was it accidentally noticed?)</p>
+                        <p>2. How is it changing over time? (Is its appearance changing? Is it getting bigger?)</p>
+                        <br>
+                        <p>Let’s look at both questions with respect to skin tags and genital warts.</p>
+                        <br>
+                        <p><u>Why was the growth noticed?</u></p><br>
+                        <p><u>Skin tags</u></p>
+                        <ul>
+                            <li>A skin tag is usually noticed after it is pulled on and it’s red, painful, and irritated
+                            </li>
+                        </ul>
+                        <p><u>Genital warts</u></p>
+                        <ul>
+                            <li>Genital warts are usually noticed by a sexually active person after a sexual encounter
+                                with
+                                a person they don’t trust. However, the warts are most likely not related to a recent
+                                encounter.
+                            </li>
+                        </ul>
+                        <p><u>How is it changing over time?</u></p><br>
+                        <p><u>Skin tags</u></p>
+                        <ul>
+                            <li>Skin tags grow rapidly but at some point, they stop growing. They can change color over
+                                time. The growth will persist until it is torn or removed.
+                            </li>
+                        </ul>
+                        <p><u>Genital warts</u></p>
+                        <ul>
+                            <li>Genital warts are very slow-growing lesions and take weeks to months to appear after
+                                they’re
+                                contracted infectiously.
+                            </li>
+                            <li>They might get bigger over time, and they might spread to adjacent skin through
+                                scratching
+                                and shaving.
+                            </li>
+                            <li>They might start shrinking and disappear completely eventually. Since this is an
+                                infectious
+                                condition, it might take up to two years for the immune system to clear it. On the other
+                                hand, the infection might remain dormant (without any visible skin growths) for life.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="age">
+                        <p class="subHeader">Age</p>
+                        <p><u> Skin tags</u></p>
+                        <br>
+                        <p>Skin tags usually affect people after age 30. They’re rare before that age. The older the
+                            person,
+                            the greater their chance of getting a skin tag.
+                        </p> <br>
+                        <p><u>Genital wart</u></p> <br>
+                        <p>Genital warts mostly affect sexually active people. People are most active with multiple
+                            partners
+                            at younger ages, so the chance of acquiring genital warts is higher for younger people.
+                        </p>
+                    </div>
+                    <div class="subSection" id="prevalence">
+                        <p class="subHeader">Prevalence</p>
+                        <p> Both conditions are very common, but warts affect significantly more people.</p>
+                        <ul>
+                            <li>25% of people get skin tags during their life</li>
+                            <li>85% of people get genital warts (HPV) during their life</li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="genetic_predisposition">
+                        <p class="subHeader">Genetic predisposition</p>
+                        <ul>
+                            <li>Some people are genetically predisposed to skin tags—this means that people whose
+                                relatives
+                                have had skin tags are more likely to get them as well.
+                            </li>
+                            <li>Genital warts are infectious, and anyone can get them through direct skin contact with
+                                infected skin. No one is genetically predisposed to them.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection" id="causes">
+                        <p class="subHeader">Causes and predisposing conditions</p>
+                        <p><u>Skin tags</u></p>
+                        <br>
+                        <p>The exact cause of skin tags is unknown. Here are the risk factors:</p>
+                        <ul>
+                            <li>friction due to contact with fabric</li>
+                            <li>obesity</li>
+                            <li>diabetes</li>
+                            <li>pregnancy
+                            </li>
+                            <li>advanced age</li>
+                            <li>Genital wart</li>
+                        </ul>
+                        <p>The cause of genital warts is well known. They are caused by HPV. Over 100 strains of the HPV
+                            virus exists, but genital warts are mainly caused by only two of them, type 6 and type 11.
+                            Luckily, these two strains are not cancerous.
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="photos">
+                        <h3>Photos of skin tags and genital warts</h3>
+                        <p>Here we show you photos borrowed from other websites and explain the main differences between
+                            skin tags and genital warts, which will help with making a diagnosis.</p>
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title">Skin tag #1</p><br>
+                                <p>This image shows:</p>
+                                <ul>
+                                    <li>A very thin base and much bigger top</li>
+                                    <li>The appearance of a deflated balloon</li>
+                                </ul>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/skin_tag1.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title">Skin tag #2</p><br>
+                                <p>This image shows:</p>
+                                <ul>
+                                    <li>A very thin base and bigger top</li>
+                                    <li>A skin tag is easily bendable</li>
+                                    <li>The skin tag is darker in color than the surrounding skin</li>
+                                </ul>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/skin_tag2.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title">Skin tag #3</p><br>
+                                <p>This image shows:</p>
+                                <ul>
+                                    <li>Multiple skin tags in one of the most areas where they most commonly appear, the
+                                        neck (skin tags prefer dry areas with a lot of friction, and the neck tends to
+                                        come
+                                        in contact with jewelry and fabric)
+                                    </li>
+                                    <li>Females are more likely to get skin tags</li>
+                                    <li>Variation in colors that are different from the color of the patient’s skin</li>
+                                </ul>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/skin_tag3.jpg" width="400"
+                                height="500" alt="">
+                        </div>
+
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title">Genital warts #1</p><br>
+                                <p>This image shows:</p>
+                                <ul>
+                                    <li>Broad-based genital warts </li>
+                                    <li>A rough cauliflower surface</li>
+                                    <li>The location of the warts (the base of the penis) is an area that is not covered
+                                        by
+                                        a condom but that is exposed to infection
+                                    </li>
+                                </ul>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/skin_tag4.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title">Genital warts #2</p><br>
+                                <p>This image shows:</p>
+                                <ul>
+                                    <li> Pedunculated warts—despite being pedunculated, the wart base is broad (usually
+                                        as
+                                        broad as the top of the warts)
+                                    </li>
+                                    <li>Rubbery consistency (hard to the touch)
+                                    </li>
+                                    <li> The location is the base of the penis (where a condom ends)
+                                    </li>
+                                    <li>Multiple warts in clusters (extended to adjacent tissue by scratching and
+                                        shaving)
+                                    </li>
+                                </ul>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/skin_tag5.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+                        <h3>If visual exam is not conclusive</h3>
+                        <p>Most genital warts are diagnosed based on a visual examination at the doctor’s office. If the
+                            diagnosis is doubted, a skin biopsy is the next logical step. A whole bump or a portion of
+                            one
+                            is sent to a lab for further analysis under a microscope. A skin biopsy is considered a very
+                            minor in-office procedure; it is done under local anesthesia.</p>
+                    </div>
+
+                    <div class="subSection" id="treatment_necessity">
+                        <h3>Do I need treatment?</h3>
+                        <p> Skin tags and most visible genital warts are benign conditions, and treatment is optional.
+                        </p>
+                    </div>
+                    <br>
+                    <div class="subSection" id="skin_tag">
+                        <p><u>Skin tags</u></p><br>
+                        <p>People sometimes get treatment for skin tags for these reasons:
+                        </p>
+                        <ul>
+                            <li>The tags are constantly irritated by being caught on cloth or jewelry</li>
+                            <li>For aesthetic reasons (they don’t like how they look)</li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="genital_warts">
+                        <p><u>Genital warts</u></p>
+                        <ul>
+                            <li>Unlike skin tags, genital warts are infectious and can spread to adjacent skin and to
+                                sexual
+                                partners. Therefore, people may choose to get treatment to stop local self-spread and to
+                                decrease the chance of spreading them to partners.
+                            </li>
+                            <li>Untreated warts usually get better over time, but it might take up to two years for the
+                                immune system to clear them.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subHeader" id="treatment_types">
+                        <h3>Available treatment</h3>
+                        <p> The treatment for genital warts and skin tags is the same, and it’s very effective. The skin
+                            tag
+                            or genital wart is destroyed. This can be achieved by different methods:
+                        </p><br>
+                        <p><b>Cryotherapy</b></p><br>
+                        <p><u>Cold liquid nitrogen(freezing)</u> is applied; it destroys the lesion</p>
+                        <br>
+                        <p><b>Surgery</b></p><br>
+                        <p>The lesion is removed by cutting it with a scalpel or scissors. This is a very minor
+                            in-office
+                            procedure.</p><br>
+                        <p><b>Laser</b></p><br>
+                        <p>Direct rays of light burn away the tag or wart.</p><br>
+                        <p><b>Acid</b></p><br>
+                        <p>An application of acid destroys the tag or wart. The acid that is commonly used is
+                            trichloroacetic acid (TCA).
+                        </p>
+                    </div>
+
+                    <div class="subHeader" id="prevention">
+                        <h3>Can these bumps be prevented?</h3>
+                        <p><u> Skin tags</u></p>
+                        <br>
+                        <p>It is not completely clear why and how skin tags develop. Multiple factors might be involved
+                            and
+                            for that reason they are not considered preventable.
+                        </p> <br>
+                        <p><u>Genital wart</u></p>
+                        <br>
+                        <p>Unlike skin tags, genital warts can be prevented or (to be more precise) the chance of
+                            getting
+                            them can be minimized in these ways:
+                        </p><br>
+                        <ul>
+                            <li>Getting the vaccine</li>
+                            <li>Using protection during sex</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div id="navigator" class="navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#visual_exam"> Visual exam of the skin</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#appearance">General appearance</a> </li>
+                                    <li class="page_item"><a href="#color">Color</a> </li>
+                                    <li class="page_item"><a href="#feel">Feel</a> </li>
+                                    <li class="page_item"><a href="#growth_pattern">Growth pattern appearance</a> </li>
+                                    <li class="page_item"><a href="#body_areas">Common body areas affected</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item">
+                                <a href="#contextual_information">Contextual Information</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#history">History</a> </li>
+                                    <li class="page_item"><a href="#age">Age</a> </li>
+                                    <li class="page_item"><a href="#prevalence">Prevalence</a> </li>
+                                    <li class="page_item"><a href="#genetic_predisposition">Genetic predisposition</a>
+                                    </li>
+                                    <li class="page_item"><a href="#causes">Causes</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#photos">Photos</a> </li>
+                            <li class="page_item"><a href="#treatment_necessity">Treatment necessity</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#skin_tag">Skin tag</a> </li>
+                                    <li class="page_item"><a href="#genital_warts">Genital warts</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"> <a href="#treatment_types">Treatment types</a> </li>
+                            <li class="page_item"><a href="#prevention">Prevention</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
