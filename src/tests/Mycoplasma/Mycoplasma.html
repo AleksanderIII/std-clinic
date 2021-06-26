@@ -6,6 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -295,7 +348,7 @@
                     <h1>
                         Get Chlamydia testing and
                         <br />
-                        treatment toady!
+                        treatment today!
                     </h1>
                     <p class='text-with-icon medium'>Covered by insurance</p>
                     <p class='text-with-icon medium'>
@@ -304,6 +357,12 @@
                     <p class='text-with-icon medium'>Same day appointment</p>
                     <p class='text-with-icon medium'>
                         All patients seen by a doctor
+                    </p>
+                    <p class="insurance-btn">
+                        <b>No insurance? <br class="desktop">
+                            <i> </i>
+                            No problem
+                        </b> <span class="desktop">i</span>
                     </p>
                 </div>
                 <div class='row rating'>
@@ -314,6 +373,9 @@
                         customer reviews
                     </a>
                 </div>
+                <a href='#' class='rating-customer mobile'>
+                    customer reviews
+                </a>
                 <div class='row people-say'>
                     <div class='people-say--icon-wrapper'>
                         <a href='https://www.zocdoc.com/doctor/slava-fuzayloff-do-9429' title='follow us on ZocDoc'>
@@ -366,47 +428,47 @@
                         <p>Text messaging service</p>
                     </div>
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/doctor.svg' alt='doctor graphic'
-                        height='250px' width='280px' />
+                        class="desktop" height='250px' width='280px' />
                 </div>
             </div>
         </section>
 
-        <section class='section at_glance blue-text'>
+        <section class='section at_glance blue-text' style="padding-top: 0;">
             <h2>
                 <span class='orange-text'>AT</span> A GLANCE
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
+                <img class="wave" src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px'
+                    height='14px' />
             </h2>
             <div class='info'>
                 <div class='info_item'>
                     <h3>
-                        <span class='orange-text'>WHO</span> GET TESTED?
+                        <span class='orange-text'>WHO</span> SHOULD GET TESTED?
                     </h3>
-                    <p>
-                        Chlamydia testing is recommended <br />
-                        for both symptomatic and asymptomatic people.
-                    </p>
-                    <h4 class='orange-text'>NO sympthoms</h4>
-                    <ul>
-                        <li>Sexually active female 25 and younger</li>
-                        <li>People with multiple sex partners</li>
-                        <li>
+                    <p class="bold-text">Chlamydia testing is recommended
+                        for both symptomatic and asymptomatic people.</p>
+                    <h4 class='orange-text'>NO symptoms</h4>
+                    <ul style="margin-left: 20px;">
+                        <li style="list-style-type: disc;">Sexually active female 25 and younger</li>
+                        <li style="list-style-type: disc;">People with multiple sex partners</li>
+                        <li style="list-style-type: disc;">
                             People who have had unprotected sex with a new partner
                         </li>
-                        <li>People who have a chlamydia-positive partner</li>
-                        <li>Sexually active homosexual male</li>
+                        <li style="list-style-type: disc;">People who have a chlamydia-positive partner</li>
+                        <li style="list-style-type: disc;">Sexually active homosexual male</li>
                     </ul>
-                    <h4 class='orange-text'>WITH sympthoms </h4>
-                    <ul>
-                        <li>
-                            Sexually active people who have chlamydia-related signs and
-                            symptoms can be tested at any time, irrespective of the time
-                            that has passed since the exposure.
+                    <h4 class='orange-text'>WITH symptoms </h4>
+                    <ul style="margin-left: 20px;">
+                        <li style="list-style-type: disc;">
+                            Sexually active people who have <u>chlamydia-related signs and
+                                symptoms </u>
                         </li>
+                        <li style="list-style-type: disc;">Can be tested at any time, irrespective of the time
+                            that has passed since the exposure.</li>
                     </ul>
                 </div>
                 <div class='info_item'>
                     <h3>
-                        <span class='orange-text'>WHEN</span> GET TESTED?
+                        <span class='orange-text'>WHEN</span> TO GET TESTED?
                     </h3>
                     <p class='description'>
                         Here we will summarize what is known about timing (how soon
@@ -424,30 +486,30 @@
                     <table>
                         <tbody>
                             <tr>
-                                <td class='orange-text'>Genital swab</td>
+                                <td>Genital swab</td>
                                 <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
+                                <td>
                                     98.3% <span class='blue-text'> *</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class='orange-text'>Rectal swab</td>
+                                <td>Rectal swab</td>
                                 <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
+                                <td>
                                     94.7% <span class='blue-text'> *</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class='orange-text'>Oral swab</td>
+                                <td>Oral swab</td>
                                 <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
+                                <td>
                                     80% <span class='blue-text'> *</span>
                                 </td>
                             </tr>
                             <tr>
-                                <td class='orange-text'>Urine test</td>
+                                <td>Urine test</td>
                                 <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
+                                <td>
                                     94.3% <span class='blue-text'> *</span>
                                 </td>
                             </tr>
@@ -457,9 +519,9 @@
                         *Accuracy, if is done 2 weeks after exposure
                     </p>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia'>
                     <h3>
-                        <span class='orange-text'>TEST TYPE</span> AVAILABLE
+                        <span class='orange-text'>TEST </span>TYPES
                     </h3>
                     <p class='description'>
                         Unlike other infections, chlamydia, if contracted, stays at
@@ -469,88 +531,290 @@
                         areas that came into contact with the partner’s potentially
                         affected areas during sex should be tested.
                     </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Male</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Female</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Anal receiving sex</td>
-                                <td>Anal swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Giving oral sex</td>
-                                <td>Throat swab</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <ul style="margin-left: 20px;">
+                        <li style="list-style-type: disc;">Male: Urine and urethral swab</li>
+                        <li style="list-style-type: disc;">Female: Urine and urethral swab</li>
+                        <li style="list-style-type: disc;">Anal receiving sex: Anal swab</li>
+                        <li style="list-style-type: disc;">Giving oral sex: Throat swab</li>
+                    </ul>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia'>
                     <h3>
-                        <span class='orange-text'>TEST PREPARATION</span> NEEDED
+                        <span class='orange-text'>TEST </span>PREPARATION
                     </h3>
-                    <p>
-                        This is what need to be done for the testing to be <br />
-                        most accurate.
+                    <p class="medium-shift">
+                        This is what must be done to ensure the test’s accuracy:
                     </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Urine test </td>
-                                <td>avoid urinating for 2 hours before a urine test </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Vaginal swab </td>
-                                <td>
-                                    avoid douching and using vagina cream for 24 hours prior
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Throat swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Recta swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Penile swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <br>
+                    <ul style="margin-left: 20px;">
+                        <li style="list-style-type: disc;">Urine test: Avoid urinating for two hours before a urine test
+                        </li>
+                        <li style="list-style-type: disc;">Vaginal swab: Avoid douching or using vaginal creams for 24
+                            hours prior to the test.</li>
+                        <li style="list-style-type: disc;">Throat swab: No preparation is needed</li>
+                        <li style="list-style-type: disc;">Rectal swab: No preparation is needed</li>
+                        <li style="list-style-type: disc;">Penile swab: No preparation is needed</li>
+                    </ul>
                 </div>
             </div>
         </section>
 
-        <section class='section common_questions  blue-text'>
-            <h2>
-                <span class='orange-text'>COMMON</span> QUESTIONS
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
-            </h2>
-            <div class='questions'>
-                <div>
+        <section class="FAQ_section" style="padding-top: 0; padding-bottom: 0;">
+            <div class='FAQ'>
+                <h3>Frequently Asked Questions</h3>
+                <div class='FAQ-content'>
                     <ul>
-                        <li>How long does it take to get results back?</li>
-                        <li>How are different chlamydia tests done?</li>
-                        <li>What the test results mean?</li>
-                        <li>Can I get treated?</li>
-                        <li>Where to get tested?</li>
-                        <li>Should I tell my partner that I have chlamydia?</li>
-                        <li>Partner protection.</li>
-                        <li>Can I get infected with chlamydia again?</li>
-                        <li>If health insurance cover the testing?</li>
-                        <li>What is the cost without health insurance?</li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How are chlamydia tests done?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p style="margin-top: 0;" class="bold-text"> Female vaginal swab </p>
+                                <p>A doctor will collect a fluid sample from the vagina and/or the cervix using a thin,
+                                    sterile cotton swab. This may cause mild discomfort. If the area is infected and the
+                                    mucosa is fragile, swabbing might cause minor spotting afterward, though this is
+                                    uncommon.
+                                </p>
+                                <p> Remember: You should not use vaginal creams or douches 24 hours before this test.
+                                </p>
+                                <div class='answer_image'>
+                                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/answer_picture.jpg'
+                                        alt="Performance of the chlamydia swab test in females" height='250px'
+                                        height='250px' />
+                                    <p class='source'>
+                                        Image source: <br /> Chlamydia / N. Gonorrhoeae RNA, TMA -
+                                        Unisex Collection | Diagnostic Laboratory of Oklahoma.
+                                        https://www.dlolab.com/chlamydia-n-gonorrhoeae-rna-tma-unisex-collection.
+                                    </p>
+                                </div>
+                                <p class="bold-text"> Male vaginal swab </p>
+                                <p>A doctor will collect a fluid sample from the vagina and/or the cervix using a thin,
+                                    sterile cotton swab. This may cause mild discomfort. If the area is infected and the
+                                    mucosa is fragile, swabbing might cause minor spotting afterward, though this is
+                                    uncommon.
+                                </p>
+                                <p>Remember: You should not use vaginal creams or douches 24 hours before this test.
+                                </p>
+                                <div class='answer_image'>
+                                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/answer_picture2.jpg'
+                                        alt="Performance of the chlamydia swab test in males" height='250px'
+                                        height='250px' />
+                                    <p class='source'>
+                                        Image source: <br /> Chlamydia / N. Gonorrhoeae RNA, TMA -
+                                        Unisex Collection | Diagnostic Laboratory of Oklahoma.
+                                        https://www.dlolab.com/chlamydia-n-gonorrhoeae-rna-tma-unisex-collection.
+                                    </p>
+                                </div>
+                                <p class="bold-text"> Throat swab</p>
+                                <p>A doctor will use a thin, sterile Q-tip to swab the throat.
+                                </p>
+                                <p class="bold-text">Anal swab</p>
+                                <p>A doctor will swab the inside of the anus with a thin, sterile Q-tip.</p>
+                                <p class="bold-text">Urine test</p>
+                                <p>You will be asked to urinate into a cup.</p>
+                                <p>Remember: You should not urinate for at least two hours prior to the test.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How long does it take to get results?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <ul>
+                                    <li>You will usually get the results of a urine test back in three business days.
+                                    </li>
+                                    <li>You will usually get the results of a swab test is back in four business days.
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What do the test results mean?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Below we will discuss three scenarios for chlamydia test results and what they mean.
+                                </p>
+                                <p class="bold-text">1. Positive chlamydia test</p>
+                                <ul>
+                                    <li>If a chlamydia test (swab or urine) is positive, you have chlamydia. You will
+                                        need to notify your partner and receive treatment.</li>
+                                </ul>
+                                <p class="bold-text">2. Negative chlamydia test</p>
+                                <p>If a chlamydia test is negative, that generally means you do not have chlamydia.
+                                    However, keep two things in mind:</p>
+                                <ul>
+                                    <li>Timing: Has enough time passed after the sexual encounter? Two to three weeks
+                                        after exposure is the ideal time to test for chlamydia.
+                                    </li>
+                                    <li>Accuracy: Different tests have different levels of accuracy. The urine test has
+                                        98.3% accuracy, whereas the swab test has 94.3% accuracy.
+                                    </li>
+                                </ul>
+                                <p class="bold-text">3. Inconclusive or equivocal chlamydia test</p>
+                                <p>If the test results are inconclusive, you will need to take another test. Make sure:
+                                </p>
+                                <ul>
+                                    <li>The ideal test is performed (swab).</li>
+                                    <li>The test is performed after the ideal incubation period (two to three weeks).
+                                    </li>
+                                    <li>Both an alternative test and the test that had inconclusive results are
+                                        performed.
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can I still get treated without having positive results on hands?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Yes. This is called empiric treatment, which is when treatment is initiated based on
+                                    assumptions and clinical experience without a formal diagnosis. Empiric treatment
+                                    can be provided to the following people:
+                                </p>
+                                <ul>
+                                    <li> People who have symptoms of chlamydia, including discharge from the genitals,
+                                        painful and frequent urination, or bleeding from the genitals after sexual
+                                        intercourse or between menstrual periods.
+                                    </li>
+                                    <li> People who have had a sexual encounter with an infected person (even if they do
+                                        not have symptoms).
+                                    </li>
+                                    <li> People who have <u>tested positive for gonorrhea.</u> </li>
+                                </ul>
+                                <br>
+                                <p> (The incubation period is shorter than chlamydia and it is diagnosed earlier. 24% of
+                                    heterosexual males and 38% of females who have chlamydia are also positive for
+                                    gonorrhea.)
+                                </p>
+                                <ul>
+                                    <li>People who have had a sexual encounter with someone who has chlamydia.</li>
+                                    <li> People who are anxious about chlamydia. (It is best to avoid unnecessary use of
+                                        antibiotics; however, if you are worried about your STD status, you can get the
+                                        medication from your healthcare provider.)
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Where can I get tested?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Tests are performed in primary care offices, urgent care clinics, GYN clinics,
+                                    planned parenthood clinics, free STD centers and our specialized <u>STD clinic</u> .
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Partner protection
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Chlamydia can affect the oral, genital and rectal areas. If your infected fluids
+                                    come into contact with your partner’s mucosa, you can transmit chlamydia to them.
+                                    Below are some ways to prevent this:
+                                </p>
+                                <ul>
+                                    <li> Do not let your infected area touch anyone else’s skin while you are
+                                        experiencing symptoms or for seven days after treatment.
+                                    </li>
+                                    <li>Do not share sex toys. </li>
+                                    <li> Wash your hands with soap after touching your infected area.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Should I tell my partner I have chlamydia?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>You should notify any sex partners you have had within the last 60 days that you
+                                    tested positive for chlamydia and suggest that they get tested as well. This can
+                                    prevent further spread. If you are uncomfortable telling them, we can anonymously
+                                    notify them on your behalf with a call, text or email.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can I get infected with chlamydia again?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Yes. This is another reason you should notify your partner(s) and suggest that they
+                                    get tested and treated if necessary.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Will health insurance cover the testing?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Yes, health insurance usually covers the doctor’s office visit, testing and
+                                    treatment. If you have a high deductible plan and want to know your exact
+                                    contribution for the testing, please call your insurance company and find out your
+                                    contribution for the primary care office visit and chlamydia testing </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What is the cost without health insurance?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>If you do not have health insurance, the cost of the office visit is $84 cash (or $90
+                                    credit) plus $60 for the testing. All tests are performed by certified labs.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Who should get tested for oral chlamydia?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Pharyngeal (oral) chlamydia is a common condition that affects up to 1.4% of men who
+                                    have sex with men (MSMs) and 3%–4% of heterosexual males and females. According to
+                                    international guidelines, the oral swab test for chlamydia is recommended for the
+                                    following people:
+                                </p>
+                                <ul>
+                                    <li> Those who have symptoms of oral chlamydia (swollen, red pharynx, fever,
+                                        pus-filled patches on the throat, etc.)
+                                    </li>
+                                    <li> Those who have engaged in oral sex with a potentially infected person
+                                    </li>
+                                </ul>
+                                <p> According to the CDC, the oral chlamydia screening test is recommended for the
+                                    following people:
+                                </p>
+                                <ul>
+                                    <li> MSMs who have performed oral sex in the last year. Moreover, it is recommended
+                                        that MSMs who use methamphetamine, have multiple sexual partners, or have a
+                                        partner with chlamydia get a screening every three to six months.
+                                    </li>
+                                    <li> People with HIV
+                                    </li>
+                                </ul>
+                                <p> Remember: Chlamydia bacteria are stored locally (in mucosal cells of the area of
+                                    exposure), and pharyngeal chlamydia cannot be identified with a genital swab, urine
+                                    test or blood test.
+                                </p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
             </div>
         </section>
+
 
         <section class='section insurances'>
             <div class='section-wrapper'>
@@ -593,27 +857,27 @@
                 <div class='row row-no-insurance'>
                     <div class='data'>
                         <h3 class='heading-with-icon secondary-orange'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg' alt='dollar icon'
-                                class='icon-img' />
+                            <img class="dollar" src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg'
+                                alt='dollar icon' width="40px" height="40px" class='icon-img' />
                             NO INSURANCES? NO PROBLEM
                         </h3>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg' alt='guard icon'
-                                class='icon-img' />
-                            We offer affordable pricing and are happy to take on
-                            patients who are currently without medical insurance.
+                            <img class="guard" src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg'
+                                alt='guard icon' width="40px" height="43px" class='icon-img' />
+                            We offer affordable pricing and are happy to take on patients
+                            who are currently without medical insurance.
                         </p>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg' alt='like icon'
-                                class='icon-img' />
+                            <img class="like" src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg'
+                                alt='like icon' width="40px" height="43px" class='icon-img' />
                             Our guarantee to you is that you will never be surprised by
-                            any hidden fees or extra charges. All pricing is discussed
-                            up front before the tests are performed so that our patients
+                            any hidden fees or extra charges. All pricing is discussed up
+                            front before the tests are performed so that our patients
                             understand completely what they have been charged for.
                         </p>
                         <p class='offer large dark-blue'>
-                            We offer a <span class='primary-orange'>$90</span>
-                            initial office visit fee
+                            We offer a <span class='primary-orange'>$90</span> initial
+                            office visit fee
                             <span class='primary-orange'>($84 cash)</span>.
                             <br />
                             All patient seen by a doctor.
@@ -629,7 +893,7 @@
                         PRICE FOR STD TESTS WITHOUT INSURANCES
                     </h3>
                     <div class="table-wrap">
-                        <table class='table'>
+                        <table class='insurance-table'>
                             <thead class='table-head'>
                                 <tr>
                                     <th class='table-column'>
@@ -637,9 +901,7 @@
                                     </th>
                                     <th class='table-column'>
                                         <div class='text text-center'>
-                                            Credit
-                                            <br />
-                                            card
+                                            Credit card
                                         </div>
                                     </th>
                                 </tr>
@@ -650,9 +912,7 @@
                                     <td class='table-column'>$50</td>
                                 </tr>
                                 <tr class='table-row'>
-                                    <td class='table-column'>
-                                        Chlamydia+Gonorrhea (both)
-                                    </td>
+                                    <td class='table-column'>Chlamydia+Gonorrhea (both)</td>
                                     <td class='table-column'>$120</td>
                                 </tr>
                                 <tr class='table-row'>
@@ -686,8 +946,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40' width='40' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -698,47 +963,21 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/1.svg" alt="hand jobs and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/2.svg" alt="one time sex and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/chlomydia3.svg" alt="molluscam contagiosum topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/4.svg" alt="all about vaginal odor topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/5.svg" alt="fast about std testing topic">
                 </div>
-                <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
-                </div>
+                <div class="topic desktop"></div>
             </div>
         </section>
     </div>
@@ -749,7 +988,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -761,8 +1000,8 @@
             <div>
                 <p class='footer-header'>Contact Us</p>
                 <div class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' height='24px'
+                        alt="location icon" width='24px' />
                     <p>
                         <span>274 Madison Ave, Suite 705</span>
                         <br />
@@ -770,16 +1009,18 @@
                     </p>
                 </div>
                 <p class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' height='24px'
+                        alt="phone icon" width='24px' />
                     212.696.5900
                 </p>
             </div>
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            alt="facebook icon" width='40px' />
+                    </a>
                 </p>
             </div>
         </div>
