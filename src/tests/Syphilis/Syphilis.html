@@ -6,6 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -30,7 +83,7 @@
                     <li class='menu-item'>
                         <p>
                             STD tests
-                            <img src='images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                            <img src='../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -94,7 +147,7 @@
                     <li class='menu-item'>
                         <p class='menu-link'>
                             STD diseases
-                            <img src='images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                            <img src='../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
                         </p>
                         <ul class='menu-subfolder'>
                             <li class='menu-subfolder-item'>
@@ -163,7 +216,7 @@
                 <li class='menu-item hidden'>
                     <p class="menu-link">
                         STD tests
-                        <img src='images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
                     </p>
                     <ul class='menu-subfolder'>
                         <li class='menu-subfolder-item'>
@@ -227,7 +280,7 @@
                 <li class='menu-item hidden'>
                     <p class='menu-link'>
                         STD diseases
-                        <img src='images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                        <img src='../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
                     </p>
                     <ul class='menu-subfolder'>
                         <li class='menu-subfolder-item'>
@@ -293,9 +346,9 @@
             <div class='section-wrapper'>
                 <div class='intro-text-wrapper'>
                     <h1>
-                        Get Chlamydia testing and
+                        Get yourself tested and treated
                         <br />
-                        treatment toady!
+                        for Syphilis Today!
                     </h1>
                     <p class='text-with-icon medium'>Covered by insurance</p>
                     <p class='text-with-icon medium'>
@@ -304,6 +357,12 @@
                     <p class='text-with-icon medium'>Same day appointment</p>
                     <p class='text-with-icon medium'>
                         All patients seen by a doctor
+                    </p>
+                    <p class="insurance-btn">
+                        <b>No insurance? <br class="desktop">
+                            <i> </i>
+                            No problem
+                        </b> <span class="desktop">i</span>
                     </p>
                 </div>
                 <div class='row rating'>
@@ -314,6 +373,9 @@
                         customer reviews
                     </a>
                 </div>
+                <a href='#' class='rating-customer mobile'>
+                    customer reviews
+                </a>
                 <div class='row people-say'>
                     <div class='people-say--icon-wrapper'>
                         <a href='https://www.zocdoc.com/doctor/slava-fuzayloff-do-9429' title='follow us on ZocDoc'>
@@ -366,191 +428,523 @@
                         <p>Text messaging service</p>
                     </div>
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/doctor.svg' alt='doctor graphic'
-                        height='250px' width='280px' />
+                        class="desktop" height='250px' width='280px' />
                 </div>
             </div>
         </section>
 
-        <section class='section at_glance blue-text'>
+        <section class='section at_glance blue-text' style="padding-top: 0;">
             <h2>
                 <span class='orange-text'>AT</span> A GLANCE
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
+                <img class="wave" src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px'
+                    height='14px' />
             </h2>
             <div class='info'>
-                <div class='info_item'>
+                <div class='info_item hiv' style="width: 100%;">
                     <h3>
-                        <span class='orange-text'>WHO</span> GET TESTED?
+                        <span class='orange-text'>WHO</span> SHOULD GET TESTED?
                     </h3>
-                    <p>
-                        Chlamydia testing is recommended <br />
-                        for both symptomatic and asymptomatic people.
-                    </p>
-                    <h4 class='orange-text'>NO sympthoms</h4>
-                    <ul>
-                        <li>Sexually active female 25 and younger</li>
-                        <li>People with multiple sex partners</li>
-                        <li>
-                            People who have had unprotected sex with a new partner
-                        </li>
-                        <li>People who have a chlamydia-positive partner</li>
-                        <li>Sexually active homosexual male</li>
-                    </ul>
-                    <h4 class='orange-text'>WITH sympthoms </h4>
-                    <ul>
-                        <li>
-                            Sexually active people who have chlamydia-related signs and
-                            symptoms can be tested at any time, irrespective of the time
-                            that has passed since the exposure.
-                        </li>
-                    </ul>
+                    <div class="description">
+                        <p> People who have symptoms suggesting syphilis and people who are at high risk of contracting
+                            syphilis, even if they don’t have symptoms, should be tested.
+                        </p><br>
+                        <p class="bold-text">Patients with symptoms</p><br>
+                        <p>The <u>symptoms of syphilis</u> are similar to those of many other skin conditions, and it is
+                            important that syphilis, when present, be diagnosed, so the threshold for syphilis testing
+                            is very low.
+                        </p><br>
+                        <p>Syphilis testing is offered to everyone who has these symptoms, regardless of whether they
+                            are high risk or low risk for contracting it:
+                        </p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">A sore on the genitals, which could indicate primary
+                                syphilis</li>
+                            <li style="list-style-type: disc;">A rash on the palms, soles of the feet, or elsewhere on
+                                the body</li>
+                        </ul><br>
+                        <p class="bold-text">Patients without symptoms</p><br>
+                        <p>Again, it’s important to diagnose and treat syphilis, so testing is offered to those who are
+                            at high risk of contracting it, even if they have no symptoms. High-risk people generally
+                            include the following persons:
+                        </p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Those engaging in unprotected sex with multiple partners
+                            </li>
+                            <li style="list-style-type: disc;">Those <u>diagnosed with HIV</u> </li>
+                            <li style="list-style-type: disc;">Those with a recent diagnosis of any sexually transmitted
+                                disease</li>
+                            <li style="list-style-type: disc;">Those who are having sex with someone who has been
+                                diagnosed with syphilis</li>
+                            <li style="list-style-type: disc;">Males who are homosexual</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class='info_item'>
+                <div class='info_item hiv' style="width: 100%;">
                     <h3>
-                        <span class='orange-text'>WHEN</span> GET TESTED?
+                        <span class='orange-text'>WHEN</span> THE DIFFERENT TESTS SHOULD BE DONE?
                     </h3>
-                    <p class='description'>
-                        Here we will summarize what is known about timing (how soon
-                        the test can be done) and the accuracy of chlamydia testsin
-                        various anatomic areas for asymptomatic people.
-                    </p>
-                    <p class='orange-text warning'>
-                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/danger-circle.svg' height='26'
-                            width='26' />
-                        If you have symptoms, the test can be done any time,
-                        irrespective of the amount of time that has passed since the
-                        sexual encounter that you believe may have given you
-                        chlamydia.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Genital swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    98.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Rectal swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.7% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Oral swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    80% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Urine test</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class='legend'>
-                        *Accuracy, if is done 2 weeks after exposure
-                    </p>
+                    <div class='description'>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">RPR: 2–3 weeks after exposure</li>
+                            <li style="list-style-type: disc;">VDRL: 3–6 weeks after exposure</li>
+                            <li style="list-style-type: disc;">FTA-ABS: 3–4 weeks after exposure</li>
+                            <li style="list-style-type: disc;">TPPA: 3-4 weeks after exposure</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia' style="width: 100%;">
                     <h3>
-                        <span class='orange-text'>TEST TYPE</span> AVAILABLE
+                        <span class='orange-text'>TEST </span>TYPES
                     </h3>
-                    <p class='description'>
-                        Unlike other infections, chlamydia, if contracted, stays at
-                        the point of initial contact, so a negative test of one area
-                        of the body doesn’t rule out the possibility of having
-                        chlamydia in another area. This means that all “susceptible”
-                        areas that came into contact with the partner’s potentially
-                        affected areas during sex should be tested.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Male</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Female</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Anal receiving sex</td>
-                                <td>Anal swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Giving oral sex</td>
-                                <td>Throat swab</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class='description' style="margin-bottom: 20px;">
+                        <p>This table indicates how soon after risky contact that is believed to have exposed the
+                            patient to syphilis each test can be done and how accurate it is at that time.</p>
+                        <div class="table-wrap">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="highlighted_cell"></th>
+                                        <th>The earliest the test can be done <br>
+                                            —— <br>
+                                            <p class="light-font">Accuracy</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="highlighted_cell">
+                                            <p class="table-bold-text">RPR</p>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>2–3 weeks after exposure</li>
+                                                <li>Accuracy: 86%</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="highlighted_cell">
+                                            <p class="table-bold-text">VDRL</p>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li> 3–6 weeks after exposure</li>
+                                                <li> Accuracy: 78%</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="highlighted_cell">
+                                            <p class="table-bold-text">FTA-ABS</p>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li> 3–4 weeks after exposure</li>
+                                                <li> Accuracy: 84%</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="highlighted_cell">
+                                            <p class="table-bold-text">TPPA</p>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li> 3–4 weeks after exposure</li>
+                                                <li> Accuracy: 88%</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia' style="width: 100%;">
                     <h3>
-                        <span class='orange-text'>TEST PREPARATION</span> NEEDED
+                        <span class='orange-text'>TEST </span>PREPARATION
                     </h3>
-                    <p>
-                        This is what need to be done for the testing to be <br />
-                        most accurate.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Urine test </td>
-                                <td>avoid urinating for 2 hours before a urine test </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Vaginal swab </td>
-                                <td>
-                                    avoid douching and using vagina cream for 24 hours prior
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Throat swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Recta swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Penile swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="description">
+                        <p>No preparation for a syphilis test is required.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class='section common_questions  blue-text'>
-            <h2>
-                <span class='orange-text'>COMMON</span> QUESTIONS
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
-            </h2>
-            <div class='questions'>
-                <div>
+
+        <section class="FAQ_section" style="padding-top: 0; padding-bottom: 0;">
+            <div class='FAQ'>
+                <h3>Frequently Asked Questions</h3>
+                <div class='FAQ-content'>
                     <ul>
-                        <li>How long does it take to get results back?</li>
-                        <li>How are different chlamydia tests done?</li>
-                        <li>What the test results mean?</li>
-                        <li>Can I get treated?</li>
-                        <li>Where to get tested?</li>
-                        <li>Should I tell my partner that I have chlamydia?</li>
-                        <li>Partner protection.</li>
-                        <li>Can I get infected with chlamydia again?</li>
-                        <li>If health insurance cover the testing?</li>
-                        <li>What is the cost without health insurance?</li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What is the best screening test for syphilis?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Two types of tests are common for initial screening for syphilis:</p>
+                                <ul>
+                                    <li> RPR (rapid plasma regain)</li>
+                                    <li> VDRL (Venereal Disease Research Laboratory)</li>
+                                </ul>
+                                <p> These tests are not specific for syphilis. For this reason, they are called
+                                    nontreponemal tests (the bacterium that causes syphilis is Treponema pallidum). If
+                                    the results come back positive, they should be confirmed with a different type of
+                                    test.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How are syphilis tests done?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>All syphilis tests are blood tests.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How long do the test results take to come back?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>If the test is negative, the results will be available in three business days because
+                                    only one part of the test (RPR) must be done. If that part of the syphilis test is
+                                    positive, it might take seven business days for the results to come back because a
+                                    second, confirmatory, test, must be done.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What do the test results mean?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Interpreting test results is more complex with syphilis than with other infectious
+                                    diseases. A positive test can mean several things, including new syphilis or
+                                    previously treated syphilis.
+                                </p>
+                                <ul>
+                                    <li> RPR and VDRL are nontreponemal tests, meaning they are not specific for
+                                        syphilis</li>
+                                    <li> FTA-ABS, TPPA, EIA, and CLIA are all treponemal tests, meaning tests specific
+                                        to the syphilis bacterium, Treponema pallidum</li>
+                                </ul>
+                                <div class="table-wrap">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th class="highlighted_cell">EIA,
+                                                    CLIA</th>
+                                                <th class="highlighted_cell">RPR</th>
+                                                <th class="highlighted_cell">VDRL</th>
+                                                <th class="highlighted_cell">FTA-ABS</th>
+                                                <th class="highlighted_cell">TPPA</th>
+                                                <th>Test Interpretation</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="highlighted_cell"></td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td class="highlighted_cell"></td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td>
+                                                    This pattern of test results can mean any of these three things:
+                                                    <br><br>
+                                                    <b>If testing was for diagnosis and the patient has no history of
+                                                        syphilis</b><br><br>
+                                                    <b>The results are positive for syphilis.</b><br><br>
+                                                    If testing was for diagnosis and the patient has a history of
+                                                    syphilis <br><br>
+                                                    The results are considered positive if the titer (number) in
+                                                    nontreponemal test (RPR) results is four times higher than the
+                                                    previous test titer. <br><br>
+                                                    <b>If testing was after syphilis treatment</b><br><br>
+                                                    When a follow-up test is positive, the patient’s doctor should
+                                                    review the previous results and the report, especially changes in
+                                                    the RPR titer.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="highlighted_cell"></td>
+                                                <td class="highlighted_cell"></td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td>
+                                                    This pattern of test results can mean any of these three things:
+                                                    <br><br>
+                                                    <b>If testing was for diagnosis and the patient has no history of
+                                                        syphilis</b><br><br>
+                                                    The results are positive for syphilis. <br><br>
+                                                    <b>If testing was for diagnosis and the patient has a history of
+                                                        syphilis</b><br><br>
+                                                    The results are considered positive if the titer (number) in
+                                                    nontreponemal test (VDRL) results is four times higher than the
+                                                    previous test titer. <br><br>
+                                                    <b>If testing was after syphilis treatment</b><br><br>
+                                                    When a follow-up test is positive, the patient’s doctor should
+                                                    review the previous results, especially changes in the VDRL titer.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">-</td>
+                                                <td class="highlighted_cell"></td>
+                                                <td class="highlighted_cell"></td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td>
+                                                    This pattern of test results can mean either of two things: <br><br>
+                                                    <b>For low-risk people (most people)</b><br><br>
+                                                    The results are interpreted as negative—that is, there is no
+                                                    evidence of infection.
+                                                    <b>For high-risk people (homosexual males, people having unprotected
+                                                        sex or sex with multiple partners, etc.)</b><br><br>
+                                                    A retest should be done.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">-</td>
+                                                <td class="highlighted_cell"></td>
+                                                <td class="highlighted_cell"></td>
+                                                <td style="text-align: center; font-size: 1.5rem !important;"
+                                                    class="highlighted_cell">+</td>
+                                                <td>
+                                                    This pattern of test results can mean any of these three things:
+                                                    <br><br>
+                                                    <b>For people with no history of syphilis </b><br><br>
+                                                    The patient probably has syphilis (e.g., early or latent). <br><br>
+                                                    <b>For people with a history of syphilis </b><br><br>
+                                                    The results merely reflect that the person has had syphilis that’s
+                                                    been treated.
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p class="bold-text">Positive nontreponemal test with positive treponemal test</p>
+                                <p>A positive nontreponemal test (RPR or VDRL) combined with positive treponemal tests
+                                    (FTA-ABS and TPPA) means, of course, that the overall syphilis testing is positive.
+                                    This does not necessarily mean that the person tested has syphilis.
+                                </p><br>
+                                <p>Whether the person has a history of syphilis is important and must be considered
+                                    along with the test results.
+                                </p><br>
+                                <p><u>No history of syphilis</u></p>
+                                <br>
+                                <p>The results are interpreted as the patient now having syphilis.</p>
+                                <br>
+                                <p>A history of syphilis that has been treated</p>
+                                <ul>
+                                    <li>If the titer (number) on the nontreponemal test (RPR) is negative, the results
+                                        are interpreted as negative.
+                                    </li>
+                                    <li>If the RPR titer number stays low positive after treatment (which is referred to
+                                        as being in a serofast state), the results are considered negative.
+                                    </li>
+                                    <li>If the titer (number) on the nontreponemal test is four times higher than the
+                                        post-treatment number, the results are considered positive.
+                                    </li>
+                                </ul>
+                                <p class="bold-text"> Positive nontreponemal test with negative treponemal </p>
+                                <p>A positive nontreponemal test (RPR and VDRL) combined with a negative treponemal
+                                    (confirmatory) test (FTA-ABS or TPPA) means that the nontreponemal result was a
+                                    false positive (since the positive result wasn’t confirmed by the treponemal test).
+                                </p>
+                                <br>
+                                <p>About 1% to 2% of people tested for syphilis in the United States have false-positive
+                                    results. (Importantly, false-positive results have a low RPR titer (number).)
+                                </p> <br>
+                                <p>False-positive results are most common in certain patients: those who are pregnant;
+                                    those who have lupus, HIV, or endocarditis; and those who have recently been
+                                    immunized.
+                                </p> <br>
+                                <p>If retested in about six months, a test that had been a false positive is usually
+                                    back to normal (i.e., negative).
+                                </p>
+                                <p class="bold-text">Positive treponemal test with negative nontreponemal test
+                                </p>
+                                <p>A positive treponemal test (FTA-ABS or TPPA) combined with a negative nontreponemal
+                                    test (RPR and VDRL) can indicate either of two things:
+                                </p>
+                                <ul>
+                                    <li>The patient has had syphilis in the past that was successfully treated (the past
+                                        treatment must be verified or at least recalled by the patient).
+                                    </li>
+                                    <li>The patient may have syphilis now and further testing is necessary to make this
+                                        determination.
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Where is testing for syphilis done?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Syphilis testing can be done in primary care offices, urgent care clinics, gynecology
+                                    clinics, planned parenthood clinics, free STD centers, and our specialized <u>STD
+                                        clinic</u>. </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How can I protect my partner from getting syphilis?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p class="bold-text"> Syphilis transmission </p>
+                                <p>Syphilis transmission requires skin-to-skin contact. When any area of skin with
+                                    microscopic damage comes in contact with a syphilis sore or a mucous patch
+                                    containing syphilis infection in a high concentration, T. pallidum, the syphilis
+                                    bacteria, can gain access to the subcutaneous (under-the-skin) tissue and cause
+                                    infection.
+                                </p>
+                                <p class="bold-text">The truth about common syphilis myths </p>
+                                <ul>
+                                    <li>It’s not true that if you’ve had syphilis before, you can’t get it again.
+                                        Unfortunately, your immune system doesn’t develop long-term protection
+                                    </li>
+                                    <li>It’s not true that syphilis can be spread only by someone who has symptoms
+                                    </li>
+                                    <li>It’s not true that syphilis can be passed only through ejaculation
+                                    </li>
+                                </ul>
+                                <div class="table-wrap">
+                                    <table>
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th style="text-align: center;">Sex
+                                                    (per unprotected
+                                                    intercourse) </th>
+                                                <th style="text-align: center;">Sex toys</th>
+                                                <th style="text-align: center;">Hard surfaces
+                                                    (toilet seats, doorknobs, etc.)</th>
+                                                <th style="text-align: center;">Textiles
+                                                    (clothing, towels, and bedding)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p class="table-bold-text">Chance of
+                                                        transmission</p>
+                                                </td>
+                                                <td>
+                                                    Male to female: <br>
+                                                    10%–30% <br><br><br>
+
+                                                    Female to male: <br>
+                                                    10%–30%
+                                                </td>
+                                                <td>
+                                                    Possible,* but no data are available so the risk is unknown
+                                                    <br><br><br>
+                                                    *Fresh fluids containing syphilis bacteria would have to be on the
+                                                    toy. Toys that are dry (either unclean or cleaned with soap) are
+                                                    usually safe.
+                                                </td>
+                                                <td>
+                                                    Very unlikely* (close to 0%) <br><br><br>
+                                                    *The chance is only theoretical. A series of events that’s very
+                                                    unlikely would have to happen for transmission to occur.
+                                                </td>
+                                                <td>
+                                                    Very unlikely* (close to 0%) <br><br><br>
+                                                    * The chance is only theoretical. A series of events that’s very
+                                                    unlikely would have to happen for transmission to occur.
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p class="bold-text">How to protect your partner </p>
+                                <p>Since syphilis is transmitted through skin-to-skin contact, you can avoid spreading
+                                    it to your sex partner by following these precautions:
+                                </p>
+                                <ul>
+                                    <li>Don’t allow the infected part of your body make contact with your partner’s skin
+                                        while you have symptoms
+                                    </li>
+                                    <li>Don’t let your partner touch that area
+                                    </li>
+                                    <li>Don’t share sex toys
+                                    </li>
+                                    <li>If you touch your infected area, wash your hands with soap before touching your
+                                        partner
+                                    </li>
+                                </ul>
+                                <p class="legend">Important: You should notify everyone you’ve had sex with in the last
+                                    60 days about your syphilis diagnosis. Suggest that they have a medical examination
+                                    and testing. This will prevent further infection and possible health complications
+                                    to them, you, and/or other partners.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Is syphilis testing covered by health insurance?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Commercially available syphilis tests are covered by health insurance, yes.
+                                </p><br>
+                                <p>If you want to be certain that your insurance covers it, call your insurance company
+                                    and ask for this information:
+                                </p><br>
+                                <ul>
+                                    <li style="list-style-type: none;">1. The lab they prefer (you will want to use a
+                                        testing lab (such as Quest,
+                                        Labcorp, or Northwell) that has a pricing arrangement with your health plan)
+                                    </li>
+                                    <li style="list-style-type: none;">2. Whether the test you want done is covered—if
+                                        you are asked for ICD and CPT
+                                        codes, give them these codes:
+                                        <ul style="margin-left: 30px;">
+                                            <li>ICD B00.9 </li>
+                                            <li>CPT 86695 or 86696</li>
+                                        </ul>
+                                    </li>
+                                    <li style="list-style-type: none;">3. Whether you will be responsible for paying any
+                                        amount for the test (that is,
+                                        whether a deductible or coinsurance applies)
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What does syphilis testing cost if I don’t have health insurance?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Without health insurance, the office visit costs $84 cash (or $90 credit), and the
+                                    testing (in a certified lab) costs $50.</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
             </div>
         </section>
+
 
         <section class='section insurances'>
             <div class='section-wrapper'>
@@ -593,27 +987,27 @@
                 <div class='row row-no-insurance'>
                     <div class='data'>
                         <h3 class='heading-with-icon secondary-orange'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg' alt='dollar icon'
-                                class='icon-img' />
+                            <img class="dollar" src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg'
+                                alt='dollar icon' width="40px" height="40px" class='icon-img' />
                             NO INSURANCES? NO PROBLEM
                         </h3>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg' alt='guard icon'
-                                class='icon-img' />
-                            We offer affordable pricing and are happy to take on
-                            patients who are currently without medical insurance.
+                            <img class="guard" src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg'
+                                alt='guard icon' width="40px" height="43px" class='icon-img' />
+                            We offer affordable pricing and are happy to take on patients
+                            who are currently without medical insurance.
                         </p>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg' alt='like icon'
-                                class='icon-img' />
+                            <img class="like" src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg'
+                                alt='like icon' width="40px" height="43px" class='icon-img' />
                             Our guarantee to you is that you will never be surprised by
-                            any hidden fees or extra charges. All pricing is discussed
-                            up front before the tests are performed so that our patients
+                            any hidden fees or extra charges. All pricing is discussed up
+                            front before the tests are performed so that our patients
                             understand completely what they have been charged for.
                         </p>
                         <p class='offer large dark-blue'>
-                            We offer a <span class='primary-orange'>$90</span>
-                            initial office visit fee
+                            We offer a <span class='primary-orange'>$90</span> initial
+                            office visit fee
                             <span class='primary-orange'>($84 cash)</span>.
                             <br />
                             All patient seen by a doctor.
@@ -629,7 +1023,7 @@
                         PRICE FOR STD TESTS WITHOUT INSURANCES
                     </h3>
                     <div class="table-wrap">
-                        <table class='table'>
+                        <table class='insurance-table'>
                             <thead class='table-head'>
                                 <tr>
                                     <th class='table-column'>
@@ -637,9 +1031,7 @@
                                     </th>
                                     <th class='table-column'>
                                         <div class='text text-center'>
-                                            Credit
-                                            <br />
-                                            card
+                                            Credit card
                                         </div>
                                     </th>
                                 </tr>
@@ -650,9 +1042,7 @@
                                     <td class='table-column'>$50</td>
                                 </tr>
                                 <tr class='table-row'>
-                                    <td class='table-column'>
-                                        Chlamydia+Gonorrhea (both)
-                                    </td>
+                                    <td class='table-column'>Chlamydia+Gonorrhea (both)</td>
                                     <td class='table-column'>$120</td>
                                 </tr>
                                 <tr class='table-row'>
@@ -686,8 +1076,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40' width='40' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -698,47 +1093,21 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/Syphilis_blog1.svg" alt="hand jobs and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/2.svg" alt="one time sex and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/Syphilis_blog3.svg" alt="molluscam contagiosum topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/Syphilis_blog4.svg" alt="all about vaginal odor topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/5.svg" alt="fast about std testing topic">
                 </div>
-                <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
-                </div>
+                <div class="topic desktop"></div>
             </div>
         </section>
     </div>
@@ -749,7 +1118,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -761,8 +1130,8 @@
             <div>
                 <p class='footer-header'>Contact Us</p>
                 <div class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' height='24px'
+                        alt="location icon" width='24px' />
                     <p>
                         <span>274 Madison Ave, Suite 705</span>
                         <br />
@@ -770,16 +1139,18 @@
                     </p>
                 </div>
                 <p class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' height='24px'
+                        alt="phone icon" width='24px' />
                     212.696.5900
                 </p>
             </div>
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            alt="facebook icon" width='40px' />
+                    </a>
                 </p>
             </div>
         </div>

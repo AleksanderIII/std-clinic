@@ -1249,12 +1249,17 @@ section {
   font-weight: 500 !important;
 }
 
-.question .answer table .table-bold-text,
-.table .table-bold-text {
+.question .answer table p.table-bold-text,
+.table p.table-bold-text,
+.testing .at_glance .info p.table-bold-text {
   font-family: 'Montserrat-Medium', sans-serif;
   font-weight: 700;
   font-size: 0.875rem;
   color: #4F67A3;
+}
+
+p.light-font {
+  font-weight: 500;
 }
 
 .question .answer table td ul li,
@@ -1269,6 +1274,10 @@ section {
 
 .table td ul li::marker {
   color: #629EA8 !important;
+}
+
+.highlighted_cell {
+  background: #F6F9FA;
 }
 
 @media (max-width: 1200px) {
