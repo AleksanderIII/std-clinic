@@ -4,6 +4,15 @@ import '../../styles/index.css'
 import '../../styles/haveAQuestion.css'
 import '../../styles/blog.css'
 
+const navigator = document.getElementById('navigator')
+const navigation = document.getElementById('navigation')
+navigator.addEventListener('click', toggleNavigator)
+
+function toggleNavigator () {
+  navigator.classList.toggle('closed')
+  navigation.classList.toggle('closed')
+}
+
 const mobileMenuBtn = document.getElementById('mobile-menu-btn')
 const menuCloseBtn = document.getElementById('mobile-menu-btn-close')
 const mobileMenu = document.getElementById('mobile-menu')
