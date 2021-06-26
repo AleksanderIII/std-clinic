@@ -559,7 +559,7 @@ section {
   border-radius: 30px;
 }
 
-.testing .at_glance .info_item:nth-child(2) {
+.testing .at_glance .info_item:not(.hiv):nth-child(2) {
   padding: 0;
 }
 
@@ -568,12 +568,13 @@ section {
   font-weight: 400;
 }
 
-.testing .at_glance .info_item:nth-child(2) h3,
-.testing .at_glance .info_item:nth-child(2) .description,
+.testing .at_glance .info_item:not(.hiv):nth-child(2) h3,
+.testing .at_glance .info_item:not(.hiv):nth-child(2) .description,
 .testing .at_glance .info_item:nth-child(2) .legend {
   margin-left: 20px;
   margin-right: 30px;
 }
+
 
 .testing .at_glance .info_item li b {
   font-weight: 700;
@@ -1262,7 +1263,7 @@ section {
 }
 
 .table td ul li {
-  font-size: 0.875rem !important; 
+  font-size: 0.875rem !important;
   font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -1818,7 +1819,7 @@ section {
     margin-right: 15px;
   }
 
-  .answer_image{
+  .answer_image {
     width: 100%;
     height: auto;
   }
