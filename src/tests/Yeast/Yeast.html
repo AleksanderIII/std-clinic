@@ -6,6 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
 </head>
 
 <body>
@@ -293,9 +346,9 @@
             <div class='section-wrapper'>
                 <div class='intro-text-wrapper'>
                     <h1>
-                        Get Chlamydia testing and
+                        Get Yeast testing and treatment today!
                         <br />
-                        treatment toady!
+                        Confidential
                     </h1>
                     <p class='text-with-icon medium'>Covered by insurance</p>
                     <p class='text-with-icon medium'>
@@ -304,6 +357,12 @@
                     <p class='text-with-icon medium'>Same day appointment</p>
                     <p class='text-with-icon medium'>
                         All patients seen by a doctor
+                    </p>
+                    <p class="insurance-btn">
+                        <b>No insurance? <br class="desktop">
+                            <i> </i>
+                            No problem
+                        </b> <span class="desktop">i</span>
                     </p>
                 </div>
                 <div class='row rating'>
@@ -314,6 +373,9 @@
                         customer reviews
                     </a>
                 </div>
+                <a href='#' class='rating-customer mobile'>
+                    customer reviews
+                </a>
                 <div class='row people-say'>
                     <div class='people-say--icon-wrapper'>
                         <a href='https://www.zocdoc.com/doctor/slava-fuzayloff-do-9429' title='follow us on ZocDoc'>
@@ -366,191 +428,337 @@
                         <p>Text messaging service</p>
                     </div>
                     <img src='http://d12qz6jssicxsf.cloudfront.net/images/doctor.svg' alt='doctor graphic'
-                        height='250px' width='280px' />
+                        class="desktop" height='250px' width='280px' />
                 </div>
             </div>
         </section>
 
-        <section class='section at_glance blue-text'>
+        <section class='section at_glance blue-text' style="padding-top: 0;">
             <h2>
                 <span class='orange-text'>AT</span> A GLANCE
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
+                <img class="wave" src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px'
+                    height='14px' />
             </h2>
             <div class='info'>
-                <div class='info_item'>
+                <div class='info_item hiv'>
                     <h3>
-                        <span class='orange-text'>WHO</span> GET TESTED?
+                        <span class='orange-text'>WHO</span> SHOULD GET TESTED?
                     </h3>
-                    <p>
-                        Chlamydia testing is recommended <br />
-                        for both symptomatic and asymptomatic people.
-                    </p>
-                    <h4 class='orange-text'>NO sympthoms</h4>
-                    <ul>
-                        <li>Sexually active female 25 and younger</li>
-                        <li>People with multiple sex partners</li>
-                        <li>
-                            People who have had unprotected sex with a new partner
-                        </li>
-                        <li>People who have a chlamydia-positive partner</li>
-                        <li>Sexually active homosexual male</li>
-                    </ul>
-                    <h4 class='orange-text'>WITH sympthoms </h4>
-                    <ul>
-                        <li>
-                            Sexually active people who have chlamydia-related signs and
-                            symptoms can be tested at any time, irrespective of the time
-                            that has passed since the exposure.
-                        </li>
-                    </ul>
+                    <div class="description">
+                        <p> Only a person with a vagina can be tested for a yeast infection.
+                        </p><br>
+                        <p class="bold-text">Screening or routine test</p><br>
+                        <ul style="margin-left: 20px;">
+                            <li>Not necessary</li>
+                        </ul><br>
+                        <p class="bold-text">Females:</p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">With symptoms of vaginal discharge, odor, or burning
+                                sensation </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class='info_item'>
+                <div class='info_item hiv'>
                     <h3>
-                        <span class='orange-text'>WHEN</span> GET TESTED?
+                        <span class='orange-text'>HOW</span> ACCURATE TEST?
                     </h3>
                     <p class='description'>
-                        Here we will summarize what is known about timing (how soon
-                        the test can be done) and the accuracy of chlamydia testsin
-                        various anatomic areas for asymptomatic people.
-                    </p>
-                    <p class='orange-text warning'>
-                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/danger-circle.svg' height='26'
-                            width='26' />
-                        If you have symptoms, the test can be done any time,
-                        irrespective of the amount of time that has passed since the
-                        sexual encounter that you believe may have given you
-                        chlamydia.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Genital swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    98.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Rectal swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.7% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Oral swab</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    80% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Urine test</td>
-                                <td>2-7 days after exposure</td>
-                                <td class='orange-text'>
-                                    94.3% <span class='blue-text'> *</span>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <p class='legend'>
-                        *Accuracy, if is done 2 weeks after exposure
+                    <ul style="margin-left: 20px;">
+                        <li style="list-style-type: disc;"> Office examination and microscopy: 32% </li>
+                        <li style="list-style-type: disc;">Rapid yeast test: 73% </li>
+                        <li style="list-style-type: disc;">Female vaginal swab PCR: 95% </li>
+                        <li style="list-style-type: disc;">pH test of the vaginal fluid: Generally tests the vaginal pH,
+                            not for a yeast infection
+                            specifically. The test mainly differentiates between BV (bacterial vaginosis) and a yeast
+                            infection based on the pH value
+                            <ul style="margin-left: 40px;">
+                                <li style="list-style-type: disc;">Yeast infection pH: 4.0-4.5 </li>
+                                <li style="list-style-type: disc;"> BV pH: > 4.5</li>
+                            </ul>
+                        </li>
+                    </ul>
                     </p>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia'>
                     <h3>
-                        <span class='orange-text'>TEST TYPE</span> AVAILABLE
+                        <span class='orange-text'>TEST </span>TYPES
                     </h3>
                     <p class='description'>
-                        Unlike other infections, chlamydia, if contracted, stays at
-                        the point of initial contact, so a negative test of one area
-                        of the body doesn’t rule out the possibility of having
-                        chlamydia in another area. This means that all “susceptible”
-                        areas that came into contact with the partner’s potentially
-                        affected areas during sex should be tested.
+                        Two types of yeast infection tests are available: vaginal swab for PCR and office examination
+                        with microscopy.
                     </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Male</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Female</td>
-                                <td>Urine and urethral swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Anal receiving sex</td>
-                                <td>Anal swab</td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Giving oral sex</td>
-                                <td>Throat swab</td>
-                            </tr>
-                        </tbody>
-                    </table>
                 </div>
-                <div class='info_item'>
+                <div class='info_item chlomydia'>
                     <h3>
-                        <span class='orange-text'>TEST PREPARATION</span> NEEDED
+                        <span class='orange-text'>TEST </span>PREPARATION
                     </h3>
-                    <p>
-                        This is what need to be done for the testing to be <br />
-                        most accurate.
-                    </p>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class='orange-text'>Urine test </td>
-                                <td>avoid urinating for 2 hours before a urine test </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Vaginal swab </td>
-                                <td>
-                                    avoid douching and using vagina cream for 24 hours prior
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Throat swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Recta swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                            <tr>
-                                <td class='orange-text'>Penile swab </td>
-                                <td>no preparation needed </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="description">
+                        <p>For the most accurate testing:</p><br>
+                        <ul style="margin-left: 20px;">
+                            <li style="list-style-type: disc;">Vaginal swab: Avoid having sex, douching and using
+                                vaginal cream for 24 hours prior to testing
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class='section common_questions  blue-text'>
-            <h2>
-                <span class='orange-text'>COMMON</span> QUESTIONS
-                <img src='http://d12qz6jssicxsf.cloudfront.net/images/wave.svg' width='225px' height='14px' />
-            </h2>
-            <div class='questions'>
-                <div>
+        <section class="FAQ_section" style="padding-top: 0; padding-bottom: 0;">
+            <div class='FAQ'>
+                <h3>Frequently Asked Questions</h3>
+                <div class='FAQ-content'>
                     <ul>
-                        <li>How long does it take to get results back?</li>
-                        <li>How are different chlamydia tests done?</li>
-                        <li>What the test results mean?</li>
-                        <li>Can I get treated?</li>
-                        <li>Where to get tested?</li>
-                        <li>Should I tell my partner that I have chlamydia?</li>
-                        <li>Partner protection.</li>
-                        <li>Can I get infected with chlamydia again?</li>
-                        <li>If health insurance cover the testing?</li>
-                        <li>What is the cost without health insurance?</li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How are different yeast infection tests performed?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p style="margin-top: 0;" class="bold-text"> Female vaginal swab </p>
+                                <p>We recommend that a doctor performs the test, but self-swabbing is also possible. A
+                                    sample of vaginal and/or cervical fluid is collected by a cotton swab (the procedure
+                                    is illustrated below).
+                                </p><br>
+                                <p>The procedure may cause mild discomfort or minor spotting, which is rare.
+                                </p><br>
+                                <p class="legend">Remember: Do not use vaginal creams or practice douching 24 hours
+                                    before testing</p>
+                                <div class='answer_image'>
+                                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/answer_picture.jpg'
+                                        alt="Performance of the chlamydia swab test in females" height='250px'
+                                        height='250px' />
+                                    <p class='source'>
+                                        Image source: <br /> Chlamydia / N. Gonorrhoeae RNA, TMA -
+                                        Unisex Collection | Diagnostic Laboratory of Oklahoma.
+                                        https://www.dlolab.com/chlamydia-n-gonorrhoeae-rna-tma-unisex-collection.
+                                    </p>
+                                </div>
+                                <p class="bold-text"> Office examination</p>
+                                <p>The office examination includes vaginal swabbing, assessing the pH of the swab and
+                                    performing microscopy.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How long does it take to get results?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Swab test results are usually back in 4 business days.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What should I do if my test result is positive?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>You will be advised to take either over-the-counter or oral prescription medication.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What treatments are available?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Treatment depends on the frequency of infection:
+                                </p>
+                                <p class="bold-text">Initial treatment</p>
+                                <p>A one-time dose of oral Fluconazole (150 mg) will maintain its high concentration in
+                                    vaginal secretions for 3 days.
+                                </p>
+                                <p class="bold-text">Recurrent treatment</p>
+                                <p>A recurrent yeast infection is defined as more than 4 episodes per year. A vaginal
+                                    culture test for different Candida species needs to be performed to identify less
+                                    common species.
+                                </p><br>
+                                <p>A regimen of three doses of oral Fluconazole every 72 hours followed by a weekly dose
+                                    of Fluconazole (150 mg) for 6 months is recommended.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How soon will the treatment work?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Most yeast infections, especially those that are not recurrent, respond to treatment
+                                    within 2 days. While on medication, there are no contraindications for sexual
+                                    activity, unless you feel uncomfortable due to inflammation. Treatment for sexual
+                                    partners is not necessary.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                If I tested positive, should my sexual partner(s) be tested and treated?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>It is not recommended to treat partners of females diagnosed with a yeast infection.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Is it necessary to get tested after treatment?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>After-treatment testing is recommended only for individuals who continue to
+                                    experience symptoms of a yeast infection.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What are contributing factors to a yeast infection?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Occasional yeast infections can happen to any female for various reasons.
+                                </p><br>
+                                <p>Some known factors that predispose a female to recurrent yeast infections:
+                                </p>
+                                <ul>
+                                    <li>Diabetes, especially if sugar levels are not well-controlled.</li>
+                                    <li>Use of antibiotics. At least 30% of females get yeast infection during or after
+                                        taking a broad-spectrum antibiotic.
+                                    </li>
+                                    <li>Birth control pills with high estrogen levels.
+                                    </li>
+                                    <li>Immunosuppressive status (e.g., due to steroid use, HIV, cancer).
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Do probiotics and other dietary changes lower my risk of yeast infections?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> There is no evidence that yeast infections are caused by a lack of lactobacilli in
+                                    vaginal secretions. Therefore, probiotic lactobacilli is not recommended.
+                                </p><br>
+                                <p>Although there is a popular belief that ingestion and vaginal administration of
+                                    yogurt decrease the risk of infection, there is no evidence based on multiple
+                                    studies.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What behavioral changes lower my risk of yeast infections?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Some behavioral changes may lower your lower, such as avoiding panty liners,
+                                    pantyhose, and lubricants. Drinking cranberry juice may be beneficial for some
+                                    females, but this has not been supported by studies.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                How do contraceptives affect my risk of yeast infections?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p class="bold-text" style="margin-top: 0;">Oral contraceptive pills</p>
+                                <p>There is a split in opinions among researchers about the connection between birth
+                                    control pills (BCP) and yeast infection. Larger and newer studies demonstrate a weak
+                                    connection.
+                                </p>
+                                <p class="bold-text">Contraceptive devices</p>
+                                <p>Use of intrauterine devices (IUDs), sponges and diaphragms has been associated with
+                                    yeast infections. The connection is most likely due to the ability of the Candida
+                                    (yeast infection fungi) species to stay attached to these devices, not the intrinsic
+                                    property of these devices.
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Can a yeast infection be sexually transmitted?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> A yeast infection is not considered a <u>sexually transmitted disease</u> since it
+                                    can affect virgin females, as Candida is a normal part of the vaginal flora.
+                                </p><br>
+                                <p>However, this does not mean that yeast infections are not associated with sexual
+                                    activity. Keep in mind:
+                                </p>
+                                <ul>
+                                    <li>Increased sexual activity can increase the chances of a yeast infection.</li>
+                                    <li>The number of sexual partners is not correlated with frequency of yeast
+                                        infections.
+                                    </li>
+                                    <li>Females who have sex with females do not get yeast infections as often as
+                                        females who have sex with males.
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Where can I get tested for a yeast infection?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Testing can be performed in OB/GYN clinics, primary care offices or our specialized
+                                    STD clinic.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                Will health insurance cover the testing?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p> Yes. Health insurance usually covers the doctor’s office visit, testing and
+                                    treatment.
+                                </p><br>
+                                <p>If you have a high deductible plan and want to know your exact contribution for the
+                                    testing, call your insurance company and find out your contribution for the primary
+                                    care office visit and yeast infection testing (ICD 73.88; CPT 87491 or 87591).
+                                </p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What is the cost of testing without health insurance?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <p>Without health insurance, the cost of the office visit is $84 cash (or $90 credit)
+                                    plus $60 for the testing. All testing is performed in certified labs.</p>
+                            </div>
+                        </li>
+                        <li class='question hidden'>
+                            <p class='question-text'>
+                                What are the symptoms of a yeast infection?
+                                <img src='../images/arrowDown.svg' alt="arrow down" height='15' width='30' />
+                            </p>
+                            <div class='answer'>
+                                <ul>
+                                    <li> Itching of the vulva (this is the most common symptom) </li>
+                                    <li>Pain, redness, or irritation of the vulva and vagina </li>
+                                    <li>Pain during urination </li>
+                                    <li>Pain during sex </li>
+                                    <li>Abnormal vaginal discharge (thick and white, or thin and watery) </li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-                <div></div>
             </div>
         </section>
+
 
         <section class='section insurances'>
             <div class='section-wrapper'>
@@ -593,27 +801,27 @@
                 <div class='row row-no-insurance'>
                     <div class='data'>
                         <h3 class='heading-with-icon secondary-orange'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg' alt='dollar icon'
-                                class='icon-img' />
+                            <img class="dollar" src='http://d12qz6jssicxsf.cloudfront.net/images/dollar-sign.svg'
+                                alt='dollar icon' width="40px" height="40px" class='icon-img' />
                             NO INSURANCES? NO PROBLEM
                         </h3>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg' alt='guard icon'
-                                class='icon-img' />
-                            We offer affordable pricing and are happy to take on
-                            patients who are currently without medical insurance.
+                            <img class="guard" src='http://d12qz6jssicxsf.cloudfront.net/images/guard.svg'
+                                alt='guard icon' width="40px" height="43px" class='icon-img' />
+                            We offer affordable pricing and are happy to take on patients
+                            who are currently without medical insurance.
                         </p>
                         <p class='text-with-icon large'>
-                            <img src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg' alt='like icon'
-                                class='icon-img' />
+                            <img class="like" src='http://d12qz6jssicxsf.cloudfront.net/images/like-thumb.svg'
+                                alt='like icon' width="40px" height="43px" class='icon-img' />
                             Our guarantee to you is that you will never be surprised by
-                            any hidden fees or extra charges. All pricing is discussed
-                            up front before the tests are performed so that our patients
+                            any hidden fees or extra charges. All pricing is discussed up
+                            front before the tests are performed so that our patients
                             understand completely what they have been charged for.
                         </p>
                         <p class='offer large dark-blue'>
-                            We offer a <span class='primary-orange'>$90</span>
-                            initial office visit fee
+                            We offer a <span class='primary-orange'>$90</span> initial
+                            office visit fee
                             <span class='primary-orange'>($84 cash)</span>.
                             <br />
                             All patient seen by a doctor.
@@ -629,7 +837,7 @@
                         PRICE FOR STD TESTS WITHOUT INSURANCES
                     </h3>
                     <div class="table-wrap">
-                        <table class='table'>
+                        <table class='insurance-table'>
                             <thead class='table-head'>
                                 <tr>
                                     <th class='table-column'>
@@ -637,9 +845,7 @@
                                     </th>
                                     <th class='table-column'>
                                         <div class='text text-center'>
-                                            Credit
-                                            <br />
-                                            card
+                                            Credit card
                                         </div>
                                     </th>
                                 </tr>
@@ -650,9 +856,7 @@
                                     <td class='table-column'>$50</td>
                                 </tr>
                                 <tr class='table-row'>
-                                    <td class='table-column'>
-                                        Chlamydia+Gonorrhea (both)
-                                    </td>
+                                    <td class='table-column'>Chlamydia+Gonorrhea (both)</td>
                                     <td class='table-column'>$120</td>
                                 </tr>
                                 <tr class='table-row'>
@@ -686,8 +890,13 @@
             <h2> Have a question? </h2>
             <div>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40' width='40' />
-                    <span>212.696.5900</span>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
                 </p>
                 <p>?</p>
                 <p>ask online</p>
@@ -698,47 +907,22 @@
             <h2 class='secondary-orange'>RELATED HEALTH TOPICS</h2>
             <div class='topics'>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/1.svg" alt="hand jobs and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/2.svg" alt="one time sex and std topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/BV3.svg"
+                        alt="molluscam contagiosum topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/4.svg" alt="all about vaginal odor topic">
                 </div>
                 <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
+                    <img src="http://d12qz6jssicxsf.cloudfront.net/images/5.svg" alt="fast about std testing topic">
                 </div>
-                <div class='topic'>
-                    <p>
-                        <span>All you need to know about vaccine</span>
-                        <br />
-                        <span>Hepatitis A and B</span>
-                    </p>
-                </div>
+                <div class="topic desktop"></div>
             </div>
         </section>
     </div>
@@ -749,7 +933,7 @@
                 <p class='footer-header'>Quick Links</p>
                 <nav>
                     <ul>
-                        <li>Home </li>
+                        <li><a href="./">Home</a> </li>
                         <li> Meet the doctor</li>
                         <li> Office hours</li>
                         <li> PPD testing</li>
@@ -761,8 +945,8 @@
             <div>
                 <p class='footer-header'>Contact Us</p>
                 <div class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' height='24px'
+                        alt="location icon" width='24px' />
                     <p>
                         <span>274 Madison Ave, Suite 705</span>
                         <br />
@@ -770,16 +954,18 @@
                     </p>
                 </div>
                 <p class='contact'>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone.svg' height='24px'
-                        width='24px' />
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' height='24px'
+                        alt="phone icon" width='24px' />
                     212.696.5900
                 </p>
             </div>
             <div>
                 <p class='footer-header'>Follow Us</p>
                 <p>
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/twitter.svg' height='40px' width='40px' />
-                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px' width='40px' />
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' height='40px'
+                            alt="facebook icon" width='40px' />
+                    </a>
                 </p>
             </div>
         </div>
