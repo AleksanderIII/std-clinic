@@ -21,6 +21,11 @@
 
 .deases .protecting .protecting-heading ul li {
     font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+
+.deases .protecting .protecting-heading ul li::marker {
+    font-size: 0.875rem;
 }
 
 .deases .protecting.filled {
@@ -34,8 +39,8 @@
 }
 
 .deases .protecting .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .protecting-content.filled {
@@ -65,8 +70,8 @@
 }
 
 .deases .protecting-heading p {
-    font-family: 'Roboto-Light', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     padding-right: 30px;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -206,7 +211,8 @@
 
 .deases .protecting .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -360,11 +366,11 @@
 }
 
 .deases .protecting .FAQ .answer ul li {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     margin-left: 40px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .deases .protecting-heading ul li {
