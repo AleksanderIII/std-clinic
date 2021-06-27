@@ -57,7 +57,7 @@
 }
 
 .deases .what_i_feel-content .what_i_feel-heading p {
-    font-family: 'Montserrat-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-right: 30px;
     font-size: 1.125rem;
@@ -74,13 +74,19 @@
 }
 
 .deases .what_i_feel .what_i_feel-heading ul li {
+    font-family: 'Montserrat', sans-serif;
     margin-left: 40px;
     padding-right: 30px;
     list-style-type: disc;
     font-size: 1.125rem;
+    font-weight: 400;
     line-height: 1.625rem;
     margin-bottom: 10px;
     color: white;
+}
+
+.deases .what_i_feel .what_i_feel-heading ul li::marker{
+    font-size: 0.875rem;
 }
 
 .deases .what_i_feel-content p {
@@ -94,6 +100,7 @@
     margin: 40px 0;
     text-align: center;
     color: #DC593A;
+    font-weight: 500;
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1.5rem;
     line-height: 1.875rem;
@@ -123,7 +130,7 @@
     font-family: 'Montserrat-Medium', sans-serif;
     list-style-type: disc;
     color: #354A87;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 1.5rem;
     font-size: 1rem;
     font-weight: 500;
