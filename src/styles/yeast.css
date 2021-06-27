@@ -72,12 +72,16 @@
 }
 
 .deases .female_chlomydia_yeast-heading p {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-right: 30px;
     font-size: 1.125rem;
     line-height: 1.75rem;
     color: white;
+}
+
+.deases .female_chlomydia_yeast-heading ul li::marker{
+    font-size: 0.875rem;
 }
 
 .deases .female_chlomydia_yeast-heading p b {
