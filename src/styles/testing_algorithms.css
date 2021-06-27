@@ -7,8 +7,21 @@
     color: white;
 }
 
-.deases .testing_algoritms .testing_algoritms-heading ul li {
+.deases .testing_algoritms .testing_algoritms-heading p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     font-size: 1.125rem;
+}
+
+.deases .testing_algoritms .testing_algoritms-heading ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+}
+
+.deases .testing_algoritms .testing_algoritms-heading ul li::marker{
+    font-size: 0.875rem;
 }
 
 .deases .testing_algoritms .section-text {
@@ -95,8 +108,8 @@
 }
 
 .deases .testing_algoritms-heading p {
-    font-family: 'Roboto-Light', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     padding-right: 30px;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -155,8 +168,10 @@
 }
 
 .deases .testing_algoritms .legend {
+    font-family: 'Montserrat-Medium', sans-serif;
     margin: 30px 0px 10px 20px;
     font-size: 0.8125rem;
+    font-weight: 500;
 }
 
 .deases .testing_algoritms .graph_header {
