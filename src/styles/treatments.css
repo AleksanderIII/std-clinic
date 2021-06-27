@@ -16,9 +16,15 @@
 }
 
 .deases .treatment .treatment-heading ul li {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     font-size: 1.125rem;
     margin-bottom: 15px;
     color: white;
+}
+
+.deases .treatment .treatment-heading ul li::marker {
+    font-size: 0.8125rem;
 }
 
 .deases .treatment .highlightrd_cell {
@@ -62,8 +68,8 @@
 }
 
 .deases .treatment-heading p {
-    font-family: 'Roboto-Light', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     padding-right: 30px;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -111,11 +117,16 @@
     margin-right: 0px;
 }
 
+.deases .treatment .bold-text~ul li::marker,
+.deases .treatment ul li::marker {
+    font-size: 0.875rem;
+}
+
 .deases .treatment .bold-text~ul li {
     font-family: 'Montserrat-Medium', sans-serif;
     list-style-type: disc;
     color: #354A87;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 1.5rem;
     font-size: 1rem;
     font-weight: 500;
@@ -203,7 +214,8 @@
 
 .deases .treatment .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -294,7 +306,9 @@
 }
 
 .deases .question-text {
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .deases .treatment .button {
@@ -325,7 +339,7 @@
     font-family: 'Montserrat-Medium', sans-serif;
     color: #354A87;
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     list-style-type: disc;
 }
 
@@ -379,11 +393,11 @@
 }
 
 .deases .treatment .answer ul li {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     list-style-type: disc;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .deases .treatment .answer>h5 {
