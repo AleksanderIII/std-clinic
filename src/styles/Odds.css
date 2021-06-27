@@ -126,7 +126,9 @@
 }
 
 .deases .my_odds .legend {
+    font-family: 'Montserrat-Medium', sans-serif;
     font-size: 0.875rem;
+    font-weight: 500;
     margin: 10px 0px 10px 0px;
 }
 
@@ -218,7 +220,8 @@
 
 .deases .my_odds .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -343,8 +346,9 @@
     font-family: 'Montserrat-Medium', sans-serif;
     color: #354A87;
     font-size: 1rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     list-style-type: disc;
+    line-height: 1.625rem;
 }
 
 .deases .my_odds ul li b {
@@ -374,11 +378,11 @@
 }
 
 .deases .my_odds .answer ul li {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     list-style-type: disc;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .deases .my_odds .FAQ ul {
@@ -386,11 +390,11 @@
 }
 
 .deases .my_odds-content .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
-.deases .my_odds table b{
+.deases .my_odds table b {
     font-weight: 600;
 }
 
@@ -400,7 +404,7 @@
         padding: 0;
     }
 
-    .deases .my_odds table b{
+    .deases .my_odds table b {
         font-weight: 500;
     }
 
