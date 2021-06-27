@@ -90,8 +90,8 @@
 }
 
 .deases .comparision-heading p {
-    font-family: 'Roboto-Light', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     padding-right: 30px;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -231,7 +231,8 @@
 
 .deases .comparision .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -377,14 +378,14 @@
 .deases .comparision ul li {
     font-family: 'Montserrat-Medium', sans-serif;
     color: #354A87;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     list-style-type: disc;
 }
 
 
 .deases .comparision .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .comparision .FAQ ul {
@@ -393,6 +394,8 @@
 }
 
 .deases .comparision .FAQ .answer ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     margin-bottom: 5px;
 }
 
