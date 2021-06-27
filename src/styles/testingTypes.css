@@ -78,8 +78,8 @@
 }
 
 .deases .testing_types-heading p {
-    font-family: 'Roboto-Light', sans-serif;
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     padding-right: 30px;
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -88,6 +88,7 @@
 
 .deases .testing_types-heading p b {
     font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 700;
 }
 
 .deases .testing_types-heading ul {
@@ -106,6 +107,10 @@
     line-height: 1.625rem;
     margin-bottom: 10px;
     color: white;
+}
+
+.deases .testing_types-heading ul li::marker {
+    font-size: 0.875rem;
 }
 
 .deases .testing_types h3 {
@@ -233,7 +238,8 @@
 
 .deases .testing_types .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -343,6 +349,7 @@
     margin: 0;
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1rem;
+    font-weight: 500;
     line-height: 1.625rem;
 }
 
@@ -392,7 +399,7 @@
 }
 
 .deases .testing_types .answer ul li {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     list-style-type: disc;
@@ -404,10 +411,10 @@
 }
 
 .deases .testing_types .answer ol li {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #354A87;
     font-size: 0.875rem;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .deases .testing_types .answer_image {
@@ -440,8 +447,8 @@
 }
 
 .deases .testing_types-content .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .testing_types .FAQ .shifted {
