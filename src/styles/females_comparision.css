@@ -71,7 +71,7 @@
 }
 
 .deases .females_comparision-heading p {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-right: 30px;
     font-size: 1.125rem;
@@ -245,7 +245,13 @@
 }
 
 .deases .females_comparision .females_comparision-heading ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: white;
+}
+
+.deases .females_comparision .females_comparision-heading ul li::marker{
+    font-size: 0.875rem;
 }
 
 .deases .females_comparision table td ul li{
@@ -258,6 +264,8 @@
 }
 
 .deases .females_comparision ul li{
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     color: #354A87;
     margin-bottom: 10px;
     list-style-type: disc;
@@ -378,11 +386,11 @@
 }
 
 .deases .females_comparision .answer ul li {
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
     list-style-type: disc;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .deases .females_comparision .answer .small-note {
