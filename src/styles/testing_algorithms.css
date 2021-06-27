@@ -49,8 +49,8 @@
 }
 
 .deases .testing_algoritms .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .testing_algoritms .FAQ .answer ul {
@@ -58,8 +58,10 @@
 }
 
 .deases .testing_algoritms .FAQ .answer ul li {
-    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 0.875rem;
+    margin-bottom: 5px;
 }
 
 
@@ -252,7 +254,8 @@
 
 .deases .testing_algoritms .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
