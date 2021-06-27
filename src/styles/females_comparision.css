@@ -45,8 +45,8 @@
 }
 
 .deases .females_comparision .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .females_comparision .link {
@@ -99,6 +99,7 @@
 .deases .females_comparision h3 {
     margin: 40px 0;
     text-align: center;
+    font-weight: 500;
     color: #DC593A;
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1.5rem;
@@ -212,7 +213,8 @@
 
 .deases .females_comparision .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
