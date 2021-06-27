@@ -112,6 +112,8 @@
 }
 
 .deases .treatment-algorithm .legend {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     margin: 30px 0px 10px 20px;
 }
 
@@ -324,6 +326,13 @@
         padding: 0;
     }
 
+
+    .deases .treatment-algorithm .legend {
+        margin: 0;
+        font-size: 0.75rem;
+        color: #3c4b94;
+    }
+
     .deases .treatment-algorithm h3 {
         font-weight: 500;
     }
@@ -377,18 +386,18 @@
         padding: 0 16px;
     }
 
-    .deases .treatment-algorithm .bold-text{
+    .deases .treatment-algorithm .bold-text {
         margin-bottom: 10px !important;
     }
 
-    .deases .treatment-algorithm .bold-text~ul{
+    .deases .treatment-algorithm .bold-text~ul {
         margin-left: 30px;
         margin-right: 16px;
     }
 
     .deases .treatment-algorithm .bold-text,
     .deases .treatment-algorithm ul li,
-    .deases .treatment-algorithm .bold-text~ul li{
+    .deases .treatment-algorithm .bold-text~ul li {
         font-size: 0.875rem;
     }
 
