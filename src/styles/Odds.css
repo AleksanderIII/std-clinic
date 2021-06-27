@@ -422,6 +422,7 @@
     .deases .my_odds .my_odds-heading ul li {
         margin-bottom: 5px;
         font-size: 0.875rem !important;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .deases .my_odds table {
