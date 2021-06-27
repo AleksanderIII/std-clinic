@@ -189,6 +189,10 @@
     margin-bottom: 5px;
 }
 
+.deases .what_i_feel table td ul li::marker{
+    font-size: 0.75rem;
+}
+
 .deases .what_i_feel table th {
     font-family: 'Montserrat-Medium', sans-serif;
     vertical-align: middle;
@@ -219,15 +223,15 @@
 
 .deases .what_i_feel .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
     font-size: 1rem;
 }
 
 .deases .what_i_feel-content .FAQ ul li p.question-text {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .what_i_feel .FAQ h3 {
