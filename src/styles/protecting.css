@@ -386,6 +386,8 @@
 }
 
 .deases .protecting .note {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     font-size: 0.875rem;
 }
 
