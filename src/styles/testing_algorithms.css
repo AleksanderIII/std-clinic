@@ -363,7 +363,8 @@
 }
 
 .deases .testing_algoritms ul li {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     color: #354A87;
     font-size: 1rem;
     margin: 10px 0px 10px 10px;
