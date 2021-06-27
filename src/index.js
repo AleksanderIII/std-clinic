@@ -2,6 +2,7 @@ import './styles/index.css'
 import './styles/Header.css'
 import './styles/Footer.css'
 import './styles/Home.css'
+import './styles/haveAQuestion.css'
 
 export function toggleQuestion (event) {
   if (event.target.closest('li')) {

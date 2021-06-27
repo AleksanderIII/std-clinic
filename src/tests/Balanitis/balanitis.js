@@ -1,6 +1,7 @@
 import '../../styles/Header.css'
 import '../../styles/Footer.css'
 import '../../styles/tests.css'
+import '../../styles/haveAQuestion.css'
 
 function toggleQuestion (event) {
   if (event.target.closest('li')) {
