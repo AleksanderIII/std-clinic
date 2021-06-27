@@ -18,6 +18,13 @@
 
 .deases .overview .overview-heading ul li {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.deases .overview .overview-heading ul li::marker {
+    font-size: 0.875rem;
 }
 
 .deases .overview ul {
@@ -25,11 +32,13 @@
 }
 
 .deases .overview ul li {
+    font-family: 'Montserrat-Medium', sans-serif;
     font-weight: 500;
     list-style-type: disc;
     color: #354A87;
     margin-bottom: 10px;
     margin-left: 20px;
+    line-height: 1.625rem;
 }
 
 .deases .overview .highlightrd_cell {
@@ -73,7 +82,7 @@
 }
 
 .deases .overview-heading p {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-right: 30px;
     font-size: 1.125rem;
@@ -102,6 +111,7 @@
     margin: 40px 0;
     text-align: center;
     color: #DC593A;
+    font-weight: 500;
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1.5rem;
     line-height: 1.875rem;
@@ -214,7 +224,8 @@
 
 .deases .overview .FAQ-content>p {
     margin-bottom: 30px;
-    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
     font-size: 1rem;
 }
 
@@ -343,7 +354,8 @@
 }
 
 .deases .overview .FAQ ul p.question-text {
-    font-weight: 600;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 500;
 }
 
 .deases .overview .FAQ .answer ul {
