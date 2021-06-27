@@ -385,6 +385,10 @@
         padding: 0;
     }
 
+    .deases .testing_algoritms .testing_algoritms-heading p{
+        font-size: 0.875rem;
+    }
+
     .deases .testing_algoritms .testing_algoritms-heading ul li {
         font-size: 0.875rem;
     }
