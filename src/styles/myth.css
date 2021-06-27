@@ -52,7 +52,7 @@
 }
 
 .deases .myth-heading p {
-    font-family: 'Roboto-Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     padding-right: 30px;
     font-size: 1.125rem;
@@ -69,12 +69,14 @@
 }
 
 .deases .myth-heading ul li {
+    font-family: 'Montserrat', sans-serif;
     margin-left: 30px;
     padding-right: 30px;
     list-style-type: disc;
     font-size: 1.125rem;
     line-height: 1.625rem;
     margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .deases .myth h3 {
