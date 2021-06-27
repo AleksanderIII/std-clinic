@@ -344,13 +344,27 @@
     margin: 20px 0 20px 25px;
 }
 
+.deases .my_odds .my_odds-heading ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    list-style-type: disc;
+    line-height: 1.625rem;
+}
+
 .deases .my_odds ul li {
     font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
     color: #354A87;
     font-size: 1rem;
     margin-bottom: 10px;
     list-style-type: disc;
     line-height: 1.625rem;
+}
+
+.deases .my_odds ul li::marker {
+    font-size: 0.875rem;
 }
 
 .deases .my_odds ul li b {
@@ -446,9 +460,6 @@
     .deases .my_odds h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
-    }
-
-    .deases .my_odds h3 {
         font-weight: 500;
     }
 
