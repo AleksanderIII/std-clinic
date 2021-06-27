@@ -428,6 +428,10 @@ section {
   justify-content: center;
 }
 
+.testing .at_glance .info .info_item:nth-child(2).chlomydia p {
+  padding-left: 20px;
+}
+
 .testing .at_glance .info p {
   font-family: 'Montserrat-Medium', sans-serif;
   font-weight: 500;
@@ -1285,7 +1289,7 @@ p.light-font {
   .testing .at_glance .info_item:nth-child(3) .description,
   .testing .at_glance .info_item:nth-child(4) .description {
     font-size: 0.875rem;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-right: 15px;
     margin-bottom: 20px;
   }
@@ -1306,8 +1310,8 @@ p.light-font {
   }
 
   .info_item:nth-child(2) .description {
-    margin-left: 16px !important;
-    margin-right: 16px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
     font-size: 0.875rem !important;
   }
 
@@ -1350,10 +1354,18 @@ p.light-font {
     margin-bottom: 30px;
   }
 
+  .testing .at_glance .info .info_item:nth-child(2).chlomydia p {
+    padding-left: 0;
+  }
+
   .testing .at_glance .info p {
     font-size: 0.875rem;
     margin-left: 0;
     font-weight: 400;
+  }
+
+  .testing .at_glance .info_item:nth-child(2).balanitis h3{
+    margin-left: 5px;
   }
 
   .testing .at_glance .info_item:nth-child(2) table {
@@ -1444,7 +1456,7 @@ p.light-font {
     background: none;
     border: 4px solid rgba(214, 216, 235, 0.3);
     border-radius: 30px 60px 40px 30px;
-    padding: 0 16px;
+    padding: 0 20px;
   }
 
   .testing .at_glance .info_item h3 span {
@@ -1518,6 +1530,10 @@ p.light-font {
 
   .testing .wave {
     width: 140px;
+  }
+
+  .testing .at_glance .info_item:nth-child(2).chlomydia h3 {
+    margin-left: 5px;
   }
 
   .testing .no-insurance-button .secondary-orange {
