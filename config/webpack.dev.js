@@ -106,7 +106,11 @@ module.exports = {
     blogBlameForHerpes: './src/blogs/BlameForHerpes/blameForHerpes.js',
     blogHerpesDiagnosis: './src/blogs/HerpesDiagnosis/herpesDiagnosis.js',
     blogPartnerProtecting: './src/blogs/PartnerProtecting/partnerProtecting.js',
-    blogImportantFacts: './src/blogs/ImportantFacts/importantFacts.js'
+    blogImportantFacts: './src/blogs/ImportantFacts/importantFacts.js',
+    blogHandJob: './src/blogs/HandJob/handJob.js',
+    blogPublicLice: './src/blogs/PublicLice/publicLice.js',
+    blogSyphilisTreatment: './src/blogs/SyphilisTreatment/syphilisTreatment.js',
+    blogPreventingHIV: './src/blogs/PreventingHIV/preventingHIV.js'
   },
   output: {
     path: path.join(__dirname, 'dist'),
@@ -655,6 +659,30 @@ module.exports = {
       filename: 'articles/std-testing-earliest-to-definitive.html',
       inject: true,
       chunks: ['blogImportantFacts']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/HandJob/HandJob.html',
+      filename: 'articles/std-chance-with-hand-job.html',
+      inject: true,
+      chunks: ['blogHandJob']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/PublicLice/PublicLice.html',
+      filename: 'articles/pubic-lice-crabs-visually.html',
+      inject: true,
+      chunks: ['blogPublicLice']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/SyphilisTreatment/SyphilisTreatment.html',
+      filename: 'articles/syphilis-postexposure-treatment.html',
+      inject: true,
+      chunks: ['blogSyphilisTreatment']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/PreventingHIV/PreventingHIV.html',
+      filename: 'articles/HIV-PrEP-medication-practical-guide.html',
+      inject: true,
+      chunks: ['blogPreventingHIV']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

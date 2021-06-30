@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Pubic lice (“crabs”): recognition, symptoms, and treatment</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/public_lice.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <h3 style="margin-top: 0;">What to expect on this page</h3>
+                    <p> Pubic lice, or “crabs,” are parasites that live on hairy surfaces of the human body (mainly in
+                        the genital area). These little insects do not spread disease. However, they may create optimal
+                        conditions for the development of infections and they definitely affect both the physical and
+                        psychological health of the infected person.
+                    </p><br>
+                    <p>In this article, we have several photographs so you can see what pubic lice look like, what the
+                        skin conditions they can cause look like, and how these conditions compare to other
+                        similar-looking conditions.
+                    </p><br>
+                    <p>You will also learn here:
+                    </p>
+                    <ul>
+                        <li>How you get pubic lice (and how likely it is)
+                        </li>
+                        <li>What the symptoms are
+                        </li>
+                        <li>Who is at risk (even children can be affected)
+                        </li>
+                        <li>How pubic lice are treated
+                        </li>
+                        <li>How long pubic lice will affect your sex life
+                        </li>
+                    </ul>
+                    <div class="subSection" id="general_info">
+                        <h3>General information about Pubic lice</h3>
+                        <p> To help you understand whether you have pubic lice, below are some important facts about
+                            these little parasites.
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="contraction">
+                        <p class="subHeader">How you get pubic lice</p>
+                        <p>Pubic lice are transmitted from one person through:<sup>1, 2, 3</sup>
+                        </p>
+                        <ul>
+                            <li><b>Sex</b>, the most common way (people get them from direct skin-to-skin contact during
+                                intercourse)
+                            </li>
+                            <li><b>Other skin-to-skin contact</b> (hugging, kissing)
+                            </li>
+                            <li><b>Personal objects</b> (towels, bedding, clothes)
+                            </li>
+                        </ul>
+                        <p>Remember, condoms and other contraception methods do not prevent pubic lice transmission.
+                        </p><br>
+                        <p>It is almost impossible to get pubic lice through toilet seats since this parasite is unable
+                            to survive without its host (a human being).
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="symptoms">
+                        <p class="subHeader">The symptoms of pubic lice</p>
+                        <p> Symptoms usually develop five days after exposure. People suddenly start to experience
+                            itching in the genital and anal area, which often intensifies at night.<sup>2</sup>
+                        </p><br>
+                        <p>Some people may also experience:
+                        </p>
+                        <ul>
+                            <li>Weakness</li>
+                            <li>
+                                Low-grade fever</li>
+                            <li>
+                                Irritability</li>
+                            <li>Conjunctivitis (people who have “crabs” in their eyelashes)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="who_gets_it">
+                        <p class="subHeader">At-risk people</p>
+                        <p>Pubic lice mainly affects <b>adult, sexually active people.</b>
+                        </p><br>
+                        <p>However, <b>children</b> who share beddings and towels with infected family members are also
+                            at risk. Remember, sometimes, finding “crabs” on a child may be a sign of sexual abuse. The
+                            parasites usually appear on their head and in their eyelashes.<sup>1, 2</sup>
+                        </p>
+                        <p class="subHeader">Pubic lice are common and easily spread</p>
+                        <p>Pubic lice are quite common. They affect about 2%–10% of the world’s population regardless of
+                            socioeconomic level, race, or ethnicity. Around 3 million pubic lice cases are reported in
+                            the United States every year.<sup>1</sup>
+                        </p><br>
+                        <p>It is difficult to estimate how likely a person is to get pubic lice from one-time sex. But
+                            “crabs” are known to spread easily from one person to another during sexual intercourse.
+                            Therefore, the chance of getting them is considered to be high.
+                        </p>
+                        <h3>What pubic lice look like</h3>
+                        <p> To determine whether you have been exposed to pubic lice, you need to know what these
+                            insects look like. And you should also know what it is like to experience pubic lice–related
+                            health complications.
+                        </p><br>
+                        <p> These parasites have three forms:<sup>4</sup>
+                        </p>
+                        <ul>
+                            <li>Nit</li>
+                            <li> Nymph
+                            </li>
+                            <li>Adult</li>
+                        </ul>
+                        <p> Detailed descriptions of all three forms are presented below.
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 150px;">Form</th>
+                                        <th style="max-width: 300px;">Photo</th>
+                                        <th style="width: 400px;">Main characteristics</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <p class="table-bold-text">Nit (egg)</p>
+                                        </td>
+                                        <td>
+                                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/lice_table_image1.jpg"
+                                                width="128" height="100" alt=""><br><br>
+                                            Image source: https://www.wikiwand.com/en/Crab_louse
+                                        </td>
+                                        <td style="vertical-align: top;">
+                                            <ul style="margin-left: 0; margin-top: 0;">
+                                                <li><b>Shape</b>
+                                                    <p>Oval attached to the hair</p>
+                                                </li>
+                                                <li><b>Size</b>
+                                                    <p>0.8 mm in length</p>
+                                                </li>
+                                                <li><b>Color</b>
+                                                    <p>Yellowish-white</p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="table-bold-text">The Nymph</p>
+                                        </td>
+                                        <td style="vertical-align: top;">
+                                            <div>
+                                                <img src="http://d12qz6jssicxsf.cloudfront.net/images/lice_table_image2.jpg"
+                                                    width="128" height="100" alt="">
+                                            </div><br>
+                                            Image source:
+                                            https://www.rxlist.com/collection-of-images/crabs_pubic_lice_picture/pictures.htm.
+                                        </td>
+                                        <td style="vertical-align: top;">
+                                            <ul style="margin-left: 0;  margin-top: 0;">
+                                                <li>
+                                                    <b>Shape</b>
+                                                    <p>crablike (that’s how they got their “nickname”) 6 legs (the 2
+                                                        frontal legs are larger than others)</p>
+                                                </li>
+                                                <li>
+                                                    <b>Size</b>
+                                                    <p>about 1 mm in length</p>
+                                                </li>
+                                                <li>
+                                                    <b>Color</b>
+                                                    <p>Yellowish-white</p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="table-bold-text">The Adult</p>
+                                        </td>
+                                        <td style="vertical-align: top;">
+                                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/lice_table_image3.jpg"
+                                                width="128" height="100" alt=""><br><br>
+                                            Image source: Daniel J. Drew - Gall L (2019). Invertebrate Zoology Division,
+                                            Yale Peabody Museum. Yale University Peabody Museum.
+                                        </td>
+                                        <td style="vertical-align: top;">
+                                            <ul style="margin-left: 0;  margin-top: 0;">
+                                                <li>
+                                                    <b>Shape</b>
+                                                    <p> same as nymph</p>
+                                                </li>
+                                                <li>
+                                                    <b>Size</b>
+                                                    <p>1.1-1.8 mm in length females larger than males</p>
+                                                </li>
+                                                <li>
+                                                    <b>Color</b>
+                                                    <p> tan; grayish-white; darker then nymphs because they are
+                                                        consuming more blood
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="subHeader">Pubic lice can cause skin conditions</p>
+
+                        <p>In addition to excessive itchiness, pubic lice may lead to mild skin conditions:5
+                        </p>
+                        <ul>
+                            <li>Tiny reddish bumps or spots on the affected area
+                            </li>
+                            <li>Bluish spots on the thighs
+                            </li>
+                            <li>Bluish spots on the lower abdomen
+                            </li>
+                        </ul>
+                        <p>The pictures below illustrate these skin conditions:
+                        </p><br>
+                        <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice1.jpg"
+                            height="206" width="245" alt="">
+                        <p class="legend">Image source: https://medicine.uiowa.edu/dermatology/crab-lice</p>
+                    </div>
+                    <div class="subSection" id="comparision">
+                        <h3>Comparison to other similar conditions</h3>
+
+                        <p>Now you know how to recognize pubic lice and related skin conditions. However, some other
+                            conditions have a similar appearance. To help you distinguish them, see the photos below.
+                        </p><br>
+                    </div>
+                    <div class="subSection" id="folliculitis"
+                        style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; ">
+                        <div class="column" style="width: 420px;">
+                            <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice2.jpg"
+                                height="300" width="420" alt="">
+                            <p style="margin-top: 10px;" class="legend">Image source:
+                                https://www.dermsouthtx.com/articles/aad_education_library/589416-sexually-transmitted-infections-stis
+                            </p>
+                            <p class="subHeader">Pubic lice bumps</p>
+                            <ul>
+                                <li> The skin becomes reddish or bluish
+                                </li>
+                                <li>There is an extremely itchy sensation
+                                </li>
+                                <li>Mostly, the hairy areas of the genitals are affected
+                                </li>
+                                <li>Wounds can develop when the itchy area is scratched; this may lead to secondary
+                                    infection of the wounds
+                                </li>
+                                <li>Upon careful examination, patients may notice the adult lice or their nits
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="column" style="width: 420px;">
+                            <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice3.jpg"
+                                height="300" width="420" alt="">
+                            <p style="margin-top: 10px;" class="legend">Image source:
+                                https://www.medicalnewstoday.com/articles/318551#Symptoms-and-complications </p>
+                            <p class="subHeader">Folliculitis</p>
+                            <ul>
+                                <li>Pimples are located around hairs</li>
+                                <li> The surrounding area is red and inflamed
+                                </li>
+                                <li> Patients may have mild fever
+                                </li>
+                                <li> There is no excessive itching
+                                </li>
+                                <li> Folliculitis pimples are filled with pus
+                                </li>
+                                <li> There are no adult or immature insects
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="subSection" id="scabies"
+                        style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; ">
+                        <div class="column" style="width: 420px;">
+                            <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice4.jpg"
+                                height="300" width="420" alt="">
+                            <p style="margin-top: 10px;" class="legend">Image source:
+                                https://dermnetnz.org/topics/pubic-lice/
+                            </p>
+                            <p class="subHeader">Pubic lice bumps</p>
+                        </div>
+                        <div class="column" style="width: 420px;">
+                            <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice5.jpg"
+                                height="300" width="420" alt="">
+                            <p style="margin-top: 10px;" class="legend">Image source:
+                                https://www.medicinenet.com/image-collection/scabies_picture/picture.htm </p>
+                            <p class="subHeader">Scabies</p>
+                            <ul>
+                                <li> There is excessive itching
+                                </li>
+                                <li> The lesions are not necessarily located around hairs
+                                </li>
+                                <li> The bumps are raised and swollen
+                                </li>
+                                <li> There are no adult or immature insects on the skin
+                                </li>
+                                <li> Patients may notice wavy swollen lines on the skin’s surface
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="subSection" id="fungal_infection"
+                        style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between; ">
+                        <div class="column" style="width: 420px;">
+                            <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice6.jpg"
+                                height="300" width="420" alt="">
+                            <p style="margin-top: 10px;" class="legend">Image source:
+                                https://pubiclice101.weebly.com/signs--symptoms.html
+                            </p>
+                            <p class="subHeader">Pubic lice bumps</p>
+                        </div>
+                        <div class="column" style="width: 420px;">
+                            <img class="comparision_image" src="http://d12qz6jssicxsf.cloudfront.net/images/lice7.jpg"
+                                height="300" width="420" alt="">
+                            <p style="margin-top: 10px;" class="legend">Image source:
+                                https://middlesexhealth.org/learning-center/espanol/presentaciones-de-diapositivas/presentaci-n-de-diapositivas-erupciones-cut-neas-comunes
+                            </p>
+                            <p class="subHeader">Fungal infection</p>
+                            <ul>
+                                <li> There is excessive itching
+                                </li>
+                                <li>The lesions are not necessarily located around hairs
+                                </li>
+                                <li>These bumps are raised and swollen
+                                </li>
+                                <li>There are no adult or immature insects on the skin
+                                </li>
+                                <li>Patients may notice wavy swollen lines on the skin’s surface
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+
+                    <div class="subSection" id="treatment">
+                        <h3>Pubic lice treatment</h3>
+                        <p> If you suspect or know that you have pubic lice, seeing a doctor is recommended. He or
+                            she
+                            may test you for other STDs as well since they often co-exist with pubic lice. On the
+                            basis
+                            of your condition, the doctor will prescribe you one of the following treatment options.
+                        </p><br>
+                        <p>There are widely available over-the-counter medications that will help to get rid of
+                            pubic
+                            lice:6
+                        </p>
+                        <ul>
+                            <li>Lotions that contain 1% permethrin
+                            </li>
+                            <li>Mousses that contain pyrethrins and piperonyl butoxide
+                            </li>
+                        </ul>
+                        <p>Also, there are more-toxic products that can kill the nits. These are prescription
+                            medications and should not be considered as a first option. These medications include:
+                        </p>
+                        <ul>
+                            <li>Lindane shampoo (may have serious side effects, so should be used only by patients
+                                who
+                                were not able to successfully treat the condition with other medications)
+                            </li>
+                            <li>Malathion* lotion 0.5% (Ovide*). This medication is not approved by the US Food and
+                                Drug
+                                Administration (FDA)
+                            </li>
+                        </ul>
+                        <p class="subHeader">Follow-up treatment may be needed
+                        </p>
+                        <p>You will probably get rid of the adult lice with the help of medication. However, the
+                            nits
+                            may resist the medication and transform into adult lice after a few days, continuing the
+                            cycle.
+                        </p><br>
+                        <p>To ensure maximum effectiveness of the treatment, it is recommended that the anti-lice
+                            medication be reapplied seven days after the initial application. Patients should also
+                            make
+                            sure that there are no lice a week after the second application.3
+                        </p>
+                        <p class="subHeader">How pubic lice affect having sex
+                        </p>
+                        <p>You should avoid sex until you and your sexual partner(s) is/are treated. You can have
+                            sex as
+                            soon as you are pubic lice–negative in a follow-up evaluation.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>References</h3>
+                        <p>1. Crab louse - Wikiwand
+                        </p>
+                        <p>2. Pubic Lice Infestation (Crabs): Symptoms, Treatment, Causes
+                        </p>
+                        <p>3. Pubic lice - NHS
+                        </p>
+                        <p>4. CDC - Lice - Pubic “Crab” - General Information - Frequently Asked Questions (FAQs)
+                        </p>
+                        <p>5. CDC - Lice - Pubic “Crab” Lice - Treatment
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#general_info">General info</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#contraction">Ways of contraction</a> </li>
+                                    <li class="page_item"><a href="#symptoms">Symptoms</a> </li>
+                                    <li class="page_item"><a href="#who_gets_it">Who gets it</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item">
+                                <a href="#comparision">Comparison to other conditions</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#folliculitis">Folliculitis</a> </li>
+                                    <li class="page_item"><a href="#scabies">Scabies</a> </li>
+                                    <li class="page_item"><a href="#fungal_infection">Fungal infection</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#treatment">Treatment</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

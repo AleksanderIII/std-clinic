@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Everything you need to know about preventing HIV with PrEP</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/preventing_hiv.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> If you do not have HIV but are at high risk of getting it, the information in this article will
+                        be very useful to you.
+                    </p><br>
+                    <p>Pre-exposure prophylaxis for HIV (PrEP) prevents HIV in people who are at high risk for HIV but
+                        who are HIV-negative. For best results, the medication should be taken every day.<sup>1</sup>
+                    </p><br>
+                    <p>We summarize below the following important information about PrEP:
+                    </p>
+                    <ul>
+                        <li>Who should get PrEP</li>
+                        <li>How effective PrEP is</li>
+                        <li>How soon it starts working</li>
+                        <li>What happens if doses are missed</li>
+                        <li>The advantages and disadvantages of the two main PrEP medications
+                        </li>
+                        <li>Using PrEP to avoid getting HIV from planned one-time sex
+                        </li>
+                        <li>What tests are needed
+                        </li>
+                        <li>The low (sometimes zero) cost of PrEP
+                        </li>
+                        <li>How you can get PrEP
+                        </li>
+                    </ul>
+                    <div class="subSection" id="prep_effectiveness">
+                        <h3>PrEP is effective</h3>
+                        <p> It has been proven that for people at high risk of acquiring HIV through sex, PrEP is 99%
+                            effective at preventing HIV if the medication is taken every day (seven doses per week). It
+                            is 74% effective (if taken daily) for HIV prevention after injecting drugs. Its
+                            effectiveness is lower if it is taken not regularly.<sup>1</sup>
+                        </p>
+                        <ul>
+                            <li>Daily use of PrEP (seven days per week) is 99% effective.
+                            </li>
+                            <li>If the medication is taken four times a week, it is 96% effective at preventing
+                                contraction of HIV through anal sex.
+                            </li>
+                            <li>If taken only two times a week, its effectiveness drops to 75% for men and even lower
+                                for women.<sup>2, 3</sup>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection" id="missed_doses">
+                        <h3>HPrEP medication should be taken regularly</h3>
+                        <p> Four doses of PrEP per week are sufficient for reliable prevention of HIV in people who are
+                            having anal sex. Put another way, PrEP is highly effective if you are having anal sex and
+                            you miss fewer than 3 doses per week (not more than 12 doses per month).<sup>4</sup> For
+                            women having
+                            vaginal sex, PrEP is 85% effective when 6 of 7 doses a week are taken, suggesting that daily
+                            usage (7 doses a week) is a must for reliable prevention. Try not to miss more than one dose
+                            per week (three to four doses per month) if you are having vaginal sex.<sup>3, 5</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="become_effective">
+                        <h3>PrEP is not immediately effective</h3>
+                        <p>For people who have anal sex, PrEP becomes highly effective after seven days if it is taken
+                            every day. It takes longer to become effective—21 days of daily use—to be effective at
+                            preventing HIV after injection of drugs or in people having vaginal sex. And you should be
+                            aware that this data applies only to the partner having receptive sex (i.e., receiving the
+                            penis) because there is no accurate data for the partner having insertive sex (i.e.,
+                            inserting the penis).</p>
+                    </div>
+                    <div class="subSection" id="truvada_descovy">
+                        <h3>Advantages and disadvantages of Truvada and Descovy</h3>
+                        <p> Truvada and Descovy are the primary medications used for PrEP and, in combination with other
+                            agents, HIV treatment. Descovy is a modified version of Truvada and has several advantages:
+                        </p>
+                        <ul>
+                            <li>Descovy is less toxic to kidneys and bone tissue than Truvada
+                            </li>
+                            <li>Descovy is slightly more effective (99.7% compared to 99.4%)
+                            </li>
+                            <li>A lower dosage of Descovy is necessary to achieve the same effect, which explains why it
+                                is less toxic
+                            </li>
+                            <li>The Descovy pill is smaller and therefore easier to swallow
+                            </li>
+                        </ul>
+                        <p>Descovy’s disadvantage is that it cannot be used as <u>PrEP for the prevention of HIV</u>
+                            acquisition through vaginal intercourse (it is not approved for that use).<sup>6</sup>
+                            Truvada can be used for that purpose.
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th>Side effects</th>
+                                        <th>Truvada<sup>7</sup></th>
+                                        <th>Descovy<sup>8</sup></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Most common side effects</td>
+                                        <td>
+                                            <ul style="margin-left: 0;">
+                                                <li>Headache</li>
+                                                <li>Pain in abdomen</li>
+                                                <li>Weight loss</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul style="margin-left: 0;">
+                                                <li>Headache</li>
+                                                <li>Pain in abdomen</li>
+                                                <li>Diarrhea</li>
+                                                <li>Nausea</li>
+                                                <li>Fatigue</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Serious side effects</td>
+                                        <td>
+                                            <ul style="margin-left: 0;">
+                                                <li>HBV exacerbation</li>
+                                                <li>Kidney failure</li>
+                                                <li>Liver damage</li>
+                                                <li>Loss of bone mineral density (mainly during the first 6
+                                                    months)<sup>9</sup>
+                                                </li>
+                                                <li>Acumuliation of the lactic acid in the body
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul style="margin-left: 0;">
+                                                <li>HBV exacerbation</li>
+                                                <li>Kidney failure (less prominent)</li>
+                                                <li>Liver damage</li>
+                                                <li>Acumuliation of the lactic acid in the body</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subSection" id="whose_prep">
+                        <p class="subHeader">Who should take PrEP</p>
+                        <p>Consider taking PrEP if you are <b>homosexual or bisexual</b> and:
+                        </p>
+                        <ul>
+                            <li>Your partner is diagnosed with HIV</li>
+                            <li>You are having sexual intercourse with several partners
+                            </li>
+                            <li>Your partner is having sexual intercourse with several partners
+                            </li>
+                            <li>You had unprotected anal sex with several partners whose HIV status is unknown
+                            </li>
+                            <li>You acquired an STD during the last six months
+                            </li>
+                            <li>You inject drugs and share needles for injecting them
+                            </li>
+                        </ul>
+                        <p>Consider taking PrEP if you are heterosexual and:
+                        </p>
+                        <ul>
+                            <li>Your partner is diagnosed with HIV
+                            </li>
+                            <li>You are having sexual intercourse with several partners
+                            </li>
+                            <li>Your partner is having sexual intercourse with several partners
+                            </li>
+                            <li>You had unprotected sex with a bisexual male partner
+                            </li>
+                            <li>You had unprotected sex with a person who injects drugs
+                            </li>
+                            <li>You inject drugs and share needles for injecting them<sup>10</sup>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="planned_exposure">
+                        <p class="subHeader">Using PrEP when you are planning one-time sex that might expose you to HIV
+                        </p>
+                        <p>Based on recent clinical trials, if you are a man who has sex with men and you are planning a
+                            one-time sexual encounter that might expose you to HIV, you can take Truvada (not Descovy)
+                            on a 2-1-1 schedule.
+                        </p><br>
+                        <p>Two Truvada pills should be taken 2–24 hours before you have sex, followed by one pill each
+                            day for the next two days.<sup>11</sup>
+                        </p><br>
+                        <p>If you are planning to have sex on several days, take two pills 2–24 hours before having sex,
+                            take one pill on each additional day that you have sex, and then continue taking one pill
+                            daily for two more days after the last time you have sex.<sup>9</sup>
+                        </p>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/preventingHIV1.jpg" width="343"
+                            height="233" alt="">
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/preventingHIV2.jpg" width="615"
+                            height="246" alt="">
+                    </div>
+                    <div class="subSection" id="getting_prescription">
+                        <p class="subHeader">How you can get PrEP medication</p>
+                        <p>PrEP must be prescribed by a physician. Our healthcare providers will be happy to answer all
+                            your questions and perform all the tests you should have before beginning PrEP medication.
+                        </p>
+                    </div>
+                    <div class="subSection" id="prep_cost">
+                        <p class="subHeader">The cost of PrEP</p>
+                        <p>Health insurance covers all the costs related to PrEP medication. Gilead’s Advancing Access
+                            program makes medicine even more affordable, regardless of insurance. If you meet the
+                            eligibility criteria, your co-pay (lab tests, doctor visits, and medication) may be $0.
+                        </p>
+                    </div>
+                    <div class="subSection" id="test_before_prep">
+                        <p class="subHeader">Necessary tests</p>
+                        <p>PrEP can be prescribed only to people who are HIV-negative. Therefore, you should get tested
+                            for HIV before the initiation of PrEP. Fourth-generation combined antigen/antibody tests or
+                            viral load tests are commonly used for this purpose. Rapid tests are not suggested.9 For
+                            accurate results, stop having sex for at least two to three weeks and then get tested with
+                            fourth-generation combined tests; if you are HIV-negative, you can start PrEP. Note that
+                            PrEP doesn’t protect you from other STDs or pregnancy. Therefore, you are encouraged to use
+                            condoms while taking PrEP.
+                        </p><br>
+                        <p>You should retake the HIV detection test three months after receiving PrEP.
+                        </p><br>
+                        <p>As mentioned above, PrEP medications can be toxic to kidneys. Therefore, your creatinine
+                            level should also assessed to evaluate how well your kidneys are functioning.
+                        </p>
+                    </div>
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p>1. Pre-Exposure Prophylaxis (PrEP) | HIV Risk and Prevention | HIV/AIDS | CDC.
+                        </p>
+                        <p>2. PrEP: Answers About Pre-Exposure Prophylaxis for HIV. WebMD
+                        </p>
+                        <p>3. A Translational Pharmacology Approach to Predicting Outcomes of Preexposure Prophylaxis
+                            Against HIV in Men and Women Using Tenofovir Disoproxil Fumarate With or Without
+                            Emtricitabine - PubMed.
+                        </p>
+                        <p>4. Grant RM, Anderson PL, McMahan V, et al. Uptake of pre-exposure prophylaxis, sexual
+                            practices, and HIV incidence in men and transgender women who have sex with men: A cohort
+                            study. Lancet Infect Dis.
+                        </p>
+                        <p>5. Administration of pre-exposure prophylaxis against HIV infection - UpToDate.
+                        </p>
+                        <p>6. PrEP | HIV Basics | HIV/AIDS | CDC.
+                        </p>
+                        <p>7. TRUVADA for PrEP® Side Effects.
+                        </p>
+                        <p>8. Learn About Different Uses for DESCOVY®.
+                        </p>
+                        <p>9. Patient evaluation and selection for HIV pre-exposure prophylaxis - UpToDate.
+                        </p>
+                        <p>10. Pre-Exposure Prophylaxis | HIV.gov.
+                        </p>
+                        <p>11. “On-Demand” Dosing for PrEP: Guidance for Medical Providers.
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#prep_effectiveness">PrEP effectiveness</a>
+                            </li>
+                            <li class="page_item"><a href="#missed_doses">Effectiveness with missed doses</a> </li>
+                            <li class="page_item"><a href="#become_effective">How soon it becomes effective?</a>
+                            </li>
+                            <li class="page_item"> <a href="#truvada_descovy">Truvada vs Descovy</a> </li>
+                            <li class="page_item"><a href="#whose_prep">Is PrEP for me?</a> </li>
+                            <li class="page_item"><a href="#planned_exposure">One-time planned exposure PrEP</a> </li>
+                            <li class="page_item"><a href="#getting_prescription">Getting prescription</a> </li>
+                            <li class="page_item"><a href="#prep_cost">PrEP cost coverage</a> </li>
+                            <li class="page_item"><a href="#test_before_prep">Any test before starting PrEP?</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

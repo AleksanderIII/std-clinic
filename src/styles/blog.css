@@ -562,4 +562,18 @@ h3~p.subHeader {
         visibility: hidden;
     }
 
+    .column {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .column .legend{
+        word-break: break-all;
+    }
+
+    .comparision_image {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
 }

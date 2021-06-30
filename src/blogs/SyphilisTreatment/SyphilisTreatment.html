@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Syphilis treatment options: after exposure vs. after
+                a positive test</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/syphilis_treatment_options.jpg" width="1140"
+                height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <div class="subSection" id="introduction">
+                        <h3 style="margin-top: 0;">Introduction</h3>
+                        <p><u>Syphilis</u> is a highly contagious bacterial infection. There are more than 10.6 cases of
+                            it
+                            worldwide every year.<sup>1</sup>
+                        </p><br>
+                        <p>Though syphilis is potentially life-threatening, it is easily treated if diagnosed early.
+                            That’s why it’s essential to visit the <u>STD clinic</u> as soon as you realize you might
+                            have been
+                            exposed to this infection.
+                        </p><br>
+                        <p>In this article, we summarize facts about syphilis that you might like to know.
+                        </p><br>
+                        <p>You will learn how syphilis is distributed among males who have sex with men, heterosexual
+                            males, males who don’t specify their partner’s gender, and women.
+                        </p><br>
+                        <p>And we’ll also tell you:
+                        </p>
+                        <ul>
+                            <li>How likely you are to get syphilis from one sexual act if you are heterosexual or
+                                homosexual
+                            </li>
+                            <li>When syphilis is contagious
+                            </li>
+                            <li>How urgent and effective treatment is
+                            </li>
+                            <li>When you can have sex again
+                            </li>
+                        </ul>
+                        <p>And finally, we’ll describe the treatments available right after sex (before you’ve been
+                            tested) and after a positive test.
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="prevalence">
+                        <h3>Syphilis’s prevalence</h3>
+                        <p class="subHeader">In the United States</p>
+                        <p>In 2018, over 115,000 syphilis cases were reported in the United States. One-third (more than
+                            38,000) were classified as primary or secondary syphilis.<sup>2</sup>
+                        </p><br>
+                        <p>See the table below for more information about the prevalence of syphilis (2015 estimates).
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width: 200px;">Sexual behavior</th>
+                                        <th style="min-width: 200px;">Prevalence (among all cases)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Males who have sex with men (MSM)</td>
+                                        <td style="text-align: center;">60%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Heterosexual males</td>
+                                        <td style="text-align: center;">13%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Males who don’t specify their partner’s gender</td>
+                                        <td style="text-align: center;">17%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Women</td>
+                                        <td style="text-align: center;">10%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="subHeader">In NYC</p>
+                        <p>In New York City there were about 2,654 cases of syphilis in 2018. This is about 12.7% higher
+                            than in 2017. The increase is most noticeable among homosexual males (the number has almost
+                            doubled in recent years).<sup>3</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="chance_being_infected">
+                        <p class="subHeader">The chance of getting syphilis from a single sexual act</p>
+                        <p>The following table presents estimates of the risk of acquiring syphilis through one sexual
+                            act for heterosexuals and homosexuals.
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width: 200px;">Type of Sexual Intercourse</th>
+                                        <th style="min-width: 200px;">Chance of Per-Act Transmission</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Heterosexual</td>
+                                        <td style="text-align: center;">20.6%-66.7%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Homosexual</td>
+                                        <td style="text-align: center;"> 30%-60%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="subHeader">When syphilis is contagious</p>
+                        <p>The likelihood of syphilis transmission largely depends on the stage of the infection and the
+                            presence of a syphilis lesion (chancre). It is most infectious in the first stage of the
+                            disease (primary syphilis), when the <u>syphilitic lesion</u> appears (from 10 to 90 days
+                            after
+                            exposure). This lesion is painless and is located in the area of the body where the
+                            infectious agent (bacteria) entered it.
+                        </p>
+                    </div>
+                    <div class="subSection" id="what_to_do">
+                        <h3>What to do if you’re exposed to syphilis</h3>
+                        <p> Anyone who may have had sexual intercourse with a syphilis-positive partner can get
+                            post-exposure prophylaxis for syphilis:<sup>3</sup>
+                        </p><br>
+                        <ul>
+                            <p>1. Shot of penicillin (within 3 months of exposure)</p>
+                            <br>
+                            <p>OR</p> <br>
+                            <p> 2. Tablets of doxycycline (within 24 hours of exposure) in order to prevent the
+                                development
+                                of the disease <sup>3</sup>
+                            </p>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="treatment_options">
+                        <p class="subHeader">Treatment before or after testing</p>
+                        <p> You can be treated for syphilis before or after you test positive for it, and people choose
+                            differently depending on their circumstances.
+                        </p>
+                        <p class="bold-text"> If you decide not to take the medication:
+                        </p>
+                        <p> Some people prefer not to take medication unless they know they have a disease. This is the
+                            ideal way of dealing with any condition.
+                        </p><br>
+                        <p> If you choose this option, you need to stop having sex (and be OK with that) for three
+                            months after exposure because a syphilis test is not reliable until then.
+                        </p>
+                        <p class="bold-text"> If you decide to take the medication:
+                        </p>
+                        <p> There are a few things you should keep in mind if you make this decision:
+                        </p>
+                        <ul>
+                            <li> You might be taking the medication unnecessarily
+                            </li>
+                            <li> You might be exposing yourself to side effects (though the risk is extremely low with a
+                                one-time dose)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subHeader" id="post-exposure_treatment">
+                        <p class="subHeader"> Post-exposure treatment is not urgent
+                        </p>
+                        <p> It is ideal to be treated sooner rather than later but it is not an urgent matter (not
+                            an
+                            emergency). Post-exposure treatment is not extremely time-sensitive and can be given
+                            later.
+                        </p>
+                        <p class="subHeader"> Treatment will be effective if you had risky sex last night
+                        </p>
+                        <p> Two doxycycline (100 mg) oral tablets taken within 24 hours of sexual intercourse may
+                            decrease the risk of syphilis acquisition by over 73%.<sup>3, 5</sup>
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="effectiveness">
+                        <p class="subHeader"> The effectiveness of preventative treatment
+                        </p>
+                        <p> The effectiveness of post-exposure prophylactic medication varies depending on the
+                            treatment
+                            option.
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%;" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width: 200px;">Medication</th>
+                                        <th style="min-width: 200px;"> Effectiveness</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Penicillin</td>
+                                        <td style="text-align: center;">95%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Doxycycline</td>
+                                        <td style="text-align: center;">73%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="subSection" id="sex">
+                        <p class="subHeader"> Sex can resume two weeks after treatment
+                        </p>
+                        <p>You can have sex two weeks after finishing the treatment. Please note that to avoid
+                            giving
+                            syphilis to someone else, it is essential to avoid even skin-to-skin contact and
+                            protected
+                            sex during the treatment period and to stop having sex until two weeks after the end of
+                            treatment.
+                        </p>
+                    </div>
+                    <div class="subSection" id="testing_after">
+                        <p class="subHeader">Testing after preventative treatment
+                        </p>
+                        <p>You should have follow-up testing three months after finishing the prophylactic
+                            treatment.
+                            You can easily <u>book an appointment online</u> and have an examination and testing on
+                            any
+                            day you wish (weekends included).
+                        </p>
+                    </div>
+                    <div class="subSection" id="positive_syphilis">
+                        <h3>What to do if you have a positive syphilis test</h3>
+                    </div>
+                    <div class="subSection" id="penicilin_dosages">
+                        <p class="subHeader">Penicillin dosage</p>
+                        <p> The amount of penicillin you’ll need largely depends on how long it’s been since you were
+                            infected. Please see the table below.<sup>3</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%;" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width: 200px;">Time Since Positive Test</th>
+                                        <th style="min-width: 200px;"> Number of Penicillin Shots</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Less than 1 year</td>
+                                        <td style="text-align: center;">1</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">More than 1 year</td>
+                                        <td style="text-align: center;">3</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subSection" id="allergic_treatment">
+                        <p class="subHeader"> Treatment options for people allergic to penicillin
+                        </p>
+                        <p>People who are allergic to penicillin have two treatment options:<sup>4</sup>
+                        </p>
+                        <ul>
+                            <li>Doxycycline (100mg) oral tablets <br><br>
+                                Twice a day for two weeks <br><br>
+                                OR <br><br></li>
+                            <li>Tetracycline (500mg) <br><br>
+                                Four times a day for two weeks </li>
+                        </ul>
+
+                        <p><b>Note:</b> Pregnant women cannot get either of these treatments. They should be
+                            desensitized and then get a shot of penicillin.
+                        </p>
+                    </div>
+                    <div class="subSection" id="treatment_effectiveness">
+                        <p class="subHeader">Treatment is quite effective</p>
+                        <p>Please see the table below for information about the effectiveness of treatment alternatives.
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th style="min-width: 200px;">Medication</th>
+                                        <th style="min-width: 200px;">Effectiveness</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Penicillin</td>
+                                        <td style="text-align: center;">95%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Doxycycline</td>
+                                        <td style="text-align: center;">83%-100%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Tetracycline</td>
+                                        <td style="text-align: center;">83-100%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="subHeader"> It’s best to start treatment immediately, but it’s not urgent
+                        </p>
+                        <p>It’s not necessary to start treatment immediately. However, syphilis is a progressive
+                            disease, so the earlier you begin treatment , the easier and quicker the treatment will be.
+                            The more time the passes, the more time it will take to cure the infection.
+                        </p>
+                    </div>
+                    <div class="subSection" id="testing_after_treatment">
+                        <p class="subHeader">How soon you should be tested
+                        </p>
+                        <p>The CDC recommends that patients have follow-up <u>syphilis testing</u> six and twelve months
+                            after treatment ends. <sup>4</sup>
+                        </p><br>
+                        <p>Pregnant women and MSM should consider screening: <sup>3</sup></p><br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/syphilis_treatment_scheme.jpg" width="530"
+                            height="300" alt="">
+                    </div>
+                    <div class="subSection" id="sex_again">
+                        <p class="subHeader">When you can have sex again</p>
+                        <p>You can have sex 14 days after treatment is completed.
+                        </p> <br>
+                        <p>However, if your partner has not been treated for syphilis, he or she may infect you again.
+                            It is essential that sexual partners of infected persons be treated to prevent further
+                            reinfection.
+                        </p>
+                    </div>
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p>1. Syphilis transmission: a review of the current evidence. NCBI
+                        </p>
+                        <p>2. STD Facts - Syphilis (Detailed).CDC
+                        </p>
+                        <p>3. The Great Imitator Revealed: Syphilis. NCBI
+                        </p>
+                        <p>4. Syphilis - 2015 STD Treatment Guidelines. CDC
+                        </p>
+                        <p>5. Impact of the Daily Doxycycline Pre-exposure Prophylaxis (PrEP) on the Incidence of
+                            Syphilis, Gonorrhoea and Chlamydia - Full Text View - ClinicalTrials
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#introduction">Introduction</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#prevalence">Syphilis prevalence</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#chance_being_infected">The chance of being
+                                            infected</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#what_to_do">What to do after syphilis exposure</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#treatment_options">Post-exposure treatment
+                                            options</a> </li>
+                                    <li class="page_item"><a href="#post-exposure_treatment">When post-exposure
+                                            treatment should
+                                            begin</a> </li>
+                                    <li class="page_item"><a href="#effectiveness">Effectiveness of treatment</a> </li>
+                                    <li class="page_item"><a href="#sex">Sex during and after treatment</a>
+                                    </li>
+                                    <li class="page_item"><a href="#testing_after">Testing after treatment</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#positive_syphilis">What to do after a positive syphilis
+                                    test</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#penicilin_dosages">Penicillin dosages</a> </li>
+                                    <li class="page_item"><a href="#allergic_treatment">Treatment if allergic to
+                                            penicillin</a> </li>
+                                    <li class="page_item"><a href="#treatment_effectiveness">Treatment effectiveness</a>
+                                    </li>
+                                    <li class="page_item"><a href="#testing_after_treatment">Testing after treatment</a>
+                                    </li>
+                                    <li class="page_item"><a href="#sex_again">Sex during and after treatment</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Can a “hand job” cause an STD?</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/hand_job_std.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> The chance of getting a sexually transmitted disease (STD) from a “hand job” depends on several
+                        factors and varies from one STD to another.
+                    </p><br>
+                    <p>This article, using some photos for clarity, discusses what medical science knows about the
+                        relationship between hand jobs and the following STDs:
+                    </p>
+                    <ul>
+                        <li><u>HPV</u></li>
+                        <li><u>Herpes (HSV)</u></li>
+                        <li>Molluscum</li>
+                        <li><u>Chlamydia</u></li>
+                        <li><u>Gonorrhea</u></li>
+                        <li>HIV</li>
+                    </ul>
+                    <p>We also cover:</p>
+                    <ul id="getting">
+                        <li>Which STDs can be acquired from towels, and which cannot
+                        </li>
+                        <li>Myths about preventing STDs
+                        </li>
+                        <li>The symptoms that mean you need to be tested
+                        </li>
+                        <li>Basic safety measures
+                        </li>
+                    </ul>
+                    <div class="subSection" id="hpv">
+                        <h3>Hand jobs and HPV</h3>
+                        <p> It is possible to get HPV if you had close skin-to-skin contact with an infected person or
+                            your partner used vaginal secretions for penile stimulation. HPV is highly contagious—it can
+                            invade even healthy unbroken skin. During a hand job, skin and mucous membrane integrity can
+                            easily be impaired (for example, because of long fingernails or rough movement)․ This
+                            promotes the spread of the virus.<sup>1</sup>
+                        </p><br>
+                        <p>Otherwise, it is not likely that you will get HPV from a hand job.<sup>2</sup>
+                        </p><br>
+                        <p class="bold-text">Hand warts are not caused by the same type of HPV virus as genital warts,
+                            so you won’t get
+                            genital HPV if your partner has hand warts.
+                        </p>
+
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/after_hand_job.jpg" width="578"
+                            height="392" alt="">
+                        <p class="legend">Warts, Image source :
+                            https://www.webmd.com/children/ss/slideshow-common-childhood-skin-problems</p>
+                    </div>
+
+                    <div class="subSection" id="herpes">
+                        <h3>Hand jobs and herpes</h3>
+                        <p> It is possible to acquire herpes (HSV) if your partner is infected and used saliva or
+                            vaginal secretions for stimulating your penis or touched his or her genital sores before
+                            touching your genitals.3 The infective capacity of HSV in saliva does not change at room
+                            temperature for up to 30 minutes.<sup>4, 5</sup>
+                        </p><br>
+                        <p>HSV transmission is also possible if your partner has herpetic blisters on his or her fingers
+                            (herpetic whitlow). That is not a common condition: 2.4 cases per 100,000 people are
+                            reported each year.<sup>6</sup>
+                        </p><br>
+                        <p>In general, herpetic lesions are rather painful, and people usually avoid touching the sores
+                            or using an affected hand. But you can be infected when no sores are visible, even when the
+                            other person is not aware of being infected (“silent shedding”).<sup>7</sup>
+                        </p><br>
+                        <div
+                            style="display: flex; flex-direction: row; justify-content: space-between; width: 100%; flex-wrap: wrap;">
+                            <img style="margin-bottom: 15px;"
+                                src="http://d12qz6jssicxsf.cloudfront.net/images/after_hand_job2.jpg" width="410"
+                                height="273" alt="">
+                            <img style="margin-bottom: 15px;"
+                                src="http://d12qz6jssicxsf.cloudfront.net/images/after_hand_job3.jpg" width="410"
+                                height="273" alt="">
+                        </div>
+                        <p class="legend">Herpetic whitlow (whitlow finger) - NHS, Image source:
+                            https://www.nhs.uk/conditions/herpetic-whitlow/</p>
+                    </div>
+                    <div class="subSection" id="molluscum">
+                        <h3>Hand jobs and molluscum</h3>
+                        <p>You can get molluscum through direct skin-to-skin contact. It can be spread by a person
+                            touching and damaging their own skin lesions before touching your genitals. It is also
+                            possible to get molluscum through infected objects.<sup>8</sup> </p><br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/after_hand_job4.jpg" width="505"
+                            height="337" alt=""><br><br>
+                        <p class="legend">Molluscum contagiosum -NHS, Image source:
+                            https://www.nhs.uk/conditions/molluscum-contagiosum/symptoms/</p>
+                    </div>
+                    <div class="subSection" id="chlamydia">
+                        <h3>Should I be concerned about Chlamydia?</h3>
+                        <p>You cannot get chlamydia from a hand job. Chlamydia can be spread only through the mucous
+                            membranes of the penis when the urethra (the tube inside the penis) is exposed to infected
+                            vaginal fluids.<sup>9</sup> Skin condition is not relevant.</p>
+                    </div>
+                    <div class="subSection" id="gonorrhea">
+                        <h3>Can I get Gonorrhea?</h3>
+                        <p>Gonorrhea is not transmitted via hand jobs. It is transmitted only by the mucous membranes of
+                            the urethra (inside the penis) being exposed to infected vaginal fluids.<sup>10</sup>
+                            Gonorrhea barely
+                            survives in a dry environment. And nonsexual transmission via toilet seats and towels in
+                            adults is not possible.<sup>11</sup> </p>
+                    </div>
+                    <div class="subSection" id="hiv">
+                        <h3>Is there a risk of HIV with a hand job?</h3>
+                        <p>The likelihood of getting HIV through a hand job is extremely low. However, it may be
+                            possible if your infected partner had a cut on her finger or used her vaginal secretions to
+                            stimulate your genitals. To contract HIV , either the mucous membrane of the tip of the
+                            penis or micro lesions of the skin must be exposed to blood or infected vaginal
+                            fluids.<sup>12, 13</sup> HIV cannot be contracted through towels, saliva, tears, or sweats
+                            because it doesn’t survive
+                            in the air.<sup>13</sup></p>
+                    </div>
+                    <div class="subSection" id="getting_through_towels">
+                        <h3>Can I contract STDs from towels?</h3>
+                        <ul>
+                            <li> There are reported cases of trichomoniasis being acquired from towels<sup>14</sup>
+                            </li>
+                            <li>You can get molluscum from towels<sup>15</sup>
+                            </li>
+                            <li>HIV cannot be contracted via towels because it doesn’t survive in the air<sup>13,
+                                    16</sup>
+                            </li>
+                            <li>It is not possible to acquire chlamydia, gonorrhea, or HSV from towels<sup>11, 17</sup>
+                            </li>
+                            <li>It is still unclear whether HPV can be transmitted through towels. One study indicated
+                                that it might be possible, but in other studies this hypothesis was not
+                                confirmed<sup>18, 19</sup>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="myth">
+                        <h3>Myths about STD prevention</h3>
+                        <p> Unfortunately, you can’t prevent STDs by doing any of these things:
+                        </p>
+                        <ul>
+                            <li>Washing the genitals</li>
+                            <li>Douching</li>
+                            <li>Urinating after intercourse<sup>20</sup></li>
+                        </ul>
+                        <p>These measures help prevent urinary tract infections, not STDs.
+                        </p>
+                    </div>
+                    <div class="subSection" id="when_get_tested">
+                        <h3>When should I get tested?</h3>
+                        <p> Contact your healthcare provider if you have any concerns, and get tested if you have any of
+                            these signs and symptoms:<sup>21</sup>
+                        </p>
+                        <ul>
+                            <li>Painful urination</li>
+                            <li> Frequent urination</li>
+                            <li> Unusual discharge from the genitals
+                            </li>
+                            <li> Warts, blisters or sores on the genitals
+                            </li>
+                            <li> Itching or redness of the genitals
+                            </li>
+                            <li> Abdominal pain
+                            </li>
+                            <li> Elevated temperature
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection">
+                        <h3>Safety measures to follow</h3>
+                        <ul>
+                            <li> Always ask your sexual partners to wash their hands with soap before giving you a hand
+                                job
+                            </li>
+                            <li>Ask them to touch their genitals with the other hand
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p>1. Genital Warts and Human Papillomavirus Infection (HPV) - College of Charleston.
+                        </p>
+                        <p>2. Malagón T, Louvanto K, Wissing M, et al. Hand-to-genital and genital-to-genital
+                            transmission
+                            of human papillomaviruses between male and female sexual partners (HITCH): a prospective
+                            cohort study. Lancet Infect Dis. 2019;
+                        </p>
+                        <p>3. STD Facts - Genital Herpes (Detailed version). CDC
+                        </p>
+                        <p>4. Bardell D. Survival of Herpes Simplex Virus Type 1 on Some Common Foods Routinely Touched
+                            before Consumption. J Food Prot.
+                        </p>
+                        <p>5. Survival of Herpes Simplex Virus Type 1 in Saliva and Tap Water Contaminating Some Common
+                            Objects - PubMed.
+                        </p>
+                        <p>6. Betz D, Fane K. Herpetic Whitlow. StatPearls Publishing;
+                        </p>
+                        <p>7. National Center for HIV C, Hepatitis V, Prevention T, of STD Prevention D. Genital Herpes
+                            –
+                            CDC Fact Sheet.
+                        </p>
+                        <p>8. Molluscum contagiosum - NHS.
+                        </p>
+                        <p>9. Chlamydia |. Asha sexual health
+                        </p>
+                        <p>10. Gonorrhea |. Asha sexual health
+                        </p>
+                        <p>11. Gonorrhoea - NHS.
+                        </p>
+                        <p>12. The Basics of HIV Prevention | Understanding HIV/AIDS | AIDSinfo.
+                        </p>
+                        <p>13. HIV Transmission | HIV Basics | HIV/AIDS | CDC.
+                        </p>
+                        <p>14. Kandamuthan S, Thambi R, Yeshodharan J. Trichomoniasis: Is it always sexually
+                            transmitted?
+                            Indian J Sex Transm Dis AIDS.
+                        </p>
+                        <p>15. Transmission | Molluscum Contagiosum | Pox viruses | CDC.
+                        </p>
+                        <p>16. HIV & AIDS | Petersen Clinics.
+                        </p>
+                        <p>17. Chlamydia - NHS. https://www.nhs.uk/conditions/chlamydia/. Accessed March 27, 2020.
+                        </p>
+                        <p>18. High-risk Human Papilloma Virus Infection of the Foreskin in Asymptomatic Boys - PubMed.
+                        </p>
+                        <p>19. Possible non‐sexual modes of transmission of human papilloma virus - Sabeena - 2017 -
+                            Journal
+                            of Obstetrics and Gynaecology Research
+                        </p>
+                        <p>20. Genital HPV. CDC
+                        </p>
+                        <p>21. What are the symptoms of sexually transmitted diseases (STDs) or sexually transmitted
+                            infections (STIs)? | NICHD - Eunice Kennedy Shriver National Institute of Child Health and
+                            Human Development.
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#getting"> Hand job and getting:</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#hpv">HPV</a> </li>
+                                    <li class="page_item"><a href="#herpes">Herpes</a> </li>
+                                    <li class="page_item"><a href="#molluscum">Molluscum</a> </li>
+                                    <li class="page_item"><a href="#chlamydia">Chlamydia</a> </li>
+                                    <li class="page_item"><a href="#gonorrhea">Gonorrhea</a> </li>
+                                    <li class="page_item"><a href="#hiv">HIV</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#getting_through_towels">Getting STD through towels</a> </li>
+                            <li class="page_item"><a href="#myth">Myth about STDs</a>
+                            </li>
+                            <li class="page_item"> <a href="#when_get_tested">When should I get tested?</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
