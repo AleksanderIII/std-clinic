@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../articles/cold-sores-versus-canker-sores.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='/articles/how-i-contracted-herpes-HSV-1-and-HSV-2.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Who is to blame for my herpes? <br>
+                (Here are some real-world stories.)</h2>
+            <img style="margin: 0 auto; display: block;"
+                src="http://d12qz6jssicxsf.cloudfront.net/images/herpes_blame.png" width="1140" height="540" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> We have been helping herpes-positive patients for more than 17 years.
+                    </p><br>
+                    <p>Once a herpes diagnosis is made, it’s typically followed by embarrassment, frustration, and even
+                        anger. This article will explain why a newly diagnosed person shouldn’t jump to the conclusion
+                        that infidelity by their current partner is to blame for their STD.
+                    </p><br>
+                    <p>How herpes is transmitted from one person to another is complex.
+                    </p><br>
+                    <p>People tend to scrutinize their life and especially their current relationship. They have a lot
+                        of questions.
+                    </p>
+                    <ul>
+                        <li>I was always careful; how could I get it?</li>
+                        <li>Is my partner cheating on me?</li>
+                        <li>Who gave it to me?</li>
+                    </ul>
+                    <p>It’s outside the scope of this short article to discuss these questions in great detail, but we
+                        can explain the most common scenarios that we’ve seen in our practice.
+                    </p>
+                    <br>
+                    <p>(For the sake of confidentiality, we won’t disclose real names or specific life situations.)</p>
+                    <br>
+                    <p>Dr. Fuzayloff (his patients call him “Dr. F”) will briefly explain some possibilities.
+                    </p>
+
+                    <div class="subSection" id="case1">
+                        <h3>Case #1. A person who didn’t know they had it passed it to their partner.</h3>
+                        <p> A 25-year-old woman named Julia came to the office with a genital skin rash that she had
+                            never had before. A herpes swab test came back positive for herpes (HSV-2).
+                        </p><br>
+                        <p>She confronted her boyfriend, Tony, whom she’d been dating for nine months.
+                        </p><br>
+                        <p>Tony is a young professional who denied having sex outside of his current relationship with
+                            Julia. He also said the following:
+                        </p>
+                        <ul>
+                            <li>He’s been fully tested for STDs after each relationship ended (and he’s had only three
+                                carefully selected long-term partners in his life).
+                            </li>
+                            <li>He hasn’t ever had herpes symptoms.
+                            </li>
+                        </ul>
+                        <p>We gave Tony the HSV-2 test (IgG), and it came back positive for herpes.
+                        </p><br>
+                        <p><b>Conclusion:</b> Julia got herpes from Tony. Though he’d never had any symptoms, he shed
+                            the virus
+                            silently.
+                        </p><br>
+                        <p><b><i>Dr. F’s Explanation</i></b></p><br>
+                        <p><i>Julia contracted HSV-2 from James. I trusted Tony and I believe that he’s being honest
+                                with Julia.</i>
+                        </p>
+                        <ul>
+                            <li><i>It’s very common for people to have herpes and not know about it. Only 20% of
+                                    herpes-positive people have symptoms. Most people are asymptomatic for life.</i>
+                            </li>
+                            <li><i>You don’t need to have a herpes outbreak to pass the infection. It can be passed
+                                    through
+                                    silent herpes shedding. This means that James could have passed it to Julia without
+                                    having symptoms.</i>
+                            </li>
+                            <li><i>When people get “fully tested” for STDs, the testing might not include a herpes test.
+                                    The CDC doesn’t recommend routine herpes testing. And James’s past test results
+                                    didn’t
+                                    show that herpes testing was performed.</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="case2">
+                        <h3>Case #2. I have a herpes outbreak and I blamed my partner, but he’s negative.</h3>
+                        <p> Twenty-year-old Anna came to the office with a painful genital outbreak. A swab test
+                            confirmed the diagnosis of herpes type 2 (HSV-2).
+                        </p><br>
+                        <p>Anna had just come out of a long-term relationship when she began dating Thomas. She and
+                            Thomas have been together for more than six months. She suspected that she must have gotten
+                            it from Thomas.
+                        </p><br>
+                        <p>We tested Thomas with blood work and his results came back negative for both herpes types.
+                            Thomas began to suspect Anna of cheating on him.
+                        </p><br>
+                        <p>Anna explained the following to us:
+                        </p>
+                        <ul>
+                            <li>She has been in only two long-term relationships</li>
+                            <li>She has always gotten a full STD panel before beginning and after ending relationships
+                            </li>
+                            <li>She has never before had symptoms like this</li>
+                        </ul>
+
+                        <p>We tested her previous long-term partner, who turned out to be positive but had never had
+                            symptoms
+                        </p><br>
+                        <p><b>Conclusion:</b> Anna got herpes from the previous partner but is just now having her first
+                            outbreak.</p><br>
+                        <p><b><i>Dr. F’s Explanation</i></b></p><br>
+                        <p><i>I trusted Anna and believed she was telling the truth.</i></p>
+                        <ul>
+                            <li><i>A “full STD panel” doesn’t always include a herpes test, but she didn’t know that</i>
+                            </li>
+                            <li><i>She acquired a herpes infection from her previous long-term partner and it was kept
+                                    suppressed by Anna’s strong, healthy immune system. Now something has gone wrong
+                                    (perhaps she is feeling stressed about work), leading to an outbreak
+                                </i></li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="case3">
+                        <h3>Case #3. We’re both having our first herpes outbreak. Who is the culprit?</h3>
+                        <p> A 29-year-old woman, Alexis, came in with a genital rash that was tested for HSV-2 with a
+                            swab; the results came back positive.
+                        </p><br>
+                        <p>This is her first outbreak and she’s very concerned.
+                        </p><br>
+                        <p>A few days later, she came back to the office with her boyfriend, Eduardo, who has a penile
+                            rash. He tested positive for the same type of herpes.
+                        </p><br>
+                        <p>They started arguing and accusing each other of cheating.
+                        </p><br>
+                        <p>Here’s what both Eduardo and Alexis said:</p>
+                        <ul>
+                            <li>They’ve been tested after each partner</li>
+                            <li>The results of their “complete” STD testing have been negative in the past
+                            </li>
+                            <li>This is the first time they’ve had an outbreak like this
+                            </li>
+                        </ul>
+                        <p>They want to know who gave it to whom.
+                        </p><br>
+                        <p>We tested both Eduardo and Alexis with a herpes IgG blood test, and only Eduardo’s result was
+                            positive.
+                        </p><br>
+                        <p>This complicated the issue even more since Alexis had visible symptoms first.
+                        </p><br>
+                        <p><b>Conclusion:</b> Eduardo got herpes from someone else and passed the infection to Alexis,
+                            even though Alexis showed symptoms first.
+                        </p><br>
+                        <p><b><i>Dr. F’s Explanation</i></b></p>
+                        <ul>
+                            <li><i>Herpes swab vs. blood test</i>
+                                <ul>
+                                    <li><i>Both Alexis’s and Eduardo’s swab tests were positive but only Eduardo’s blood
+                                            test was positive. The swab test confirms only that a visible lesion is a
+                                            herpes
+                                            lesion.</i>
+                                    </li>
+                                    <li><i> A blood test tests the body’s reaction to the virus and can take from two
+                                            weeks
+                                            to three months to be positive.</i>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><i>Alexis got an outbreak first because Eduardo was shedding the virus silently (while
+                                    asymptomatic). Silent virus shedding is the most common way of passing a herpes
+                                    infection. (It is outside the scope of this article to explain why, how common it
+                                    is,
+                                    and how it happens.)</i>
+                            </li>
+                            <li><i> Eduardo most likely had an outbreak after the stress of an argument with Alexis
+                                    caused
+                                    his immune system to become weaker and the virus to surface. In the past, his immune
+                                    system kept it in check.</i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="case4">
+                        <h3>Case #4. We’re both positive for herpes, but we have two different types.</h3>
+                        <p> Twenty-six-year-old Donald came to get a “full STD panel” and asked that it be as complete
+                            as possible. He’s been dating Denise for three months and wants to start having unprotected
+                            sex with her after the test.
+                        </p><br>
+                        <p>The test came back positive for HSV-2. He became very frustrated and was suspicious that
+                            Denise was having an affair with her ex.
+                        </p><br>
+                        <p>A few days later, Denise, also 26, got the testing done. Her test came back positive for
+                            herpes too, but for a different type, HSV-1.
+                        </p><br>
+                        <p>The fact that two sexually active people tested positive for different types of herpes caused
+                            more confusion.
+                        </p><br>
+                        <p><b>Conclusion:</b> Donald and Denise got herpes independently, from other people. They
+                            haven’t had the opportunity to pass their infections to each other yet.
+                        </p><br>
+                        <p><b><i>Dr. F’s Explanation</i></b></p><br>
+                        <ul>
+                            <li><i>Since Denise and Donald have different types of herpes, they got them from other
+                                    people. One type cannot transform into the other type.
+                                </i></li>
+                            <li><i>Even though they’re having sex with each other, they haven’t passed their infections
+                                    to each other. The chance of passing either infection is 10% without symptoms
+                                    (silent shedding) and 20% with symptoms.
+                                </i></li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="case5">
+                        <h3>Case #5. She got genital herpes through oral sex.</h3>
+                        <p> A 23-year-old woman, Jill, came to the office with a genital rash. A swab test confirmed
+                            genital herpes. She immediately suspected her current partner, Joe, of giving it to her.
+                        </p><br>
+                        <p>The next day they showed up together. Joe denied having been diagnosed with genital herpes.
+                        </p><br>
+                        <p>After being asked a series of questions, Joe remembered having sores around his mouth as a
+                            kid. But he’s not getting them anymore. All his previous STD tests were negative for
+                            “everything.”
+                        </p><br>
+                        <p>Joe was very hurt and swore that he wouldn’t hurt Jill because he loves her.
+                        </p><br>
+                        <p>Joe’s blood test came back positive for HSV-2. This is the virus that Jill has genitally.
+                        </p><br>
+                        <p><b> Conclusion:</b> Jill got HSV-2 from Joe via oral sex.
+                        </p><br>
+                        <p><b><i>Dr. F’s Explanation</i></b></p>
+                        <ul>
+                            <li><i>Jill got the infection from Joe. Joe most likely has the HSV-2 virus in his mouth and
+                                    passed it to her by giving oral sex. It’s not common to have HSV-2 in the mouth, but
+                                    we’ve been seeing it more often.
+                                </i></li>
+                            <li><i>Joe passed the infection to Jill via silent shedding (while asymptomatic).
+                                </i></li>
+                            <li><i>Most likely, Joe got HSV-2 in a nonsexual way from his parents or friends.
+                                </i></li>
+                            <li><i>Since Joe has had this issue since childhood, he thought of it as only minor fever
+                                    blisters that he wasn’t having anymore. He didn’t realize it was an STD and didn’t
+                                    hurt Jill intentionally.
+                                </i></li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="case6">
+                        <h3>Case #6. I was careful, but I still transmitted herpes.</h3>
+                        <p> Kate and James have been together for a year. Kate is positive for HSV-2 that she got from a
+                            past partner. She has had only a few outbreaks and for the last five years has not had any
+                            symptoms.
+                        </p><br>
+                        <p>Being a very ethical person, Kate informed James that she was positive for herpes. They
+                            decided to follow common-sense precautions:
+                        </p>
+                        <ul>
+                            <li>The wouldn’t have sex when Kate has an outbreak</li>
+                            <li>They would have only protected sex</li>
+                            <li>Kate would take daily antiviral medication to reduce the risk of transmission
+                            </li>
+                        </ul>
+                        <p>Despite these precautions, James recently had his first outbreak. Kate feels embarrassed and
+                            guilty about hurting James.
+                        </p><br>
+                        <p>They’re both puzzled about why he got it when they followed so many precautions.
+                        </p><br>
+                        <p><b>Conclusion:</b> James got herpes from Kate despite the precautions they followed.</p>
+                        <br>
+                        <p><b><i>Dr. F’s Explanation</i></b></p>
+                        <ul>
+                            <li><i>Transmission is possible even when precautions are followed</i></li>
+                            <li><i>Precautions only reduce the chance of transmission; they don’t eliminate it
+                                </i>
+                                <ul>
+                                    <li><i>50% reduction from antiviral suppressive medication
+                                        </i></li>
+                                    <li><i>50% reduction from using protection
+                                        </i></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="subSection">
+                        <h3>Conclusion</h3>
+                        <p> All the cases we’ve described are real. They’re only a very small sample of what we see in
+                            our practice. These cases are very simple and straightforward, unlike some others.
+                        </p><br>
+                        <p>We didn’t discuss complicated stories that make it impossible to know which person gave
+                            herpes to the other person. Most commonly, the doctor is not able to make this
+                            determination.
+                        </p><br>
+                        <p>The take-home message is this: don’t be quick to judge, and don’t assume your partner has
+                            cheated on you. From being in practice for a long time, we can assure you that most people
+                            are ethical and good and do their best not to hurt others.
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#case1"> Case #1. A person who didn’t know they had it passed it to their
+                                    partner.</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#case2">Case #2. I have a herpes outbreak and I blamed my
+                                    partner, but he’s negative.</a>
+                            </li>
+                            <li class="page_item"><a href="#case3">Case #3. We’re both having our first herpes
+                                    outbreak. Who is the culprit?</a> </li>
+                            <li class="page_item"><a href="#case4">Case #4. We’re both positive for
+                                    herpes, but we have two different types.</a> </li>
+                            <li class="page_item"> <a href="#case5">Case #5. She got genital herpes through
+                                    oral sex</a> </li>
+                            <li class="page_item"><a href="#case6">Case #6. I was careful, but I still transmitted
+                                    herpes.</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

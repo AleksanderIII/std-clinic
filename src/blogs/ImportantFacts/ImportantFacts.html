@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Important facts about STD testing: From the earliest testing time to definitive</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/facts_about_std.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p>Sexually transmitted diseases (STD) or sexually transmitted infections (STI) are quite
+                        widespread. Frequently, they present without any symptoms, and many people are not aware of
+                        being infected. While having doubts, concerns, and suspicion of infection after the latest
+                        sexual intercourse and seeking help on the internet, you may find out that various testing types
+                        exist. How soon after exposure can you get tested, and which test is definitive? Here is all you
+                        need to know about STD testing for different specific STIs.1</p>
+                    <div class="subSection" id="hiv_testing">
+                        <h3>HIV testing</h3>
+                    </div>
+                    <div class="subSection" id="test_accuracy">
+                        <p class="subHeader"> Which tests are used for early Human immunodeficiency virus (HIV)
+                            detection, and how accurate are they?
+                        </p>
+                        <p>Neither of the existing HIV tests is informative directly after the exposure.
+                        </p>
+                        <br>
+                        <p>The period during which a person may have been infected with HIV, and the test will be able
+                            to detect the virus itself or its antigens and antibodies is called the Window period. Its
+                            duration varies from one individual to another and is different for each particular
+                            test.<sup>2</sup>
+                        </p>
+                        <ul>
+                            <li><b>HIV RNA detection tests</b> are evaluating the viral load. During the early HIV
+                                phase, HIV ribonucleic acid (RNA) is detectable in the blood due to its high levels. The
+                                sensitive tests (at least 50 copies/ml) become positive after 10-15 days and
+                                ultrasensitive ones (at least 1-5 copies/ml) already after the 5th day of possible
+                                exposure. HIV RNA test has 90% accuracy if tested after 10-12 days. For more definitive
+                                results get tested after 42 days (99% accurate results). <sup>3 4</sup>
+                            </li>
+                            <li><b>HIV p24 antigen detection test</b> p24 is an HIV capsid protein that can be detected
+                                in the blood 5-7 days after HIV RNA strike (at least 30,000 to 50,000 copies/ml). Modern
+                                p24 assessment tests have higher accuracy (89%) in comparison with previous
+                                ones.<sup>3</sup> After
+                                42 days (6 weeks) this test will become for 99% definitive.<sup>4</sup>
+                                <ul>
+                                    <li><b>Fourth-generation combined antigen/antibody tests</b> are capable of
+                                        detecting both p24 antigen and antibodies against HIV-1 and HIV-2. The test is
+                                        positive when either of them is detected, thus the window period for testing
+                                        shortens to 15-20 days. They are less accurate when compared to <u>HIV RNA
+                                            testing</u>, and accuracy constitutes only 80% for early
+                                        detection.<sup>3</sup> Samples
+                                        are being collected either from the vein or with the help of a finger stick
+                                        (rapid antigen/antibody test). Results from venous blood can be obtained within
+                                        fewer days after exposure (window period is shorter) when compared to finger
+                                        prick.<sup>2</sup> Within 43-44 days this test will become for 99%
+                                        definitive.<sup>5</sup>
+                                    </li>
+                                    <li><b>Rapid HIV tests</b> provide results within 20 – 30 minutes. Mostly they are
+                                        based on antibody detection (except rapid antigen/antibody tests). The window
+                                        period is long and ranges from 23 to 90 days after exposure, because the
+                                        production of antibodies, as part of the immune response against HIV, requires
+                                        time. Blood (venous and from a finger) and saliva can be used.<sup>2</sup> If
+                                        tested after
+                                        42 days test will be accurate for 95%. These tests will become 99% definitive
+                                        after 90 days from possible exposure.<sup>4</sup>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>Table 1.</p>
+                        <div class="table-wrap">
+                            <table class="blog-table" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>HIV Test</th>
+                                        <th>Earliest time and accuracy
+                                            for testing</th>
+                                        <th>Definitive time
+                                            (99% accurate)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3; font-weight: 700;">Ultrasensitive HIV RNA detection
+                                            tests</td>
+                                        <td style="text-align: center;">after 5 days (90% accurate)</td>
+                                        <td style="text-align: center;">42 days</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; font-weight: 700;">Sensitive HIV RNA
+                                            detection tests</td>
+                                        <td style="text-align: center;">after 10-15 days (90% accurate)</td>
+                                        <td style="text-align: center;">42 days</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; font-weight: 700;">HIV p24 antigen detection test
+                                        </td>
+                                        <td style="text-align: center;">after 15-22 days (89% accurate)</td>
+                                        <td style="text-align: center;">42 days</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; font-weight: 700;">Fourth-generation combined
+                                            antigen/antibody tests</td>
+                                        <td style="text-align: center;">after 15-20 days (80% accurate)</td>
+                                        <td style="text-align: center;">43-44 days</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; font-weight: 700;">Fourth-generation combined
+                                            antigen/antibody tests</td>
+                                        <td style="text-align: center;">after 23 days
+                                            (95% accurate after 6 weeks)</td>
+                                        <td style="text-align: center;">after 3 months</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="subSection" id="gold_standard">
+                        <p class="subHeader"> Golden standard algorithm for early HIV testing</p>
+                        <p>You should undergo Rapid HIV testing after unprotected sex and potential HIV exposure
+                            preferably with most accurate screening tests such as viral load assessment tests in
+                            combination with HIV antigen/antibody combined tests followed by HIV confirmatory
+                            differentiation tests (HIV-1 from HIV-2) if needed.<sup>3</sup>
+                        </p>
+                        <ul>
+                            <li><b>If <u>HIV antigen/antibody combined tests</u> and HIV viral load tests turned out to
+                                    be
+                                    negative there is no evidence of being infected with HIV</b> . If the risk of HIV
+                                contamination is high, the primary negative immune assessment and the virologic test
+                                should be retaken 1-2 weeks after the initial testing for more conclusive
+                                results<sup>3</sup>
+                            </li>
+                            <li><b>HIV antigen/antibody combined test’s negative and HIV viral load test’s positive
+                                    results
+                                    are indicating early HIV infections</b>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection">
+                        <p class="subHeader" id="false_negative">When is the test for HIV false-negative, and when is it
+                            definitive?</p>
+                        <p>Likelihood of false-negative results is high if you took the test during the window period.
+                            To avoid false-negative results, you should repeat the test after the window period. If the
+                            initial testing was during the first 12 weeks after possible exposure, the test should be
+                            repeated after an extra 12 weeks for more reliable results.<sup>6</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="chlamydia_vs_gonorrhea">
+                        <h3>Chlamydia and Gonorrhea testing</h3>
+                    </div>
+                    <div class="subSection" id="incubation">
+                        <p class="subHeader"> The incubation period for Chlamydia</p>
+                        <p>The incubation period for Chlamydia varies between 5 to 14 days, and common practice suggests
+                            getting tested 2 weeks after initial exposure.<sup>7</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="earliest_time_for_testing">
+                        <p class="subHeader">An earliest possible testing time for Gonorrhea</p>
+                        <p>It is possible to get tested for Gonorrhea already as early as 2-3 days after exposure.8 Its
+                            incubation period varies from 2-7 days (sometimes till 14 days).<sup>9</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="test_of_choice">
+                        <p class="subHeader">Test of choice for Chlamydia and Gonorrhea. When to get tested?
+                        </p>
+                        <p>Swabs from the vagina, which are more informative for women, and first-catch/first void
+                            urine, which is preferable for men, are used in the nucleic acid amplification tests (NAAT).
+                            These tests are the most reliable and preferred testing methods (also called as “gold
+                            standard”) for Chlamydia and Gonorrhea detection. Swabs from the rectum, oropharynx (for
+                            Gonorrhea), endocervix and the urethra may also be collected. Because of relatively high
+                            coinfection incidence, many physicians suggest getting tested for multiple infections
+                            simultaneously 2 weeks after possible exposure, considering financial and psychological
+                            aspects of intervention and several hospital visits issue.<sup>10</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="trichomonas_testing">
+                        <h3>Trichomonas testing</h3>
+                        <p>The incubation period for Trichomonas constitutes 5-28 days. Tests using urine or swabs
+                            (NAAT) are very sensitive and specific also for Trichomonas detection, thus as mentioned
+                            above it is suggested to test for Trichomonas at the same time with Gonorrhea and Chlamydia
+                            (2 weeks after possible exposure). Microscopic tests are also widely applied, but they are
+                            less accurate.<sup>11</sup></p>
+                    </div>
+                    <div class="subSection" id="mycoplasma_ureaplasma_testing">
+                        <h3>Mycoplasma and Ureaplasma testing</h3>
+                        <p>The incubation period for Mycoplasma Genitalium varies from 2 to 35 days.<sup>12</sup>
+                            Incubation period for Ureaplasma constitutes 10-20 days.<sup>13</sup> Common practice
+                            suggests testing for Mycoplasma and Ureaplasma only when the other pathogens causing the
+                            urethral infection are excluded. <sup>14</sup> Collection of swabs or urine (NAAT) is the
+                            best option if you want to get tested.<sup>15</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="genital_herpes_testing">
+                        <h3>Genital herpes testing</h3>
+                        <p> Genital herpes has a relatively short incubation period from 2-12 days, and symptoms usually
+                            develop within 3-6 days after exposure. In symptomatic patients, healthcare professionals
+                            suggest taking samples from blisters with the help of cotton buds (NAAT) 2 days after the
+                            blisters have developed. Herpes culture tests can also be performed, but they are shown to
+                            be less accurate. If the symptoms are absent, it is reasonable to take blood tests for IgG
+                            antibody detection. These antibodies are part of our immune defense against herpes virus,
+                            and for rather conclusive and definitive results it is suggested to wait for 12-16 weeks.
+                            IgM can be detected earlier, but it can provide misleading results, thus IgG detection is
+                            more accurate.<sup>16</sup>
+                        </p>
+                        <br>
+                        <p>Table 2.</p>
+                        <div class="table-wrap">
+                            <table class="blog-table" style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>Disease</th>
+                                        <th>Incubation
+                                            period</th>
+                                        <th>Earliest time
+                                            for testing</th>
+                                        <th>Definitive time</th>
+                                        <th>Sample
+                                            used</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="font-weight:700; color: #4F67A3;">Chlamydia</td>
+                                        <td style="text-align: center;">5-14 days
+                                            (sometimes till 21 days)</td>
+                                        <td style="text-align: center;">5 days
+                                            (accuracy is unknown)</td>
+                                        <td style="text-align: center;">after 2-3 weeks
+                                            (preferable time)</td>
+                                        <td style="text-align: center;">Swabs/urine</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight:700; color: #4F67A3;">Gonorrhea</td>
+                                        <td style="text-align: center;">2-7 days
+                                            (sometimes till 14 days)</td>
+                                        <td style="text-align: center;">2-3 days
+                                            (accuracy is unknown)</td>
+                                        <td style="text-align: center;">after 2 weeks
+                                            (preferable time)</td>
+                                        <tdv>Swabs/urine</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight:700; color: #4F67A3;">Trichomonas</td>
+                                        <td style="text-align: center;">5-28 days</td>
+                                        <td style="text-align: center;">5-7 days
+                                            (accuracy is unknown)</td>
+                                        <td style="text-align: center;">after 2-4 weeks
+                                            (highly accurate after 4 weeks)</td>
+                                        <td style="text-align: center;">Swabs/urine</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight:700; color: #4F67A3;">Mycoplasma</td>
+                                        <td style="text-align: center;">2-35</td>
+                                        <td style="text-align: center;">Get tested when the other infections causing
+                                            urethritis are ruled out</td>
+                                        <td style="text-align: center;">after 35 days</td>
+                                        <td style="text-align: center;">Swabs/urine</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight:700; color: #4F67A3;">Ureaplasma</td>
+                                        <td style="text-align: center;">10-20</td>
+                                        <td style="text-align: center;">Get tested when the other infections causing
+                                            urethritis are ruled out</td>
+                                        <td style="text-align: center;">after 20 days</td>
+                                        <td style="text-align: center;">Swabs/urine</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight:700; color: #4F67A3;">Genital Herpes</td>
+                                        <td style="text-align: center;">2-12</td>
+                                        <td style="text-align: center;">Within 48 hours after blister development
+                                            (highly accurate)</td>
+                                        <td style="text-align: center;">12-16 weeks later for IgG detection in blood
+                                            (highly accurate)</td>
+                                        <td style="text-align: center;">Swab from blisters/blood</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subSection" style="word-break: break-all;">
+                        <h3>References:</h3>
+                        <p>1. Mayo clinic. STD testing.</p>
+                        <p>2. Testing | HIV Basics | HIV/AIDS | CDC.
+                        </p>
+                        <p>3. Acute and early HIV infection: Clinical manifestations and diagnosis - UpToDate.
+                        </p>
+                        <p>4. HIV window periods | SmartSexResource.
+                        </p>
+                        <p>5. Hurt CB, Nelson JAE, Hightow-Weidman LB, Miller WC. Selecting an HIV Test. Sex Transm Dis.
+                        </p>
+                        <p>6. Understanding HIV Test Results | HIV.gov.
+                        </p>
+                        <p>7. Clinical manifestations and diagnosis of Chlamydia trachomatis infections - UpToDate.
+                        </p>
+                        <p>8. STDs and HIV Testing: Frequently Asked Questions. Health Central.
+                        </p>
+                        <p>9. Factsheet about gonorrhoea.ECDC Europa.
+                        </p>
+                        <p>10. Clinical manifestations and diagnosis of Neisseria gonorrhoeae infection in adults and
+                            adolescents - UpToDate.
+                        </p>
+                        <p>11. Trichomoniasis - 2015 STD Treatment Guidelines. CDC
+                        </p>
+                        <p>12. Mycoplasma genitalium infection - including symptoms, treatment and prevention :: SA
+                            Health.
+                        </p>
+                        <p>13. Pathogen Safety Data Sheets: Infectious Substances – Ureaplasma urealyticum - Canada.ca.
+                        </p>
+                        <p>14. Horner P, Donders G, Cusini M, Gomberg M, Jensen JS, Unemo M. Should we be testing for
+                            urogenital Mycoplasma hominis, Ureaplasma parvum and Ureaplasma urealyticum in men and
+                            women? – a position statement from the European STI Guidelines Editorial Board. J Eur Acad
+                            Dermatology Venereol.
+                        </p>
+                        <p>15. Mycoplasma genitalium - Q & A - 2015 STD Treatment Guidelines.
+                            https://www.cdc.gov/std/tg2015/qa/mycoplasma-genitaliumqa.htm. Accessed February 28, 2020.
+                        </p>
+                        <p>16. Herpes testing |. http://www.ashasexualhealth.org/stdsstis/herpes/herpes-testing/.
+                            Accessed
+                            February 29, 2020.
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#hiv_testing"> HIV testing</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#test_accuracy">Various HIV test accuracy</a> </li>
+                                    <li class="page_item"><a href="#gold_standard">Gold standard HIV testing
+                                            algorithm</a> </li>
+                                    <li class="page_item"><a href="#false_negative">False negative</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item">
+                                <a href="#chlamydia_vs_gonorrhea">Chlamydia and Gonorrhea testing</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#incubation">Incubation period</a> </li>
+                                    <li class="page_item"><a href="#earliest_time_for_testing">Earliest time for
+                                            testing</a> </li>
+                                    <li class="page_item"><a href="#test_of_choice">Test of choice</a> </li>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="page_item"><a href="#trichomonas_testing">Trichomonas testing</a> </li>
+                        <li class="page_item"><a href="#mycoplasma_ureaplasma_testing">Mycoplasma and Ureaplasma
+                                testingy</a>
+                        </li>
+                        <li class="page_item"> <a href="#genital_herpes_testing">Genital herpes testing</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

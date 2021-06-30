@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Protecting your partner if you have herpes (3 proven methods)</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/protecting_herpes.jpg" width="1140" height="460"
+                alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> People respond in different ways to a herpes diagnosis. Initial responses range from considering
+                        it a minor matter (a condition that most people have) to feeling such distress that it’s a blow
+                        to the person’s self-esteem (”What am I going to do now?”). Regardless of their initial
+                        response, though, people begin to accept the diagnosis as time passes and they learn about
+                        herpes and how to cope with it.
+                    </p>
+                    <br>
+                    <p>One question troubles people the most: “How can I protect my partner?” The overwhelming majority
+                        of people are ethical and want to minimize the risk of transmitting the infection.
+                    </p><br>
+                    <p>In this article, we will give advice about how to protect your partner.
+                    </p><br>
+                    <p>Reducing your risk of transmitting herpes boils down to three things:
+                    </p>
+                    <ul>
+                        <li>Taking antiviral medication</li>
+                        <li>Using condoms</li>
+                        <li>Talking to your partner about herpes
+                        </li>
+                    </ul>
+                    <p>After your herpes diagnosis, you’ll always be in one of the two herpes stages:
+                    </p>
+                    <ul>
+                        <li>Having an outbreak</li>
+                        <li>Not having an outbreak</li>
+                    </ul>
+                    <p>We’ll explain the best ways of protecting your partner during each stage.
+                    </p>
+                    <br>
+                    <p>These recommendations apply to all types of sexual contact: oral, vaginal, and anal.
+                    </p>
+                    <br>
+                    <p>Let’s begin!</p>
+
+                    <div class="subSection" id="three_ways">
+                        <h3>More about the 3 ways to protect your partner</h3>
+                    </div>
+                    <div class="subSection" id="antivital_medication">
+                        <p class="subHeader">Antiviral medication</p>
+                        <p>Antiviral medication reduces the risk of herpes transmission by 50% (from 10.2% to 5%). It
+                            will reduce “silent” (asymptomatic) viral shedding as well as the frequency of herpes
+                            outbreaks.
+                        </p><br>
+                        <p>Different medication options and regimens are available (discussing them is beyond the scope
+                            of this article), with the most common being Valtrex 500 mg once a day. Herpes medication is
+                            safe and well tolerated by most people.
+                        </p>
+                    </div>
+                    <div class="subSection" id="condom">
+                        <p class="subHeader">Condoms
+                        </p>
+                        <p>Condoms have been proven to reduce the risk of herpes transmission by 50% (from 10.2% to 4%).
+                        </p>
+                        <br>
+                        <br>
+                        <p><i>“Condoms …..reduce the risk of herpes transmission by 50%...”</i></p>
+                        <br><br>
+                        <p>Shedding of the herpes virus usually occurs through the soft mucosal areas of penile skin,
+                            the vagina, and the anus. Therefore, those areas need to be covered during sex.
+                        </p>
+                        <br>
+                        <p>Using a dental dam and plastic wrap is advised for lesbians. This provides the same risk
+                            reduction as condoms, 50%.
+                        </p>
+                    </div>
+                    <div class="subSection" id="talking">
+                        <p class="subHeader">Talking to your partner</p>
+                        <p>Talking to your partner about your herpes condition helps to develop trust, improves the
+                            relationship, and makes regular use of condoms more likely.
+                        </p>
+                        <br>
+                        <p>When you talk to your partner, you’ll find out if they’re one of the people who understand
+                            the risk of getting herpes and are OK with it or if they’re in the group of people who want
+                            the most protection possible.
+                        </p>
+                        <br>
+                        <p>You should ask your partner to get tested for herpes. Most people have never been tested for
+                            herpes because this isn’t a routinely ordered test even if a “full STD panel” is requested.
+                        </p><br>
+                        <p>A type-specific (IgG) herpes test is necessary. If your partner is positive for the same
+                            virus type, you won’t need to use protection.
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="partner_protection">
+                        <h3>Partner protection in the two herpes stages</h3>
+                    </div>
+                    <div class="subSection" id="during_outbreaks">
+                        <p class="subHeader">During outbreaks</p>
+                        <p>Herpes outbreak are uncommon. Moreover, the number of outbreaks goes down over time.
+                        </p><br>
+                        <p>The chance of passing the infection during an outbreak is 20.1%.
+                        </p>
+                        <p class="bold-text">When the virus spreads the most</p>
+                        <p>A person is most infectious for a few days before an outbreak (the prodrome period), during
+                            an outbreak, and for a few days after an outbreak resolves.
+                        </p>
+                        <br>
+                        <br>
+                        <p><i>“…..Person is the most infectious…. few days before an outbreak …., <br><br>
+                                during and for a few days after an outbreak….”</i></p>
+                        <br>
+                        <ul>
+                            <li>The prodrome symptoms to watch for are fatigue, tingling of the skin, and a patch on the
+                                skin.
+                            </li>
+                            <li>The signs and symptoms of an outbreak are fever, a blister, an open sore, and a crusted
+                                sore.
+                            </li>
+                            <li>Two or three days after the crust is gone and the skin has healed, the chance of
+                                transmission will be less.
+                            </li>
+                        </ul>
+                        <p class="bold-text">During outbreaks, you should avoid sexual contact</p>
+                        <p>It’s best to not have sex during an outbreak</p>
+                        <ul>
+                            <li>There is a high chance of passing the herpes infection to your partner with skin-to-skin
+                                contact in the area of the outbreak and surrounding areas (the area that is infectious
+                                is bigger than the outbreak)
+                            </li>
+                            <li>Additionally, your partner is at greater risk of contracting any other STDs you’re
+                                positive for through herpes-damaged skin
+                            </li>
+                        </ul>
+                        <p class="bold-text">Low-risk sexual contact</p>
+                        <p>Some people find it difficult to not have sex at all during an outbreak, so it’s important to
+                            know what types of intimacy are considered safest.
+                        </p>
+                        <ul>
+                            <li>Masturbation or fantasy</li>
+                            <li>No skin-to-skin contact is safe during an outbreak, but touching with the hands is
+                                considered the least unsafe
+                            </li>
+                        </ul>
+                        <p class="bold-text">The role of antiviral medication</p>
+                        <ul>
+                            <li> Antiviral medication will shorten the duration of the outbreak and reduce shedding of
+                                the virus from the skin.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="between_outbreaks">
+                        <p class="subHeader">Between outbreaks</p>
+                        <p>Most of the time, people with herpes are symptom free. Unfortunately, though, herpes can
+                            still be transmitted even when there are no visible symptoms or signs of it. The chance of
+                            passing herpes during the asymptomatic period is 10.2%.
+                        </p><br>
+                        <p>When silent virus shedding happens, why it happens, and what triggers it are beyond the scope
+                            of this article.
+                        </p><br>
+                        <p>The following methods of protecting your partner from herpes between outbreaks apply to oral,
+                            vaginal, and anal sex.
+                        </p>
+                        <p class="bold-text">Antiviral medication</p>
+                        <p>Once-a-day antiviral medication will reduce the chance of herpes transmission by 50% (from
+                            10.2% to 5%).
+                        </p>
+                        <p class="bold-text">Condoms</p>
+                        <p>Condoms are good protection against herpes. Consistent use of condoms reduces the
+                            transmission rate by 50% (from 10.2% to 4%).
+                        </p><br>
+                        <p>Talking to your partner about herpes</p><br>
+                        <p>Talking to your partner will help them understand the condition better and make regular
+                            condom use more likely.
+                        </p>
+                    </div>
+                    <div class="subSection" id="important_facts">
+                        <h3>Some important facts affecting the risk of herpes transmission</h3>
+                        <ul>
+                            <li> Herpes is transmitted through skin-to-skin contact
+                            </li>
+                            <li>The first outbreak is the most contagious
+                            </li>
+                            <li>There is a greater statistical chance of passing herpes when you’ve been recently
+                                diagnosed whether you have symptoms or not
+                            </li>
+                            <li>Herpes infects skin areas that are thin and moist because it’s easier for the virus to
+                                penetrate those areas. For that reason, females are three times more likely to be
+                                infected than males
+                            </li>
+                            <li>Younger people having casual sex are more likely to contract herpes
+                            </li>
+                            <li>HSV-1 in the genital area recurs less often than HSV-2
+                            </li>
+                            <li>Being positive for HSV-2 gives some protection against getting HSV-1. The opposite is
+                                not true
+                            </li>
+                            <li>If a person with one type of herpes acquires a different type, the flare-up symptoms are
+                                milder
+                            </li>
+                            <li>Lesbians get HSV-1 in the genital area because of oral–genital sex
+                            </li>
+                            <li>Sex toys should not be shared. But if they are shared, they should be cleaned with water
+                                and soap before being used
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="conclusion">
+                        <h3>Conclusion</h3>
+                        <p>Herpes is extremely common. In fact, millions of people in the United States have it—and
+                            they’re living normal lives and having healthy and satisfying sexual relationships. This
+                            article has discussed the three proven ways to greatly reduce the risk of transmitting
+                            herpes to your partner: medications, condom use, and open communication. If you’ve been
+                            diagnosed with herpes, by all means, use these strategies to protect your uninfected partner
+                            as much as possible. Educate yourself about the condition. At the same time, relax: herpes
+                            is not the end of your sex life.</p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#three_ways">Three ways to protect your partner</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#antivital_medication">Antiviral medication</a> </li>
+                                    <li class="page_item"><a href="#condom">Condom</a> </li>
+                                    <li class="page_item"><a href="#talking">Talking to your partner</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item">
+                                <a href="#partner_protection">Partner protection in the two herpes stages</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#during_outbreaks">During outbreak</a> </li>
+                                    <li class="page_item"><a href="#between_outbreaks">Between outbreaks</a> </li>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="page_item"><a href="#important_facts">Important herpes facts</a> </li>
+                        <li class="page_item"><a href="#conclusion">Conclusion</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

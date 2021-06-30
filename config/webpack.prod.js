@@ -87,20 +87,26 @@ module.exports = {
     syphilisProtecting: './src/diseases/Syphilis/Protecting/protecting.js',
 
     testsChlomydia: './src/tests/Chlomydia/chlomydia.js',
-    testsGonorrhea:  './src/tests/Gonorrhea/gonorrhea.js',
-    testsHerpes:  './src/tests/Herpes/herpes.js',
-    testsHIV:  './src/tests/HIV/hiv.js',
-    testsHPV:  './src/tests/HPV/hpv.js',
-    testsSyphilis:  './src/tests/Syphilis/syphilils.js',
-    testsGardnerella:  './src/tests/Gardnerella/gardnerella.js',
-    testsTrichomoniasis:  './src/tests/Trichomoniasis/trichomoniasis.js',
-    testsMycoplasma:  './src/tests/Mycoplasma/mycoplasma.js',
-    testsUreaplasma:  './src/tests/Ureaplasma/ureaplasma.js',
-    testsYeast:  './src/tests/Yeast/yeast.js',
-    testsBalanitis:  './src/tests/Balanitis/balanitis.js',
+    testsGonorrhea: './src/tests/Gonorrhea/gonorrhea.js',
+    testsHerpes: './src/tests/Herpes/herpes.js',
+    testsHIV: './src/tests/HIV/hiv.js',
+    testsHPV: './src/tests/HPV/hpv.js',
+    testsSyphilis: './src/tests/Syphilis/syphilils.js',
+    testsGardnerella: './src/tests/Gardnerella/gardnerella.js',
+    testsTrichomoniasis: './src/tests/Trichomoniasis/trichomoniasis.js',
+    testsMycoplasma: './src/tests/Mycoplasma/mycoplasma.js',
+    testsUreaplasma: './src/tests/Ureaplasma/ureaplasma.js',
+    testsYeast: './src/tests/Yeast/yeast.js',
+    testsBalanitis: './src/tests/Balanitis/balanitis.js',
 
     blogs: './src/blogs/blogs.js',
-    blogGenitalWarts: './src/blogs/GenitalWarts/genitalWarts.js'
+    blogGenitalWarts: './src/blogs/GenitalWarts/genitalWarts.js',
+    blogGenitalWarts: './src/blogs/GenitalWarts/genitalWarts.js',
+    blogColdSores: './src/blogs/ColdSores/coldSores.js',
+    blogBlameForHerpes: './src/blogs/BlameForHerpes/blameForHerpes.js',
+    blogHerpesDiagnosis: './src/blogs/HerpesDiagnosis/herpesDiagnosis.js',
+    blogPartnerProtecting: './src/blogs/PartnerProtecting/partnerProtecting.js',
+    blogImportantFacts: './src/blogs/ImportantFacts/importantFacts.js'
   },
   output: {
     path: path.join(__dirname, '../dist'),
@@ -490,7 +496,6 @@ module.exports = {
       chunks: ['hivProtecting']
     }),
 
-
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Syphilis.html',
       filename: 'syphilis.html',
@@ -617,6 +622,36 @@ module.exports = {
       filename: 'blogs/genital_warts.html',
       inject: true,
       chunks: ['blogGenitalWarts']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/ColdSores/ColdSores.html',
+      filename: 'articles/cold-sores-versus-canker-sores.html',
+      inject: true,
+      chunks: ['blogColdSores']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/BlameForHerpes/BlameForHerpes.html',
+      filename: 'articles/how-i-contracted-herpes-HSV-1-and-HSV-2.html',
+      inject: true,
+      chunks: ['blogBlameForHerpes']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/HerpesDiagnosis/HerpesDiagnosis.html',
+      filename: 'articles/herpes-legal-issues.html',
+      inject: true,
+      chunks: ['blogHerpesDiagnosis']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/PartnerProtecting/PartnerProtecting.html',
+      filename: 'articles/protecting-partner-from-herpes.html',
+      inject: true,
+      chunks: ['blogPartnerProtecting']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/ImportantFacts/ImportantFacts.html',
+      filename: 'articles/std-testing-earliest-to-definitive.html',
+      inject: true,
+      chunks: ['blogImportantFacts']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

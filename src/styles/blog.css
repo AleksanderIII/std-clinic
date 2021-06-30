@@ -227,6 +227,10 @@ section {
     margin: 15px 0 15px 20px;
 }
 
+.page_wrap .text ul li b {
+    font-weight: 700;
+}
+
 .page_wrap .text ul li {
     list-style-type: disc;
 }
@@ -307,6 +311,13 @@ h3~p.subHeader {
     margin-top: 6px;
 }
 
+.page_wrap .text p.bold-text {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
 .photo-collage {
     display: flex;
     flex-direction: row;
@@ -321,6 +332,87 @@ h3~p.subHeader {
 .photo-collage__description {
     width: 450px;
     padding-right: 50px;
+}
+
+.page_wrap .text .blog-table td:first-child ul li::marker {
+    color: #4F67A3;
+}
+
+.page_wrap .text .blog-table td ul li {
+    font-size: 0.875rem;
+    color: #629EA8;
+    font-weight: 400;
+}
+
+.page_wrap .text .blog-table td ul li p,
+.page_wrap .text .blog-table td ul li b {
+    font-size: 0.875rem;
+    color: #629EA8;
+}
+
+.blog-table {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.blog-table td p {
+    font-size: 0.875rem;
+}
+
+.blog-table td {
+    color: #629EA8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    width: 208px;
+    padding: 30px;
+    border: 1px solid rgba(84, 101, 135, 0.4);
+    line-height: 1.25rem;
+}
+
+.blog-table td b {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 600;
+}
+
+.blog-table td p.table-bold-text {
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25rem;
+    color: #4F67A3;
+}
+
+.blog-table td ul {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.blog-table td ul li {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.blog-table th {
+    font-family: 'Montserrat-Medium', sans-serif;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 20px;
+    border: 1px solid rgba(84, 101, 135, 0.4);
+    line-height: 1.5rem;
+    color: #4F67A3;
+}
+
+.page_wrap .text p.legend {
+    font-size: 0.75rem;
 }
 
 @media (max-width: 1200px) {
@@ -343,6 +435,12 @@ h3~p.subHeader {
     .blog .page_wrap {
         margin-top: 20px;
         padding: 0 16px;
+    }
+
+    .table-wrap {
+        display: block;
+        overflow-x: auto;
+        margin-right: 16px;
     }
 
     .page_wrap .text {

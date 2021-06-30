@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>After a herpes diagnosis: legal issues</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes_diagnosis.jpg" width="1140" height="460"
+                alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> A positive <u>herpes test</u>, like a positive test for any STD, is very frustrating and
+                        stressful.
+                    </p>
+                    <ul>
+                        <li> Herpes is not curable. Once you have it, you have it for life
+                        </li>
+                        <li> The perceived stigma of having it, along with a lot of misconceptions, stress people even
+                            more
+                        </li>
+                    </ul>
+                    <p> When they find out about their positive test, people usually scrutinize their current or recent
+                        relationship and blame their partner.
+                    </p>
+                    <br>
+                    <p> The most common reason for a herpes-related lawsuit is not discussing the issue with a partner:
+                        withholding the truth.
+                    </p>
+                    <br>
+                    <p> Since we’ve been dealing with STDs for decades, we’ve served as medical expert witnesses in
+                        court.
+                    </p><br>
+                    <p> This article is a doctor’s perspective on certain legal issues. It is not legal advice, and we
+                        encourage you to contact an attorney if you need legal advice.
+                    </p>
+                    <div class="subSection" id="common_sense">
+                        <h3>Common-sense things to keep in mind</h3>
+                        <p> Here are a few common-sense rights and obligations we all should be aware of:
+                        </p>
+                        <ul>
+                            <li>You have a legal right to know about your sexual partner’s health status
+                            </li>
+                            <li>You have a legal duty to disclose any significant health condition that can affect
+                                someone else
+                            </li>
+                            <li>By consenting to having sex, you are not consenting to getting an STD
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="minimizing_risk">
+                        <p class="subHeader">Minimizing the risk of a lawsuit against you
+                        </p>
+                        <p>Following these simple rules will lessen the chance that you’ll be sued because of an STD:
+                        </p>
+                        <br>
+                        <br>
+                        <p><i>“The number of lawsuits arising from ….herpes transmission is on the rise”
+                            </i></p>
+                        <br>
+                        <ul>
+                            <li>Take the common, readily available steps to find out if you have any STDs. Get tested
+                                regularly. It’s a good idea to follow CDC recommendations, which are the standard of
+                                care for US physicians, with respect to <u>STD testing</u>
+                            </li>
+                            <li>Be truthful. Tell your sexual partner about your sexual health
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection" id="herpes_lawsuits">
+                        <h3>Herpes lawsuits</h3>
+                        <p> The number of lawsuits arising from HPV and herpes transmission is on the rise, but there
+                            are still only a small number of them.
+                        </p><br>
+                        <p>In general, herpes lawsuits are usually unsuccessful because it’s difficult to prove that:
+                        </p>
+                        <ul>
+                            <li>You were infected recently</li>
+                            <li>A particular person gave you the infection
+                            </li>
+                            <li>Your partner intentionally hid or failed to disclose information
+                            </li>
+                            <li>The disease has caused permanent, irreversible damage
+                            </li>
+                        </ul>
+                        <p>One consideration is that it is not possible to obtain your partner’s medical records to
+                            investigate whether you might have a good case. You can’t get that information until after
+                            you file a lawsuit.
+                        </p>
+                    </div>
+                    <div class="subSection" id="criminal_court">
+                        <h3>Criminal versus civil court</h3>
+                        <p> The law of the state you live in determines whether transmitting herpes to another person
+                            may be considered a crime or only a matter of civil law, or both.
+                        </p>
+                        <p class="bold-text">Criminal court</p>
+                        <p>In states where transmitting herpes to another person can be a crime in the right
+                            circumstances, it is punishable with imprisonment or (typically) a fine.
+                        </p><br>
+                        <p>When someone files a criminal complaint, the police will investigate and collect evidence.
+                        </p><br>
+                        <p>If you transmitted herpes knowingly (that is, you knew you’re positive and didn’t disclose
+                            it), you can be found guilty of a misdemeanor, which is punishable with up to one year of
+                            imprisonment or a fine (or both).
+                        </p>
+
+                    </div>
+                    <div class="subSection" id="civil_court">
+                        <p class="bold-text">Civil court</p>
+                        <p>In most states, if you knowingly pass an infection to another person, you can be sued for
+                            monetary damages under common law tort principles.
+                        </p><br>
+                        <p>When making a decision, civil courts rely on economic, ethical, and legal principles,
+                            including previous similar cases.
+                        </p>
+                    </div>
+                    <div class="subSection" id="questions">
+                        <h3>Everything comes down to these questions</h3>
+                        <p> In both criminal and civil cases, the outcome will depend on the answers to the following
+                            questions:
+                        </p>
+                        <br>
+                        <p>1. Did the defendant know they have an STD?
+                        </p>
+                        <p>2. Did the defendant take reasonable steps to discover the condition?
+                        </p>
+                        <p>3. If the defendant was hiding the information, was it intentional or inadvertent?
+                        </p>
+                        <p>4. Did the defendant take reasonable and available steps to minimize the risk of
+                            transmission?
+                        </p>
+                        <p>5. Did the plaintiff (in civil court) or complainant (in criminal court) recently acquire the
+                            infection?
+                        </p>
+                        <p>6. Did they get it from the defendant (as opposed to someone else)?
+                        </p>
+                        <br>
+                        <p>Let’s talk about each part and the complexity of proving it.
+                        </p>
+                        <br>
+                        <p>1. Did the defendant know they have an STD?</p>
+                        <br>
+                        <p>The plaintiff (in civil court) or the state (in criminal court) will have to prove that the
+                            defendant knew they had the infection.
+                        </p>
+                        <br>
+                        <p>2. Unless the defendant admits it, documentation of past lab testing will have to be
+                            obtained. There is no universal data center from which to request those results.
+                        </p>
+                        <br>
+                        <p>Did the defendant take reasonable steps to discover the condition?
+                        </p>
+                        <br>
+                        <p>Herpes is not a condition that is routinely tested for, and the CDC doesn’t advise testing.
+                        </p>
+                        <br>
+                        <p>Testing occurs mainly when the person has symptoms (which only a minority of people with
+                            herpes do) to rule out other condition and to determine the cause of skin lesions.
+                        </p>
+                        <br>
+                        <p>3. If the defendant was hiding the information, was it intentional or inadvertent?
+                        </p>
+                        <br>
+                        <p>Unless the defendant admits to having herpes and not disclosing it to their partner before
+                            engaging in sexual activity with them, proof of this through documentation and perhaps
+                            witness testimony will be necessary. It’s unlikely that the plaintiff/complainant will be
+                            able to get such documentation, to investigate the feasibility of a case, before taking the
+                            step of filing a lawsuit.
+                        </p>
+                        <br>
+                        <p>If the defendant knew about the condition and hid the information from their partner, that’s
+                            considered an intentional harm.
+                        </p><br>
+                        <p>If the defendant forgot to tell their partner about the condition, it’s considered
+                            negligence.
+                        </p>
+                        <br>
+                        <p>4. Did the defendant take reasonable and available steps to minimize the risk of
+                            transmission?
+                        </p>
+                        <br>
+                        <p>This question focuses on whether the defendant used all available means to decrease the risk
+                            of transmission, such as taking antiviral medication and using condoms or other protection.
+                        </p>
+                        <br>
+                        <p>5. Did the plaintiff (in civil court) or complainant (in criminal court) recently acquire the
+                            infection?
+                        </p>
+                        <br>
+                        <p>It should be proven through lab documentation that the plaintiff didn’t have herpes before
+                            getting together with the defendant.
+                        </p>
+                        <br>
+                        <p>As mentioned earlier, a herpes test is not one of the routine tests usually performed even
+                            for someone who asks for a “full STD panel.” Therefore, most people haven’t been tested for
+                            herpes.
+                        </p>
+                        <br>
+                        <p>6. Did they get it from the defendant (as opposed to someone else)?
+                        </p>
+                        <br>
+                        <p>The plaintiff/complainant will have a hard time proving that they got the infection from the
+                            defendant
+                        </p>
+                        <br>
+                        <br>
+                        <p><i>“ The plaintiff/complainant will have a hard time proving that they got the infection from
+                                the defendant.”
+                            </i></p>
+                        <br>
+                        <ul>
+                            <li>A person with herpes can be asymptomatic for a long time—many years
+                            </li>
+                            <li>Herpes can be transmitted in nonsexual ways by friends and family members
+                            </li>
+                            <li>The claim of the plaintiff/complainant (who has the burden of proof) should be supported
+                                with before-and-after medical records (lab reports) of both parties
+                            </li>
+                        </ul>
+                        <p>Ultimately, it all comes down to medical expert witnesses testifying about different
+                            possibilities.
+                        </p>
+                    </div>
+                    <div class="subSection" id="conclusion">
+                        <h3>Conclusion</h3>
+                        <p> People do sometimes bring criminal complaints against a sexual partner who gave them herpes
+                            or sue them for money damages in civil court. However, these cases are seldom successful
+                            because proving their legal elements is difficult for a variety of reasons.
+                        </p><br>
+                        <p>Getting tested regularly, being honest with your partner about your health in general and any
+                            positive STD test in particular, and giving your partner the choice of whether to have sex
+                            with you will go a long way toward avoiding being sued.
+                        </p>
+                        <br>
+                        <p class="legend">This article is not legal advice. It was written by a physician who is not
+                            trained in the
+                            law, and it is intended solely to provide information from a physician’s perspective. You
+                            are encouraged to consult with an attorney if you would like legal advice.
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#common_sense"> Common-sense things to keep in mind</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#minimizing_risk">Minimizing the risk of a lawsuit
+                                            against
+                                            you</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item">
+                                <a href="#herpes_lawsuits">Herpes lawsuits</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#criminal_court">Criminal court</a> </li>
+                                    <li class="page_item"><a href="#civil_court">Civil court</a> </li>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="page_item"><a href="#questions">Everything comes down to these questions</a> </li>
+                        <li class="page_item"><a href="#conclusion">Conclusion</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

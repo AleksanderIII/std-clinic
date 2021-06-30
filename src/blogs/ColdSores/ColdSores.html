@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Cold sores (herpes) versus canker sores (aphthous ulcers)</h2>
+            <img style="margin: 0 auto; display: block;"
+                src="http://d12qz6jssicxsf.cloudfront.net/images/cold_sores.jpg" width="460" height="400" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <p> In this article, we’ll talk about the differences between herpes sores (which are sometimes
+                        called “cold sores”) and canker sores.
+                    </p>
+                    <br>
+                    <p> These are two common conditions affecting the mouths of people of all ages and both genders.
+                        Their appearance inside the mouth is similar, so they’re easily confused.
+                    </p>
+                    <br>
+                    <p> It’s important to distinguish between these two conditions because canker sores, unlike herpes,
+                        are easily cured and not passed from one person to another.
+                    </p>
+                    <br>
+                    <p> Below, we present the information you need in tables followed by frequently asked questions that
+                        are answered by an expert <u>STD doctor</u>.
+                    </p>
+
+                    <div class="subSection" id="symptoms">
+                        <h3>Herpes and canker sore symptoms: similarities and differences</h3>
+
+                        <p> In the table below, we summarize the common symptoms of herpes and canker sores.
+                            Symptoms—what you feel—might slightly precede signs—what you see—or appear at the same time.
+                        </p><br>
+                        <p>It’s important to consider symptoms in context: how soon they developed, what preceded them,
+                            how they’re evolving over time, etc.
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%;" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 350px; min-width: 250px">Similarities of herpes and canker
+                                            sore symptoms</th>
+                                        <th style="width: 450px; min-width: 300px">Differences between herpes and canker
+                                            sore symptoms</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Both conditions can cause painful sores
+                                            inside the mouth.</td>
+                                        <td>
+                                            <b>1. Shooting (nerve) pain</b> <br><br>
+                                            Herpes sores, unlike canker sores, can be preceded by tingling of the area
+                                            and shooting nerve pain on the side of the lesion. <br><br>
+                                            <b>2. Systemic symptoms</b><br><br>
+                                            Unlike herpes sores, canker sores are not preceded by systemic symptoms.
+                                            Systemic symptoms are fatigue, flu-like symptoms, fever, and swollen lymph
+                                            nodes. <br><br>
+                                            <b>3. Causes</b><br><br>
+                                            Canker sores occur due to a minor
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="subSection" id="signs">
+                        <h3>Herpes and canker sore signs: similarities and differences</h3>
+                        <p> In the table below, we summarize the common signs of herpes and canker sores.
+                        </p><br>
+                        <p> Signs are more reliable than symptoms when it comes to establishing a diagnosis because they
+                            are more objective and can be seen by both the patient and the doctor.
+                        </p>
+                        <div class="table-wrap">
+                            <table style="width: 100%;" class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 350px; min-width: 250px">Similarities of herpes and canker
+                                            signs</th>
+                                        <th style="width: 450px; min-width: 300px">Differences between herpes and canker
+                                            sores signs</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">
+                                            <ul>
+                                                <li>
+                                                    <b style="color: #4F67A3;">Location</b>
+                                                    <br>
+                                                    <p style="margin-top: 5px; color: #4F67A3;">Both conditions can
+                                                        affect the inside of
+                                                        the mouth.</p><br>
+                                                </li>
+                                                <li>
+                                                    <b style="color: #4F67A3;">Sore</b>
+                                                    <br>
+                                                    <p style="margin-top: 5px; color: #4F67A3;">Both conditions can
+                                                        present as sores.
+                                                    </p><br>
+                                                </li>
+                                                <li>
+                                                    <b style="color: #4F67A3;">No scarring</b>
+                                                    <br>
+                                                    <p style="margin-top: 5px; color: #4F67A3;">Both canker sores and
+                                                        cold sore lesions
+                                                        heal without leaving a
+                                                        scar.</p><br>
+                                                </li>
+                                                <li>
+                                                    <b style="color: #4F67A3;">Healing time</b>
+                                                    <br>
+                                                    <p style="margin-top: 5px; color: #4F67A3;">Both herpes and canker
+                                                        sores heal within
+                                                        a week or two.</p><br>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul>
+                                                <li>
+                                                    <b>Preferred area</b>
+                                                    <p style="margin-top: 5px;"> Canker sores are always inside the
+                                                        mouth affecting its lining:
+                                                        the gum line, tongue, and even throat.
+                                                    </p>
+                                                    <p style="margin-top: 5px;"> Herpes sores, on the other hand,
+                                                        usually affect the transitional
+                                                        areas of the skin where mucosa meets skin, and they are
+                                                        primarily located outside the mouth.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <b>Extent</b>
+                                                    <p style="margin-top: 5px;"> Canker sores can be on both sides of
+                                                        the mouth.
+                                                    </p>
+                                                    <p style="margin-top: 5px;"> Herpes sores are clustered on one side
+                                                        of the mouth following
+                                                        the skin dermatome and rarely cross the midline.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <b>Evolution</b>
+                                                    <p style="margin-top: 5px;"> A canker sore starts as a sore and
+                                                        stays a sore until it heals.
+                                                    </p>
+                                                    <p style="margin-top: 5px;"> Herpes sores evolve from a blister
+                                                        (fluid filled sac).
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <b>Appearance</b>
+                                                    <p style="margin-top: 5px;"> A canker sore is a solitary sore that
+                                                        is a small oval shape with
+                                                        a red edge and white/yellow center (base). If multiple sores are
+                                                        present, they are usually separated by healthy tissue.
+                                                    </p>
+                                                    <p style="margin-top: 5px;"> Herpes sores are multiple lesions
+                                                        clustered on the same red
+                                                        base. The base (bottom) of a herpes mouth sore is clear.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <b>Depth</b>
+                                                    <p style="margin-top: 5px;"> Unlike herpes sores, which are usually
+                                                        very superficial, canker
+                                                        sores can extend deeper into the soft tissue. A canker sore can
+                                                        be confirmed visually or by touch (hardness is felt under the
+                                                        base).
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subSection" id="images">
+                        <h3>Images</h3>
+                        <p>The following photographs show the main differences between canker and herpes mouth sores.
+                        </p>
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title"> Image 1.</p><br>
+                                <p>This is a canker sore. As you can see, canker sores are</p>
+                                <ul>
+                                    <li>a) Independent sores (separated by healthy tissue)</li>
+                                    <li>b) With white/yellowish bases</li>
+                                    <li>c) That go deeper than the superficial mucosal area</li>
+                                </ul>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/coldSores1.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title"> Image 2.</p><br>
+                                <p>This is a herpes blister affecting the mouth area.</p><br>
+                                <p>Note the multiple blisters (just before turning into sores) clustered on the same red
+                                    base.</p>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/coldSores2.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+                        <div class="photo-collage">
+                            <div class="photo-collage__description">
+                                <p class="photo-collage__title"> Image 3.</p><br>
+                                <p>In this picture, you can see multiple superficial herpes virus sores.</p><br>
+                                <p>The sores are superficial (even visually you can tell that), clustered on the same
+                                    red base.</p>
+                            </div>
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/coldSores3.jpg" width="400"
+                                height="300" alt="">
+                        </div>
+                    </div>
+                    <div class="subSection" id="faq">
+                        <h3>FAQ</h3>
+                        <p> In his answers to these frequently asked questions, Dr. Fuzayloff discusses in more detail
+                            the important points that differentiate between canker and herpes mouth sores (also known as
+                            “cold sores”). </p>
+                    </div>
+                    <div class="subSection" id="put_in_context">
+                        <p class="subHeader">What do you mean when you say it’s important to put information in context?
+                        </p>
+                        <p> When a doctor examines someone with a mouth sore and needs to differentiate between canker
+                            and herpes sores, they try to put the patient’s signs and symptoms in context.
+                        </p><br>
+                        <p>By this, we mean the history (what preceded the event), other symptoms and signs, the area
+                            involved, and how the mouth sores appeared and are evolving over time.
+                        </p>
+                        <p class="bold-text">The activity that preceded the appearance of sores</p>
+                        <p>Did you hurt your oral cavity by biting it or eating spicy food? If so, the likelihood of
+                            canker is high.
+                        </p><br>
+                        <p>Have you had a new sexual partner? Did you have skin-to-skin contact (mouth-to-genital or
+                            mouth-to-mouth) with that person? Herpes can be contracted from sexual intercourse with a
+                            new partner.
+                        </p>
+                        <p class="bold-text">The presence of systemic signs and symptoms</p>
+                        <p>The presence of systemic symptoms is an important part of the context that helps
+                            differentiate herpes sores from canker sores.
+                        </p><br>
+                        <p>Herpes usually presents with systemic symptoms and signs (fever, lymph node enlargement,
+                            overall weakness, and flu-like symptoms). The systemic symptoms usually precede the actual
+                            outbreak or accompany it.
+                        </p><br>
+                        <p>A canker sore does not present with systemic symptoms and signs unless it is very big and
+                            deep, and it takes weeks to get to that stage. Systemic symptoms do not precede the
+                            appearance of the sore but may follow it (on rare occasions).
+                        </p>
+                        <p class="bold-text">Preceding symptoms</p>
+                        <p>Other symptoms that precede the appearance of the sores is another important part of the
+                            context. Unlike herpes sores, a canker sore is not preceded by tingling of the area and
+                            shooting nerve pain locally.
+                        </p>
+                        <p class="bold-text">Preferred area</p>
+                        <p>Herpes sores, unlike canker sores, prefers a “transitional skin” areas. This refers to areas
+                            where skin meet the mucosa—the border of the inside and outside of the mouth. Canker sores
+                            affect only the inside of the mouth.
+                        </p>
+                    </div><br>
+                    <div class="subSection" id="looking_at_store">
+                        <p class="subHeader">Can we tell the difference just by looking at the sore?</p>
+                        <p> Sore examination is 70% of the diagnosis (the other 30% is history and other associated
+                            symptoms and signs).
+                        </p><br>
+                        <p>Here we going to review the main characteristics that help us differentiate between two
+                            conditions by only looking at the sores:
+                        </p>
+                        <p class="bold-text">Canker sores</p>
+                        <ul>
+                            <li>A canker sore stays in one stage and does not evolve over time. It starts as a sore and
+                                stays a sore until it heals
+                            </li>
+                            <li>Canker sores are usually small oval sores with red edges. The base of the sore is white
+                                to yellow
+                            </li>
+                            <li>Canker sores are usually independent, separate sores and can affect different areas of
+                                the mouth
+                            </li>
+                            <li>Canker sores can affect deeper parts of the mouth mucosa but are mostly superficial
+                            </li>
+                            <li>If multiple sores are present, they can affect different areas of the mouth and, more
+                                importantly, both sides. The area between sores is healthy tissue
+                            </li>
+                        </ul>
+                        <p class="bold-text">Herpes sores</p>
+                        <ul>
+                            <li>A herpes lesion evolves over time: it starts as redness, becomes a blister, and then
+                                turns into a sore
+                            </li>
+                            <li>They’re clustered and usually share the same red base
+                            </li>
+                            <li>They may have different shapes and are filled with clear or yellowish fluid
+                            </li>
+                            <li>They’re very superficial, affecting the top layer of the mucosa
+                            </li>
+                            <li>They’re usually one-sided
+                            </li>
+                        </ul>
+                        <p>*Note: the herpes symptoms and signs mentioned here are for newly acquired herpes, not
+                            recurrent outbreaks.
+                        </p>
+                    </div><br>
+                    <div class="subSection" id="canker_and_herpes">
+                        <p class="subHeader">What causes canker sores and herpes sores?</p>
+                        <p> Herpes sores are caused by herpes simplex 1 or 2 virus (usually type 1) and, like many
+                            infectious diseases, are transmitted from one person to another by direct skin-to-skin
+                            contact. The chance of transmission is about 20% if there are symptoms and 10% without
+                            visible symptoms (“silent shedding”).
+                        </p><br>
+                        <p>Canker sores are not infectious and cannot be passed by one person to another. Stress and
+                            other factors, such as genetic predisposition, vitamin deficiencies (B12, folic acid, and
+                            iron), hormonal shift (during menstrual period), toothpaste or mouthwash containing sodium
+                            lauryl sulfate, a weak immune system, and some others.
+                        </p>
+                    </div><br>
+                    <div style="padding-bottom: 50px;" class="subSection" id="genetical_predispose">
+                        <p class="subHeader">Can someone be genetically predisposed to canker sores or herpes sores?</p>
+                        <p>Unlike herpes sores, someone can be predisposed genetically to canker sores, which means
+                            there’s a higher-than-normal chance of their family members getting canker sores.</p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#symptoms"> Symptoms: similarities
+                                    and differences</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#signs">Signs: similarities
+                                    and differences</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#images">Images</a>
+                            </li>
+                            <li class="page_item"><a href="#faq">FAQs</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#put_in_context">Putting signs and
+                                            symptoms in context</a> </li>
+                                    <li class="page_item"><a href="#looking_at_store">Telling the difference by looking
+                                            at the
+                                            sore</a>
+                                    </li>
+                                    <li class="page_item"><a href="#canker_and_herpes">Different causes for canker and
+                                            herpes
+                                            sores</a>
+                                    </li>
+                                    <li class="page_item"><a href="#genetical_predispose">Genetic predisposition to
+                                            sores</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
