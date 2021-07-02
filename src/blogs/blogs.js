@@ -2,6 +2,7 @@ import '../styles/index.css'
 import '../styles/Header.css'
 import '../styles/Footer.css'
 import '../styles/blogs.css'
+import '../styles/haveAQuestion.css'
 
 const mobileMenuBtn = document.getElementById('mobile-menu-btn')
 const menuCloseBtn = document.getElementById('mobile-menu-btn-close')
