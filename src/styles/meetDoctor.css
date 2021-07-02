@@ -1,0 +1,140 @@
+.meet-doctor .introduction {
+    margin-top: 130px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.meet-doctor .introduction p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+.meet-doctor h1 {
+    text-align: center;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 700;
+}
+
+.meet-doctor .consult .row.consulting {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meet-doctor .consult .row.consulting .speech-bubble {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meet-doctor .consult .row.consulting .speech-bubble p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.meet-doctor .consult .row.consulting .speech-bubble img {
+    margin: 0 auto;
+}
+
+.meet-doctor .about {
+    padding: 0 30px;
+    margin-bottom: 100px;
+}
+
+.meet-doctor .about p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+.meet-doctor h3 {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #DC593A;
+}
+
+@media (max-width: 1200px) {
+    .desktop {
+        display: none;
+    }
+
+    .meet-doctor .introduction {
+        margin-top: 56px;
+    }
+
+    .meet-doctor h1 {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        margin-bottom: 0;
+    }
+
+    .meet-doctor .introduction p{
+        font-size: 0.875rem;
+    }
+
+    .meet-doctor h2.secondary-orange{
+        font-size: 1.25rem;
+    }
+
+    .meet-doctor section {
+        padding: 0 16px;
+        width: 100vw;
+    }
+
+    .meet-doctor .section-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .meet-doctor .consult .row.consulting {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .meet-doctor .consult .row.consulting .speech-bubble {
+        margin-bottom: 40px;
+    }
+
+    .meet-doctor .section.consult {
+        padding-top: 8px;
+        padding-bottom: 0;
+    }
+
+    .meet-doctor .consult .row.consulting .doctor-image {
+        display: none;
+    }
+
+    .meet-doctor .consult .row.consulting .speech-bubble p{
+        font-size: 1rem;
+    }
+
+    .meet-doctor h3{
+        margin-top: 0;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .meet-doctor .about{
+        padding: 0 16px;
+        margin-bottom: 50px;
+    }
+
+    .meet-doctor .about p{
+        font-size: 0.875rem;
+    }
+
+}
