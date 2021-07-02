@@ -653,13 +653,13 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/blogs/Blogs.html',
-      filename: 'blogs.html',
+      filename: 'articles.html',
       inject: true,
       chunks: ['blogs']
     }),
     new HtmlWebpackPlugin({
       template: './src/blogs/GenitalWarts/GenitalWarts.html',
-      filename: 'blogs/genital_warts.html',
+      filename: 'articles/genital-warts-versus-skin-tags.html',
       inject: true,
       chunks: ['blogGenitalWarts']
     }),
