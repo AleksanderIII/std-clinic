@@ -579,9 +579,13 @@ module.exports = {
       chunks: ['syphilisTreatment']
     }),
 
+
+
+
+
     new HtmlWebpackPlugin({
       template: './src/tests/Chlomydia/Chlomydia.html',
-      filename: 'tests/chlomydia.html',
+      filename: 'chlamydia-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsChlomydia']
     }),
@@ -651,6 +655,10 @@ module.exports = {
       inject: true,
       chunks: ['testsBalanitis']
     }),
+
+
+
+
     new HtmlWebpackPlugin({
       template: './src/blogs/Blogs.html',
       filename: 'articles.html',
@@ -759,6 +767,10 @@ module.exports = {
       inject: true,
       chunks: ['blogHomosexualSex']
     }),
+
+
+
+
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css'

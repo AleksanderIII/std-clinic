@@ -578,7 +578,7 @@ module.exports = {
 
     new HtmlWebpackPlugin({
       template: './src/tests/Chlomydia/Chlomydia.html',
-      filename: 'tests/chlomydia.html',
+      filename: 'chlamydia-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsChlomydia']
     }),
