@@ -9,8 +9,10 @@ const HTMLInlineCSSWebpackPlugin = require('html-inline-css-webpack-plugin')
 module.exports = {
   entry: {
     home: './src/index.js',
-    
+
     meetTheDoctor: './src/meetTheDoctor/meetTheDoctor.js',
+
+    officeHours: './src/officeHours/officeHours.js',
 
     chlomydia: './src/diseases/Chlomydia/index.js',
     chlomydiaWhatISee: './src/diseases/Chlomydia/WhatISee/whatIsee.js',
@@ -197,6 +199,12 @@ module.exports = {
       filename: 'meet-doctor-fuzayloff.html',
       inject: true,
       chunks: ['meetTheDoctor']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/officeHours/OfficeHours.html',
+      filename: 'office-hours-location.html',
+      inject: true,
+      chunks: ['officeHours']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/chlomydia.html',
