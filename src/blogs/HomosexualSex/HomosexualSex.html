@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/unprotected_sex.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <div class="subSection" id="what_to_expect">
+                        <h3 style="margin-top: 0;">What to expect on this page?</h3>
+                        <p> Sexually transmitted diseases (STDs) are infections acquired from another person mainly
+                            through the pathway of sexual activity. STDs are very common and put a heavy burden on
+                            public health in many countries. Luckily, these disease are treatable, some of them are
+                            curable, and, most important, all of them are preventable.
+                        </p><br>
+                        <p>In the United States, about 20 million new sexually transmitted infections occur every year.
+                            That means that on average, an American has a 6% annual probability of getting an STD. Of
+                            course, an individual’s chance of getting an STD depends on many factors, and homosexual
+                            intercourse is a major risk factor.
+                        </p><br>
+                        <p>In this article, you will learn about the risks of contracting various STDs that homosexual
+                            males face when they have casual unprotected sex with other males.
+                        </p><br>
+                        <p>We discuss the available data about these risks with respect to the following STDs:
+                        </p>
+                        <ul>
+                            <li>HIV</li>
+                            <li>Herpes </li>
+                            <li>Chlamydia</li>
+                            <li>Gonorrhea</li>
+                            <li>Syphilis</li>
+                            <li>Ureaplasma</li>
+                            <li>Mycoplasma </li>
+                            <li>Trichomoniasis</li>
+                            <li>HPV</li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection" id="chance_of_hiv">
+                        <h3>HIV in homosexual men by the numbers</h3>
+                    </div>
+                    <div class="subSection" id="hiv_overview">
+                        <p class="subHeader"> General overview</p>
+                        <p>While other STDs, such as chlamydia and gonorrhea, are much more common, HIV is by far the
+                            deadliest. In the United States, the number of deaths attributed to HIV in 2017 was 34 times
+                            higher than the number of deaths attributed to all other STDs combined. Engaging in casual
+                            sexual activity exposes a person to HIV infection because some of those who carry the virus
+                            are not aware of their HIV-positive status and some HIV-positive individuals engage in
+                            unprotected sex without admitting that they have HIV. The risk of contracting the disease
+                            through casual sex is very hard to estimate because it depends on many variables that cannot
+                            be measured accurately, such as the number of sex acts, their timing, and other co-factors.
+                        </p><br>
+                        <p>In general, the risk depends mainly on the prevalence of the disease in the region where the
+                            person is engaged in casual sex activity. For example, the general risk of contracting HIV
+                            from casual sex is 21 times higher in the District of Columbia, which has 46.3 HIV-positive
+                            persons per 100,000 population, than in Maine, where the prevalence is 2.2 per 100,000. And
+                            the risk is much higher in males who have sex with other males (MSM), who constituted 64% of
+                            people living with HIV in the United States in 2012. Four to seven percent of these people
+                            are unaware of their HIV-positive status. Because of this high variability, the risk of
+                            contracting an STD by having sex with a person whose status with respect to that STD is not
+                            commonly reported in the literature.
+                        </p>
+                    </div>
+                    <div class="subSection" id="hiv_status">
+                        <p class="subHeader">The risk of contracting HIV through one-time contact with a person of
+                            unknown HIV status
+                        </p>
+                        <p>In an American study of MSM from 1992 to 1994, it was found that the general risk of
+                            contracting HIV through having sex with another man of unknown status is about 0.27% for the
+                            male receiving anal intercourse without a condom and 0.06% for the male who is the insertive
+                            partner in anal intercourse without a condom. The use of a condom reduces the risk to 0.18%
+                            for the receiver and 0.04% for the insertive partner. A receiver of oral ejaculation had a
+                            0.04% risk of contracting the disease. These probabilities might be higher today because the
+                            prevalence of the disease has increased. While nowadays a higher proportion of HIV-positive
+                            people are on highly active antiretroviral therapy (HAART), which is known to reduce HIV
+                            transmission in heterosexuals, the male-to-male HIV transmission risk is not lower now than
+                            it was before HAART.
+                        </p>
+                    </div>
+                    <div class="subSection" id="positive_hiv_status">
+                        <p class="subHeader">The risk of contracting HIV through one-time contact with an HIV-positive
+                            person
+                        </p>
+                        <p>The probability of a male contracting the disease through unprotected anal sex with an
+                            HIV-positive male was estimated at about 1.43% if ejaculation had occurred inside the rectum
+                            and 0.65% if withdrawal occurred before ejaculation. The probability of an uncircumcised
+                            male contracting the disease through insertive unprotected anal intercourse with an
+                            HIV-positive male is 0.62%. Circumcision reduces this probability by more than 5 times but
+                            the existence of a genital herpes infection in either partner triples the probability.
+                        </p>
+                    </div>
+                    <div class="subSection" id="getting_herpes">
+                        <h3>The risk of contracting herpes for MSM</h3>
+                    </div>
+                    <div class="subSection" id="herpes_overview">
+                        <p class="subHeader">General overview</p>
+                        <p>Herpes is caused by the herpes simplex virus (HSV) and is transmitted via skin-to-skin
+                            contact. HSV-1 causes orofacial and genital infections. HSV-2 causes primarily genital
+                            infections. However, each type may cause infections in either area, with HSV-1 implicated in
+                            up to 78% of anogenital lesions. In the United States, HSV-1 is more prevalent than HSV-2,
+                            though HSV-2 is predominant among African Americans and women. HSV-1 tends to be less
+                            symptomatic, which increases the risk of a sexual partner being a carrier and a transmitter
+                            of the disease without having a visible sore. In fact, most herpes transmissions occur
+                            through sex that occurred while the virus was not manifesting clinically (that is, there
+                            were no visible sores).
+                        </p>
+                    </div>
+                    <div class="subSection" id="herpes_probability">
+                        <p class="subHeader">The probability of contracting herpes through homosexual contact
+                        </p>
+                        <p>We did not ﬁnd speciﬁc numbers regarding the probability of a male acquiring genital herpes
+                            through sex with another male whose herpes status is unknown. In general, as with HIV, this
+                            depends on the prevalence of genital herpes in the region. In the United States, it was
+                            estimated in 2015–2016 that about 45.2% of males carry HSV-1 and about 8.2% carry HSV-2.
+                            That means that there is a 45.2% chance in the United States of a casual-sex male partner
+                            having HSV-1 and an 8.2% chance of him having HSV-2.
+                        </p><br>
+                        <p>Furthermore, the real probability of contracting herpes from a person who carries it depends
+                            on the viral load at the moment of contact—which is impossible to measure. Very few studies
+                            directly used probability to measure the risk of acquiring herpes from a one-time sex-act.
+                            We did not ﬁnd any studies of male-to-male transmission that reported per-sex-act
+                            probability. The probability of an uncircumcised male acquiring herpes from a female was
+                            estimated to be between 0.3% and 0.7% per unprotected sexual act. As a better measure of
+                            this risk, Wald et al. proposed the median time that the relationship lasted before the
+                            acquisition of the disease. It was found that it takes a man, in a sexual relationship with
+                            a woman who has genital herpes, 120 days to acquire HSV-2 and 92 days to acquire HSV-1. In
+                            contrast, it takes a man in a sexual relationship with another man who has genital herpes
+                            only 28 days to acquire HSV-2 and 60 days to acquire HSV-1. Circumcision was found to cut
+                            these probabilities in half.
+                        </p>
+                    </div>
+                    <div class="subSection" id="getting_chlamydia">
+                        <h3>The risk of contracting chlamydia for MSM</h3>
+                        <p> Chlamydia trachomatis, a sexually transmitted bacterium, is the most commonly reported
+                            infection in the United States.
+                        </p><br>
+                        <p>Speciﬁc data on the probability of <u>getting a chlamydia infection</u> after a casual
+                            one-time sex
+                            act is not available. This probability depends on the local prevalence of the disease, among
+                            other factors. It is estimated that about 1.4% of all males in the United States are
+                            infected with chlamydia. The prevalence is higher among those between 18 and 26 years of
+                            age—4.2%.
+                        </p><br>
+                        <p>The transmission probability for heterosexual relationships has been estimated at about 68%
+                            when one partner carries the disease. This probability was similar for female-to-male and
+                            male-to-female transmission, suggesting that the transmission probability would likely be
+                            about the same for males having sex with other males. Another study converted this
+                            transmission rate to a time interval and estimated the probability at 4.5%. However, another
+                            study of the same subject estimated that the probability of transmission through a one-time
+                            sex act is as high as 32% to 40%.
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="getting_gonorrhea">
+                        <h3>The risk of contracting gonorrhea for MSM</h3>
+                        <p>Gonorrhea is the second-most-often-reported sexually transmitted disease in the United
+                            States, behind Chlamydia, with an estimated incidence of 600,000 new cases every year. Males
+                            who have sex with males have higher-than-average rates of gonorrhea, in general: 15.8%. Data
+                            on the probability of male-to-male transmission of the disease when the partner’s gonorrhea
+                            status is unknown and when the partner is gonorrhea-positive are lacking. The most relevant
+                            data we could ﬁnd is that the probability of a man contracting gonorrhea by having a
+                            single-act unprotected sex with a female carrying the disease is estimated to be about 25%.
+                        </p>
+                        <h3>The risk of contracting syphilis for MSM</h3>
+                        <p><u>Syphilis</u> is an infection caused by the bacterium Treponema pallidum. Transmission
+                            usually occurs via direct contact with an infectious lesion during sex; it can happen
+                            through vaginal, anal, or oral sex.
+                        </p><br>
+                        <p>The probability of contracting syphilis is in general a function of the prevalence of the
+                            disease in the region. The number of new cases of syphilis in the United States is
+                            increasing; there were a record 35,063 new cases of primary and secondary syphilis in 2018.
+                            Primary and secondary syphilis are the most transmissible stages of the disease. Sixty-four
+                            percent of these cases were among MSM. The transmission probability does not seem to be very
+                            different for a heterosexual act and homosexual act. However, MSM, especially those between
+                            15 and 40 years of age, are at higher risk of contracting the disease; the numbers show that
+                            this category is the one contributing most to new cases. Also, many males who get syphilis
+                            don’t have any symptoms for years. The prevalence of syphilis among MSM in the United States
+                            has been estimated at 0.1%.
+                        </p><br>
+                        <p>The probability of a male contracting syphilis through a one-time sex act with a
+                            syphilis-positive male is 30% to 60%.
+                        </p>
+                    </div>
+                    <div class="subSection" id="getting_ureaplasma">
+                        <h3>The risk of contracting ureaplasma for MSM</h3>
+                        <p>Ureaplasma urealyticum is an emerging sexually transmitted disease that most commonly causes
+                            nonchlamydial nongonococcal urethritis in men but can also cause non-genital infections. The
+                            organism is also incriminated in male infertility. The infection can be transmitted through
+                            genital-to-genital or oral-to-genital contact. Data on the transmission rate of the
+                            infection was not found.</p>
+                        <h3>The risk of contracting mycoplasma for MSM</h3>
+                        <p> Mycoplasma genitalium is an emerging sexually transmitted bacterial infection with an
+                            increasing resistance to antibiotics. Transmission is primarily by genital–genital and
+                            penile–anal contact. Transmission through oral sex is unlikely.
+                        </p><br>
+                        <p>The risk of contracting the infection through casual sex with a partner of unknown disease
+                            status depends on the prevalence of the disease in the region. The prevalence of Mycoplasma
+                            genitalium infection in the general population ranges from 1% to 2%. The infection is less
+                            prevalent in men but more prevalent in those who have multiple sexual partners.
+                        </p><br>
+                        <p>It is not known what the average rate of transmission per episode of unprotected sexual
+                            intercourse is. However, it has been estimated that the probability of contracting a
+                            mycoplasma infection through unprotected sexual intercourse with an infected partner is
+                            lower than 40%.
+                        </p>
+                    </div>
+                    <div class="subSection" id="getting_trichomoniasis">
+                        <h3>The risk of contracting trichomoniasis for MSM</h3>
+                        <p> Trichomoniasis is a genitourinary infection caused by the parasite Trichomonas vaginalis
+                        </p><br>
+                        <p>It’s one of the most common sexually transmitted diseases in the world. The parasite tends to
+                            be carried by women more than men, but it is so common that its prevalence in men is also
+                            high. It is estimated that 0.5% of males in the United States carry the disease. Those who
+                            attend STD clinics tend to have higher rates of the disease, but MSM are not more likely to
+                            have this disease.
+                        </p><br>
+                        <p>We could not ﬁnd speciﬁc data on male-to-male per-act probability of contracting the disease.
+                            However, the disease has very high rates of infectivity in heterosexual relations, and if a
+                            male homosexual partner is a carrier of the infection, the transmission probability should
+                            be about the same. Considering also that male-to-female transmission rates are higher than
+                            female-to-male rates, the probability of contracting a trichomonas infection through a
+                            single act of unprotected sexual intercourse with an infected partner is between 70% to 85%.
+                        </p>
+                    </div>
+                    <div class="subSection" id="getting_hpv">
+                        <h3>The risk of contracting HPV for MSM</h3>
+                        <p> HPV is one of the most common sexually transmitted infections in the United States,
+                            accounting for more than one-third of new cases of STDs each year. About 70% of sexually
+                            active people acquire the infection at some point during their lives.
+                        </p><br>
+                        <p>The prevalence of the disease is estimated to be very high in the United States, with about
+                            15% of all US adults carrying it. The prevalence is about the same in males and females. It
+                            is estimated that up to 57% of MSM in the United States have anal HPV. Therefore, the
+                            probability of a male contracting the disease through having sex with another male of
+                            unknown HPV status is likely to be about half of what it is when the partner is known to be
+                            HPV-positive.
+                        </p><br>
+                        <p>Estimated probabilities of HPV transmission from the penis to the anus are signiﬁcantly
+                            higher than those for transmission from the anus to the penis.
+                        </p><br>
+                        <p>The probability of an insertive male contracting the disease through a single act of
+                            unprotected sex with an HPV-positive receptive male was estimated to be from 0.8% to 14.2%,
+                            depending on the HPV type in question.
+                        </p><br>
+                        <p>The probability of a receptive male contracting the disease through a single act of
+                            unprotected sex with an HPV-positive insertive male was estimated to be from 33.7% to 85.7%,
+                            depending on the HPV type in question.
+                        </p>
+                    </div>
+
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p>1. Shannon C, Klausner J. The Growing Epidemic of Sexually Transmitted Infections in
+                            Adolescents: A Neglected Population. Curr Opin Pediatr. 2018;30(1):137-143.
+                            doi:10.1097/MOP.0000000000000578
+                        </p>
+                        <p>2. GBD 2017 Causes of Death Collaborators. Global, regional, and national age-sex-specific
+                            mortality for 282 causes of death in 195 countries and territories, 1980-2017: a systematic
+                            analysis for the Global Burden of Disease Study 2017. Lancet Lond Engl.
+                            2018;392(10159):1736-1788. doi:10.1016/S0140-6736(18)32203-7
+                        </p>
+                        <p>3. Powers KA, Poole C, Pettifor AE, Cohen MS. Rethinking the heterosexual infectivity of
+                            HIV-1:
+                            a systematic review and meta-analysis. Lancet Infect Dis. 2008;8(9):553-563.
+                            doi:10.1016/S1473-3099(08)70156-7
+                        </p>
+                        <p>4. Centers for Disease Control and Prevention. HIV in the United States by Region. Centers
+                            for
+                            Disease Control and Prevention. Published September 26, 2019. Accessed October 9, 2019.
+                        </p>
+                        <p>5. Centers for Disease Control and Prevention (CDC). HIV testing and risk behaviors among
+                            gay,
+                            bisexual, and other men who have sex with men - United States. MMWR Morb Mortal Wkly Rep.
+                            2013;62(47):958-962.
+                        </p>
+                        <p>6. Vittinghoff E, Douglas J, Judson F, McKirnan D, MacQueen K, Buchbinder SP. Per-contact
+                            risk
+                            of human immunodeficiency virus transmission between male sexual partners. Am J Epidemiol.
+                            1999;150(3):306-311. doi:10.1093/oxfordjournals.aje.a010003
+                        </p>
+                        <p>7. Jin F, Jansson J, Law M, et al. Per-contact probability of HIV transmission in homosexual
+                            men in Sydney in the era of HAART. AIDS Lond Engl. 2010;24(6):907-913.
+                            doi:10.1097/QAD.0b013e3283372d90
+                        </p>
+                        <p>8. Mahiane S-G, Legeai C, Taljaard D, et al. Transmission probabilities of HIV and herpes
+                            simplex virus type 2, effect of male circumcision and interaction: a longitudinal study in a
+                            township of South Africa. AIDS Lond Engl. 2009;23(3):377-383.
+                        </p>
+                        <p>9. Mertz KJ, Trees D, Levine WC, et al. Etiology of genital ulcers and prevalence of human
+                            immunodeficiency virus coinfection in 10 US cities. The Genital Ulcer Disease Surveillance
+                            Group. J Infect Dis. 1998;178(6):1795-1798. doi:10.1086/314502
+                        </p>
+                        <p>10. Mertz GJ, Coombs RW, Ashley R, et al. Transmission of genital herpes in couples with one
+                            symptomatic and one asymptomatic partner: a prospective study. J Infect Dis.
+                            1988;157(6):1169-1177. doi:10.1093/infdis/157.6.1169
+                        </p>
+                        <p>11. McQuillan G, Kruszon-Moran D, Flagg EW, Paulose-Ram R. Prevalence of Herpes Simplex Virus
+                            Type 1 and Type 2 in Persons Aged 14-49: United States, 2015-2016. NCHS Data Brief.
+                            2018;(304):1-8.
+                        </p>
+                        <p>12. Schiffer JT, Mayer BT, Fong Y, Swan DA, Wald A. Herpes simplex virus-2 transmission
+                            probability estimates based on quantity of viral shedding. J R Soc Interface.
+                            2014;11(95):20140160. doi:10.1098/rsif.2014.0160
+                        </p>
+                        <p>13. Magaret AS, Mujugira A, Hughes JP, et al. Effect of Condom Use on Per-act HSV-2
+                            Transmission
+                            Risk in HIV-1, HSV-2-discordant Couples. Clin Infect Dis. 2016;62(4):456-461.
+                            doi:10.1093/cid/civ908
+                        </p>
+                        <p>14. Wald A, Krantz E, Selke S, Lairson E, Morrow RA, Zeh J. Knowledge of Partners’ Genital
+                            Herpes Protects against Herpes Simplex Virus Type 2 Acquisition. J Infect Dis.
+                            2006;194(1):42-52. doi:10.1086/504717
+                        </p>
+                        <p>15. Miller WC, Zenilman JM. Epidemiology of chlamydial infection, gonorrhea, and
+                            trichomoniasis
+                            in the United States--2005. Infect Dis Clin North Am. 2005;19(2):281-296.
+                            doi:10.1016/j.idc.2005.04.001
+                        </p>
+                        <p>16. Quinn TC, Gaydos C, Shepherd M, et al. Epidemiologic and microbiologic correlates of
+                            Chlamydia trachomatis infection in sexual partnerships. JAMA. 1996;276(21):1737-1742.
+                        </p>
+                        <p>17. Althaus C, Low N. Towards more robust estimates of the per sex act transmission
+                            probability
+                            of Chlamydia trachomatis. Sex Transm Infect. 2011;87(Suppl 1):A175-A175.
+                            doi:10.1136/sextrans-2011-050108.180
+                        </p>
+                        <p>18. Katz BP. Estimating transmission probabilities for chlamydial infection. Stat Med.
+                            1992;11(5):565-577. doi:10.1002/sim.4780110502
+                        </p>
+                        <p>19. Little JW. Gonorrhea: Update. Oral Surg Oral Med Oral Pathol Oral Radiol Endodontology.
+                            2006;101(2):137-143. doi:10.1016/j.tripleo.2005.05.077
+                        </p>
+                        <p>20. Gunn RA, O’Brien CJ, Lee MA, Gilchick RA. Gonorrhea screening among men who have sex with
+                            men: value of multiple anatomic site testing, San Diego, California, 1997-2003. Sex Transm
+                            Dis. 2008;35(10):845-848. doi:10.1097/OLQ.0b013e318177ec70
+                        </p>
+                        <p>21. Potterat JJ, Rothenberg RB, Woodhouse DE, Muth JB, Pratts CI, Fogle JS. Gonorrhea as a
+                            social disease. Sex Transm Dis. 1985;12(1):25-32. doi:10.1097/00007435-198501000-00006
+                        </p>
+                        <p>22. Centers for Disease Control and Prevention. Syphilis - CDC Fact Sheet. Centers for
+                            Disease
+                            Control and Prevention. Published September 23, 2019. Accessed October 10, 2019.
+                        </p>
+                        <p>23. Schober PC, Gabriel G, White P, Felton WF, Thin RN. How infectious is syphilis? Br J
+                            Vener
+                            Dis. 1983;59(4):217-219. doi:10.1136/sti.59.4.217
+                        </p>
+                        <p>24. Gunn RA, Lee M, Oh C, Brodine S. Syphilis serologic prevalence monitoring among STD
+                            clinic
+                            clients: correlation with reported syphilis incidence, San Diego, CA, 1985-2004. Sex Transm
+                            Dis. 2007;34(10):749-753. doi:10.1097/01.olq.0000260916.69544.fe
+                        </p>
+                        <p>25. Garnett GP, Aral SO, Hoyle DV, Cates W, Anderson RM. The natural history of syphilis.
+                            Implications for the transmission dynamics and control of infection. Sex Transm Dis.
+                            1997;24(4):185-200. doi:10.1097/00007435-199704000-00002
+                        </p>
+                        <p>26. Hook EW, Marra CM. Acquired Syphilis in Adults. N Engl J Med. 1992;326(16):1060-1069.
+                            doi:10.1056/NEJM199204163261606
+                        </p>
+                        <p>27. Huang C, Zhu HL, Xu KR, Wang SY, Fan LQ, Zhu WB. Mycoplasma and ureaplasma infection and
+                            male infertility: a systematic review and meta-analysis. Andrology. 2015;3(5):809-816.
+                            doi:10.1111/andr.12078
+                        </p>
+                        <p>28. Soni S, Horner P, Rayment M, et al. 2018 BASHH UK national guideline for the management
+                            of
+                            infection with Mycoplasma genitalium. :27.
+                        </p>
+                        <p>29. Taylor-Robinson D, Jensen JS. Mycoplasma genitalium: from Chrysalis to multicolored
+                            butterfly. Clin Microbiol Rev. 2011;24(3):498-514. doi:10.1128/CMR.00006-11
+                        </p>
+                        <p>30. Horner PJ, Martin DH. Mycoplasma genitalium Infection in Men. J Infect Dis.
+                            2017;216(suppl_2):S396-S405. doi:10.1093/infdis/jix145
+                        </p>
+                        <p>31. Patel EU, Gaydos CA, Packman ZR, Quinn TC, Tobian AAR. Prevalence and Correlates of
+                            Trichomonas vaginalis Infection Among Men and Women in the United States. Clin Infect Dis
+                            Off Publ Infect Dis Soc Am. 2018;67(2):211-217. doi:10.1093/cid/ciy079
+                        </p>
+                        <p>32. Kelley CF, Rosenberg ES, O’Hara BM, Sanchez T, del Rio C, Sullivan PS. Prevalence of
+                            Urethral Trichomonas vaginalis in Black and White Men Who Have Sex With Men. Sex Transm Dis.
+                            2012;39(9):739. doi:10.1097/OLQ.0b013e318264248b
+                        </p>
+                        <p>33. Soper D. Trichomoniasis: under control or undercontrolled? Am J Obstet Gynecol.
+                            2004;190(1):281-290. doi:10.1016/j.ajog.2003.08.023
+                        </p>
+                        <p>34. Nelson AL, Woodward JA, eds. Sexually Transmitted Diseases: A Practical Guide for Primary
+                            Care. 2007 edition. Totowa, N.J: Humana Press; 2007.
+                        </p>
+                        <p>35. Chin-Hong PV, Vittinghoff E, Cranston RD, et al. Age-Specific prevalence of anal human
+                            papillomavirus infection in HIV-negative sexually active men who have sex with men: the
+                            EXPLORE study. J Infect Dis. 2004;190(12):2070-2076. doi:10.1086/425906
+                        </p>
+                        <p>36. Goldstone S, Palefsky JM, Giuliano AR, et al. Prevalence of and Risk Factors for Human
+                            Papillomavirus (HPV) Infection Among HIV-Seronegative Men Who Have Sex With Men. J Infect
+                            Dis. 2011;203(1):66-74. doi:10.1093/infdis/jiq016
+                        </p>
+                        <p>37. Zou H, Tabrizi SN, Grulich AE, et al. Site-specific human papillomavirus infection in
+                            adolescent men who have sex with men (HYPER): an observational cohort study. Lancet Infect
+                            Dis. 2015;15(1):65-73. doi:10.1016/S1473-3099(14)70994-6
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#what_to_expect">What to expect on this page</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#chance_of_hiv">Chance of getting HIV</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#hiv_overview">General overview</a> </li>
+                                    <li class="page_item"><a href="#hiv_status">With unknown HIV status</a> </li>
+                                    <li class="page_item"><a href="#positive_hiv_status">Positive HIV status</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#getting_herpes">Chance of getting Herpes</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#herpes_overview">General overview</a> </li>
+                                    <li class="page_item"><a href="#herpes_probability">Probability of getting it</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"> <a href="#getting_chlamydia">Chance of getting Chlamydia</a> </li>
+                            <li class="page_item"><a href="#getting_gonorrhea">Chance of getting Gonorrhea</a> </li>
+                            <li class="page_item"><a href="#getting_ureaplasma">Chance of getting Ureaplasma</a> </li>
+                            <li class="page_item"><a href="#getting_trichomoniasis">Chance of getting Trichomoniasis</a>
+                            </li>
+                            <li class="page_item"><a href="#getting_hpv">Chance of getting HPV</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

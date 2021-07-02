@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>One-night stands and men: hard to resist, easy to
+                get an STD from</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/one_night.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <div class="subSection" id="what_to_expect">
+                        <h3>What to expect in this article</h3>
+                        <p> After a busy day that ended in a bar or a party to celebrate a new business deal, you woke
+                            up in an unfamiliar bed with someone you barely knew. A one-night stand. This is how it
+                            works. Several drinks or a naughty surprise from your friends has brought you to this point,
+                            and it seems you had unprotected intercourse with a person of unknown STD status.
+                        </p><br>
+                        <p>Worrisome, right? Here’s everything you need to know about one-night stands and sexually
+                            transmitted diseases (STDs).
+                        </p><br>
+                        <p>You will learn:</p>
+                        <ul>
+                            <li>What the risk is of acquiring these STDs from a one-night stand with and without
+                                protection:
+                                <ul>
+                                    <li>HIV</li>
+                                    <li>Herpes</li>
+                                    <li>Gonorrhea </li>
+                                    <li>Chlamydia </li>
+                                    <li>Syphilis </li>
+                                    <li>HPV </li>
+                                </ul>
+                            </li>
+                            <li>Myths about preventing STDs right after unprotected sex </li>
+                            <li>What is effective against most STDs: post-exposure prophylaxis </li>
+                            <li>How chlamydia, gonorrhea, and trichomoniasis can be eradicated </li>
+                            <li>How to prevent HIV (it’s urgent!) </li>
+                            <li>How syphilis can be eradicated </li>
+                            <li>Hepatitis B and HPV can be prevented with vaccines </li>
+                            <li>The bad news about herpes </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="chance_of_getting">
+                        <h3>The risk of acquiring specific STDs from one instance of unprotected sex</h3>
+
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="max-width: 136px; width: 136px; min-width: 136px">Disease</th>
+                                        <th style="max-width: 297px; width: 297px; min-width: 297px">Vaginal sex</th>
+                                        <th style="max-width: 417px; width: 417px; min-width: 417px">Anal sex</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan="2" style="color: #4F67A3;">HIV</td>
+                                        <td rowspan="2" style="text-align: center;">0.05–0.1% <b>or</b> 4 per 10,000
+                                            sexual acts
+                                        </td>
+                                        <td>Receptive sex 1.4% <b>or</b> 138 per 10,000 </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insertive sex 0.06% - 0,16% <b>or</b> 11 per 10,000 sexual acts</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes</td>
+                                        <td style="text-align: center;">0.3-0.7%</td>
+                                        <td>No exact data available</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;" rowspan="2">Gonorrhea</td>
+                                        <td style="text-align: center;" rowspan="2">20%</td>
+                                        <td>Receptive sex: 84%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insertive sex: 2%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Chlamydia</td>
+                                        <td style="text-align: center;">4.5%</td>
+                                        <td>32%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Syphilis</td>
+                                        <td style="text-align: center;">51-64%</td>
+                                        <td>30-60%</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;" rowspan="2">HPV</td>
+                                        <td style="text-align: center;" rowspan="2">4% per 100 person-months</td>
+                                        <td>Receptive sex: 33.7%-85.7%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Insertive sex: 0.8%-14.2%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><br>
+                        <p>The risk of acquiring specific STDs from one instance of protected homosexual sex.
+                            <sup>6,7</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 136px;">Disease</th>
+                                        <th style="width: 714px;">Risk per Protected Act</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">HIV</td>
+                                        <td>Very low (0.04%-0.18%)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;" rowspan="2">Herpes</td>
+                                        <td><b>Low-Moderate</b> if the lesions are covered by a condom</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>High</b> if the lesions are not covered</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Gonorrhea</td>
+                                        <td>Low</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Chlamydia</td>
+                                        <td>Low</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;" rowspan="2">Syphilis</td>
+                                        <td><b>Low-Moderate</b> if the ulcer is covered by a condom</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>High</b> if the ulcer is not covered</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3;" rowspan="2">HPV</td>
+                                        <td><b>Low-Moderate</b> if the infective surface is covered by a condom</td>
+                                    </tr>
+                                    <tr>
+                                        <td><b>High</b> if the infective surface is not covered</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><br>
+                        <p>Condoms are highly effective in protecting against HIV, gonorrhea, and chlamydia (STDs that
+                            are transmitted through body fluids). Condoms are somewhat protective against HPV, syphilis,
+                            and herpes, which can be transmitted through skin-to-skin contact. <u>If you want to
+                                practice
+                                “safe sex”, we do encourage you to use condoms.</u> </p>
+
+                        <h3>Measures you might think are helpful immediately after unprotected sex</h3>
+                        <p> Unfortunately, doing these things does not prevent STDs:
+                        </p>
+                        <ul>
+                            <li> Washing the penis
+                            </li>
+                            <li>Douching</li>
+                            <li> Urinating after intercourse
+                            </li>
+                        </ul>
+                        <p> These will help prevent urinary tract infections only. There is no evidence suggesting that
+                            cleaning your genitals with alcohol can be useful in preventing STDs. Moreover, overly
+                            active rubbing may irritate your skin and increase the risk of STD acquisition.
+                        </p>
+                    </div>
+                    <div class="subSection" id="post_exposure">
+                        <h3>Measures that are helpful</h3>
+                        <p>For most STDs, post-exposure prophylaxis is available. Healthcare providers use certain
+                            algorithms for risk assessment and selection of those in need of prophylaxis. For most STDs,
+                            they recommend waiting for test results or symptom development. However, if you are
+                            extremely concerned, it is possible to start the prophylaxis right after the exposure. The
+                            duration of prophylaxis differs from one STD to another. Mostly drugs are well tolerated or
+                            have bearable side effects.</p>
+                    </div>
+                    <div class="subSection" id="chlamydia">
+                        <h3>Chlamydia, gonorrhea, and trichomoniasis can be prevented with a single recommended regimen
+                        </h3>
+                        <p> For chlamydia, gonorrhea, and trichomoniasis prevention, this approved antimicrobial drug
+                            combination is used:
+                        </p><br>
+                        <p>A single dose of ceftriaxone (intramuscular injection 250 mg) plus a single dose of
+                            azithromycin (1g by mouth) plus a single dose of metronidazole (2g by mouth) OR a single
+                            dose of tinidazole (2g by mouth).8 Ceftriaxone is used for gonorrhea prophylaxis, whereas
+                            azithromycin is effective against chlamydia. Metronidazole or tinidazole is used for
+                            trichomoniasis treatment. Metronidazole has common side effects, such as nausea, vomiting,
+                            and diarrhea. Ceftriaxone can be effective against syphilis in the incubation phase.
+                            <sup>9</sup>
+                        </p>
+                        <p class="subHeader">What healthcare providers suggest for chlamydia, gonorrhea, and
+                            trichomoniasis eradication
+                        </p>
+                        <p>Get tested two weeks after the exposure and start the treatment only if you tested positive.
+                            Antibiotic misuse can lead to bacteria being resistant to antibiotics.
+                        </p>
+                    </div>
+                    <div class="subSection" id="hiv">
+                        <h3>Postexposure prophylaxis for HIV must begin within 72 hours after exposure</h3>
+                        <p> HIV postexposure prophylaxis (PEP) is time-sensitive. It must be administered within 72
+                            hours of the exposure. And ideally, it should be administered within 4 hours after the
+                            exposure. PEP is administered for 28 days. You should take it once or twice per day. PEP is
+                            well tolerated and side effects (e.g., nausea and kidney and bone toxicity) are bearable and
+                            treatable. A combination of Truvada and raltegravir or dolutegravir is usually prescribed.
+                            Contact your healthcare provider for a risk assessment and to discuss therapy.<sup>10</sup>
+                        </p>
+                        <div class="subSection" id="who_needs_it">
+                            <p class="subHeader">Who should have PEP
+                            </p>
+                            <p>Men are at high risk and should have PEP if they engaged in any of the following:
+                            </p>
+                            <ul>
+                                <li>Unprotected receptive anal intercourse
+                                </li>
+                                <li>Unprotected insertive anal intercourse
+                                </li>
+                                <li>Unprotected insertive vaginal intercourse
+                                </li>
+                            </ul>
+                            <p>If their skin or mucosal lesions were exposed to infected blood or body fluids containing
+                                blood.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subSection" id="syphilis">
+                        <h3>Syphilis can be easily eradicated</h3>
+                        <p> Syphilis can be eradicated with just one dose of benzathine penicillin G (2.4 million units)
+                            given by intramuscular injection within three months after exposure.11 This has been shown
+                            to be 95% effective. The same treatment is given (one dose) if you contracted syphilis
+                            within the last year. If you are not sure about your previous syphilis status (you didn’t
+                            test for syphilis more than a year ago), you should have three prophylactic doses within
+                            21–27 days (each for 7–9 days). A Jarisch–Herxheimer reaction can develop in
+                            syphilis-positive people as a side effect of treatment. You may develop fever, joint pain,
+                            headaches, and a fast heartbeat. This reaction is due to the death of bacteria and lasts for
+                            24 hours.<sup>12</sup>
+                        </p>
+                        <div class="subSection" id="advise">
+                            <p class="subHeader"> Healthcare providers suggest waiting to be certain about the
+                                diagnosis of
+                                syphilis
+                            </p>
+                            <p> Common practice suggests <u>getting tested for syphilis</u> first (serological tests two
+                                to
+                                four weeks after exposure) and initiating the treatment after positive results. Improper
+                                treatment can mask syphilis manifestations, resulting in complications several years
+                                later.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="subSection" id="herpes">
+                        <h3>There is no post-exposure regimen for herpes</h3>
+                        <p>Unfortunately, effective post-exposure prophylaxis for <u>Herpes</u> does not exist</p>
+                    </div>
+                    <div class="subSection" id="hepatits">
+                        <h3>Vaccine can be used for hepatitis B and HPV post-exposure prophylaxis</h3>
+                        <p> You can get hepatitis B vaccine if you have not been vaccinated and do not know your
+                            partner’s hepatitis B status. You need only the vaccine—hepatitis B immune globulin (HBIG)
+                            is not administered. You should get the first dose after the possible exposure, a second
+                            dose one or two months later, and a third dose four to six months after the initial dose. If
+                            you know that your partner is HBsAg-positive (i.e., hepatitis B–positive), you should also
+                            get HBIG. You need only one dose if you have previously been vaccinated but didn’t test for
+                            hepatitis B afterward.<sup>8</sup>
+                        </p>
+                        <p class="subHeader"> HPV vaccine has age limitations
+                        </p>
+                        <p> Heterosexual males should not get HPV vaccine over the age of 21. Men who have sex with men
+                            should not get it if they are older than 26. You should get the first dose (if you weren’t
+                            vaccinated or were vaccinated improperly) after the possible exposure, a second dose after
+                            one or two months, and subsequently a third dose.
+                        </p>
+                    </div>
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p><i>1. HIV TRANSMISSION RISK: A SUMMARY OF THE EVIDENCE.</i> </p>
+                        <p>2. HIV Risk Behaviors | HIV Risk and Prevention Estimates | HIV Risk and Prevention
+                        </p>
+                        <p>3. Klein H, Kaplan RL. Condom use attitudes and HIV risk among American MSM seeking partners
+                            for
+                            unprotected sex via the internet. NCBI
+                        </p>
+                        <p>4. Kirkcaldy RD, Weston EA, Segurado AC, Hughes G. Epidemiology of gonorrhoea: a global
+                            perspective. 1906. doi:10.1071/SH19061
+                        </p>
+                        <p>5. Condom Fact Sheet for Public Health Personnel | CDC.
+                        </p>
+                        <p>6. Usaid. USAID - Condom Fact Sheet.; 2015.
+                        </p>
+                        <p>7. Condom Use by Adolescents | American Academy of Pediatrics.
+                        </p>
+                        <p>8. Sexual Assault and Abuse and STDs - 2015 STD Treatment Guidelines. CDC
+                        </p>
+                        <p>9. Sachs CJ, Thomas B. <i>Sexual Assault Infectious Disease Prophylaxis. StatPearls
+                                Publishing</i>;NCBI
+                        </p>
+                        <p>10. Evaluation and management of adult and adolescent sexual assault victims - UpToDate.
+                        </p>
+                        <p>11. Klausner JD. The great imitator revealed: syphilis. NCBI
+                        </p>
+                        <p>12. Syphilis Treatment & Management: Approach Considerations, Antibiotic Therapy, Surgical
+                            Care.
+                            Emedicine
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#what_to_expect"> What to expect in this article</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#chance_of_getting">Chance of getting different STD with one time
+                                    exposure</a>
+                            </li>
+                            <li class="page_item"><a href="#post_exposure">Post exposure treatment options</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#chlamydia">For Chalamydia, Gonorrhea and
+                                            Trichomoniasis</a> </li>
+                                    <li class="page_item"><a href="#hiv">For HIV</a>
+                                        <ul class="subMenu">
+                                            <li class="page_item"><a href="#who_needs_it">Who needs it</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="page_item"><a href="#syphilis">For Syphilis</a>
+                                        <ul class="subMenu">
+                                            <li class="page_item"><a href="#advise">What doctor advise</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="page_item"><a href="#herpes">For Herpes post exposure options</a> </li>
+
+                                    <li class="page_item"><a href="#hepatits">For Hepatitis B and HPV</a> </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -110,7 +110,15 @@ module.exports = {
     blogHandJob: './src/blogs/HandJob/handJob.js',
     blogPublicLice: './src/blogs/PublicLice/publicLice.js',
     blogSyphilisTreatment: './src/blogs/SyphilisTreatment/syphilisTreatment.js',
-    blogPreventingHIV: './src/blogs/PreventingHIV/preventingHIV.js'
+    blogPreventingHIV: './src/blogs/PreventingHIV/preventingHIV.js',
+    blogNightStand: './src/blogs/NightStand/nightStand.js',
+    blogMolluscum: './src/blogs/Molluscum/molluscum.js',
+    blogHerpesTransmission:
+      './src/blogs/HerpesTransmission/herpesTransmission.js',
+    blogAgainstOdds: './src/blogs/AgainstOdds/againstOdds.js',
+    blogVaginalOdor: './src/blogs/VaginalOdor/vaginalOdor.js',
+    blogGenitalHerpes: './src/blogs/GenitalHerpes/genitalHerpes.js',
+    blogHomosexualSex: './src/blogs/HomosexualSex/homosexualSex.js'
   },
   output: {
     path: path.join(__dirname, 'dist'),
@@ -683,6 +691,48 @@ module.exports = {
       filename: 'articles/HIV-PrEP-medication-practical-guide.html',
       inject: true,
       chunks: ['blogPreventingHIV']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/NightStand/NightStand.html',
+      filename: 'articles/std-chance-one-night-stand.html',
+      inject: true,
+      chunks: ['blogNightStand']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/Molluscum/Molluscum.html',
+      filename: 'articles/diagnosing-molluscum-contagiosum-visually.html',
+      inject: true,
+      chunks: ['blogMolluscum']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/HerpesTransmission/HerpesTransmission.html',
+      filename: 'articles/protected-herpes-transmission.html',
+      inject: true,
+      chunks: ['blogHerpesTransmission']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/AgainstOdds/AgainstOdds.html',
+      filename: 'articles/std-risk-with-one-time-heterosexual-encounter.html',
+      inject: true,
+      chunks: ['blogAgainstOdds']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/VaginalOdor/VaginalOdor.html',
+      filename: 'articles/vaginal-smell-causes-testing-treatment.html',
+      inject: true,
+      chunks: ['blogVaginalOdor']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/GenitalHerpes/GenitalHerpes.html',
+      filename: 'articles/herpes-and-other-genital-sores.html',
+      inject: true,
+      chunks: ['blogGenitalHerpes']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/blogs/HomosexualSex/HomosexualSex.html',
+      filename: 'articles/one-time-homosexual-contact-std-risk-men.html',
+      inject: true,
+      chunks: ['blogHomosexualSex']
     }),
     new MiniCssExtractPlugin({
       filename: '[name].css',

@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>How to tell genital herpes apart from other skin conditions.</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/herpes_apart.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+                    <div class="subSection" id="what_to_expect">
+                        <h3>What to expect on this page?</h3>
+                        <p> We summarize in this article how to recognize genital herpes and why it’s important to talk
+                            to your doctor if you’re worried you may have it.
+                        </p><br>
+                        <p>The most common symptom of herpes is skin lesions. These lesions can be confused with
+                            similar-looking lesions caused by a number of other conditions.
+                        </p><br>
+                        <p>Using photographs to help you see what we’re saying, we describe herpes lesions and compare
+                            and contrast them with the lesions caused by these diseases:
+                        </p>
+                        <ul>
+                            <li>Syphilis </li>
+                            <li>Chancroid</li>
+                            <li>Lymphogranuloma venereum </li>
+                            <li>Human papilloma virus (HPV) </li>
+                            <li>Molluscum contagiosum </li>
+                            <li>Ingrown hair and pseudofolliculitis </li>
+                            <li>Folliculitis</li>
+                            <li>Jock itch </li>
+                            <li>Genital eczema </li>
+                            <li>Epstein–Barr virus </li>
+                            <li>Other rarer conditions </li>
+                        </ul>
+                    </div>
+
+                    <div class="subSection" id="recognition">
+                        <h3>Oops … Is that Herpes?</h3>
+                        <p class="subHeader"> How to recognize genital herpes
+                        </p>
+                    </div>
+                    <div class="subSection" id="overview">
+                        <p class="bold-text">Overview</p>
+                        <p>Genital herpes is a very common sexually transmitted disease (STD). It is so common that many
+                            people, when they find any skin lesion around the genital areas, are likely to think that it
+                            is herpes. They are not entirely wrong to think that way. Genital herpes is the main cause
+                            of genital ulcers worldwide.<sup>1</sup> And the condition is usually associated with a
+                            stigma that can itself cause anxiety and even depression<sup>2</sup> and might influence the
+                            affected person’s decision to disclose the infection to others or seek care.<sup>3</sup>
+                        </p>
+                        <br>
+                        <p>A genital sore is not great news regardless of what is causing it. However, many other
+                            conditions causing genital sores have a prognosis different from that of herpes. Some can be
+                            worse, but others, unlike herpes,<sup>4</sup> can be completely cured. That’s why we’re
+                            beginning this
+                            article with an explanation of how to recognize genital herpes and differentiate it from
+                            other genital skin lesions.
+                        </p>
+                    </div>
+                    <div class="subSection" id="sleeping_virus">
+                        <p class="bold-text">A sleeping virus</p>
+                        <p>The herpes virus is known for staying “asleep” in the body for a long time without showing
+                            symptoms. This feature is called latency: once the virus infects a person, after an initial
+                            phase that does not necessarily manifest with symptoms, it remains hidden in the body for
+                            many years, reactivating every now and then.<sup>4</sup> Its reactivation is usually
+                            triggered by
+                            weakness of the immune system, such as in times of sustained stress, accumulated fatigue,
+                            heavy physical activity, or fever, but may not have any apparent cause.<sup>5, 6</sup>
+                        </p><br>
+                        <p><i>“….genital herpes skin lesion suddenly appears as multiple vesicles”</i></p>
+                        <p>The reactivation of the virus rarely manifests with symptoms, so most people who have herpes
+                            don’t know it and most genital herpes transmission occurs in the absence of a <u>visible
+                                skin lesion</u>.
+                        </p>
+                    </div>
+                    <div class="subSection" id="skin_lesions">
+                        <p class="bold-text">Herpes skin lesions</p>
+                        <p>The most characteristic and most common symptom of genital herpes is skin lesions. They
+                            typically appear during periods when the virus is active, which corresponds to when the
+                            virus becomes highly infective through sex. When a person acquires herpes for the first time
+                            through sexual contact, after about two to four days of incubation, a genital herpes skin
+                            lesion suddenly appears as multiple vesicles (small sacs with a thin membrane and liquid
+                            inside) piled together and sitting on an inflamed base. These vesicles are commonly called
+                            herpes sores. They are a bit whiter or browner than the rest of the skin and are often
+                            delimited by a reddish ring from the inflammation. They resemble blisters and can progress
+                            into an ulcer, which is usually more painful. An ulcer is a break in the skin that usually
+                            takes time to heal. Lesions start to heal around 12 days after the sexual
+                            contact.<sup>8</sup> The
+                            sites most frequently involved are, for women, the vagina, vulva, buttocks, anus, and
+                            thighs, and for men, the penis, scrotum, anus, buttocks, and thighs. Herpes skin lesions are
+                            expected to be fully healed after about 19 days.<sup>9</sup>
+                        </p>
+                        <br>
+                        <div style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center;">
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes1.jpg" width="350"
+                                height="212" alt="">
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes2.jpg" width="332"
+                                height="174" alt="">
+                        </div>
+                        <p class="legend" style="margin-top: 10px;">Image 1. Genital herpes in the vesicles phase on the
+                            upper image,10 and in the
+                            ulcer phase on the bottom image.<sup>11</sup> </p>
+                    </div>
+                    <div class="subSection" id="general_symptoms">
+                        <p class="subHeader">General symptoms</p>
+                        <p>The initial herpes infection is sometimes associated with general symptoms of fever,
+                            headache, malaise, and muscular aches. In addition, there is often a tender local
+                            lymphadenopathy (enlargement of lymph nodes) that manifests as a painful lump in the groin
+                            area. When the virus reactivates in an already infected person, these symptoms are milder or
+                            absent and the skin lesion, if it manifests, heals more quickly. However, the reactivation
+                            is often accompanied by prodromal symptoms (feelings that are experienced before the main
+                            symptoms), such as pain, tingling, and burning preceding the appearance of the skin
+                            lesion.<sup>5</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="sore_not_herpes">
+                        <h3>It is not always Herpes</h3>
+                        <p class="subHeader">It is a sore but not a herpes</p>
+                        <p>While genital ulceration is often associated with herpes, it can be the result of several
+                            other conditions, including but not limited to, other sexually transmitted diseases,
+                            inflammatory conditions, skin irritation, and allergic skin lesions. In addition to herpes,
+                            the main sexually transmitted diseases that present with a genital ulcer are primary
+                            syphilis and chancroid. In the United States, syphilis infection is more common than
+                            chancroid.
+                        </p>
+                    </div>
+                    <div class="subSection" id="syphilis">
+                        <p class="subHeader">Syphilis</p>
+                        <p>The skin lesion of primary syphilis usually develops about three weeks (up to 90 days) after
+                            contracting the disease through sexual contact. Initially, it appears as a dark red mark or
+                            spot, and it rapidly becomes ulcerated.
+                        </p><br>
+                        <p>Unlike the genital herpes skin lesion, which presents with multiple vesicles, primary
+                            syphilis’s skin lesion is usually solitary. However, when grouped herpes vesicles progress,
+                            they might take look like a solitary ulcer and can resemble an ulcerated primary syphilis.
+                            However, a herpes ulcer is usually painful, while a primary syphilis skin lesion is
+                            typically painless. The lymphadenopathy of syphilis is also painless, unlike the
+                            lymphadenopathy associated with genital herpes, which is often painful.<sup>12</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs Syphilis</td>
+                                        <td>Both very prevalent in the United States. Both can present with multiple
+                                            vesicles and get ulcerated</td>
+                                        <td>Herpes usually presents with multiple fluid-filled vesicles that turn into
+                                            ulcers over time. Herpes ulcers are shallow, small, and on a red base (that
+                                            is, they are surrounded by red skin). They are painful and may occur with
+                                            painful lymphadenopathy. Syphilis usually has a solitary sore. A syphilis
+                                            ulcer is usually deeper and larger and is painless in itself with painless
+                                            lymphadenopathy.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><br>
+                        <div style="display: flex; flex-direction: row; flex-wrap: wrap;">
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes3.jpg" width="322"
+                                height="156" alt="">
+                            <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes4.jpg" width="321"
+                                height="149" alt="">
+                        </div>
+                        <p class="legend" style="margin-top: 10px;">Image 2. Primary syphilis skin lesions that could be
+                            mistaken for genital
+                            herpes Joseph Engelman, MD; San Francisco Department of Health.<sup>13</sup></p>
+                    </div>
+                    <div class="subSection" id="chancroid">
+                        <p class="subHeader">Chancroid</p>
+                        <p> Chancroid is less common in the United States. It is prevalent in Africa and Asia. Its skin
+                            lesion appears about five days after sexual contact as a painful and inflamed spot that
+                            turns into an ulceration in several days.
+                        </p><br>
+                        <p> Sometimes the skin lesion is solitary, but often more ulcers are present. A chancroid ulcer
+                            is usually deeper and bleeds easily when touched. It sometimes releases a purulent
+                            (infected) liquid. After some days, a painful local lymphadenopathy presents.<sup>14</sup>
+                        </p><br>
+                        <p> Chancroid particularly resembles genital herpes when the latter is in its ulcerated form.
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs. chancroid</td>
+                                        <td>Both very prevalent in the United States. Both can present with multiple
+                                            vesicles and become ulcerated.</td>
+                                        <td>Herpes starts as vesicles before it ulcerates. Its ulceration is superficial
+                                            and sometimes appears as an elevation with a hole in the middle. Chancroid
+                                            starts as an inflamed patch before it ulcerates. Its ulceration is deep and
+                                            bleeds easily, and it can release a purulent liquid.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div><br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes5.jpg" width="363"
+                            height="225" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 3. Chancroid of the penis accompanied with its
+                            lymphadenopathy. Source: CDC/Dr. Pirozzi.<sup>15</sup></p>
+                    </div>
+                    <div class="subSection" id="lymphogranuloma">
+                        <p class="subHeader">Lymphogranuloma Venereum</p>
+                        <p>Another sexually transmitted disease that presents with a genital ulcer resembling herpes is
+                            lymphogranuloma venereum, which is caused by the bacterium Chlamydia trachomatis. This
+                            disease is more common in tropical countries, but in the United States it tends to be
+                            particularly prevalent in men who have sex with men.
+                        </p><br>
+                        <p>A genital skin lesion usually develops three days to three weeks after the sexual contact as
+                            a small vesicle that can ulcerate on its top and that heals after a few weeks. It is usually
+                            soft and painless.
+                        </p><br>
+                        <p>The most characteristic sign of this disease is perhaps the painful lymphadenopathy that can
+                            progress to fistulas (a fistula is an abnormal canal that usually gets created by pus making
+                            its way out of where it formed).
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs.
+                                            Lymphogranuloma
+                                            Venereum</td>
+                                        <td>Both can present with an ulceration. In the United States, both are most
+                                            prevalent in men who have sex with men.</td>
+                                        <td>Herpes starts as vesicles that can be painful. It is possible to have a
+                                            painful lymphadenopathy in herpes, but it is unlikely to progress to
+                                            fistulas, and the main symptom is the skin lesion. Lymphogranuloma venereum
+                                            starts as a button that may go unnoticed. The skin lesion is painless.
+                                            Painful lymphadenopathy is the main symptom and can progress to fistulas.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes6.jpg" width="373"
+                            height="178" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 4. Lymphogranuloma Venereum’s
+                            lymphadenopathy<sup>16</sup></p>
+                        <h3>Non-sexually transmissible diseases</h3>
+                        <p> Some other medical conditions that are not necessarily sexually transmitted can present with
+                            a skin lesion that patients sometimes confuse with a genital herpes. Epstein–Barr virus
+                            (EBV) in rare cases manifests with a painful genital ulceration that resembles common
+                            herpes. However, other manifestations would be more prominent in EBV infection, resembling
+                            the symptomatology of infectious mononucleosis with high fever and a swollen liver or
+                            spleen.<sup>17</sup> Other rare conditions that can present with a herpes-like genital
+                            ulceration
+                            include Behcet disease, genital tuberculosis, amebiasis, and chancriform
+                            pyoderma.<sup>18</sup>
+                        </p><br>
+                        <p>These conditions and the previously mentioned ones are challenging to diagnose even for
+                            doctors. Inspection of the skin lesions and history alone are usually not sufficient to
+                            accurately identify a genital ulcer. <u>Laboratory testing</u> is often necessary to confirm
+                            a
+                            diagnosis.<sup>7</sup>
+                        </p>
+                    </div>
+                    <div class="subSection" id="clearly_not_herpes">
+                        <h3>When it is clearly not genital Herpes</h3>
+                        <p> The following are some conditions that cause skin imperfections around the genital area.
+                            They do not necessarily look like genital herpes or pose a diagnostic problem. However, they
+                            are common conditions and many patients ask if their skin lesions are related to herpes.
+                        </p>
+                    </div>
+                    <div class="subSection" id="hpv">
+                        <p class="subHeader">Human Papillomavirus (HPV)</p>
+                        <p>HPV is a common sexually transmitted infection that can manifest with warts in different
+                            parts of the genital area. HPV warts typically are cauliflower shaped. However, there are
+                            about 100 types of HPV, and flat, spiky, and dome-shaped forms are also commonly seen. HPV
+                            warts are usually firm and, unlike herpes, very unlikely to ulcerate.<sup>19</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs. HPV</td>
+                                        <td>Skin lesion may present as multiple buttons organized in a flower shape.
+                                        </td>
+                                        <td>Herpes vesicles (sacs full of liquid with thin membranes) have a fragile
+                                            consistency and are likely to ulcerate. HPV lesions are firm and very
+                                            unlikely to ulcerate.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes7.jpg" width="255"
+                            height="187" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 5. Genital HPV warts. <u>Source</u> </p>
+                    </div>
+                    <div class="subSection" id="molluscum">
+                        <p class="subHeader">Molluscum contagiosum</p>
+                        <p> Molluscum contagiosum is a highly infectious condition caused by a virus and commonly seen
+                            in HIV patients. It usually presents with a growth sort of skin lesion. The skin lesions,
+                            known as mollusca, can appear anywhere on the body. They are small and raised and usually
+                            have a characteristic pit in the center. They may become itchy or painful, but they are
+                            smooth and firm and do not look like an ulcer.<sup>20</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs.
+                                            Molluscum
+                                            contagiosum</td>
+                                        <td>Small buttons that can be found grouped. The dimpled aspect of mollusca can
+                                            look like ulcerated herpes. </td>
+                                        <td>Herpes lesions are fragile vesicles that ulcerate. They typically around the
+                                            mouth and in the genital area. Molluscum contagiosum lesions are firm and
+                                            smooth and only rarely ulcerate, and they are more likely to also be present
+                                            on other body parts, such as the abdomen, legs, and arms.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes8.jpg" width="255"
+                            height="187" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 6. Molluscum contagiosum<sup>21</sup></p>
+                    </div>
+                    <div class="subSection" id="ingrown_hair">
+                        <p class="subHeader">Ingrown hair and pseudofolliculitis</p>
+                        <p>When the hair is not properly shaved on fragile skin, it can curl inside it, forming a bump,
+                            and can progress to pseudofolliculitis or even folliculitis.
+                        </p><br>
+                        <p>The skin in the genital area is particularly fragile, and ingrown hair can easily occur there
+                            as a result of a nonoptimal shaving technique. The bump of ingrown hair is usually small and
+                            firm, but it can look like a blister, which makes it look like a herpes lesion. It can also
+                            be painful, but its pain does not resemble the distinctive burning pain of herpes. It also
+                            does not ulcerate, and if it pops open it usually heals very quickly, unlike herpes.
+                        </p><br>
+                        <p>When there is recurrence of ingrown hair, inflammation can occur in that area and present as
+                            redness of the surface of the skin and a chronic recurrence of itchy buttons. The condition
+                            is commonly seen in the beard area, especially on the neck and under the chin where the skin
+                            is more fragile, but it can also be seen in the pubis and other areas.
+                        </p><br>
+                        <p>Estimated probabilities of HPV transmission from the penis to the anus were significantly
+                            higher than were those from the anus to the penis.
+                        </p><br>
+                        <p>The skin lesions of pseudofolliculitis are, like ingrown hair and contrary to herpes,
+                            unlikely to ulcerate. They follow the pattern of hair growth, and they have particularly
+                            more pruritis or pain a day or two after shaving.<sup>22</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs. ingrown
+                                            hair and
+                                            pseudofolliculitis</td>
+                                        <td>Like herpes, ingrown hair can look like a blister, and pseudofolliculitis
+                                            tends to be more symptomatic a day or two after shaving. </td>
+                                        <td>Herpes has vesicles that ulcerate and a characteristic burning pain. Ingrown
+                                            hair and pseudofolliculitis have small, firm lesions that do not ulcerate
+                                            and mild tingling pain and itching.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes9.jpg" width="255"
+                            height="167" alt="">
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes10.jpg" width="255"
+                            height="167" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 7. Ingrown hair (left) and pseudofolliculitis
+                            (right). <u>Source : NHS</u> </p>
+                    </div>
+                    <div class="subSection" id="folliculitis">
+                        <p class="subHeader">Folliculitis</p>
+                        <p>A hair follicle can become infected and form an inflamed button, most commonly because of a
+                            superficial bacterial or fungal infection or the progression of ingrown hair toward the
+                            infection.
+                        </p><br>
+                        <p><i>“ Herpes has vesicles that ulcerate”</i></p>
+                        <br>
+                        <p>Folliculitis appears as a pimple, usually with a hair topping it and reddish surroundings. A
+                            white coloration—a sign of pus—can sometimes be seen under the skin of the button. If the
+                            folliculitis is due to ingrown hair, the ingrown hair can also sometimes be seen under the
+                            button.<sup>23</sup>
+                        </p> <br>
+                        <p>The pimple of folliculitis does not ulcerate and heals quickly when it opens. The condition
+                            is benign and usually self-limiting.
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs. folliculitis</td>
+                                        <td>Folliculitis’s pimples might look like ulcerated herpes when they open.
+                                        </td>
+                                        <td>Herpes has vesicles that ulcerate. It has no relationship to hair.
+                                            Folliculitis presents as pimples that do not ulcerate. Either a hair will
+                                            top each pimple or an ingrown hair will be seen underneath it.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes11.jpg" width="282"
+                            height="222" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 8. Folliculitis. Source: HC-UFPR Dermatology
+                            Service</p>
+                    </div>
+                    <div class="subSection" id="jock_itch">
+                        <p class="subHeader">Jock itch</p>
+                        <p>Jock itch, or tinea cruris, is a common dermatologic condition, especially in men. It is
+                            caused by a fungus and classically results in a well-delimited red patch of skin formed by a
+                            pattern of rings. The patch usually forms in the groin and skin folds in the genital area
+                            but can spread to other parts of the body. The infection might cause itching and even a
+                            burning sensation but does not cause the distinctive ulceration of genital
+                            herpes.<sup>24</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs. Jock itch</td>
+                                        <td>The delimited red patch of jock itch might look like the inflamed background
+                                            of herpes.</td>
+                                        <td>Herpes has vesicles that ulcerate. Jock itch has no buttons or ulcerations.
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes12.jpg" width="367"
+                            height="178" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 9. Jock itch on the inner thigh of a
+                            man<sup>25</sup></p>
+                    </div>
+                    <div class="subSection" id="eczema">
+                        <p class="subHeader"> Genital eczema</p>
+                        <p>Eczema, or dermatitis, refers to a group of skin diseases that cause skin inflammation. They
+                            have an allergic and environmental causal mechanism and are not contagious.
+                        </p><br>
+                        <p>The genital area can be particularly prone to eczema since its skin and fragile and easily
+                            irritated and because of moisture and friction from clothing. Various types of eczema could
+                            affect the genital area, and each has its own characteristics. However, all types of eczema
+                            cause skin redness and itching. The skin lesion is poorly defined, and itching is usually
+                            the predominant symptom. Swelling is also a common feature of eczema. Bumps that can scar
+                            are frequent, blisters are rarer, and ulceration similar to that of herpes is almost
+                            exceptional unless the lesions have been extensively scratched.<sup>26, 27</sup>
+                        </p><br>
+                        <p>One type of eczema looks especially like herpes but has nothing to do with the herpes virus.
+                            It is called dermatitis herpetiformis. It is characterized by blisters filled with a clear
+                            fluid and is intensely itchy. It is related to celiac disease and gluten intolerance and its
+                            skin lesions can appear in multiple places on the body.<sup>28</sup>
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 190px;"></th>
+                                        <th style="width: 330px;">Similarity</th>
+                                        <th style="width: 330px;">Difference</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3;">Herpes vs. Eczema</td>
+                                        <td>Both can present with blisters.</td>
+                                        <td>With herpes, lesions that look like blisters are frequent, very prone to
+                                            ulceration, and cause a burning sensation. With eczema, blisters are rare,
+                                            ulceration is exceptional, and itching is the primary symptom.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div> <br>
+                        <img src="http://d12qz6jssicxsf.cloudfront.net/images/genital_herpes13.jpg" width="350"
+                            height="196" alt="">
+                        <p class="legend" style="margin-top: 10px;">Image 10. Allergic Eczema. <u>Source</u></p>
+                    </div>
+
+                    <div class="subSection" id="talk_to_doctor">
+                        <h3>Should I talk to a doctor about it?</h3>
+                        <p> Now that you have a broad idea of how to differentiate a genital herpes ulcer from other
+                            commonly encountered conditions, you should <u>consult your doctor</u> when you suspect
+                            genital
+                            herpes for the first time. The first episode of herpes can have more noticeable symptoms
+                            than recurrences later will and it will be less difficult to ensure that the prognosis is
+                            benign and rule out more harmful conditions.
+                        </p><br>
+                        <p>Herpes is still a condition often associated with anxiety, fear, and shame. Your healthcare
+                            provider can talk to you about your feelings in that regard and give you support and
+                            guidance.
+                        </p><br>
+                        <p>With any genital condition, it is important to have the correct diagnosis made by your
+                            doctor, who will use laboratory tests for confirmation to establish a proper management
+                            plan.
+                        </p>
+                    </div>
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p>1. Gupta R, Warren T, Wald A. Genital herpes. The Lancet. 2007;370(9605):2127-2137.
+                            doi:10.1016/S0140-6736(07)61908-4
+                        </p>
+                        <p>2. Mindel A, Marks C. Psychological symptoms associated with genital herpes virus infections:
+                            epidemiology and approaches to management. CNS Drugs. 2005;19(4):303-312.
+                            doi:10.2165/00023210-200519040-00003
+                        </p>
+                        <p>3. Fortenberry JD. The effects of stigma on genital herpes care-seeking behaviours. Herpes J
+                            IHMF. 2004;11(1):8-11.
+                        </p>
+                        <p>4. Centers for Disease Control and Prevention. STD Facts - Genital Herpes.Published October
+                            22,
+                            2019. Accessed November 1, 2019.
+                        </p>
+                        <p>5. Whitley RJ, Kimberlin DW, Roizman B. Herpes simplex viruses. Clin Infect Dis Off Publ
+                            Infect
+                            Dis Soc Am. 1998;26(3):541-553; quiz 554-555. doi:10.1086/514600
+                        </p>
+                        <p>6. Freeman ML, Sheridan BS, Bonneau RH, Hendricks RL. Psychological Stress Compromises CD8+ T
+                            Cell Control of Latent Herpes Simplex Virus Type 1 Infections. Immunol Baltim Md 1950.
+                            2007;179(1):322-328.
+                        </p>
+                        <p>7. Mertz GJ, Coombs RW, Ashley R, et al. Transmission of genital herpes in couples with one
+                            symptomatic and one asymptomatic partner: a prospective study. J Infect Dis.
+                            1988;157(6):1169-1177. doi:10.1093/infdis/157.6.1169
+                        </p>
+                        <p>8. Kimberlin DW, Rouse DJ. Clinical practice. Genital herpes. N Engl J Med.
+                            2004;350(19):1970-1977. doi:10.1056/NEJMcp023065
+                        </p>
+                        <p>9. Corey L, Adams HG, Brown ZA, Holmes KK. Genital herpes simplex virus infections: clinical
+                            manifestations, course, and complications. Ann Intern Med. 1983;98(6):958-972.
+                            doi:10.7326/0003-4819-98-6-958
+                        </p>
+                        <p>10. Merck Manuals. Image: Genital Herpes on the Penis. Merck Manuals Consumer Version.
+                            Published
+                            2019. Accessed November 8, 2019.
+                        </p>
+                        <p>11. Draeger E. Management of genital herpes: a guide for GPs. Prescriber. February 2014.
+                            Accessed
+                            November 8, 2019.
+                        </p>
+                        <p>12. Lautenschlager S. Cutaneous manifestations of syphilis : recognition and management. Am J
+                            Clin Dermatol. 2006;7(5):291-304. doi:10.2165/00128071-200607050-00003
+                        </p>
+                        <p>13. Klausner JD. The Great Imitator Revealed: Syphilis. Top Antivir Med. 2019;27(2):71-74.
+                        </p>
+                        <p>14. Wolff K, Goldsmith L, Katz S, Gilchrest B, Paller AS, Leffell D. Fitzpatrick’s
+                            Dermatology in
+                            General Medicine. 7th Edition. 2008. Accessed November 4, 2019.
+                        </p>
+                        <p>15. Buensalido JAL. Chancroid: Background, Pathophysiology, Epidemiology. October 2019.
+                            Accessed
+                            November 8, 2019
+                        </p>
+                        <p>16. Latini A, Zaccarelli M, Paglia MG, et al. Inguinal and anorectal Lymphogranuloma
+                            Venereum: a
+                            case series from a sexually transmitted disease center in Rome, Italy. BMC Infect Dis.
+                            2017;17. doi:10.1186/s12879-017-2484-8
+                        </p>
+                        <p>17. Halvorsen JA, Brevig T, Aas T, Skar AG, Slevolden EM, Moi H. Genital ulcers as initial
+                            manifestation of Epstein-Barr virus infection: two new cases and a review of the literature.
+                            Acta Derm Venereol. 2006;86(5):439-442. doi:10.2340/00015555-0140
+                        </p>
+                        <p>18. Laetsch Semadeni B, Lautenschlager S. Le diagnostic différentiel des ulcères génitaux.
+                            1re
+                            partie. Forum Méd Suisse ‒ Swiss Med Forum. 2009;9(03). doi:10.4414/fms.2009.06724
+                        </p>
+                        <p>19. Anic GM, Giuliano AR. Genital HPV infection and related lesions in men. Prev Med.
+                            2011;53(Suppl 1):S36-S41. doi:10.1016/j.ypmed.2011.08.002
+                        </p>
+                        <p>20. Centers for Disease Control and Prevention. Molluscum Contagiosum | Poxvirus | CDC.
+                            Published
+                            January 3, 2019
+                        </p>
+                        <p>21. File:Molluscaklein.jpg. In: Wikipedia.
+                        </p>
+                        <p>22. Ogunbiyi A. Pseudofolliculitis barbae; current treatment options. Clin Cosmet Investig
+                            Dermatol. 2019;12:241-247. doi:10.2147/CCID.S149250
+                        </p>
+                        <p>23. Winters RD, Mitchell M. Folliculitis. In: StatPearls. Treasure Island (FL): StatPearls
+                            Publishing; 2019.Accessed November 5, 2019
+                        </p>
+                        <p>24. Degreef H. Clinical forms of dermatophytosis (ringworm infection). Mycopathologia.
+                            2008;166(5-6):257-265. doi:10.1007/s11046-008-9101-8
+                        </p>
+                        <p>25. Tinea cruris. In: Wikipedia. ; 2019.Accessed November 8, 2019
+                        </p>
+                        <p>26. Williams HC. Atopic Dermatitis. N Engl J Med. 2005;352(22):2314-2324.
+                            doi:10.1056/NEJMcp042803
+                        </p>
+                        <p>27. Nedorost ST. Generalized Dermatitis in Clinical Practice. 2012 edition. Dordrecht:
+                            Springer;
+                            2012.
+                        </p>
+                        <p>28. Katz SI, Hall III RP, Lawley TJ. Dermatitis Herpetiformis: The Skin and the Gut. Ann
+                            Intern
+                            Med. 1980;93(6):857. doi:10.7326/0003-4819-93-6-857
+                        </p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#what_to_expect"> What to expect on this page</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#recognition">How to recognize genital herpes</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#overview">Overview</a> </li>
+                                    <li class="page_item"><a href="#sleeping_virus">A sleeping virus</a> </li>
+                                    <li class="page_item"><a href="#skin_lesions">Skin lesions</a> </li>
+                                    <li class="page_item"><a href="#general_symptoms">General symptoms</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#sore_not_herpes">It is a sore but not a Herpes</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#syphilis">Syphilis</a> </li>
+                                    <li class="page_item"><a href="#chancroid">Chancroid</a> </li>
+                                    <li class="page_item"><a href="#lymphogranuloma">Lymphogranuloma venerum</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"> <a href="#clearly_not_herpes">When it is clearly not a herpes</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#hpv">HPV</a> </li>
+                                    <li class="page_item"><a href="#molluscum">Molluscum contagiosum</a> </li>
+                                    <li class="page_item"><a href="#ingrown_hair">Ingrown hair</a> </li>
+                                    <li class="page_item"><a href="#folliculitis">Folliculitis</a> </li>
+                                    <li class="page_item"><a href="#jock_itch">Jock itch</a> </li>
+                                    <li class="page_item"><a href="#eczema">Eczema</a> </li>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="page_item"><a href="#talk_to_doctor">Should I talk to a doctor?</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

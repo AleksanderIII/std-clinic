@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STD Clinic</title>
+    <style>
+        @font-face {
+            font-family: ProximaNova-Light;
+            src: url("../fonts/ProximaNova-Light.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: ProximaNova;
+            src: url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+        }
+
+        @font-face {
+            font-family: Montserrat-Light;
+            src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-Medium;
+            src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Montserrat-SemiBold;
+            src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto;
+            src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Light;
+            src: url("../fonts/Roboto-Light.ttf") format("truetype");
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: Roboto-Medium;
+            src: url("../fonts/Roboto-Medium.ttf") format("truetype");
+            font-display: swap;
+        }
+    </style>
+</head>
+
+<body>
+    <header class='header'>
+        <div class='location'>
+            <p class='location-content'>
+                274 Madison Ave Suite 705 New York, 10016
+            </p>
+        </div>
+        <div class='header-mainRow'>
+            <a class='header-logo' href='/'>
+                <img src='http://d12qz6jssicxsf.cloudfront.net/images/STD_Center_Logo.svg' alt='STD Center NY logo'
+                    width="150px" height="47px" />
+            </a>
+            <nav class='menu-wrapper'>
+                <ul class='menu'>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/'>
+                            Home
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <p>
+                            STD tests
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hiv.html'>
+                                    HIV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/hpv.html'>
+                                    HPV
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/syphilils.html'>
+                                    Syphilis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/gardnerella.html'>
+                                    Gardnerella(BV)
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                    Trichomoniasis
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/mycoplasma.html'>
+                                    Mycoplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/ureaplasma.html'>
+                                    Ureaplasma
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/yeast.html'>
+                                    Yeast in Women
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../tests/balanitis.html'>
+                                    Balanitis
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class='menu-item'>
+                        <p class='menu-link'>
+                            STD diseases
+                            <img src='../../images/arrowDown.svg' height='15' alt="arrow down" width='30' />
+                        </p>
+                        <ul class='menu-subfolder'>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../chlomydia.html'>
+                                    Chlamydia
+                                </a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../herpes.html'>Herpes</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../hiv.html'>HIV</a>
+                            </li>
+                            <li class='menu-subfolder-item'>
+                                <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a class='menu-link' href='/blogs.html'>
+                            Blogs
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/how-it-works.html'>
+                            How it works
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Meet the doctor
+                        </a>
+                    </li>
+                    <li class='menu-item'>
+                        <a class='menu-link' href='/office-hours.html'>
+                            Office hours
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class='header-contacts' id="header-contacts">
+                <div class='contacts-number'>
+                    <a href='tel:2126965900' class='number'>
+                        212.696.5900
+                    </a>
+                    <a class='btn menu-cta-button' href='/online-appointment.html'>
+                        Book Online
+                    </a>
+                </div>
+            </div>
+            <img id="mobile-menu-btn" class="menu-btn" src="http://d12qz6jssicxsf.cloudfront.net/images/menu-fill.svg"
+                alt="menu" width="27px" height="24px">
+            <span id="mobile-menu-btn-close" class="menu-btn hidden close-btn">X</span>
+        </div>
+        <div id="mobile-menu" class="mobile-menu hidden">
+            <ul class='menu-content'>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/'>
+                        Home
+                    </a>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class="menu-link">
+                        STD tests
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hiv.html'>
+                                HIV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/hpv.html'>
+                                HPV
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/syphilils.html'>
+                                Syphilis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/gardnerella.html'>
+                                Gardnerella(BV)
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/trichomoniasis.html'>
+                                Trichomoniasis
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/mycoplasma.html'>
+                                Mycoplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/ureaplasma.html'>
+                                Ureaplasma
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/yeast.html'>
+                                Yeast in Women
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../tests/balanitis.html'>
+                                Balanitis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item hidden'>
+                    <p class='menu-link'>
+                        STD diseases
+                        <img src='../../images/arrowDown.svg' height='15' width='30' alt="arrow down" />
+                    </p>
+                    <ul class='menu-subfolder'>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../chlomydia.html'>
+                                Chlamydia
+                            </a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../gonorrhea.html'>Gonorrhea</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../herpes.html'>Herpes</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../hiv.html'>HIV</a>
+                        </li>
+                        <li class='menu-subfolder-item'>
+                            <a class='menu-link' href='../syphilis.html'>Syphillis</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/blogs.html'>
+                        Blogs
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/how-it-works.html'>
+                        How it works
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Meet the doctor
+                    </a>
+                </li>
+                <li class='menu-item'>
+                    <a class='menu-link' href='/office-hours.html'>
+                        Office hours
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-footer">
+                <div class="mobile-footer-wrap">
+                    <div class='mobile-footer-contacts'>
+                        <div class='mobile-footer-contacts-number'>
+                            <a href='tel:2126965900' class='number'>
+                                212.696.5900
+                            </a>
+                        </div>
+                    </div>
+                    <div class='mobile-footer-location'>
+                        <p class='mobile-footer-location-content'>
+                            274 Madison Ave Suite 705 New York, 10016
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class='content'>
+        <p id='navigator' class="mobile-navigator closed">
+            <img src='http://d12qz6jssicxsf.cloudfront.net/images/Category.svg' height='24px' width='24px'
+                alt="category" />
+            <span>X</span>
+        </p>
+        <div id='navigation' class="navigation closed">
+            <p class='navigator-header'>Articles</p>
+            <ul class='tabs'>
+                <li class='tabs-item'>
+                    <a href='../blogs/genital_warts.html'>
+                        Genital warts(HPV) vs. skin tags: establishing the diagnosis
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/what_i_see.html'>
+                        Cold sores (herpes) versus canker sores (aphthous ulcers)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/odds.html'>
+                        Who is to blame for my herpes?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        After a herpes diagnosis: legal issues
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protecting your partner if you have herpes (3 proven methods)
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Important facts about STD testing: From the earliest testing time to definitive
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Can a “hand job” cause an STD?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Pubic lice (“crabs”): recognition, symptoms, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Syphilis treatment options: after exposure vs. after a positive test
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Everything you need to know about preventing HIV with PrEP
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        One-night stands and men: hard to resist, easy to get an STD from
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Complete visual guide to molluscum contagiosum
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Protected Herpes Transmission
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Against the odds: what is your risk of getting an STD through a one-off heterosexual encounter?
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        Abnormal vaginal odor: causes, diagnosis, and treatment
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        How to tell genital herpes apart from other skin conditions.
+                    </a>
+                </li>
+                <li class='tabs-item'>
+                    <a href='../chlomydia/testing.html'>
+                        The Risk for Males of Contracting Various STDs through One-Time Unprotected Homosexual Sex
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <section class="blog">
+            <h2>Abnormal vaginal odor: causes, diagnosis, and treatment</h2>
+            <img src="http://d12qz6jssicxsf.cloudfront.net/images/vaginal_odor.jpg" width="1140" height="460" alt="">
+            <div class="page_wrap">
+                <div class="text">
+
+                    <div class="subSection" id="what_to_expect">
+                        <h3>What to expect on this page?</h3>
+                        <p> A slight vaginal odor is considered normal. It may become more noticeable during certain
+                            days of the menstrual cycle or right after sex. Some foods (spices, coffee, onions) may also
+                            change the odor of vaginal fluids. However, sometimes vaginal odor may be a warning sign of
+                            a serious health problem—especially when it is accompanied by other signs and symptoms.
+                        </p><br>
+                        <p>In this article, we have summarized the possible causes of abnormal vaginal odor, from the
+                            not-very-serious to the potentially deadly.
+                        </p><br>
+                        <p>You will also learn:
+                        </p>
+                        <ul>
+                            <li>The signs and symptoms of various conditions that may cause abnormal vaginal odor
+                            </li>
+                            <li>What it smells like (it depends on what’s causing it)
+                            </li>
+                            <li>How soon it develops
+                            </li>
+                            <li>When to see a doctor
+                            </li>
+                            <li>How to minimize the odor at home
+                            </li>
+                            <li>When your partner needs treatment
+                            </li>
+                            <li>How serious it can be
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="causes">
+                        <h3>Causes of abnormal vaginal odor</h3>
+                        <p> Abnormal vaginal odor could be due to a variety of different things. The cause may be very
+                            simple—poor hygiene, douching, vaginal deodorant, or sweating.
+                        </p><br>
+                        <p>Sometimes, it is a result of a more serious health condition, such as a certain genital
+                            <u>infections or cancer</u>. Chlamydia and gonorrhea do not typically cause abnormal vaginal
+                            odor.
+                        </p>
+                    </div>
+
+                    <div class="subSection" id="most_common">
+                        <h3>The most common causes</h3>
+                        <p> Abnormal vaginal odor is usually caused by one of the following:
+                        </p>
+                        <ul>
+                            <li>Bacterial vaginosis (the majority of women with symptoms have an abnormal vaginal odor)
+                            </li>
+                            <li>Trichomoniasis (50% of symptomatic women have an abnormal vaginal odor)
+                            </li>
+                        </ul>
+                        <p>In rare cases, abnormal vaginal odor may result from a yeast infection or vaginal or cervical
+                            cancer.
+                        </p><br>
+                        <p>The table below describes the most prevalent signs and symptoms of each causative factor
+                            which will help to distinguish between the possible causes.
+                        </p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 200px; min-width: 200px;">Causative Factor</th>
+                                        <th style="width: 650px; min-width: 350px;">Signs and Symptoms</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Bacterial vaginosis</td>
+                                        <td>
+                                            <ul style="margin: 0;">
+                                                <li>Thin white (or yellowish) vaginal discharge</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Trichomoniasis</td>
+                                        <td>
+                                            <ul style="margin: 0;">
+                                                <li> Greenish or yellowish vaginal discharge
+                                                </li>
+                                                <li>Local itching and irritation
+                                                </li>
+                                                <li>Local swelling
+                                                </li>
+                                                <li>Painful sexual intercourse
+                                                </li>
+                                                <li>Painful urination
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Yeast infection</td>
+                                        <td>
+                                            <ul style="margin: 0;">
+                                                <li> Whitish discharge
+                                                </li>
+                                                <li>Painful sex
+                                                </li>
+                                                <li>Painful urination
+                                                </li>
+                                                <li>Local itching and irritation
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Vaginal cancer</td>
+                                        <td>
+                                            <ul style="margin: 0;">
+                                                <li> Abnormal vaginal discharge
+                                                </li>
+                                                <li>Painful sex and/or urination
+                                                </li>
+                                                <li>Back pain
+                                                </li>
+                                                <li>Pain in legs
+                                                </li>
+                                                <li>Pelvic pain
+                                                </li>
+                                                <li>Problems with bowel function
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Cervical cancer</td>
+                                        <td>
+                                            <ul style="margin: 0;">
+                                                <li> Abnormal vaginal bleeding (bleeding between periods or in
+                                                    non-menstruating women)
+                                                </li>
+                                                <li>Bleeding after sexual intercourse
+                                                </li>
+                                                <li>Bleeding after douching and/or gynecological examination
+                                                </li>
+                                                <li>Abnormal vaginal discharge
+                                                </li>
+                                                <li>Painful sex
+                                                </li>
+                                                <li>Pelvic pain
+                                                </li>
+                                                <li>Back pain
+                                                </li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subSection" id="odor_smell">
+                        <h3>What abnormal vaginal odor smells like</h3>
+                        <p>How an abnormal vaginal odor smells depends on the condition that caused it. The table below
+                            describes the general characteristics of vaginal odor for each condition.</p>
+                        <div class="table-wrap">
+                            <table class="blog-table">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 200px; min-width: 200px;">Condition</th>
+                                        <th style="width: 650px; min-width: 350px;">Vaginal Odor</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Bacterial vaginosis</td>
+                                        <td>Fishy odor that intensifies after sexual intercourse</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Trichomoniasis</td>
+                                        <td>Fishy odor that is more recognizable</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Yeast infection</td>
+                                        <td>Sweet or beer-like smell</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Vaginal cancer</td>
+                                        <td>Foul-smelling (unusual odor)</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="color: #4F67A3; text-align: center;">Cervical cancer</td>
+                                        <td>Foul-smelling</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="subSection" id="smell_develops">
+                        <h3>How soon an abnormal odor is likely to develop</h3>
+                        <p> When an abnormal vaginal odor is caused by an infection, it will appear after the
+                            infection’s incubation period. Mostly, women do not experience any symptoms (85% of women
+                            with trichomoniasis and half of those with bacterial vaginosis are asymptomatic).
+                        </p>
+                        <br>
+                        <p>We know from research that bacterial vaginosis and yeast infections are not sexually
+                            transmitted. This means that the only cause of abnormal vaginal odor that may be transmitted
+                            during sexual intercourse is trichomoniasis. The first signs of it (including abnormal odor)
+                            become noticeable 5–28 days after the person is infected.
+                        </p>
+                    </div>
+                    <div class="subSection" id="when_to_see_doctor">
+                        <h3>When to see a doctor</h3>
+                        <p>If you have persistent abnormal vaginal odor and any of the other signs or symptoms mentioned
+                            previously, you should <u>contact your doctor</u> as soon as it is possible. You could have
+                            a severe infection or cancer.</p>
+                    </div>
+                    <div class="subSection" id="treatment">
+                        <h3>Do not try to diagnose yourself</h3>
+                        <p>No! Since different conditions may manifest in the same way, you cannot tell by the smell
+                            what the cause of abnormal vaginal odor is. Moreover, self-diagnosis and self-treatment are
+                            likely to be ineffective and may be harmful.</p>
+                        <h3>Getting rid of the odor without seeing a doctor</h3>
+                        <p> In general, the following practices may help to minimize vaginal odor:
+                        </p>
+                        <ul>
+                            <li>Maintaining good hygiene (washing the genital area with mild soap)
+                            </li>
+                            <li>Do not douche</li>
+                        </ul>
+                    </div>
+                    <div class="subSection" id="partnet_treat">
+                        <h3>When your partner needs to be treated</h3>
+                        <p>Whether your partner needs to be treated depends on the cause of the abnormal vaginal odor.
+                            If the odor has been caused by trichomoniasis, then yes, your partner(s) should be treated.
+                            Furthermore, it is recommended that you abstain from sexual intercourse till the end of the
+                            treatment period.</p>
+                    </div>
+                    <div class="subSection" id="odor_danger">
+                        <h3>How dangerous abnormal vaginal odor is</h3>
+                        <p> Again, the cause of abnormal vaginal odor determines whether you may develop serious health
+                            complications and your prognosis.
+                        </p>
+                        <br>
+                        <p>For instance, if left untreated, genital infections in pregnant women may result in preterm
+                            childbirth (37 weeks of pregnancy). If the abnormal vaginal odor is caused by cancer, the
+                            consequences may be as serious as death. That is why it is strongly recommended that you see
+                            a doctor for examination and testing and get the correct diagnosis.
+                        </p>
+                    </div>
+                    <div class="subSection">
+                        <h3>Conclusion</h3>
+                        <p>Abnormal vaginal odor is common and can be caused by a variety of things. It is important to
+                            determine the cause and be properly treated. This will prevent negative health outcomes and
+                            improve your overall well-being.</p>
+                    </div>
+
+                    <div class="subSection">
+                        <h3>References</h3>
+                        <p>1. Vaginal odor Causes - Mayo Clinic.</p>
+                        <p>2. Bacterial Vaginosis - StatPearls - NCBI Bookshelf.</p>
+                    </div>
+                </div>
+                <div class="page_navigation">
+                    <div class="desktop-navigator">
+                        <p class="page_navigation__header">On this page</p>
+                        <ul>
+                            <li class="page_item">
+                                <a href="#what_to_expect"> What to expect on this page</a>
+                            </li>
+                            <li class="page_item">
+                                <a href="#causes">Causes</a>
+                                <ul class="subMenu">
+                                    <li class="page_item"><a href="#most_common">Most common</a> </li>
+                                </ul>
+                            </li>
+                            <li class="page_item"><a href="#odor_smell">What odor smells like</a> </li>
+                            <li class="page_item"><a href="#smell_develops">How soon it developes</a>
+                            </li>
+                            <li class="page_item"> <a href="#when_to_see_doctor">When to see a doctor</a> </li>
+                            <li class="page_item"><a href="#treatment">Self-treatment</a> </li>
+                            <li class="page_item"><a href="#partnet_treat">When partner needs to be treated</a> </li>
+                            <li class="page_item"><a href="#odor_danger">Danger of having odor</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class='section have-a-question'>
+        <div class='have-a-question-wrapper'>
+            <h2> Have a question? </h2>
+            <div>
+                <p>
+                    <a href="tel:2126965900">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/phoneIcon.svg' height='40px'
+                            alt="phone icon" width='40px' />
+                    </a>
+                    <a href="tel:2126965900">
+                        <span>212.696.5900</span>
+                    </a>
+                </p>
+                <p>?</p>
+                <p>ask online</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class='section-wrapper footer'>
+            <div>
+                <p class='footer-header'>Quick Links</p>
+                <nav>
+                    <ul>
+                        <li><a href="./">Home</a> </li>
+                        <li> Meet the doctor</li>
+                        <li> Office hours</li>
+                        <li> PPD testing</li>
+                        <li> Privacy Statement</li>
+                        <li>Blog</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <p class='footer-header'>Contact Us</p>
+                <div class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_location_icon.svg' alt="location icon"
+                        height='24px' width='24px' />
+                    <p>
+                        <span>274 Madison Ave, Suite 705</span>
+                        <br />
+                        <span> New York, 10016</span>
+                    </p>
+                </div>
+                <p class='contact'>
+                    <img src='http://d12qz6jssicxsf.cloudfront.net/images/footer_phone_icon.svg' alt="phone icon"
+                        height='24px' width='24px' />
+                    212.696.5900
+                </p>
+            </div>
+            <div>
+                <p class='footer-header'>Follow Us</p>
+                <p>
+                    <a href="https://www.facebook.com/STD-Center-NY-172474229595388/">
+                        <img src='http://d12qz6jssicxsf.cloudfront.net/images/facebook.svg' alt="facebook icon"
+                            height='40px' width='40px' />
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
