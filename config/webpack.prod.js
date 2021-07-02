@@ -584,67 +584,67 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Gonorrhea/Gonorrhea.html',
-      filename: 'tests/gonorrhea.html',
+      filename: 'gonorrhea-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsGonorrhea']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Herpes/Herpes.html',
-      filename: 'tests/herpes.html',
+      filename: 'herpes-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsHerpes']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/HIV/HIV.html',
-      filename: 'tests/hiv.html',
+      filename: 'hiv-testing-nyc.html',
       inject: true,
       chunks: ['testsHIV']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/HPV/HPV.html',
-      filename: 'tests/hpv.html',
+      filename: 'hpv-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsHPV']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Syphilis/Syphilis.html',
-      filename: 'tests/syphilils.html',
+      filename: 'syphilis-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsSyphilis']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Gardnerella/Gardnerella.html',
-      filename: 'tests/gardnerella.html',
+      filename: 'bacterial-vaginosis-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsGardnerella']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Trichomoniasis/Trichomoniasis.html',
-      filename: 'tests/trichomoniasis.html',
+      filename: 'trichomoniasis-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsTrichomoniasis']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Mycoplasma/Mycoplasma.html',
-      filename: 'tests/mycoplasma.html',
+      filename: 'mycoplasma-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsMycoplasma']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Ureaplasma/Ureaplasma.html',
-      filename: 'tests/ureaplasma.html',
+      filename: 'ureaplasma-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsUreaplasma']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Yeast/Yeast.html',
-      filename: 'tests/yeast.html',
+      filename: 'vaginal-yeast-infection-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsYeast']
     }),
     new HtmlWebpackPlugin({
       template: './src/tests/Balanitis/Balanitis.html',
-      filename: 'tests/balanitis.html',
+      filename: 'balanitis-jock-itch-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsBalanitis']
     }),
