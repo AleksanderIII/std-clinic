@@ -13,6 +13,8 @@ module.exports = {
 
     officeHours: './src/officeHours/officeHours.js',
 
+    howItWorks: './src/howItWorks/howItWorks.js',
+
     chlomydia: './src/diseases/Chlomydia/index.js',
     chlomydiaWhatISee: './src/diseases/Chlomydia/WhatISee/whatIsee.js',
     chlomydiaWhatIFeel: './src/diseases/Chlomydia/WhatIFeel/whatIfeel.js',
@@ -202,6 +204,12 @@ module.exports = {
       filename: 'office-hours-location.html',
       inject: true,
       chunks: ['officeHours']
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/howItWorks/HowItWorks.html',
+      filename: 'how-it-works.html',
+      inject: true,
+      chunks: ['howItWorks']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/chlomydia.html',

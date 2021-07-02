@@ -1,0 +1,161 @@
+.how-it-works .introduction {
+    margin-top: 130px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.how-it-works .introduction p {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+.how-it-works h1 {
+    text-align: center;
+    font-family: 'Roboto-Medium', sans-serif;
+    font-weight: 700;
+}
+
+.how-it-works h3 {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #DC593A;
+}
+
+.how-it-works .step {
+    position: relative;
+    padding: 80px 50px;
+    margin-bottom: 100px;
+}
+
+.how-it-works .step .step-header {
+    font-family: 'Roboto-Medium', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #DC593A;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 2.94rem;
+    border-radius: 50%;
+    background: white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.how-it-works .step .step-content {
+    color: white;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 500;
+    line-height: 2.75rem;
+    text-align: center;
+}
+
+.how-it-works .step .blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.how-it-works .step .blocks span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.0625rem;
+    background: white;
+    color: #EE8853;
+    padding: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    min-width: 120px;
+    height: 50px;
+}
+
+@media (max-width: 1200px) {
+    .desktop {
+        display: none;
+    }
+
+    .how-it-works h1 {
+        margin-bottom: 20px;
+    }
+
+    .how-it-works section.steps {
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 60px;
+    }
+
+    .how-it-works .step .step-header {
+        height: 70px;
+        width: 70px;
+    }
+
+    .how-it-works .step .step-header {
+        font-size: 1.875rem;
+    }
+
+    .how-it-works .introduction {
+        margin-top: 56px;
+    }
+
+    .how-it-works .step {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-bottom: 60px;
+    }
+
+    .how-it-works .step .step-content {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+    }
+
+    .how-it-works .step .blocks span {
+        margin-bottom: 10px;
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+    .how-it-works h1 {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        margin-bottom: 0;
+    }
+
+    .how-it-works .introduction p {
+        font-size: 0.875rem;
+    }
+
+    .how-it-works h2.secondary-orange {
+        font-size: 1.25rem;
+    }
+
+    .how-it-works section {
+        padding: 0 16px;
+        width: 100vw;
+    }
+
+    .how-it-works .section-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .how-it-works h3 {
+        margin-top: 0;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+}
