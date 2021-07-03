@@ -12,6 +12,18 @@
     line-height: 1.625rem;
 }
 
+.icons-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icons-row img{
+    margin: 0 30px;
+}
+
 .how-it-works h1 {
     text-align: center;
     font-family: 'Roboto-Medium', sans-serif;
