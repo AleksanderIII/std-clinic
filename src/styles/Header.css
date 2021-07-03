@@ -3,6 +3,10 @@
     display: none;
   }
 
+  .menu-item p{
+    padding: 0 5px;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -101,6 +105,7 @@
     color: var(--menu-items-color);
     position: relative;
   }
+
 
   .menu-item {
     padding: 0 15px;
