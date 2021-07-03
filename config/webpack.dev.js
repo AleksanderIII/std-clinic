@@ -198,54 +198,63 @@ module.exports = {
       chunks: ['home']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/meetTheDoctor/MeetTheDoctor.html',
       filename: 'meet-doctor-fuzayloff.html',
       inject: true,
       chunks: ['meetTheDoctor']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/officeHours/OfficeHours.html',
       filename: 'office-hours-location.html',
       inject: true,
       chunks: ['officeHours']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/howItWorks/HowItWorks.html',
       filename: 'how-it-works.html',
       inject: true,
       chunks: ['howItWorks']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/chlomydia.html',
       filename: 'chlamydia-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['chlomydia']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/WhatISee/WhatISee.html',
       filename: 'chlamydia-signs.html',
       inject: true,
       chunks: ['chlomydiaWhatISee']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/WhatIFeel/WhatIFeel.html',
       filename: 'chlamydia-symptoms.html',
       inject: true,
       chunks: ['chlomydiaWhatIFeel']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/Odds/Odds.html',
       filename: 'odds-getting-chlamydia.html',
       inject: true,
       chunks: ['chlomydiaOdds']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/Testing/Testing.html',
       filename: 'chlamydia-testing.html',
       inject: true,
       chunks: ['chlomydiaTesting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/TestingAlgorithms/TestingAlgorithms.html',
       filename: 'chlamydia-testing-algorithms.html',
@@ -253,12 +262,14 @@ module.exports = {
       chunks: ['chlomydiaTestingAlgorithms']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/Treatments/Treatments.html',
       filename: 'chlamydia-treatment.html',
       inject: true,
       chunks: ['chlomydiaTreatments']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
       filename: 'chlamydia-treatment-algorithms.html',
@@ -266,6 +277,7 @@ module.exports = {
       chunks: ['chlomydiaTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsOther/ChlomydiaVsOther.html',
       filename: 'chlamydia-comparison.html',
@@ -273,6 +285,7 @@ module.exports = {
       chunks: ['chlomydiaVsOther']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsGonorrhea/ChlomydiaVsGonorrhea.html',
       filename: 'chlamydia-gonorrhea.html',
@@ -280,6 +293,7 @@ module.exports = {
       chunks: ['chlomydiaVsGonorrhea']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsVaginosis/ChlomydiaVsVaginosis.html',
       filename: 'chlamydia-bv.html',
@@ -287,6 +301,7 @@ module.exports = {
       chunks: ['chlomydiaVsVaginosis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsYeast/ChlomydiaVsYeast.html',
       filename: 'chlamydia-vaginal-yeast-infection.html',
@@ -294,48 +309,56 @@ module.exports = {
       chunks: ['chlomydiaVsYeast']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/Protecting/Protecting.html',
       filename: 'chlamydia-partner-protection.html',
       inject: true,
       chunks: ['chlomydiaProtecting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Chlomydia/Myths/Myths.html',
       filename: 'chlamydia-myths.html',
       inject: true,
       chunks: ['chlomydiaMyths']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/Gonorrhea.html',
       filename: 'gonorrhea-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['gonorrhea']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/WhatISee/WhatISee.html',
       filename: 'gonorrhea-signs.html',
       inject: true,
       chunks: ['gonorrheaWhatISee']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/WhatIFeel/WhatIFeel.html',
       filename: 'gonorrhea-symptoms.html',
       inject: true,
       chunks: ['gonorrheaWhatIFeel']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/Odds/Odds.html',
       filename: 'odds-getting-gonorrhea.html',
       inject: true,
       chunks: ['gonorrheaOdds']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/Testing/Testing.html',
       filename: 'gonorrhea-testing.html',
       inject: true,
       chunks: ['gonorrheaTesting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/TestingAlgorithms/TestingAlgorithms.html',
       filename: 'gonorrhea-testing-algorithms.html',
@@ -343,12 +366,14 @@ module.exports = {
       chunks: ['gonorrheaTestingAlgorithms']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/Treatments/Treatments.html',
       filename: 'gonorrhea-treatment.html',
       inject: true,
       chunks: ['gonorrheaTreatments']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
       filename: 'gonorrhea-treatment-algorithms.html',
@@ -356,6 +381,7 @@ module.exports = {
       chunks: ['gonorrheaTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/GonorrheaVsOther/GonorrheaVsOther.html',
       filename: 'gonorrhea-comparison.html',
@@ -363,6 +389,7 @@ module.exports = {
       chunks: ['gonorrheaVsOther']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/GonorrheaVsChlomydia/GonorrheaVsChlomydia.html',
       filename: 'gonorrhea-chlamydia.html',
@@ -370,6 +397,7 @@ module.exports = {
       chunks: ['gonorrheaVsChlomydia']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/GonorrheaVsVaginosis/GonorrheaVsVaginosis.html',
       filename: 'gonorrhea-bv.html',
@@ -377,54 +405,63 @@ module.exports = {
       chunks: ['gonorrheaVsVaginosis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/Protecting/Protecting.html',
       filename: 'gonorrhea-partner-protection.html',
       inject: true,
       chunks: ['gonorrheaProtecting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Gonorrhea/Myths/Myths.html',
       filename: 'gonorrhea-myths.html',
       inject: true,
       chunks: ['gonorrheaMyths']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Herpes.html',
       filename: 'herpes-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['herpes']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Overview/Overview.html',
       filename: 'herpes-virus-HSV1-HSV2-overview.html',
       inject: true,
       chunks: ['herpesOverview']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/WhatISee/WhatISee.html',
       filename: 'herpes-signs.html',
       inject: true,
       chunks: ['herpesWhatISee']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/WhatIFeel/WhatIFeel.html',
       filename: 'herpes-symptoms.html',
       inject: true,
       chunks: ['herpesWhatIFeel']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Odds/Odds.html',
       filename: 'odds-of-getting-herpes.html',
       inject: true,
       chunks: ['herpesOdds']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Testing/Testing.html',
       filename: 'herpes-testing.html',
       inject: true,
       chunks: ['herpesTesting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Herpes/TestingAlgorithms/TestingAlgorithms.html',
       filename: 'herpes-testing-algorithms.html',
@@ -432,12 +469,14 @@ module.exports = {
       chunks: ['herpesTestingAlgorithms']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Treatments/Treatments.html',
       filename: 'herpes-treatment.html',
       inject: true,
       chunks: ['herpesTreatments']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Herpes/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
       filename: 'herpes-treatment-algorithms.html',
@@ -445,24 +484,28 @@ module.exports = {
       chunks: ['herpesTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Protecting/Protecting.html',
       filename: 'reduce-herpes-transmission.html',
       inject: true,
       chunks: ['herpesProtecting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Comparision/Comparision.html',
       filename: 'herpes-comparison.html',
       inject: true,
       chunks: ['herpesVsOther']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/HerpesVsSyphilis/HerpesVsSyphilis.html',
       filename: 'herpes-syphilis.html',
       inject: true,
       chunks: ['herpesVsSyphilis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Herpes/HerpesVsBalanitis/HerpesVsBalanitis.html',
       filename: 'herpes-balanitis.html',
@@ -470,12 +513,14 @@ module.exports = {
       chunks: ['herpesVsBalanitis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/HerpesVsYeast/HerpesVsYeast.html',
       filename: 'herpes-vaginal-yeast.html',
       inject: true,
       chunks: ['herpesVsYeast']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Herpes/Myths/Myths.html',
       filename: 'herpes-myths.html',
       inject: true,
@@ -483,54 +528,63 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/HIV.html',
       filename: 'hiv-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['hiv']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/Signs/Signs.html',
       filename: 'hiv-signs-symptoms.html',
       inject: true,
       chunks: ['hivSigns']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/Odds/Odds.html',
       filename: 'odds-getting-hiv.html',
       inject: true,
       chunks: ['hivOdds']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/Testing/Testing.html',
       filename: 'hiv-testing.html',
       inject: true,
       chunks: ['hivTesting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/RapidTests/RapidTests.html',
       filename: 'hiv-rapid-tests.html',
       inject: true,
       chunks: ['hivRapidTests']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/PrEP/PrEP.html',
       filename: 'hiv-prep.html',
       inject: true,
       chunks: ['hivPrEP']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/PEP/PEP.html',
       filename: 'hiv-pep.html',
       inject: true,
       chunks: ['hivPEP']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/HIVVsOther/HIVVsOther.html',
       filename: 'hiv-comparison.html',
       inject: true,
       chunks: ['HIVVsOther']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/HIV/Protecting/Protecting.html',
       filename: 'hiv-partner-protection.html',
       inject: true,
@@ -538,42 +592,49 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Syphilis.html',
       filename: 'syphilis-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['syphilis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Signs/Signs.html',
       filename: 'syphilis-symptoms-and-signs.html',
       inject: true,
       chunks: ['syphilisSigns']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Odds/Odds.html',
       filename: 'odds-getting-syphilis.html',
       inject: true,
       chunks: ['syphilisOdds']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Testing/Testing.html',
       filename: 'syphilis-testing.html',
       inject: true,
       chunks: ['syphilisTesting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Comparision/Comparision.html',
       filename: 'syphilis-comparison.html',
       inject: true,
       chunks: ['syphilisComparision']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Protecting/Protecting.html',
       filename: 'syphilis-partner-protection.html',
       inject: true,
       chunks: ['syphilisProtecting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/diseases/Syphilis/Treatment/Treatment.html',
       filename: 'syphilis-treatment.html',
       inject: true,
@@ -581,72 +642,84 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Chlomydia/Chlomydia.html',
       filename: 'chlamydia-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsChlomydia']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Gonorrhea/Gonorrhea.html',
       filename: 'gonorrhea-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsGonorrhea']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Herpes/Herpes.html',
       filename: 'herpes-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsHerpes']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/HIV/HIV.html',
       filename: 'hiv-testing-nyc.html',
       inject: true,
       chunks: ['testsHIV']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/HPV/HPV.html',
       filename: 'hpv-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsHPV']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Syphilis/Syphilis.html',
       filename: 'syphilis-testing-treatment-nyc.html',
       inject: true,
       chunks: ['testsSyphilis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Gardnerella/Gardnerella.html',
       filename: 'bacterial-vaginosis-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsGardnerella']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Trichomoniasis/Trichomoniasis.html',
       filename: 'trichomoniasis-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsTrichomoniasis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Mycoplasma/Mycoplasma.html',
       filename: 'mycoplasma-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsMycoplasma']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Ureaplasma/Ureaplasma.html',
       filename: 'ureaplasma-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsUreaplasma']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Yeast/Yeast.html',
       filename: 'vaginal-yeast-infection-testing-treatment-prevention-nyc.html',
       inject: true,
       chunks: ['testsYeast']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/tests/Balanitis/Balanitis.html',
       filename: 'balanitis-jock-itch-testing-treatment-prevention-nyc.html',
       inject: true,
@@ -654,108 +727,126 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/Blogs.html',
       filename: 'articles.html',
       inject: true,
       chunks: ['blogs']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/GenitalWarts/GenitalWarts.html',
       filename: 'articles/genital-warts-versus-skin-tags.html',
       inject: true,
       chunks: ['blogGenitalWarts']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/ColdSores/ColdSores.html',
       filename: 'articles/cold-sores-versus-canker-sores.html',
       inject: true,
       chunks: ['blogColdSores']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/BlameForHerpes/BlameForHerpes.html',
       filename: 'articles/how-i-contracted-herpes-HSV-1-and-HSV-2.html',
       inject: true,
       chunks: ['blogBlameForHerpes']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/HerpesDiagnosis/HerpesDiagnosis.html',
       filename: 'articles/herpes-legal-issues.html',
       inject: true,
       chunks: ['blogHerpesDiagnosis']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/PartnerProtecting/PartnerProtecting.html',
       filename: 'articles/protecting-partner-from-herpes.html',
       inject: true,
       chunks: ['blogPartnerProtecting']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/ImportantFacts/ImportantFacts.html',
       filename: 'articles/std-testing-earliest-to-definitive.html',
       inject: true,
       chunks: ['blogImportantFacts']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/HandJob/HandJob.html',
       filename: 'articles/std-chance-with-hand-job.html',
       inject: true,
       chunks: ['blogHandJob']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/PublicLice/PublicLice.html',
       filename: 'articles/pubic-lice-crabs-visually.html',
       inject: true,
       chunks: ['blogPublicLice']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/SyphilisTreatment/SyphilisTreatment.html',
       filename: 'articles/syphilis-postexposure-treatment.html',
       inject: true,
       chunks: ['blogSyphilisTreatment']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/PreventingHIV/PreventingHIV.html',
       filename: 'articles/HIV-PrEP-medication-practical-guide.html',
       inject: true,
       chunks: ['blogPreventingHIV']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/NightStand/NightStand.html',
       filename: 'articles/std-chance-one-night-stand.html',
       inject: true,
       chunks: ['blogNightStand']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/Molluscum/Molluscum.html',
       filename: 'articles/diagnosing-molluscum-contagiosum-visually.html',
       inject: true,
       chunks: ['blogMolluscum']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/HerpesTransmission/HerpesTransmission.html',
       filename: 'articles/protected-herpes-transmission.html',
       inject: true,
       chunks: ['blogHerpesTransmission']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/AgainstOdds/AgainstOdds.html',
       filename: 'articles/std-risk-with-one-time-heterosexual-encounter.html',
       inject: true,
       chunks: ['blogAgainstOdds']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/VaginalOdor/VaginalOdor.html',
       filename: 'articles/vaginal-smell-causes-testing-treatment.html',
       inject: true,
       chunks: ['blogVaginalOdor']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/GenitalHerpes/GenitalHerpes.html',
       filename: 'articles/herpes-and-other-genital-sores.html',
       inject: true,
       chunks: ['blogGenitalHerpes']
     }),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/blogs/HomosexualSex/HomosexualSex.html',
       filename: 'articles/one-time-homosexual-contact-std-risk-men.html',
       inject: true,
