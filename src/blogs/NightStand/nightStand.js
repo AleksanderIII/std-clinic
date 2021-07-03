@@ -67,3 +67,10 @@ navLinks.forEach(link => {
     event.preventDefault()
   })
 })
+
+const mobileNavigation = document.getElementById('navigation')
+mobileNavigation.addEventListener('click', function (event) {
+  if (event.target.tagName === 'A') {
+    toggleNavigator()
+  }
+})

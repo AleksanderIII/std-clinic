@@ -443,6 +443,10 @@ h3~p.subHeader {
         margin-right: 16px;
     }
 
+    .navigation p.page_navigation__header {
+        color: #4BAFF5;
+    }
+
     .page_wrap .text {
         margin-right: 0;
     }
@@ -462,6 +466,7 @@ h3~p.subHeader {
 
     .page_wrap p.subHeader {
         margin: 15px 0;
+        font-size: 1.125rem;
     }
 
     .blog img {
@@ -536,7 +541,7 @@ h3~p.subHeader {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .navigation .tabs-item {
@@ -544,11 +549,19 @@ h3~p.subHeader {
     }
 
     .navigation .tabs-item a {
-        color: #354A87;
+        color: #00002A;
         font-size: 0.875rem;
-        font-weight: 500;
+        font-weight: 600;
         font-family: 'Montserrat-Medium', sans-serif;
         line-height: 1.1rem;
+    }
+
+    .navigation .subMenu li{
+        margin-top: 6px;
+    }
+
+    .navigation .subMenu a{
+        font-weight: 500;
     }
 
     .navigation p {
@@ -567,7 +580,7 @@ h3~p.subHeader {
         max-width: 100%;
     }
 
-    .column .legend{
+    .column .legend {
         word-break: break-all;
     }
 
