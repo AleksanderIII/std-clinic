@@ -3,7 +3,7 @@
     padding: 0 30px;
 }
 
-.blogs .blogs-list h2 {
+.blogs .blogs-list h1 {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -125,7 +125,7 @@
         display: none;
     }
 
-    .blogs .blogs-list h2 {
+    .blogs .blogs-list h1 {
         padding-top: 15px;
     }
 

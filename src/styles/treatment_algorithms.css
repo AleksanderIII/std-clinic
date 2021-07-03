@@ -40,10 +40,12 @@
     color: white;
 }
 
-.deases .treatment-algorithm-heading h2 {
+.deases .treatment-algorithm-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .treatment-algorithm-heading img {
@@ -79,6 +81,7 @@
     margin-bottom: 10px;
 }
 
+.deases .treatment-algorithm h2,
 .deases .treatment-algorithm h3 {
     margin: 40px 0;
     text-align: center;
@@ -229,6 +232,7 @@
     margin-right: 50px;
 }
 
+.deases .treatment-algorithm .collage h2,
 .deases .treatment-algorithm .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -335,6 +339,7 @@
         color: #3c4b94;
     }
 
+    .deases .treatment-algorithm h2,
     .deases .treatment-algorithm h3 {
         font-weight: 500;
     }
@@ -348,6 +353,7 @@
         margin-bottom: 5px;
     }
 
+    .deases .treatment-algorithm h2,
     .deases .treatment-algorithm h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -361,7 +367,7 @@
         padding: 32px 0;
     }
 
-    .deases .treatment-algorithm-heading h2 {
+    .deases .treatment-algorithm-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -382,6 +388,7 @@
         height: auto;
     }
 
+    .deases .treatment-algorithm h2,
     .deases .treatment-algorithm h3,
     .deases .treatment-algorithm p,
     .deases .treatment-algorithm .algorithm {

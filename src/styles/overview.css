@@ -70,10 +70,12 @@
     color: white;
 }
 
-.deases .overview-heading h2 {
+.deases .overview-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .overview-heading img {
@@ -107,6 +109,7 @@
     margin-bottom: 10px;
 }
 
+.deases .overview h2,
 .deases .overview h3 {
     margin: 40px 0;
     text-align: center;
@@ -257,6 +260,7 @@
     margin-right: 50px;
 }
 
+.deases .overview .collage h2,
 .deases .overview .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -353,7 +357,7 @@
     margin-left: 0;
 }
 
-.deases .overview .FAQ ul p.question-text {
+.deases .overview .FAQ ul h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -386,6 +390,7 @@
         font-weight: 400;
     }
 
+    .deases .overview h2,
     .deases .overview h3 {
         font-size: 1.125rem;
         font-weight: 600;
@@ -446,7 +451,7 @@
         padding: 32px 0;
     }
 
-    .deases .overview-heading h2 {
+    .deases .overview-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -462,6 +467,7 @@
         width: 100%;
     }
 
+    .deases .overview h2,
     .deases .overview h3,
     .deases .overview p,
     .deases .overview .table-wrap {

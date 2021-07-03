@@ -56,10 +56,12 @@
     color: white;
 }
 
-.deases .treatment-heading h2 {
+.deases .treatment-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .treatment-heading img {
@@ -93,6 +95,7 @@
     margin-bottom: 10px;
 }
 
+.deases .treatment h2,
 .deases .treatment h3 {
     margin: 40px 0;
     text-align: center;
@@ -247,6 +250,7 @@
     margin-right: 50px;
 }
 
+.deases .treatment .collage h2,
 .deases .treatment .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -431,6 +435,7 @@
         padding: 0 16px;
     }
 
+    .deases .treatment h2,
     .deases .treatment h3 {
         font-weight: 500;
     }
@@ -482,6 +487,7 @@
         margin-bottom: 10px;
     }
 
+    .deases .treatment h2,
     .deases .treatment h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -508,7 +514,7 @@
         padding: 32px 0;
     }
 
-    .deases .treatment-heading h2 {
+    .deases .treatment-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -562,6 +568,7 @@
         margin: 10px 0 10px 16px;
     }
 
+    .deases .treatment h2,
     .deases .treatment h3,
     .deases .treatment p,
     .deases .treatment .table-wrap {

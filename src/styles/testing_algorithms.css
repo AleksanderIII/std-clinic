@@ -48,7 +48,7 @@
     margin-left: 0;
 }
 
-.deases .testing_algoritms .FAQ ul li p.question-text {
+.deases .testing_algoritms .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -98,10 +98,12 @@
     color: white;
 }
 
-.deases .testing_algoritms-heading h2 {
+.deases .testing_algoritms-heading h1 {
     margin-top: 0;
+    color: white;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .testing_algoritms-heading img {
@@ -135,6 +137,7 @@
     margin-bottom: 10px;
 }
 
+.deases .testing_algoritms h2,
 .deases .testing_algoritms h3 {
     margin: 40px 0;
     text-align: center;
@@ -287,6 +290,7 @@
     margin-right: 50px;
 }
 
+.deases .testing_algoritms .collage h2,
 .deases .testing_algoritms .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -398,6 +402,7 @@
         margin-bottom: 5px;
     }
 
+    .deases .testing_algoritms h2,
     .deases .testing_algoritms h3 {
         font-weight: 500;
     }
@@ -433,12 +438,13 @@
         padding: 32px 0;
     }
 
+    .deases .testing_algoritms h2,
     .deases .testing_algoritms h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
     }
 
-    .deases .testing_algoritms-heading h2 {
+    .deases .testing_algoritms-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -462,6 +468,7 @@
         font-size: 0.8125rem;
     }
 
+    .deases .testing_algoritms h2,
     .deases .testing_algoritms h3,
     .deases .testing_algoritms p,
     .deases .testing_algoritms ul,

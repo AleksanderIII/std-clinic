@@ -54,8 +54,9 @@
     color: white;
 }
 
-.deases .my_odds-heading h2 {
+.deases .my_odds-heading h1 {
     margin-top: 0;
+    color: white;
     font-size: 2.25rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -93,6 +94,7 @@
     margin-bottom: 10px;
 }
 
+.deases .my_odds h2,
 .deases .my_odds h3 {
     margin: 40px 0;
     text-align: center;
@@ -255,6 +257,7 @@
     margin-right: 50px;
 }
 
+.deases .my_odds .collage h2,
 .deases .my_odds .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -405,7 +408,7 @@
     margin-left: 0;
 }
 
-.deases .my_odds-content .FAQ ul li p.question-text {
+.deases .my_odds-content .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -452,11 +455,12 @@
         padding: 32px 0;
     }
 
-    .deases .my_odds-heading h2 {
+    .deases .my_odds-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
 
+    .deases .my_odds h2,
     .deases .my_odds h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -483,6 +487,7 @@
         width: 100%;
     }
 
+    .deases .my_odds h2,
     .deases .my_odds h3,
     .deases .my_odds p,
     .deases .my_odds .table-wrap {
@@ -594,7 +599,7 @@
         font-size: 0.8125rem;
     }
 
-    .deases .my_odds-content .FAQ ul li p.question-text {
+    .deases .my_odds-content .FAQ ul li h4.question-text {
         font-size: 0.875rem;
     }
 

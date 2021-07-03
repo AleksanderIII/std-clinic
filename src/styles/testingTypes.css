@@ -52,10 +52,12 @@
     color: white;
 }
 
-.deases .testing_types-heading h2 {
+.deases .testing_types-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .testing_types ul {
@@ -116,6 +118,7 @@
     font-size: 0.875rem;
 }
 
+.deases .testing_types h2,
 .deases .testing_types h3 {
     margin: 40px 0;
     text-align: center;
@@ -274,6 +277,7 @@
     margin-right: 50px;
 }
 
+.deases .testing_types .collage h2,
 .deases .testing_types .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -449,7 +453,7 @@
     margin-left: 0;
 }
 
-.deases .testing_types-content .FAQ ul li p.question-text {
+.deases .testing_types-content .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -515,6 +519,7 @@
         padding-right: 0;
     }
 
+    .deases .testing_types h2,
     .deases .testing_types h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -569,7 +574,7 @@
         padding: 32px 0;
     }
 
-    .deases .testing_types-heading h2 {
+    .deases .testing_types-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -609,6 +614,7 @@
         width: 100%;
     }
 
+    .deases .testing_types h2,
     .deases .testing_types h3,
     .deases .testing_types p,
     .deases .testing_types .table-wrap {
@@ -623,6 +629,7 @@
         margin: 0 0 10px 16px;
     }
 
+    .deases .testing_types h2,
     .deases .testing_types h3 {
         font-weight: 500;
     }

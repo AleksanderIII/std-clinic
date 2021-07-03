@@ -216,372 +216,368 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/chlomydia.html',
-      filename: 'chlomydia.html',
+      filename: 'chlamydia-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['chlomydia']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/WhatISee/WhatISee.html',
-      filename: 'chlomydia/what_i_see.html',
+      filename: 'chlamydia-signs.html',
       inject: true,
       chunks: ['chlomydiaWhatISee']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/WhatIFeel/WhatIFeel.html',
-      filename: 'chlomydia/what_i_feel.html',
+      filename: 'chlamydia-symptoms.html',
       inject: true,
       chunks: ['chlomydiaWhatIFeel']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/Odds/Odds.html',
-      filename: 'chlomydia/odds.html',
+      filename: 'odds-getting-chlamydia.html',
       inject: true,
       chunks: ['chlomydiaOdds']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/Testing/Testing.html',
-      filename: 'chlomydia/testing.html',
+      filename: 'chlamydia-testing.html',
       inject: true,
       chunks: ['chlomydiaTesting']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Chlomydia/TestingAlgorithms/TestingAlgorithms.html',
-      filename: 'chlomydia/testing_algorithms.html',
+      filename: 'chlamydia-testing-algorithms.html',
       inject: true,
       chunks: ['chlomydiaTestingAlgorithms']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/Treatments/Treatments.html',
-      filename: 'chlomydia/treatments.html',
+      filename: 'chlamydia-treatment.html',
       inject: true,
       chunks: ['chlomydiaTreatments']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Chlomydia/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
-      filename: 'chlomydia/treatment_algorithms.html',
+      filename: 'chlamydia-treatment-algorithms.html',
       inject: true,
       chunks: ['chlomydiaTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Chlomydia/ChlomydiaVsOther/ChlomydiaVsOther.html',
-      filename: 'chlomydia/chlomydia_vs_other.html',
+      filename: 'chlamydia-comparison.html',
       inject: true,
       chunks: ['chlomydiaVsOther']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Chlomydia/ChlomydiaVsGonorrhea/ChlomydiaVsGonorrhea.html',
-      filename: 'chlomydia/chlomydia_vs_gonorrhea.html',
+      filename: 'chlamydia-gonorrhea.html',
       inject: true,
       chunks: ['chlomydiaVsGonorrhea']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Chlomydia/ChlomydiaVsVaginosis/ChlomydiaVsVaginosis.html',
-      filename: 'chlomydia/chlomydia_vs_vaginosis.html',
+      filename: 'chlamydia-bv.html',
       inject: true,
       chunks: ['chlomydiaVsVaginosis']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Chlomydia/ChlomydiaVsYeast/ChlomydiaVsYeast.html',
-      filename: 'chlomydia/chlomydia_vs_yeast.html',
+      filename: 'chlamydia-vaginal-yeast-infection.html',
       inject: true,
       chunks: ['chlomydiaVsYeast']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/Protecting/Protecting.html',
-      filename: 'chlomydia/protecting.html',
+      filename: 'chlamydia-partner-protection.html',
       inject: true,
       chunks: ['chlomydiaProtecting']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Chlomydia/Myths/Myths.html',
-      filename: 'chlomydia/myths.html',
+      filename: 'chlamydia-myths.html',
       inject: true,
       chunks: ['chlomydiaMyths']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/Gonorrhea.html',
-      filename: 'gonorrhea.html',
+      filename: 'gonorrhea-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['gonorrhea']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/WhatISee/WhatISee.html',
-      filename: 'gonorrhea/what_i_see.html',
+      filename: 'gonorrhea-signs.html',
       inject: true,
       chunks: ['gonorrheaWhatISee']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/WhatIFeel/WhatIFeel.html',
-      filename: 'gonorrhea/what_i_feel.html',
+      filename: 'gonorrhea-symptoms.html',
       inject: true,
       chunks: ['gonorrheaWhatIFeel']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/Odds/Odds.html',
-      filename: 'gonorrhea/odds.html',
+      filename: 'odds-getting-gonorrhea.html',
       inject: true,
       chunks: ['gonorrheaOdds']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/Testing/Testing.html',
-      filename: 'gonorrhea/testing.html',
+      filename: 'gonorrhea-testing.html',
       inject: true,
       chunks: ['gonorrheaTesting']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Gonorrhea/TestingAlgorithms/TestingAlgorithms.html',
-      filename: 'gonorrhea/testing_algorithms.html',
+      filename: 'gonorrhea-testing-algorithms.html',
       inject: true,
       chunks: ['gonorrheaTestingAlgorithms']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/Treatments/Treatments.html',
-      filename: 'gonorrhea/treatments.html',
+      filename: 'gonorrhea-treatment.html',
       inject: true,
       chunks: ['gonorrheaTreatments']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Gonorrhea/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
-      filename: 'gonorrhea/treatment_algorithms.html',
+      filename: 'gonorrhea-treatment-algorithms.html',
       inject: true,
       chunks: ['gonorrheaTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Gonorrhea/GonorrheaVsOther/GonorrheaVsOther.html',
-      filename: 'gonorrhea/gonorrhea_vs_other.html',
+      filename: 'gonorrhea-comparison.html',
       inject: true,
       chunks: ['gonorrheaVsOther']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Gonorrhea/GonorrheaVsChlomydia/GonorrheaVsChlomydia.html',
-      filename: 'gonorrhea/gonorrhea_vs_chlomydia.html',
+      filename: 'gonorrhea-chlamydia.html',
       inject: true,
       chunks: ['gonorrheaVsChlomydia']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Gonorrhea/GonorrheaVsVaginosis/GonorrheaVsVaginosis.html',
-      filename: 'gonorrhea/gonorrhea_vs_vaginosis.html',
+      filename: 'gonorrhea-bv.html',
       inject: true,
       chunks: ['gonorrheaVsVaginosis']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/Protecting/Protecting.html',
-      filename: 'gonorrhea/protecting.html',
+      filename: 'gonorrhea-partner-protection.html',
       inject: true,
       chunks: ['gonorrheaProtecting']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Gonorrhea/Myths/Myths.html',
-      filename: 'gonorrhea/myths.html',
+      filename: 'gonorrhea-myths.html',
       inject: true,
       chunks: ['gonorrheaMyths']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Herpes.html',
-      filename: 'herpes.html',
+      filename: 'herpes-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['herpes']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Overview/Overview.html',
-      filename: 'herpes/overview.html',
+      filename: 'herpes-virus-HSV1-HSV2-overview.html',
       inject: true,
       chunks: ['herpesOverview']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/WhatISee/WhatISee.html',
-      filename: 'herpes/what_i_see.html',
+      filename: 'herpes-signs.html',
       inject: true,
       chunks: ['herpesWhatISee']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/WhatIFeel/WhatIFeel.html',
-      filename: 'herpes/what_i_feel.html',
+      filename: 'herpes-symptoms.html',
       inject: true,
       chunks: ['herpesWhatIFeel']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Odds/Odds.html',
-      filename: 'herpes/odds.html',
+      filename: 'odds-of-getting-herpes.html',
       inject: true,
       chunks: ['herpesOdds']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Testing/Testing.html',
-      filename: 'herpes/testing.html',
+      filename: 'herpes-testing.html',
       inject: true,
       chunks: ['herpesTesting']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Herpes/TestingAlgorithms/TestingAlgorithms.html',
-      filename: 'herpes/testing_algorithms.html',
+      filename: 'herpes-testing-algorithms.html',
       inject: true,
       chunks: ['herpesTestingAlgorithms']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Treatments/Treatments.html',
-      filename: 'herpes/treatments.html',
+      filename: 'herpes-treatment.html',
       inject: true,
       chunks: ['herpesTreatments']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Herpes/TreatmentsAlgorithms/TreatmentsAlgorithms.html',
-      filename: 'herpes/treatment_algorithms.html',
+      filename: 'herpes-treatment-algorithms.html',
       inject: true,
       chunks: ['herpesTreatmentAlgorithms']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Protecting/Protecting.html',
-      filename: 'herpes/protecting.html',
+      filename: 'reduce-herpes-transmission.html',
       inject: true,
       chunks: ['herpesProtecting']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Comparision/Comparision.html',
-      filename: 'herpes/herpes_vs_other.html',
+      filename: 'herpes-comparison.html',
       inject: true,
       chunks: ['herpesVsOther']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/HerpesVsSyphilis/HerpesVsSyphilis.html',
-      filename: 'herpes/herpes_vs_syphilis.html',
+      filename: 'herpes-syphilis.html',
       inject: true,
       chunks: ['herpesVsSyphilis']
     }),
     new HtmlWebpackPlugin({
       template:
         './src/diseases/Herpes/HerpesVsBalanitis/HerpesVsBalanitis.html',
-      filename: 'herpes/herpes_vs_balanitis.html',
+      filename: 'herpes-balanitis.html',
       inject: true,
       chunks: ['herpesVsBalanitis']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/HerpesVsYeast/HerpesVsYeast.html',
-      filename: 'herpes/herpes_vs_yeast.html',
+      filename: 'herpes-vaginal-yeast.html',
       inject: true,
       chunks: ['herpesVsYeast']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Herpes/Myths/Myths.html',
-      filename: 'herpes/myths.html',
+      filename: 'herpes-myths.html',
       inject: true,
       chunks: ['herpesMyths']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/HIV.html',
-      filename: 'hiv.html',
+      filename: 'hiv-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['hiv']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/Signs/Signs.html',
-      filename: 'hiv/hiv_signs.html',
+      filename: 'hiv-signs-symptoms.html',
       inject: true,
       chunks: ['hivSigns']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/Odds/Odds.html',
-      filename: 'hiv/odds.html',
+      filename: 'odds-getting-hiv.html',
       inject: true,
       chunks: ['hivOdds']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/Testing/Testing.html',
-      filename: 'hiv/testing.html',
+      filename: 'hiv-testing.html',
       inject: true,
       chunks: ['hivTesting']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/RapidTests/RapidTests.html',
-      filename: 'hiv/rapid_tests.html',
+      filename: 'hiv-rapid-tests.html',
       inject: true,
       chunks: ['hivRapidTests']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/PrEP/PrEP.html',
-      filename: 'hiv/prep.html',
+      filename: 'hiv-prep.html',
       inject: true,
       chunks: ['hivPrEP']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/PEP/PEP.html',
-      filename: 'hiv/pep.html',
+      filename: 'hiv-pep.html',
       inject: true,
       chunks: ['hivPEP']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/HIVVsOther/HIVVsOther.html',
-      filename: 'hiv/hiv_vs_other.html',
+      filename: 'hiv-comparison.html',
       inject: true,
       chunks: ['HIVVsOther']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/HIV/Protecting/Protecting.html',
-      filename: 'hiv/protecting.html',
+      filename: 'hiv-partner-protection.html',
       inject: true,
       chunks: ['hivProtecting']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Syphilis.html',
-      filename: 'syphilis.html',
+      filename: 'syphilis-symptoms-signs-testing-treatment-comparison.html',
       inject: true,
       chunks: ['syphilis']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Signs/Signs.html',
-      filename: 'syphilis/syphilis_signs.html',
+      filename: 'syphilis-symptoms-and-signs.html',
       inject: true,
       chunks: ['syphilisSigns']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Odds/Odds.html',
-      filename: 'syphilis/odds.html',
+      filename: 'odds-getting-syphilis.html',
       inject: true,
       chunks: ['syphilisOdds']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Testing/Testing.html',
-      filename: 'syphilis/testing.html',
+      filename: 'syphilis-testing.html',
       inject: true,
       chunks: ['syphilisTesting']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Comparision/Comparision.html',
-      filename: 'syphilis/comparision.html',
+      filename: 'syphilis-comparison.html',
       inject: true,
       chunks: ['syphilisComparision']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Protecting/Protecting.html',
-      filename: 'syphilis/protecting.html',
+      filename: 'syphilis-partner-protection.html',
       inject: true,
       chunks: ['syphilisProtecting']
     }),
     new HtmlWebpackPlugin({
       template: './src/diseases/Syphilis/Treatment/Treatment.html',
-      filename: 'syphilis/treatment.html',
+      filename: 'syphilis-treatment.html',
       inject: true,
       chunks: ['syphilisTreatment']
     }),
-
-
-
-
 
     new HtmlWebpackPlugin({
       template: './src/tests/Chlomydia/Chlomydia.html',
@@ -655,9 +651,6 @@ module.exports = {
       inject: true,
       chunks: ['testsBalanitis']
     }),
-
-
-
 
     new HtmlWebpackPlugin({
       template: './src/blogs/Blogs.html',
@@ -767,9 +760,6 @@ module.exports = {
       inject: true,
       chunks: ['blogHomosexualSex']
     }),
-
-
-
 
     new MiniCssExtractPlugin({
       filename: '[name].css',

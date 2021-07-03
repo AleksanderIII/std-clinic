@@ -34,7 +34,7 @@
     text-align: 'left';
 }
 
-.deases .female_chlomydia_yeast .FAQ ul li p.question-text {
+.deases .female_chlomydia_yeast .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -60,10 +60,12 @@
     color: white;
 }
 
-.deases .female_chlomydia_yeast-heading h2 {
+.deases .female_chlomydia_yeast-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .female_chlomydia_yeast-heading img {
@@ -80,7 +82,7 @@
     color: white;
 }
 
-.deases .female_chlomydia_yeast-heading ul li::marker{
+.deases .female_chlomydia_yeast-heading ul li::marker {
     font-size: 0.875rem;
 }
 
@@ -101,6 +103,7 @@
     margin-bottom: 10px;
 }
 
+.deases .female_chlomydia_yeast h2,
 .deases .female_chlomydia_yeast h3 {
     margin: 40px 0;
     font-weight: 500;
@@ -251,6 +254,7 @@
     margin-right: 50px;
 }
 
+.deases .female_chlomydia_yeast .collage h2,
 .deases .female_chlomydia_yeast .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -398,6 +402,7 @@
         padding: 0;
     }
 
+    .deases .female_chlomydia_yeast h2,
     .deases .female_chlomydia_yeast h3 {
         font-size: 1.125rem;
         font-weight: 500;
@@ -486,7 +491,7 @@
         height: auto;
     }
 
-    .deases .female_chlomydia_yeast .FAQ ul li p.question-text {
+    .deases .female_chlomydia_yeast .FAQ ul li h4.question-text {
         font-size: 0.875rem;
     }
 
@@ -500,7 +505,7 @@
         padding: 32px 0;
     }
 
-    .deases .female_chlomydia_yeast-heading h2 {
+    .deases .female_chlomydia_yeast-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -516,6 +521,7 @@
         width: 100%;
     }
 
+    .deases .female_chlomydia_yeast h2,
     .deases .female_chlomydia_yeast h3,
     .deases .female_chlomydia_yeast p,
     .deases .female_chlomydia_yeast .table-wrap {

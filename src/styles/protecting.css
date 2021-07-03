@@ -38,7 +38,7 @@
     background: white;
 }
 
-.deases .protecting .FAQ ul li p.question-text {
+.deases .protecting .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -58,10 +58,12 @@
     color: white;
 }
 
-.deases .protecting-heading h2 {
+.deases .protecting-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .protecting-heading img {
@@ -95,6 +97,7 @@
     margin-bottom: 10px;
 }
 
+.deases .protecting h2,
 .deases .protecting h3 {
     margin: 40px 0;
     text-align: center;
@@ -244,6 +247,7 @@
     margin-right: 50px;
 }
 
+.deases .protecting .collage h2,
 .deases .protecting .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -419,6 +423,7 @@
         font-weight: 400;
     }
 
+    .deases .protecting h2,
     .deases .protecting h3 {
         font-weight: 500;
     }
@@ -462,6 +467,7 @@
         padding: 0;
     }
 
+    .deases .protecting h2,
     .deases .protecting h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -478,7 +484,7 @@
     .deases .protecting table td,
     .deases .protecting table li,
     .deases .protecting table td p.table-bold-text,
-    .deases .protecting .FAQ ul li p.question-text {
+    .deases .protecting .FAQ ul li h4.question-text {
         font-size: 0.875rem;
     }
 
@@ -496,7 +502,7 @@
         padding: 32px 0;
     }
 
-    .deases .protecting-heading h2 {
+    .deases .protecting-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -512,6 +518,7 @@
         width: 100%;
     }
 
+    .deases .protecting h2,
     .deases .protecting h3,
     .deases .protecting p,
     .deases .protecting .table-wrap {

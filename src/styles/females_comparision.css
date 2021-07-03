@@ -40,11 +40,11 @@
     color: white;
 }
 
-.deases .females_comparision .FAQ ul{
+.deases .females_comparision .FAQ ul {
     margin-left: 0px;
 }
 
-.deases .females_comparision .FAQ ul li p.question-text {
+.deases .females_comparision .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -59,10 +59,12 @@
     text-align: 'left';
 }
 
-.deases .females_comparision-heading h2 {
+.deases .females_comparision-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .females_comparision-heading img {
@@ -96,6 +98,7 @@
     margin-bottom: 10px;
 }
 
+.deases .females_comparision h2,
 .deases .females_comparision h3 {
     margin: 40px 0;
     text-align: center;
@@ -240,30 +243,30 @@
     color: #E57967;
 }
 
-.deases .females_comparision table td b{
+.deases .females_comparision table td b {
     font-weight: 600;
 }
 
-.deases .females_comparision .females_comparision-heading ul li{
+.deases .females_comparision .females_comparision-heading ul li {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: white;
 }
 
-.deases .females_comparision .females_comparision-heading ul li::marker{
+.deases .females_comparision .females_comparision-heading ul li::marker {
     font-size: 0.875rem;
 }
 
-.deases .females_comparision table td ul li{
+.deases .females_comparision table td ul li {
     color: #629EA8;
 }
 
-.deases .females_comparision ul{
+.deases .females_comparision ul {
     margin-top: 10px;
     margin-left: 40px;
 }
 
-.deases .females_comparision ul li{
+.deases .females_comparision ul li {
     font-family: 'Montserrat-Medium', sans-serif;
     font-weight: 500;
     color: #354A87;
@@ -277,6 +280,7 @@
     margin-right: 50px;
 }
 
+.deases .females_comparision .collage h2,
 .deases .females_comparision .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -404,10 +408,12 @@
         padding: 0;
     }
 
+    .deases .females_comparision h2,
     .deases .females_comparision h3 {
         font-weight: 500;
     }
 
+    .deases .females_comparision h2,
     .deases .females_comparision h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -418,12 +424,12 @@
         margin-left: 16px;
     }
 
-    .deases .females_comparision .females_comparision-heading ul li{
+    .deases .females_comparision .females_comparision-heading ul li {
         font-size: 0.875rem;
         padding-right: 0;
     }
 
-    .deases .females_comparision table td ul li{
+    .deases .females_comparision table td ul li {
         font-weight: 400;
     }
 
@@ -438,26 +444,26 @@
         font-size: 0.875rem;
     }
 
-    .deases .females_comparision ul{
+    .deases .females_comparision ul {
         padding-right: 16px;
     }
 
-    .deases .females_comparision .collage-column .bold-text{
+    .deases .females_comparision .collage-column .bold-text {
         font-size: 1.5rem;
         margin: 10px 0 !important;
     }
 
-    .deases .females_comparision .collage-column .link{
+    .deases .females_comparision .collage-column .link {
         margin-bottom: 20px;
         margin-left: 0 !important;
     }
 
-    .deases .females_comparision ul li{
+    .deases .females_comparision ul li {
         line-height: 1.4rem;
         margin-bottom: 5px;
     }
 
-    .deases .females_comparision .FAQ .answer ul li{
+    .deases .females_comparision .FAQ .answer ul li {
         font-size: 0.8125rem;
         margin-bottom: 5px;
     }
@@ -485,18 +491,18 @@
         padding-right: 0;
     }
 
-    .deases .females_comparision .collage-column .bold-text{
+    .deases .females_comparision .collage-column .bold-text {
         margin-left: 0;
         padding-left: 0;
     }
 
-    .deases .females_comparision .FAQ ul li p.question-text{
+    .deases .females_comparision .FAQ ul li h4.question-text {
         font-size: 0.875rem;
     }
 
     .deases .females_comparision .FAQ ul li .answer td,
     .deases .females_comparision .FAQ ul li .answer th,
-    .deases .females_comparision .FAQ ul li .answer p{
+    .deases .females_comparision .FAQ ul li .answer p {
         font-size: 0.8125rem;
     }
 
@@ -514,7 +520,7 @@
         padding: 32px 0;
     }
 
-    .deases .females_comparision-heading h2 {
+    .deases .females_comparision-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
@@ -530,6 +536,7 @@
         width: 100%;
     }
 
+    .deases .females_comparision h2,
     .deases .females_comparision h3,
     .deases .females_comparision p,
     .deases .females_comparision .table-wrap {

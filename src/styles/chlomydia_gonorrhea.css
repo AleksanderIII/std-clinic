@@ -59,10 +59,12 @@
     color: white;
 }
 
-.deases .chlomydia_gonorrhea-heading h2 {
+.deases .chlomydia_gonorrhea-heading h1 {
     margin-top: 0;
     font-size: 2.25rem;
-    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
 }
 
 .deases .chlomydia_gonorrhea-heading img {
@@ -96,6 +98,7 @@
     margin-bottom: 10px;
 }
 
+.deases .chlomydia_gonorrhea h2,
 .deases .chlomydia_gonorrhea h3 {
     margin: 40px 0;
     font-weight: 500;
@@ -246,6 +249,7 @@
     margin-right: 50px;
 }
 
+.deases .chlomydia_gonorrhea .collage h2,
 .deases .chlomydia_gonorrhea .collage h3 {
     margin: 0 auto;
     margin-bottom: 0;
@@ -406,7 +410,7 @@
     color: #629EA8;
 }
 
-.deases .chlomydia_gonorrhea .FAQ ul li p.question-text {
+.deases .chlomydia_gonorrhea .FAQ ul li h4.question-text {
     font-family: 'Roboto-Medium', sans-serif;
     font-weight: 500;
 }
@@ -422,6 +426,7 @@
         padding: 0;
     }
 
+    .deases .chlomydia_gonorrhea h2,
     .deases .chlomydia_gonorrhea h3 {
         font-size: 1.125rem;
         margin: 25px 0 15px 0;
@@ -489,6 +494,7 @@
         padding-right: 0;
     }
 
+    .deases .chlomydia_gonorrhea h2,
     .deases .chlomydia_gonorrhea h3 {
         font-weight: 500;
     }
@@ -511,12 +517,12 @@
         padding: 32px 0;
     }
 
-    .deases .chlomydia_gonorrhea-heading h2 {
+    .deases .chlomydia_gonorrhea-heading h1 {
         font-size: 1.5rem;
         padding: 0 16px;
     }
 
-    .deases .chlomydia_gonorrhea .FAQ ul li p.question-text {
+    .deases .chlomydia_gonorrhea .FAQ ul li h4.question-text {
         font-size: 0.875rem;
     }
 
@@ -537,6 +543,7 @@
         width: 100%;
     }
 
+    .deases .chlomydia_gonorrhea h2,
     .deases .chlomydia_gonorrhea h3,
     .deases .chlomydia_gonorrhea p,
     .deases .chlomydia_gonorrhea .table-wrap {
