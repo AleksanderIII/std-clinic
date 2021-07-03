@@ -426,6 +426,26 @@ h3~p.subHeader {
         margin-bottom: 50px;
     }
 
+    .blog-table th {
+        font-size: 0.875rem;
+    }
+
+    .page_wrap .text .blog-table ul {
+        margin: 0;
+    }
+
+    .blog-table td {
+        padding: 15px;
+    }
+
+    .blog-table td,
+    .blog-table td p,
+    .blog-table td ul li,
+    .page_wrap .text .blog-table td ul li p,
+    .page_wrap .text .blog-table td ul li b  {
+        font-size: 0.8125rem;
+    }
+
     .blog h2 {
         font-size: 1.5rem;
         padding: 0 16px;
@@ -556,11 +576,11 @@ h3~p.subHeader {
         line-height: 1.1rem;
     }
 
-    .navigation .subMenu li{
+    .navigation .subMenu li {
         margin-top: 6px;
     }
 
-    .navigation .subMenu a{
+    .navigation .subMenu a {
         font-weight: 500;
     }
 
