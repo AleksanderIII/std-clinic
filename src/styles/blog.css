@@ -604,6 +604,12 @@ h3~p.subHeader {
         word-break: break-all;
     }
 
+    .page_wrap .text p.legend{
+        font-weight: 400;
+        font-size: 0.625rem;
+        line-height: 0.75rem;
+    }
+
     .comparision_image {
         width: 100%;
         max-width: 100%;
