@@ -191,10 +191,17 @@ section {
     margin-bottom: 100px;
 }
 
-.blog h2 {
+.blog h1 {
     font-family: 'Roboto-Medium', sans-serif;
     text-align: center;
     font-size: 2.5rem;
+    font-weight: 700;
+    color: #DC593A;
+}
+
+.blog h2 {
+    font-family: 'Roboto-Medium', sans-serif;
+    font-size: 2.25rem;
     font-weight: 700;
     color: #DC593A;
 }
@@ -288,7 +295,7 @@ section {
     cursor: pointer;
 }
 
-.page_wrap h3 {
+.page_wrap h2 {
     font-family: 'Montserrat-SemiBold', sans-serif;
     font-size: 2.25rem;
     line-height: 2.75rem;
@@ -297,7 +304,8 @@ section {
     margin-top: 50px;
 }
 
-.page_wrap p.subHeader {
+.page_wrap p.subHeader,
+.page_wrap h3 {
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1.5rem;
     font-weight: 600;
@@ -442,14 +450,21 @@ h3~p.subHeader {
     .blog-table td p,
     .blog-table td ul li,
     .page_wrap .text .blog-table td ul li p,
-    .page_wrap .text .blog-table td ul li b  {
+    .page_wrap .text .blog-table td ul li b {
         font-size: 0.8125rem;
     }
 
+    .blog h1,
     .blog h2 {
         font-size: 1.5rem;
         padding: 0 16px;
         padding-top: 32px;
+    }
+
+    .blog h2{
+        padding: 0;
+        line-height: 1.875rem;
+        margin-top: 24px;
     }
 
     .blog .page_wrap {
@@ -484,9 +499,11 @@ h3~p.subHeader {
         margin-bottom: 20px;
     }
 
-    .page_wrap p.subHeader {
+    .page_wrap p.subHeader,
+    .page_wrap h3 {
         margin: 15px 0;
         font-size: 1.125rem;
+        line-height: 1.5rem;
     }
 
     .blog img {
@@ -604,7 +621,7 @@ h3~p.subHeader {
         word-break: break-all;
     }
 
-    .page_wrap .text p.legend{
+    .page_wrap .text p.legend {
         font-weight: 400;
         font-size: 0.625rem;
         line-height: 0.75rem;
