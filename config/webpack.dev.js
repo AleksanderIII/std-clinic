@@ -191,6 +191,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
       template: './src/index.html',
       filename: 'index.html',
       inject: true,
