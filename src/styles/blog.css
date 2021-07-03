@@ -544,11 +544,11 @@ h3~p.subHeader {
         margin-top: 15px;
     }
 
-    .navigation .tabs-item {
+    .navigation .page_item {
         margin: 7.5px 0;
     }
 
-    .navigation .tabs-item a {
+    .navigation .page_item a {
         color: #00002A;
         font-size: 0.875rem;
         font-weight: 600;
