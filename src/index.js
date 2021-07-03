@@ -68,3 +68,17 @@ menuItems.forEach((menuItem, index) => {
     })
   }
 })
+
+const noInsuranceBtn = document.getElementById('no-insurance')
+const popup = document.getElementById('popup')
+const closeBtn = document.getElementById('close_btn')
+noInsuranceBtn.addEventListener('click', openPopup)
+closeBtn.addEventListener('click', closePopup)
+
+function openPopup () {
+  popup.classList.remove('hidden')
+}
+
+function closePopup () {
+  popup.classList.add('hidden')
+}
