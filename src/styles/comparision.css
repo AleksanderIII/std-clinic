@@ -232,6 +232,13 @@
     padding: 0 40px;
 }
 
+.deases .comparision .FAQ-content>p a {
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #3C4B94;
+}
+
 .deases .comparision .FAQ-content>p {
     margin-bottom: 30px;
     font-weight: 400;
@@ -395,6 +402,12 @@
 .deases .comparision .FAQ ul {
     margin-left: 0px;
     margin-right: 0;
+}
+
+.deases .comparision .FAQ .answer ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #354A87;
 }
 
 .deases .comparision .FAQ .answer ul li {
@@ -716,6 +729,10 @@
         padding: 0;
     }
 
+    .deases .comparision .FAQ-content>p a{
+        font-size: 0.875rem;
+    }
+
     .deases .comparision .FAQ-content>p {
         font-size: 0.875rem;
         padding: 0;
@@ -779,7 +796,7 @@
         display: none !important;
     }
 
-    .deases .comparision .bold-text~ul li{
+    .deases .comparision .bold-text~ul li {
         font-weight: 400;
     }
 

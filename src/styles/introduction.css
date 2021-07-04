@@ -50,6 +50,11 @@
     line-height: 1.875rem;
 }
 
+.deases .introduction-text p a {
+    color: #3C4B94;
+}
+
+.deases .introduction-text p a,
 .deases .introduction-text p {
     font-family: 'Montserrat-Medium', sans-serif;
 }

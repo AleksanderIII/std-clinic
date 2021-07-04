@@ -22,7 +22,7 @@
     font-size: 1.125rem;
 }
 
-.deases .what_i_see .what_i_see-heading ul li::marker{
+.deases .what_i_see .what_i_see-heading ul li::marker {
     font-size: 0.875rem;
 }
 
@@ -70,6 +70,14 @@
 .deases .what_i_see-heading img {
     margin-right: 50px;
     margin-left: 80px;
+}
+
+.deases .what_i_see-heading p a {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 .deases .what_i_see-heading p {
@@ -158,6 +166,13 @@
 .deases .what_i_see table ul li {
     color: #629EA8;
     font-weight: 400;
+}
+
+.deases .what_i_see .subHeader a {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #3C4B94;
 }
 
 .deases .what_i_see .subHeader {
@@ -253,6 +268,10 @@
 
 .deases .what_i_see .FAQ-content {
     padding: 0 40px;
+}
+
+.deases .what_i_see .FAQ-content>p a {
+    color: #3C4B94;
 }
 
 .deases .what_i_see .FAQ-content>p {
@@ -621,7 +640,8 @@
         margin: 15px 0;
     }
 
-    .deases .what_i_see .subHeader {
+    .deases .what_i_see .subHeader,
+    .deases .what_i_see .subHeader a {
         font-size: 1rem;
     }
 
@@ -675,6 +695,12 @@
 
     .deases .what_i_see .what_i_see-heading .bold-text~ul {
         margin: 0 0 10px 16px;
+    }
+
+    .deases .what_i_see-heading p a {
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.375rem;
     }
 
     .deases .what_i_see-heading p {

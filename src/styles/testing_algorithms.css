@@ -7,7 +7,7 @@
     color: white;
 }
 
-.deases .testing_algoritms .testing_algoritms-heading p{
+.deases .testing_algoritms .testing_algoritms-heading p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 1.125rem;
@@ -20,8 +20,15 @@
     margin-bottom: 10px;
 }
 
-.deases .testing_algoritms .testing_algoritms-heading ul li::marker{
+.deases .testing_algoritms .testing_algoritms-heading ul li::marker {
     font-size: 0.875rem;
+}
+
+.deases .testing_algoritms .section-text a {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #354A87;
 }
 
 .deases .testing_algoritms .section-text {
@@ -393,7 +400,7 @@
         padding: 0;
     }
 
-    .deases .testing_algoritms .testing_algoritms-heading p{
+    .deases .testing_algoritms .testing_algoritms-heading p {
         font-size: 0.875rem;
     }
 
@@ -407,6 +414,7 @@
         font-weight: 500;
     }
 
+    .deases .testing_algoritms .section-text a,
     .deases .testing_algoritms .section-text,
     .deases .testing_algoritms .bold-text,
     .deases .testing_algoritms .bold-text~ul li,
@@ -422,7 +430,7 @@
     .deases .testing_algoritms .FAQ ul li .answer p,
     .deases .testing_algoritms .FAQ ul li .answer ul li,
     .deases .testing_algoritms .FAQ ul li .answer table th,
-    .deases .testing_algoritms .FAQ ul li .answer table td{
+    .deases .testing_algoritms .FAQ ul li .answer table td {
         font-size: 0.8125rem;
     }
 

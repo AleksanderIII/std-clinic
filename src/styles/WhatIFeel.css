@@ -86,7 +86,7 @@
     color: white;
 }
 
-.deases .what_i_feel .what_i_feel-heading ul li::marker{
+.deases .what_i_feel .what_i_feel-heading ul li::marker {
     font-size: 0.875rem;
 }
 
@@ -126,6 +126,14 @@
 .deases .what_i_feel ul {
     margin-top: 10px;
     margin-left: 40px;
+}
+
+.deases .what_i_feel ul li a {
+    font-family: 'Montserrat-Medium', sans-serif;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #354A87;
 }
 
 .deases .what_i_feel ul li {
@@ -198,7 +206,7 @@
     margin-bottom: 5px;
 }
 
-.deases .what_i_feel table td ul li::marker{
+.deases .what_i_feel table td ul li::marker {
     font-size: 0.75rem;
 }
 
@@ -377,7 +385,7 @@
         margin-bottom: 5px;
     }
 
-    .deases .what_i_feel-content p{
+    .deases .what_i_feel-content p {
         font-weight: 400;
     }
 
@@ -438,6 +446,7 @@
 
     .deases .what_i_feel p,
     .deases .what_i_feel ul li,
+    .deases .what_i_feel ul li a,
     .deases .what_i_feel table th,
     .deases .what_i_feel table td p.table-bold-text,
     .deases .what_i_feel table td ul li {
@@ -542,7 +551,7 @@
         margin-bottom: 40px;
     }
 
-    .deases .what_i_feel .section-text{
+    .deases .what_i_feel .section-text {
         font-size: 0.875rem;
     }
 

@@ -3,6 +3,10 @@
     padding: 0 30px 50px 30px;
 }
 
+.answer p a {
+    color: #3C4B94;
+}
+
 .deases .testing_types .section-text {
     margin: 0;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -405,6 +409,13 @@
     margin-left: 30px;
 }
 
+.deases .testing_types .answer ul li a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #354A87;
+}
+
 .deases .testing_types .answer ul li {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -652,6 +663,10 @@
 
     .deases .testing_types .FAQ ul li {
         margin-bottom: 10px;
+    }
+
+    .deases .testing_types .FAQ .answer ul li a {
+        font-size: 0.8125rem;
     }
 
     .deases .testing_types .FAQ .answer ul li {

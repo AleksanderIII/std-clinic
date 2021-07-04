@@ -3,6 +3,13 @@
     padding: 0 30px 50px 30px;
 }
 
+.deases .my_odds .section-text a {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #354A87;
+}
+
 .deases .my_odds .section-text {
     margin: 0;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -519,7 +526,8 @@
     }
 
     .deases .my_odds-content ul li,
-    .deases .my_odds .section-text {
+    .deases .my_odds .section-text,
+    .deases .my_odds .section-text a {
         font-size: 0.875rem;
         line-height: 1.5rem;
     }

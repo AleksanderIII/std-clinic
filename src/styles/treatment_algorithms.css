@@ -3,6 +3,13 @@
     padding: 0 30px 50px 30px;
 }
 
+.deases .treatment-algorithm .section-text a {
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #354A87;
+}
+
 .deases .treatment-algorithm .section-text {
     margin: 0;
     font-family: 'Montserrat-Medium', sans-serif;
@@ -359,6 +366,8 @@
         margin: 25px 0 15px 0;
     }
 
+
+    .deases .treatment-algorithm .section-text a,
     .deases .treatment-algorithm .section-text {
         font-size: 0.875rem;
     }
