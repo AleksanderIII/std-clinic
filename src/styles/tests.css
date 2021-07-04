@@ -551,7 +551,12 @@ section {
   padding-left: 20px;
 }
 
-.testing .at_glance .info p {
+.testing .at_glance .info p a{
+  color: #40518A;
+}
+
+.testing .at_glance .info p,
+.testing .at_glance .info p a {
   font-family: 'Montserrat-Medium', sans-serif;
   font-weight: 500;
   font-size: 1rem;
@@ -641,6 +646,14 @@ section {
   font-size: 1.125rem;
   margin-top: 25px;
   margin-bottom: 15px;
+}
+
+.testing .at_glance .info_item li a {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #40518A;
+  line-height: 1.5;
 }
 
 .testing .at_glance .info_item li {
@@ -1261,6 +1274,13 @@ section {
   font-size: 0.75rem;
 }
 
+.question .answer ul li a {
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+  color: #3C4B94;
+}
+
 .question .answer ul li {
   list-style-type: disc;
   font-weight: 400;
@@ -1418,6 +1438,7 @@ p.light-font {
     margin-bottom: 15px;
   }
 
+  .testing .at_glance .info_item li a,
   .testing .at_glance .info .bold-text,
   .testing .at_glance .info_item li {
     font-size: 0.875rem;
@@ -1477,7 +1498,8 @@ p.light-font {
     padding-left: 0;
   }
 
-  .testing .at_glance .info p {
+  .testing .at_glance .info p,
+  .testing .at_glance .info p a {
     font-size: 0.875rem;
     margin-left: 0;
     font-weight: 400;
@@ -1553,7 +1575,8 @@ p.light-font {
 
   .question .answer p,
   .question .answer p.bold-text,
-  .question .answer ul li {
+  .question .answer ul li,
+  .question .answer ul li a {
     font-size: 0.8125rem;
     line-height: 1.25rem;
   }
