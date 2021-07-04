@@ -366,6 +366,12 @@
     margin-bottom: 7px;
 }
 
+.deases .what_i_feel .answer p a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
 .deases .what_i_feel .answer p {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -377,6 +383,10 @@
         margin-top: 56px;
         width: 100%;
         padding: 0;
+    }
+
+    .deases .what_i_feel .answer p a {
+        font-size: 0.8125rem;
     }
 
     .deases .what_i_feel .what_i_feel-heading ul li {
