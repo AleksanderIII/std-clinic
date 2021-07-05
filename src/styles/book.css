@@ -1,0 +1,56 @@
+.book {
+    margin-top: 130px;
+    padding: 0 30px;
+    margin-bottom: 0px;
+}
+
+.book h1 {
+    font-family: 'Roboto-Medium', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #DC593A;
+}
+
+.book p {
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #354A87;
+    margin-bottom: 50px;
+}
+
+.book p a {
+    font-weight: 500;
+    font-family: 'Montserrat-Medium', sans-serif;
+    font-size: 1rem;
+    color: #354A87;
+}
+
+
+@media (max-width: 1200px) {
+    .book {
+        margin-top: 56px;
+        padding-top: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .book h1 {
+        font-size: 1.5rem;
+    }
+
+    .book p{
+        margin-bottom: 25px;
+    }
+
+    .book p,
+    .bbok p a {
+        font-size: 0.875rem;
+    }
+
+    iframe {
+        min-height: 2900px;
+    }
+}

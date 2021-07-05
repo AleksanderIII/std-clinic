@@ -10,6 +10,8 @@ module.exports = {
   entry: {
     home: './src/index.js',
 
+    book: './src/book/book.js',
+
     sitemap: './src/sitemap/sitemap.js',
 
     meetTheDoctor: './src/meetTheDoctor/meetTheDoctor.js',
@@ -192,6 +194,13 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin(),
+    new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
+      template: './src/book/Book.html',
+      filename: 'online-appointment.html',
+      inject: true,
+      chunks: ['book']
+    }),
     new HtmlWebpackPlugin({
       favicon: './src/images/favicon.svg',
       template: './src/sitemap/Sitemap.html',

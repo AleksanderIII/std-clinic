@@ -99,7 +99,7 @@
         padding: 0;
     }
 
-    .have-a-question div p:last-child {
+    .have-a-question div .part:last-child {
         background: url('http://d12qz6jssicxsf.cloudfront.net/images/question_border.svg') no-repeat center center;
         margin: 0;
         margin-bottom: 40px;
@@ -109,4 +109,9 @@
         width: 100%;
         height: 57px;
     }
+
+    .have-a-question-wrapper div .part:last-child span {
+        padding-top: 5px;
+    }
+
 }
