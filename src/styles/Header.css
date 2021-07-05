@@ -126,6 +126,7 @@
   }
 
   .menu-subfolder {
+    min-width: fit-content;
     display: none;
     position: absolute;
     left: 0;
