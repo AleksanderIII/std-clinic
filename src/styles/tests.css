@@ -399,6 +399,12 @@ section {
   background-size: contain;
 }
 
+.testing section.intro-banner.withoutline {
+  background: url('http://d12qz6jssicxsf.cloudfront.net/images/testing image for_hero without line.svg') no-repeat;
+  background-position: bottom -35px right -40px;
+  padding-top: 100px;
+}
+
 .insurance-btn {
   position: absolute;
   font-family: 'Montserrat-Medium', sans-serif;
@@ -551,7 +557,7 @@ section {
   padding-left: 20px;
 }
 
-.testing .at_glance .info p a{
+.testing .at_glance .info p a {
   color: #40518A;
 }
 
@@ -1369,7 +1375,34 @@ p.light-font {
   background: #F6F9FA;
 }
 
+.thirty-px-shift {
+  position: relative;
+  top: 30px !important;
+}
+
+.withoutline h1 {
+  position: relative;
+  top: -70px;
+}
+
+.seventy-px-shift {
+  position: relative;
+  top: -70px !important;
+}
+
 @media (max-width: 1200px) {
+
+  .thirty-px-shift,
+  .seventy-px-shift {
+    position: relative;
+    top: 0 !important;
+  }
+
+  .withoutline h1 {
+    position: relative;
+    top: 0px;
+  }
+
   .testing section {
     padding: 0 16px;
     width: 100vw;
@@ -2029,5 +2062,17 @@ p.light-font {
 
   .testing .related-topics .topics .topic:nth-child(6) {
     margin-bottom: 50px;
+  }
+
+  .testing section.intro-banner.withoutline {
+    background: linear-gradient(160.38deg, rgba(255, 255, 255, 0.7) 0.72%,
+        rgba(248, 249, 252, 0.7) 42.89%,
+        rgba(243, 245, 250, 0.7) 98.08%);
+  }
+
+  .testing section.intro-banner.withoutline {
+    padding-top: 0;
+    margin-top: 56px;
+    padding-top: 20px;
   }
 }
