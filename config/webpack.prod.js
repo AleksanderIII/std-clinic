@@ -9,6 +9,8 @@ module.exports = {
   entry: {
     home: './src/index.js',
 
+    sitemap: './src/sitemap/sitemap.js',
+
     meetTheDoctor: './src/meetTheDoctor/meetTheDoctor.js',
 
     officeHours: './src/officeHours/officeHours.js',
@@ -187,6 +189,13 @@ module.exports = {
     ]
   },
   plugins: [
+    new HtmlWebpackPlugin({
+      favicon: './src/images/favicon.svg',
+      template: './src/sitemap/Sitemap.html',
+      filename: 'sitemap.html',
+      inject: true,
+      chunks: ['sitemap']
+    }),
     new HtmlWebpackPlugin({
       favicon: './src/images/favicon.svg',
       template: './src/index.html',
