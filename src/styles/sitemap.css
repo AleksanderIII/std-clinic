@@ -26,19 +26,20 @@
 }
 
 .sitemap .map-item {
-    width: calc(55% / 3);
+    width: 25%;
 }
 
-.sitemap .map-item:last-child {
-    width: 45%;
+.sitemap .map-item:nth-child(3) {
+    width: 50%;
 }
 
 .sitemap .map-item a,
-.sitemap .map-item u {
+.sitemap .map-item u,
+.sitemap .subHeader {
     font-size: 1rem;
     font-family: 'Montserrat-Medium', sans-serif;
     font-weight: 500;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
     color: #354A87;
 }
 
@@ -47,14 +48,34 @@
 }
 
 .sitemap .map-item ul li {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
+.sitemap .map-item .subHeader,
+.sitemap .subHeader {
+    font-weight: 700;
+}
+
+.sitemap .diseases {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.sitemap .diseases-item {
+    width: calc(100% / 3);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
 
 @media (max-width: 1200px) {
     section {
         padding-top: 20px;
         padding-bottom: 0;
+    }
+
+    .sitemap .diseases{
+        margin-top: 30px;
+        margin-bottom: 5px;
     }
 
     .sitemap .introduction {
@@ -70,25 +91,34 @@
     }
 
     .sitemap .map {
-        padding: 30px 16px;
+        padding: 15px 16px;
         flex-direction: column;
     }
 
     .sitemap .map-item {
-        padding-left: 30px;
+        padding-left: 20px;
         margin-top: 30px;
         width: 100%;
     }
 
-    .sitemap .map-item ul li{
+    .sitemap .map-item ul li {
         margin-top: 15px;
     }
 
-    .sitemap .map-item a, .sitemap .map-item u{
+    .sitemap .map-item a,
+    .sitemap .map-item u {
         font-size: 0.875rem;
     }
 
-    .sitemap .map-item:last-child{
+    .sitemap .map-item:nth-child(3) {
         width: 100%;
+    }
+
+    .sitemap .diseases{
+        padding-left: 20px;
+    }
+
+    .sitemap .diseases-item{
+        padding-left: 40px;
     }
 }

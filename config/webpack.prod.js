@@ -303,7 +303,7 @@ module.exports = {
       favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsGonorrhea/ChlomydiaVsGonorrhea.html',
-      filename: 'chlamydia-gonorrhea.html',
+      filename: 'chlamydia-vs-gonorrhea.html',
       inject: true,
       chunks: ['chlomydiaVsGonorrhea']
     }),
@@ -311,7 +311,7 @@ module.exports = {
       favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsVaginosis/ChlomydiaVsVaginosis.html',
-      filename: 'chlamydia-bv.html',
+      filename: 'chlamydia-vs-bv.html',
       inject: true,
       chunks: ['chlomydiaVsVaginosis']
     }),
@@ -319,7 +319,7 @@ module.exports = {
       favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Chlomydia/ChlomydiaVsYeast/ChlomydiaVsYeast.html',
-      filename: 'chlamydia-vaginal-yeast-infection.html',
+      filename: 'chlamydia-vs-vaginal-yeast-infection.html',
       inject: true,
       chunks: ['chlomydiaVsYeast']
     }),
@@ -407,7 +407,7 @@ module.exports = {
       favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/GonorrheaVsChlomydia/GonorrheaVsChlomydia.html',
-      filename: 'gonorrhea-chlamydia.html',
+      filename: 'gonorrhea-vs-chlamydia.html',
       inject: true,
       chunks: ['gonorrheaVsChlomydia']
     }),
@@ -415,7 +415,7 @@ module.exports = {
       favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Gonorrhea/GonorrheaVsVaginosis/GonorrheaVsVaginosis.html',
-      filename: 'gonorrhea-bv.html',
+      filename: 'gonorrhea-vs-bv.html',
       inject: true,
       chunks: ['gonorrheaVsVaginosis']
     }),
