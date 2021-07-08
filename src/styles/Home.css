@@ -11,7 +11,7 @@
 
 .popup {
   position: fixed;
-  width: 700px;
+  width: 900px;
   height: 70vh;
   background: white;
   transform: translate(-50%, -50%);
@@ -44,7 +44,6 @@
   margin-bottom: 40px;
 }
 
-
 .popup_content {
   height: calc(70vh - 190px);
   overflow-y: auto;
@@ -60,6 +59,66 @@
 .popup_content p b {
   font-family: 'Roboto-Medium', sans-serif;
   font-weight: 700;
+}
+
+.popup_content .subHeader {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #DD573A;
+  padding: 20px 40px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.popup_content .subHeader.main {
+  font-family: 'Roboto-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.popup_content .popup_points {
+  border: 1px solid #DD573A;
+  margin-bottom: 30px;
+}
+
+.popup_content .footer_popup_points {
+  border: 1px solid #7E8CB3;
+  border-bottom: 2px solid #7E8CB3;
+}
+
+.popup_content .point {
+  margin: 15px 0;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.popup_content .point.underlined {
+  margin: 0 35px;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 2px solid #7E8CB3;
+}
+
+.popup_content .point,
+.popup_content .point p,
+.popup_content .point span {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.625rem;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.popup_content .point img {
+  margin-right: 30px;
+}
+
+.popup_content .popup_footer .subHeader {
+  background: #7E8CB3;
 }
 
 .popup {
