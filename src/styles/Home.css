@@ -499,6 +499,27 @@
   margin-top: 50px;
 }
 
+.home .consult-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home .consult-wrap a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 57px;
+  width: 165px;
+  border: 1px solid #DC593A;
+  border-radius: 10px;
+  color: #DC593A;
+  font-family: 'Montserrat-Medium';
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
 @media (min-width: 1200px) {
   .home .customer-reviews {
     display: none;
@@ -510,6 +531,16 @@
   .home section {
     padding: 0 16px;
     width: 100vw;
+  }
+
+  .consult-wrap {
+    width: 100%;
+  }
+
+  .home .consult-wrap a {
+    width: 100%;
+    max-width: 340px;
+    margin-bottom: 30px;
   }
 
   .popup-wrapper {
@@ -543,7 +574,7 @@
     max-width: 100%;
   }
 
-  .popup_content{
+  .popup_content {
     height: calc(100vh - 226px);
   }
 
