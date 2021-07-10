@@ -1548,6 +1548,7 @@ p.light-font {
   font-size: 1.125rem;
   text-align: center;
 }
+
 .see_more {
   cursor: pointer;
   font-family: 'Montserrat', sans-serif;
@@ -1623,6 +1624,11 @@ p.light-font {
   height: calc(80vh - 100px);
 }
 
+.testing .FAQ a {
+  color: #3C4B94;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
 
 @media (max-width: 1200px) {
   .mobile {
@@ -1636,8 +1642,8 @@ p.light-font {
   .see_more {
     text-align: center;
   }
-  
-  .popup .sections .section ul{
+
+  .popup .sections .section ul {
     padding: 20px 16px;
   }
 
