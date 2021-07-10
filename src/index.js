@@ -82,3 +82,19 @@ function openPopup () {
 function closePopup () {
   popup.classList.add('hidden')
 }
+
+
+
+const seeMoreBtn = document.getElementById('see_more')
+const seeMorePopup = document.getElementById('see_more_popup')
+const closeSeeMoreBtn = document.getElementById('see_more_close_btn')
+seeMoreBtn.addEventListener('click', openSeeMorePopup)
+closeSeeMoreBtn.addEventListener('click', closeSeeMorePopup)
+
+function openSeeMorePopup () {
+  seeMorePopup.classList.remove('hidden')
+}
+
+function closeSeeMorePopup () {
+  seeMorePopup.classList.add('hidden')
+}
