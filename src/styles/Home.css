@@ -685,6 +685,10 @@
     text-align: center;
   }
 
+  .popup .sections .section ul{
+    padding: 20px 16px;
+  }
+
   .popup .sections .section .section-header {
     font-size: 1.25rem;
     font-family: 'Roboto', sans-serif;
