@@ -76,3 +76,20 @@ function openPopup () {
 function closePopup () {
   popup.classList.add('hidden')
 }
+
+const seeMoreBtn = document.getElementById('see_more')
+const seeMoreMobileBtn = document.getElementById('see_more_mobile')
+const seeMorePopup = document.getElementById('see_more_popup')
+const closeSeeMoreBtn = document.getElementById('see_more_close_btn')
+
+seeMoreMobileBtn.addEventListener('click', openSeeMorePopup)
+seeMoreBtn.addEventListener('click', openSeeMorePopup)
+closeSeeMoreBtn.addEventListener('click', closeSeeMorePopup)
+
+function openSeeMorePopup () {
+  seeMorePopup.classList.remove('hidden')
+}
+
+function closeSeeMorePopup () {
+  seeMorePopup.classList.add('hidden')
+}
