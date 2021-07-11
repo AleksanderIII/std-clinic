@@ -343,3 +343,107 @@ section {
   transition: 0.5s transform;
   transform: rotate(180deg);
 }
+
+.get_treated {
+  position: relative;
+  background: #6C8CC6;
+  margin: 100px 0;
+  padding: 60px 0;
+}
+
+.get_treated img {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+}
+
+.deases .get_treated .section-header {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #F3C5C6;
+  text-align: center;
+  margin-left: 330px;
+  margin-right: 150px;
+}
+
+.deases .get_treated .main-header {
+  color: white;
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  text-align: center;
+  margin-left: 330px;
+  margin-right: 150px;
+  margin-top: 10px;
+}
+
+.deases .get_treated .buttons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-left: 330px;
+  margin-right: 150px;
+}
+
+.deases .get_treated .buttons span {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.295rem;
+  font-weight: 700;
+  background: white;
+  color: #4F67A3;
+  padding: 18px 0;
+  text-align: center;
+  width: 320px;
+}
+
+.deases .get_treated .buttons span:first-child {
+  margin-right: 20px;
+}
+
+@media (max-width: 1200px) {
+  .get_treated {
+    width: 100%;
+    margin: 40px 0;
+    padding: 20px 0;
+    margin-bottom: 0;
+  }
+
+  .get_treated img {
+    display: none;
+  }
+
+  .deases .get_treated .section-header {
+    font-size: 1.125rem;
+    margin: 20px 0;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+  }
+
+  .deases .get_treated .main-header {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    line-height: 2rem;
+  }
+
+  .deases .get_treated .buttons {
+    flex-direction: column;
+    margin: 20px 0;
+    align-items: center;
+  }
+
+  .deases .get_treated .buttons span {
+    width: 300px;
+    font-size: 0.875rem;
+    padding: 15px 0;
+  }
+
+  .deases .get_treated .buttons span:first-child {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
