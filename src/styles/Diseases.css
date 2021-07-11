@@ -389,7 +389,7 @@ section {
   margin-right: 150px;
 }
 
-.deases .get_treated .buttons span {
+.deases .get_treated .buttons .arrange-button {
   font-family: 'Montserrat-Medium', sans-serif;
   font-size: 1.0625rem;
   line-height: 1.295rem;
@@ -401,7 +401,7 @@ section {
   width: 320px;
 }
 
-.deases .get_treated .buttons span:first-child {
+.deases .get_treated .buttons .arrange-button:first-child {
   margin-right: 20px;
 }
 
@@ -436,13 +436,13 @@ section {
     align-items: center;
   }
 
-  .deases .get_treated .buttons span {
+  .deases .get_treated .arrange-button .button {
     width: 300px;
     font-size: 0.875rem;
     padding: 15px 0;
   }
 
-  .deases .get_treated .buttons span:first-child {
+  .deases .get_treated .arrange-button .button:first-child {
     margin: 0;
     margin-bottom: 20px;
   }
