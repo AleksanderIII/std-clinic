@@ -436,13 +436,13 @@ section {
     align-items: center;
   }
 
-  .deases .get_treated .arrange-button .button {
+  .deases .get_treated .buttons .arrange-button {
     width: 300px;
     font-size: 0.875rem;
     padding: 15px 0;
   }
 
-  .deases .get_treated .arrange-button .button:first-child {
+  .deases .get_treated .buttons .arrange-button:first-child {
     margin: 0;
     margin-bottom: 20px;
   }
