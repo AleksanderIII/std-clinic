@@ -319,6 +319,12 @@ h3~p.subHeader {
     margin-top: 6px;
 }
 
+.page_wrap .text .photo-collage a {
+    color: #354A87;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
 .page_wrap .text p.bold-text {
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 1rem;
@@ -339,6 +345,7 @@ h3~p.subHeader {
 
 .photo-collage__description {
     width: 450px;
+    min-width: 450px;
     padding-right: 50px;
 }
 
@@ -420,7 +427,9 @@ h3~p.subHeader {
 }
 
 .page_wrap .text p.legend {
+    margin-top: 5px;
     font-size: 0.75rem;
+    line-height: 0.9rem;
 }
 
 @media (max-width: 1200px) {
@@ -461,7 +470,7 @@ h3~p.subHeader {
         padding-top: 32px;
     }
 
-    .blog h2{
+    .blog h2 {
         padding: 0;
         line-height: 1.875rem;
         margin-top: 24px;
@@ -521,6 +530,7 @@ h3~p.subHeader {
 
     .photo-collage__description {
         width: 100%;
+        min-width: 100%;
     }
 
     .mobile-navigator {
