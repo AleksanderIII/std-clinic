@@ -1686,6 +1686,10 @@ p.light-font {
   align-items: flex-start;
 }
 
+.subText {
+  position: absolute;
+}
+
 @media (max-width: 1200px) {
   .mobile {
     display: block;
@@ -2510,4 +2514,13 @@ p.light-font {
     height: calc(100vh - 176px);
     overflow-y: auto;
   }
+
+  .subText {
+    position: relative;
+    font-size: 0.8125rem;
+    margin: 10px 0;
+    margin-top: 20px;
+    bottom: auto !important;
+  }
+
 }
