@@ -773,6 +773,12 @@
     margin-bottom: 10px;
   }
 
+  .popup .sections .section div {
+    font-size: 0.8125rem;
+    text-align: left;
+    line-height: 1.25rem;
+  }
+
   .see_more .popup_content p {
     text-align: left;
     font-size: 0.8125rem;
