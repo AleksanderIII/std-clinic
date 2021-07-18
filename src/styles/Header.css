@@ -3,7 +3,7 @@
     display: none;
   }
 
-  .menu-item p {
+  .menu-item span {
     padding: 0 5px;
   }
 
@@ -99,7 +99,8 @@
 
   .menu-item,
   .menu-link,
-  .menu-item p {
+  .menu-item p,
+  .menu-item span {
     font-family: 'Montserrat-Medium', sans-serif;
     font-size: 0.875rem;
     color: var(--menu-items-color);
