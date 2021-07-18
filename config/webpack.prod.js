@@ -211,10 +211,6 @@ module.exports = {
       filename: 'index.html',
       inject: true,
       chunks: ['home'],
-      minify: {
-        removeRedundantAttributes: true,
-        removeScriptTypeAttributes: true
-      }
     }),
     new HtmlWebpackPlugin({
       favicon: './src/images/favicon.svg',
