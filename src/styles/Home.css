@@ -90,6 +90,14 @@
   color: #DC593A;
 }
 
+
+.popup .sections .section div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
 .popup_content {
   height: calc(80vh - 190px);
   overflow-y: auto;
@@ -1325,7 +1333,7 @@
     width: 100%;
   }
 
-  .home section.not_accepted{
+  .home section.not_accepted {
     padding: 0 16px;
     padding-bottom: 20px;
   }
