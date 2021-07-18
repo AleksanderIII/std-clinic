@@ -212,6 +212,7 @@ module.exports = {
       inject: true,
       chunks: ['home'],
       minify: {
+        removeRedundantAttributes: true,
         removeScriptTypeAttributes: true
       }
     }),
