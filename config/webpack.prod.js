@@ -196,7 +196,10 @@ module.exports = {
       template: './src/book/Book.html',
       filename: 'online-appointment.html',
       inject: true,
-      chunks: ['book']
+      chunks: ['book'],
+      minify: {
+        removeScriptTypeAttributes: true
+      }
     }),
     new HtmlWebpackPlugin({
       favicon: './src/images/favicon.svg',
@@ -523,7 +526,7 @@ module.exports = {
       favicon: './src/images/favicon.svg',
       template:
         './src/diseases/Herpes/HerpesVsBalanitis/HerpesVsBalanitis.html',
-        filename: 'herpes-balanitis.html',
+      filename: 'herpes-balanitis.html',
       inject: true,
       chunks: ['herpesVsBalanitis']
     }),
