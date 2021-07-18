@@ -91,7 +91,7 @@
 }
 
 
-.popup .sections .section div {
+.popup .sections .section span {
   font-family: 'Roboto', sans-serif;
   font-size: 1.125rem;
   font-weight: 400;
@@ -773,7 +773,7 @@
     margin-bottom: 10px;
   }
 
-  .popup .sections .section div {
+  .popup .sections .section span {
     font-size: 0.8125rem;
     text-align: left;
     line-height: 1.25rem;
