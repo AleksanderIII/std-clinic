@@ -197,9 +197,6 @@ module.exports = {
       filename: 'online-appointment.html',
       inject: true,
       chunks: ['book'],
-      minify: {
-        removeScriptTypeAttributes: true
-      }
     }),
     new HtmlWebpackPlugin({
       favicon: './src/images/favicon.svg',
@@ -213,7 +210,10 @@ module.exports = {
       template: './src/index.html',
       filename: 'index.html',
       inject: true,
-      chunks: ['home']
+      chunks: ['home'],
+      minify: {
+        removeScriptTypeAttributes: true
+      }
     }),
     new HtmlWebpackPlugin({
       favicon: './src/images/favicon.svg',
