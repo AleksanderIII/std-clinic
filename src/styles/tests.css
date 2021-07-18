@@ -1580,7 +1580,8 @@ p.light-font {
   margin-top: 40px;
 }
 
-.popup .sections .section:last-child ul {
+.popup .sections .section:last-child ul,
+.popup .sections .section:last-child ul~div  {
   background-color: #FFF9F9;
 }
 
@@ -1613,6 +1614,16 @@ p.light-font {
 .popup .sections .section ul li::first-letter {
   color: #DC593A;
 }
+
+.popup .sections .section div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  padding: 30px;
+  padding-top: 0;
+}
+
 
 .popup_content {
   height: calc(80vh - 190px);
@@ -1723,6 +1734,13 @@ p.light-font {
 
   .popup .sections .section .section-header {
     margin-bottom: 10px;
+  }
+
+  .popup .sections .section div {
+    font-size: 0.8125rem;
+    text-align: left;
+    line-height: 1.25rem;
+    padding: 0 16px;
   }
 
   .see_more .popup_content p {
