@@ -340,7 +340,7 @@
     margin: 30px 30px 50px 30px;
 }
 
-.deases .comparision .button button {
+.deases .comparision .button span {
     background: linear-gradient(90deg, rgba(126, 196, 172, 0.2) 43.35%, rgba(124, 196, 177, 0.2) 55.23%, rgba(119, 197, 191, 0.2) 72.22%, rgba(109, 197, 211, 0.2) 92.19%, rgba(105, 197, 220, 0.2) 100%);
     font-family: 'Montserrat', sans-serif;
     font-size: 0.875rem;
